@@ -1,0 +1,1881 @@
+
+
+
+@media screen and (max-width: 1200px) {
+
+
+    .fs-36 {
+        font-size: 22px;
+    }
+
+
+    .fs-18 {
+        font-size: 18px;
+    }
+
+    .fs-16 {
+        font-size: 16px;
+    }
+
+
+    .responsive-header-main {
+        position: fixed;
+        height: 82px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 20;
+        -webkit-box-shadow: 0px 13px 97px -12px rgba(0,0,0,0.1);
+        -moz-box-shadow: 0px 13px 97px -12px rgba(0,0,0,0.1);
+        box-shadow: 0px 13px 97px -12px rgba(0,0,0,0.1);
+    }
+
+    .responsive-header-main-blue{
+        height: 5px;
+        width: 100%;
+    }
+
+    .responsive-header-main-white{
+        height: 77px;
+        width: 100%;
+    }
+
+    .white-header-wrap {
+        width: 90.7%;
+    }
+
+    .search-wrap {
+        width: 90.7%;
+    }
+
+    .search-text-bar {
+        width: 85%;
+        height: 75%;
+    }
+
+    .popular-deals {
+        width: 90.7%;
+    }
+
+    .secondary-popular-deal {
+        width: 37.8%;
+    }
+
+    .popular-deals .secondary-popular-deal:nth-child(2){
+        display: none;
+    }
+
+    .main-popular-deal {
+        width: 59.1%;
+    }
+
+    .hotsale-offers {
+        width: 91%;
+        left: 50%;
+    }
+
+    a.offers-order-newest:last-child {
+        display: none;
+    }
+
+    .offers-order-newest {
+        left: 16%;
+    }
+
+    .hotsale-deals-companies {
+        width: 90.7%;
+    }
+
+    .middle {
+        width: 37.3%;
+    }
+
+    .middle {
+        width: 48.3%;
+        margin-left: 0;
+    }
+
+
+    .search-anything {
+        width: 46%;
+    }
+
+
+
+    .search-city {
+        width: calc(26% - 30px);
+    }
+    /*.hotsale-deals .secondary-popular-deal:nth-child(2n+1) {*/
+    /*margin-left: 0;*/
+    /*}*/
+
+    /*.hotsale-deals .secondary-popular-deal:nth-child(2n) {*/
+    /*margin-left: 2.45%;*/
+    /*}*/
+
+    /*.hotsale-deals .secondary-popular-deal:first-child {*/
+    /*margin-left: 0;*/
+    /*}*/
+
+    .company-deal-num{
+        display: none;
+    }
+
+    .company-deal{
+        display: none;
+    }
+
+    .hotsale-company img:first-child {
+        width: 50%;
+        left: 30px;
+    }
+
+    .secondary-deal-prices {
+        height: 29%;
+        line-height: 30px;
+    }
+
+    .secondary-deal-img-text-title {
+        height: 55%;
+    }
+
+    .secondary-info-text {
+        margin-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .footer-wrap {
+        width: 90%;
+    }
+
+    .all-rights-reserved {
+        left: 15%;
+    }
+
+    .follow-us-footer{
+        display: none;
+    }
+
+    .middle-question-bar {
+        left: 37.5%;
+    }
+
+    .right-question-bar {
+        left: 81%;
+    }
+
+    .blue-header-wrap {
+        width: 90.7%;
+    }
+
+
+    .hotsale-offers{
+        height: 75px;
+    }
+
+    .top-ge-allrights {
+        height: 75px;
+    }
+
+
+    .top-ge-allrights img {
+        top: 55%;
+    }
+
+    .hotsale-company {
+        border-radius: 3px;
+        height: 75px;
+    }
+
+    .all-offers-amount {
+        border-radius: 3px;
+    }
+
+    .hotsale-offers-right {
+        border-radius: 3px;
+    }
+
+    .hotsale-offers-left {
+        border-radius: 3px;
+    }
+
+    .hotsale-companies {
+        border-radius: 3px;
+    }
+
+
+    input {
+        border-radius: 3px;
+    }
+
+    .header-info .button {
+        border-radius: 3px;
+    }
+
+
+    .search-wrap {
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        margin-top: 110px;
+    }
+
+    .search-box {
+        border-radius: 3px;
+    }
+
+
+    .main-popular-deal {
+        border-radius: 3px;
+    }
+
+    .secondary-popular-deal {
+        border-radius: 3px;
+    }
+
+    .main-popular-deal-info {
+        border-radius: 0 0 3px 3px;
+    }
+
+
+    .main-popular-deal-img {
+        border-radius: 3px 3px 0 0;
+    }
+
+    .secondary-popular-deal-img {
+        border-radius: 3px 3px 0 0;
+    }
+
+    .main-popular-deal-voucher {
+        border-radius: 3px;
+    }
+
+    .main-popular-deal-percentage{
+        border-radius: 3px;
+    }
+
+    .secondary-voucher-price {
+        border-radius: 3px;
+    }
+
+    .secondary-info-logo {
+        border-radius: 3px;
+    }
+
+    .all-offers-amount {
+        border-radius: 3px;
+    }
+
+    .hotsale-offers-right {
+        border-radius: 3px;
+    }
+
+    .hotsale-offers-left {
+        border-radius: 3px;
+    }
+
+    .header-menu-wrap {
+        width: 60%;
+    }
+
+
+    .deal-responsive-header {
+        display: block;
+        position: fixed;
+        width: 100%;
+        z-index: 21;
+        -webkit-box-shadow: 0px 13px 97px -12px rgba(0,0,0,0.1);
+        -moz-box-shadow: 0px 13px 97px -12px rgba(0,0,0,0.1);
+        box-shadow: 0px 13px 97px -12px rgba(0,0,0,0.1);
+    }
+
+    .deal-responsive-details {
+        display: block;
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 70px;
+    }
+
+    .deal-responsive-details:after {
+        content: '';
+        height: 1px;
+        width: 100%;
+        position: absolute;
+        border-top:1px dashed #dbdbdb;
+        /*background-color: #f1f1f1;*/
+        left: 0;
+        bottom: 60px;
+        z-index: 1;
+        top: 0;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .deal-responsive-details:before {
+        content: '';
+        height: 1px;
+        border-top:1px dashed #dbdbdb;
+        width: 100%;
+        position: absolute;
+        /*background-color: #f1f1f1;*/
+        left: 0;
+        z-index: 1;
+        bottom: 0;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+
+    .responsive-show{
+        display: block;
+    }
+
+    .responsive-hide{
+        display: none;
+    }
+
+    .details-left-side{
+        display: none;
+    }
+
+    .detail-middle {
+        width: 79.7%;
+        margin-top: 30px;
+        margin-bottom: 90px;
+        top: 52px;
+    }
+
+    .details-deal-sale{
+        display: none;
+    }
+
+    .details-right-side {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .deal-fb-comments {
+        display: none;
+    }
+
+    .deal-minimal-info-socials {
+        display: none;
+    }
+
+    .deal-minimal-info-comments {
+        display: none;
+    }
+
+    .details-right-img {
+        border-radius: 0;
+    }
+
+    .deal-full-info-details {
+        border-radius: 0;
+    }
+
+    .deal-minimal-info {
+        margin-top: 0;
+    }
+
+    .deal-seller-img {
+        top: -50%;
+        transform: translateY(60%);
+        left: 10%;
+        width: 150px;
+    }
+
+    .deal-minimal-info-title {
+        top: 20px;
+        left: calc(3% + 150px);
+    }
+
+    .deal-type-minimal {
+        top: 45px;
+        left: calc(3% + 150px);
+    }
+
+    .deal-minimal-info-statistics {
+        right: auto;
+        top: 55px;
+        left: calc(22% + 150px);
+    }
+
+    .middle-deal-minimal-info {
+        width: 79.7%;
+        left: 10%;
+    }
+
+    .deal-minimal-info-description {
+        width: 100%;
+        padding-top: 120px;
+        padding-bottom: 30px;
+    }
+
+
+    .responsive-detail-price {
+        padding-left: 5%;
+        padding-top: 10px;
+    }
+
+    .responsive-detail-sale{
+        padding-right: 5%;
+        padding-top: 10px;
+    }
+
+    .responsive-detail-savings{
+        padding-top: 10px;
+    }
+
+    .deal-minimal-info:after {
+        display: none;
+    }
+
+    .deal-gallery-info {
+        left: 10%;
+        width: 79.7%;
+        display: inline-block;
+    }
+
+    .deal-sale-info {
+        width: 79.7%;
+        left: 10%;
+    }
+
+    .deal-gallery-info-img img {
+        width: 125px;
+    }
+
+    .action-terms {
+        width: 79.7%;
+        left: 10%;
+        cursor: pointer;
+    }
+
+    .action-terms-title {
+        padding-left: 0;
+    }
+
+    .action-terms-text {
+        padding-left: 0;
+    }
+
+    .deal-sale-info-2 {
+        display: none;
+    }
+
+    .deal-recommended-info {
+        display: none;
+    }
+
+    .deal-company-info {
+        margin-top: 0;
+        border-radius: 0;
+        padding-bottom: 10px;
+        cursor: pointer;
+    }
+
+
+
+    .deal-company-info-title {
+        left: 10%;
+        display: inline-block;
+    }
+
+    .right-branches {
+        width: 100%;
+        display: inline-block;
+        position: relative;
+        right: 0;
+    }
+
+    .left-branches {
+        width: 100%;
+        display: inline-block;
+        position: relative;
+    }
+
+    .deal-company-branch-names {
+        left: 10%;
+    }
+
+    .deal-company-branches-title {
+        left: 10%;
+    }
+
+    .hotsale-footer {
+        display: none;
+    }
+
+    .hotsale-recommended-deals {
+        display: none;
+    }
+
+    .deal-buy-voucher-bottom {
+        width: 100%;
+        height: 77px;
+        text-align: center;
+        line-height: 77px;
+        /*position: relative;*/
+        border-radius: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+        position: fixed;
+        bottom: 0;
+        -webkit-box-shadow: 0px -42px 146px -17px rgba(0,0,0,0.1);
+        -moz-box-shadow: 0px -42px 146px -17px rgba(0,0,0,0.1);
+        box-shadow: 0px -42px 146px -17px rgba(0,0,0,0.1);
+        z-index: 15;
+    }
+
+    .deal-buy-bottom-title {
+        display: inline-block;
+        margin-right: 30px;
+    }
+
+    .deal-buy-bottom-button {
+        display: inline-block;
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        /* text-align: center; */
+        border-radius: 50px;
+    }
+
+    .current-price {
+        display: block;
+        padding-left: 0;
+        margin-top: 0;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .deal-responsive-blue-header {
+        height: 5px;
+    }
+
+    .deal-responsive-white-header {
+        height: 77px;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 150px;
+    }
+
+    .responsive-header-back{
+        color: #9c9b9b;
+        display: inline-block;
+        position: relative;
+        left: 10%;
+        line-height: 80px;
+    }
+
+    .deal-responsive-white-header img:first-child {
+        position: absolute;
+        left: 5%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .deal-responsive-white-header img:last-child {
+        position: absolute;
+        right: 9%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .action-terms-title {
+        padding-left: 0;
+        display: inline-block;
+        width: auto;
+    }
+
+    .open-more-arrow{
+        display: inline-block;
+        position: absolute;
+        top: 55px;
+        right: 12%;
+    }
+
+    .deal-company-info .open-more-arrow {
+        top: 35px;
+    }
+
+    .deal-company-branches .open-more-arrow {
+        top: 35px;
+    }
+
+    .hide-text{
+        display: none;
+    }
+
+    .responsive-show-hide{
+        padding-bottom: 40px;
+        padding-top: 20px;
+    }
+
+    .deal-company-info:after{
+        content: '';
+        height: 1px;
+        border-top:1px solid #dbdbdb;
+        width: 79.7%;
+        position: absolute;
+        /*background-color: #f1f1f1;*/
+        left: 10%;
+        z-index: 1;
+        bottom: 0;
+        transform: translateY(-50%);
+    }
+
+    .deal-company-info:before{
+        content: '';
+        height: 1px;
+        border-top:1px solid #dbdbdb;
+        width: 79.7%;
+        position: absolute;
+        /*background-color: #f1f1f1;*/
+        left: 10%;
+        z-index: 1;
+        top: 0;
+        transform: translateY(-50%);
+    }
+
+    .responsive-title{
+        padding-left: 20px;
+    }
+
+    .deal-company-branches {
+        margin-top: 0;
+        padding-bottom: 40px;
+        cursor: pointer;
+    }
+
+    .action-terms .open-more-arrow{
+        right: 2%;
+    }
+
+    .responsive-hide{
+        display: none;
+    }
+
+    .cart-middle-part {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+
+    .cart-buy-voucher {
+        bottom: -290px;
+        /* transform: translateY(130%); */
+        height: 150px;
+        position: absolute;
+        z-index: 12;
+    }
+
+    .cart-user-private-info {
+        height: 130px;
+        top: 0;
+    }
+
+    .cart-right-part {
+        height: 100%;
+        top: 0;
+        width: 100%;
+        z-index: 16;
+        right: 0;
+        border-radius: 0;
+        position: absolute;
+    }
+
+    .cart-middle-part {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .cart-buy-voucher-title {
+        display: none;
+    }
+
+    .cart-buy-voucher-payment-title {
+        display: none;
+    }
+
+    .cart-buy-voucher-wrap {
+        width: 100%;
+    }
+
+    .cart-buy-voucher-payment-balance {
+        height: 77px;
+        line-height: 77px;
+        width: calc(49.5% + 0px);
+        position: absolute;
+        padding-left: 3px;
+        /* top: 0; */
+        left: 50%;
+        display: inline-block;
+        transform: translateX(0);
+        border-radius: 0;
+        /* line-height: 55px; */
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: 10% center;
+    }
+
+    .cart-buy-voucher-payment-mastercard {
+        height: 77px;
+        width: 50%;
+        position: relative;
+        left: 0;
+        display: inline-block;
+        transform: translateX(0);
+        border-radius: 0;
+        line-height: 77px;
+        text-align: center;
+        margin-bottom: 0;
+        background-repeat: no-repeat;
+        background-position: 10% center;
+    }
+
+    .cart-buy-voucher-wrap {
+        width: 101%;
+        top: 0;
+    }
+
+    .cart-buy-voucher-coupons-amount-price {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 74px;
+        padding-top: 0;
+        padding-bottom: 0;
+        line-height: 54px;
+    }
+
+    .cart-buy-voucher-coupon-price {
+        position: absolute;
+        width: 50%;
+        display: inline-block;
+        right: 0;
+        text-align: right;
+    }
+
+    .cart-buy-voucher-coupons-amount-price:after{
+        display: none;
+    }
+
+
+
+    .cart-user-private-info-left {
+        left: 5%;
+    }
+
+    .cart-user-private-info-right {
+        right: 9%;
+    }
+
+    .cart-buy-voucher-coupon-num {
+        position: relative;
+        width: 50%;
+    }
+
+    .cart-buy-voucher-coupon-amount {
+        margin-bottom: 0;
+        position: relative;
+        width: 50%;
+        display: inline-block;
+    }
+
+    .cart-buy-voucher-coupon-price-sum {
+        position: relative;
+    }
+
+    .cart-buy-voucher-payment-method {
+        padding-top: 0;
+    }
+
+
+
+    /*branches*/
+    .deal-responsive-footer {
+        padding: 0 10%;
+        display: flex;
+        justify-content: space-between;
+        height: 77px;
+        width: 80%;
+        position: fixed;
+        bottom: -2px;
+        z-index: 11;
+        -webkit-font-smoothing: subpixel-antialiased;
+        -webkit-box-shadow: 0px -42px 146px -17px rgba(0,0,0,0.1);
+        -moz-box-shadow: 0px -42px 146px -17px rgba(0,0,0,0.1);
+        box-shadow: 0px -42px 146px -17px rgba(0,0,0,0.1);
+    }
+
+
+    .deal-responsive-main-menu {
+        display: inline-block;
+        position: relative;
+        top: 20%;
+        /* transform: translateY(-50%); */
+        /* left: 10%; */
+        text-align: center;
+    }
+
+    .deal-responsive-about-us {
+        display: inline-block;
+        /* padding-right: 45px; */
+        position: relative;
+        top: 21%;
+        /* transform: translateY(-50%); */
+        /* left: 28%; */
+        text-align: center;
+    }
+    .deal-responsive-contact-us {
+        display: inline-block;
+        position: relative;
+        top: 22%;
+        /* transform: translateY(-50%); */
+        /* right: 34%; */
+        text-align: center;
+    }
+
+    .deal-responsive-register {
+        display: inline-block;
+        position: relative;
+        top: 19%;
+        /* transform: translateY(-50%); */
+        /* right: 10%; */
+        text-align: center;
+    }
+
+    .responsive-deal-branches {
+        left: 0;
+        width: 100%;
+        top: 100px;
+        margin-bottom: 95px;
+    }
+
+    .responsive-company-branch {
+        height: 83px;
+        left: 10%;
+        position: relative;
+        line-height: 83px;
+        padding-left: 20px;
+        width: 75%;
+    }
+
+
+
+    .responsive-company-branch:after {
+        content: '';
+        height: 1px;
+        border-top: 1px solid #dbdbdb;
+        width: 100%;
+        position: absolute;
+        /* background-color: #f1f1f1; */
+        left: 0;
+        z-index: 1;
+        /* top: 0; */
+        transform: translateY(-50%);
+    }
+
+    .responsive-company-branch:first-child:after {
+        display: none;
+    }
+
+    .responsive-deal-temp-header{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 11;
+        -webkit-box-shadow: 0px 13px 97px -12px rgba(0,0,0,0.1);
+        -moz-box-shadow: 0px 13px 97px -12px rgba(0,0,0,0.1);
+        box-shadow: 0px 13px 97px -12px rgba(0,0,0,0.1);
+    }
+
+    .deal-responsive-company-info {
+        position: relative;
+        top: 52px;
+        margin-bottom: 75px;
+    }
+
+    .responsive-deal-company-info{
+        padding-bottom: 40px;
+        position: relative;
+        margin-top: 0;
+        border-radius: 0;
+    }
+
+    .responsive-right-side-info{
+        width: 75%;
+        top: 0;
+        position: relative;
+    }
+
+
+    .responsive-title-padding-bottom{
+        padding-bottom: 0;
+    }
+
+
+    .responsive-padding-bottom{
+        padding-bottom: 15px;
+    }
+
+    .responsive-padding-bottom .fs-16 {
+        font-size: 14px;
+    }
+
+    .responsive-padding-bottom .fs-18 {
+        font-size: 17px;
+    }
+
+    .responsive-detailed-info{
+        left: 10%;
+        top: 30px;
+    }
+
+
+    /*branches*/
+
+
+
+
+    /*Responsive Header Main*/
+
+    button, input{
+        outline: none;
+    }
+
+    #burgerBtn {
+        display: inline-block;
+        z-index: 30;
+        position: absolute;
+        height: 77px;
+        left: 4.4%;
+        outline: none;
+    }
+
+    #burgerBtnSecond {
+        display: inline-block;
+        z-index: 30;
+        position: absolute;
+        height: 77px;
+        left: 10.4%;
+        outline: none;
+    }
+
+    .hotsale-logo-main-responsive {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        width: 150px;
+    }
+
+    .hotsale-shopping-cart-main-responsive {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        right: 4%;
+    }
+
+    .responsive-header-menu-burger {
+        width: 53%;
+        height: 100%;
+        display: inline-block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 25;
+        /*opacity: 1;*/
+        visibility: visible;
+        transform: translateX(0);
+        transition: 0.3s ease;
+    }
+
+    .burger-responsive-header-logo{
+        height: 24.82%;
+        width: 100%;
+        position: relative;
+    }
+
+
+    .burger-responsive-header-logo-inside{
+        left: 15%;
+        position: relative;
+        top: 60%;
+        transform: translateY(-50%);
+        width: 55%;
+    }
+
+    .burger-responsive-header-menu-item {
+        height: auto;
+        padding: 2.6vh 15%;
+        border-top: 1px solid #dfdfe3;
+        position: relative;
+        display: block;
+    }
+
+    .burger-responsive-header-menu-item:last-child {
+        border-bottom: 1px solid #dfdfe3;
+    }
+
+    .burger-responsive-header-lang-socials {
+        height: auto;
+        width: calc(100% - 200px);
+        position: relative;
+        padding: 6.3vh 100px 7.1vh 15%;
+    }
+
+    .activated-lang {
+        color: #4373ff;
+        text-decoration: underline;
+    }
+
+    .burger-responsive-header-lang-item {
+        padding-right: 30px;
+        cursor: pointer;
+    }
+
+    .burger-responsive-header-social{
+        vertical-align: middle;
+        padding-left: 30px;
+    }
+
+    .burger-responsive-header-lang {
+        padding-bottom: 80px;
+        position: relative;
+    }
+
+
+    .burger-responsive-header-bottom{
+        height: 6.9%;
+        line-height: 77px;
+        padding-left: 15%;
+        width: 85%;
+        bottom: 0;
+        position: absolute;
+    }
+
+    .burger-responsive-header-bottom img {
+        position: absolute;
+        top: 48%;
+        transform: translateY(-50%);
+        padding-left: 70px;
+    }
+
+    .burger-responsive-header-bottom span{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .burger-responsive-header-created{
+        padding-right: 15px;
+    }
+
+
+    .responsive-overlay {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        background-color: black;
+        z-index: 21;
+        transition: 1s ease;
+        visibility: hidden;
+    }
+
+    .responsive-header-burger-main-active{
+        /*display: none;*/
+        visibility: hidden;
+        transform: translateX(-100%);
+        /*opacity: 0;*/
+
+    }
+
+
+    .active-overlay{
+        opacity: 0.6;
+        visibility: visible;
+    }
+
+
+    .hotsale-body-fixed{
+        position: fixed;
+    }
+
+
+    .burger-responsive-header-menu-item-amount {
+        display: inline-block;
+        padding: 3px 10px;
+        border-radius: 3px;
+        margin-left: 15px;
+    }
+
+
+    .burger-responsive-header-menu-item-arrow{
+        position: absolute;
+        right: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .responsive-header-burger-categories {
+        position: fixed;
+        width: 53%;
+        z-index: 40;
+        height: 100%;
+        top: 0;
+        left: 0;
+        /*opacity: 0;*/
+        visibility: hidden;
+        transform: translateX(-100%);
+        transition: 0.3s ease;
+    }
+
+    .responsive-header-burger-categories-item {
+        height: 9.1%;
+        border-top: 1px solid #dfdfe3;
+        /* line-height: 60px; */
+        padding: 0 15%;
+        position: relative;
+        display: block;
+        background-color: #f3f4f7;
+    }
+
+    .responsive-header-burger-categories-item span {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+
+    .responsive-header-burger-categories-back {
+        position: relative;
+        height: 7.7%;
+        padding: 0 15%;
+        cursor: pointer;
+    }
+
+    .responsive-header-burger-categories-back img {
+        vertical-align: middle;
+        padding-right: 20px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .responsive-header-burger-categories-back span {
+        vertical-align: middle;
+        position: absolute;
+        top: 55%;
+        transform: translateY(-50%);
+        padding-left: 30px;
+    }
+
+
+    .active-menu-categories-overlay{
+        transform: translateX(0);
+        /*opacity:1;*/
+        visibility: visible;
+    }
+
+    .overflow-hidden{
+        overflow: hidden;
+    }
+
+    .popular-deals .secondary-popular-deal:nth-child(4){
+        display: none;
+    }
+
+    .hotsale-deals .secondary-popular-deal:nth-child(4n+3) {
+        margin-left: 20px;
+        /*display: none;*/
+    }
+
+    /*.secondary-popular-deal {*/
+    /*margin-left: 2%;*/
+    /*}*/
+
+    .hotsale-offers-right {
+        width: 22.7%;
+    }
+
+    .hotsale-offers-left {
+        width: 75%;
+    }
+
+    .hotsale-companies {
+        width: 23%;
+        right: 5px;
+    }
+
+    .hotsale-deals {
+        margin-bottom: 100px;
+    }
+
+    .hotsale-companies-fixed {
+        width: 21%;
+        right: 4.9%;
+        top: 82px;
+    }
+    /*Responsive Header Main*/
+
+
+
+    /*Company page start*/
+
+    .company-page-company-deals .secondary-popular-deal:nth-child(2n) {
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    .company-right-content {
+        display: none;
+    }
+
+
+    .company-page-offers-order {
+        display: none;
+    }
+
+
+    .company-page-company-deals {
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        visibility: visible;
+        transition: 1s ease;
+        position: relative;
+    }
+
+
+    .company-middle-content {
+        margin-bottom: 100px;
+    }
+
+    .company-middle-content {
+        margin-top: 105px;
+    }
+
+
+    .company-page-header-img {
+        height: 280px;
+    }
+
+    .company-page-header-info {
+        height: 150px;
+    }
+
+
+    .company-page-header-white-part {
+        height: 150px;
+    }
+
+    .company-page-header-info-icon {
+        transform: translateY(-50%);
+        box-shadow: none;
+        padding: 34px;
+        border: 1px solid #f0f6f8;
+        left: 10.5%;
+    }
+
+    .company-page-header-info-company-name-address {
+        transform: translateY(5%);
+        z-index: 15;
+        left: calc(13% + 200px);
+        /*left: 260px;*/
+    }
+
+    .company-page-white-header-left {
+        display: none;
+    }
+
+    .company-page-white-header-right {
+        display: none;
+    }
+
+
+    .company-page-header-info-company-name {
+        color: #4373ff;
+    }
+
+    .company-page-header-info-company-address span{
+        color: #9c9b9b;
+    }
+
+    .deal-responsive-white-header img:last-child {
+        right: 5%;
+    }
+
+    .responsive-header-back {
+        left: 8%;
+    }
+
+    .deal-responsive-white-header img:first-child {
+        left: 5%;
+    }
+
+    .company-page-current-deals {
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .company-page-archive-deals {
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .company-page-company-info-responsive {
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .company-page-deals-info-responsive {
+        position: relative;
+        top: 100%;
+        transform: translateY(-100%);
+        width: 79%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .active-company-info-responsive{
+        color: #4373ff;
+        /* text-decoration: underline; */
+        border-bottom: 1px solid #4373ff;
+        padding-bottom: 10px;
+    }
+
+
+    .company-page-company-deals .secondary-popular-deal:nth-child(6n+3) {
+        margin-left: 22px;
+        /* display: none; */
+    }
+
+    .company-page-company-deals .secondary-popular-deal:nth-child(6n+5) {
+        margin-left: 22px;
+        /* display: none; */
+    }
+
+    .company-page-company-deals .middle {
+        width: 31.3%;
+    }
+
+    .responsive-company-detailed-info {
+        width: 80%;
+        padding: 10px 10%;
+        visibility: hidden;
+        /*opacity: 0;*/
+        left: 0;
+        transform: translateX(100%);
+        top: 450px;
+        position: absolute;
+        border-radius: 3px;
+        transition: 1s ease;
+    }
+
+    .responsive-company-detailed-info-active{
+        visibility: visible;
+        /*opacity:1;*/
+        transform: translateX(0);
+    }
+
+    .responsive-disable-company-deals{
+        visibility: hidden;
+        height: 400px;
+        overflow: hidden;
+        left: 0;
+        position: relative;
+        transform: translateX(-100%);
+
+    }
+
+    /*Company page end*/
+
+
+    .hotsale-connecting-brands-text {
+        padding-top: 10px;
+        height: 210px;
+
+    }
+
+    .hotsale-connecting-brands-title {
+        padding-bottom: 10px;
+    }
+
+    .hotsale-connecting-brands {
+        margin-left: 3%;
+        width: calc(45.5% - 40px);
+    }
+
+
+    .brands-page {
+        margin-left: 3%;
+        width: 45.5%;
+    }
+
+    .brands-middle-content {
+        width: 88.7%;
+        top: 105px;
+        padding-bottom: 105px;
+    }
+
+    .brands-hotsale-body {
+        padding-bottom: 170px;
+    }
+
+    .deal-header-after-scroll{
+        display: none;
+    }
+
+
+    .cart-user-private-info-right-balance-amount {
+        right: -9%;
+    }
+
+    .cart-user-private-info-right-balance {
+        left: 9%;
+    }
+
+    .cart-user-private-info-number {
+        right: 5%;
+    }
+
+    .cart-user-private-info-name {
+        left: -5%;
+    }
+
+    .cart-user-private-info {
+        height: 130px;
+        top: 0;
+        width: 90%;
+        padding: 25px 5%;
+        border-radius: 0;
+    }
+
+    .cart-left-part {
+        top: 200px;
+        width: 100%;
+        z-index: 17;
+        border-radius: 0;
+    }
+
+    .cart-user-private-info:after {
+        width: 90%;
+        left: 5%;
+    }
+
+
+    .secondary-popular-deal {
+        margin-left: 2.6%;
+    }
+
+    .hotsale-deals .secondary-popular-deal:nth-child(3n+1) {
+        margin-left: -4px;
+    }
+
+    .hotsale-deals .secondary-popular-deal:nth-child(4n+3) {
+        margin-left: 22px;
+        /* display: none; */
+    }
+
+    .hotsale-deals .middle {
+        width: 48.3%;
+        margin-left: -4px;
+    }
+
+    .popular-deals .secondary-popular-deal-info {
+        height: 65%;
+    }
+
+    .popular-deals .secondary-popular-deal-img {
+        height: 40%;
+    }
+
+
+    .map-header-categories-cities {
+        height: 77px;
+        position: relative;
+        width: 100%;
+        line-height: 77px;
+    }
+
+    .map-page-body {
+        padding-top: 82px;
+    }
+
+    .map-page-categories {
+        display: none;
+    }
+
+
+    .map-page-bg-map {
+        height: 75vh;
+    }
+
+    .map-company-mini-info-pin {
+        width: 100%;
+        height: 90px;
+        bottom: 8px;
+        top: auto;
+        left: 0;
+    }
+
+    .map-company-mini-info-pin {
+        width: 100%;
+        height: 120px;
+        bottom: 8px;
+        top: 100%;
+        left: 0;
+        border-radius: 0;
+        background-color: #eceef2;
+        transform: translateY(-100%);
+        transition: 0.3s ease;
+    }
+
+
+    .map-company-mini-info-close{
+        transform: translateY(20%);
+    }
+
+
+
+    .map-categories-responsive {
+        position: absolute;
+        width: 100%;
+        bottom: 8px;
+        transform: translateY(110%);
+        transition: 0.3s ease;
+    }
+
+    .map-cities-responsive {
+        position: absolute;
+        width: 100%;
+        bottom: 8px;
+        transform: translateY(110%);
+        transition: 0.3s ease;
+    }
+
+    .map-categories-responsive-open{
+        transform: translateY(3%);
+    }
+
+    .map-cities-responsive-open{
+        transform: translateY(3%);
+    }
+
+
+
+    .map-company-deal-img{
+        width: 23%;
+        height: 70%;
+        border-radius: 3px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 5%;
+        display: inline-block;
+    }
+
+
+    .map-company-mini-info{
+        display: inline-block;
+        position: relative;
+        width: 45%;
+        top: 0;
+        height: auto;
+        border-bottom: initial;
+        left: 6%;
+    }
+
+    .map-company-mini-info-address{
+
+    }
+
+    .map-deal-price-btn{
+        margin: 0;
+        left: 100%;
+        transform: translate(-100%, -50%);
+        height: 40px;
+        width: 90%;
+        line-height: 40px;
+    }
+
+    .map-deal-price-pin{
+        width: 20%;
+        height: 100%;
+        right: 5%;
+    }
+
+    .map-company-mini-info-pin img {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .map-page-middle-wrap {
+        width: 100%;
+    }
+
+
+    .search-text-title {
+        top: 20%;
+    }
+
+    .search-box {
+        width: 100%;
+        top: 70%;
+        transform: translateY(-50%);
+    }
+
+    .search-wrap {
+        height: 220px;
+    }
+
+
+
+
+    .question-answer-faq-title {
+        padding-left: 15px;
+        padding-top: 30px;
+    }
+
+
+    .faq-middle {
+        width: calc(95.7% - 130px);
+        padding: 70px 100px 100px 30px;
+        margin: 110px auto 40px;
+    }
+
+
+    .faq-middle-right {
+        width: calc(50% - 40px);
+        padding: 0 20px;
+        top: 30px;
+    }
+
+    .questions-and-answers-faq {
+        padding: 0 15px 80px;
+    }
+
+
+    .map-page-middle-wrap {
+        position: fixed;
+
+    }
+
+    .map-categories-responsive {
+        display: block;
+    }
+
+    .map-cities-responsive {
+        display: block;
+    }
+
+    .deal-company-info:after {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 1050px) {
+
+    .hotsale-offers-right {
+        display: none;
+    }
+
+    .hotsale-companies{
+        display: none;
+    }
+
+    .hotsale-deals {
+        width: calc(100% - 4px);
+    }
+
+    .hotsale-offers-left {
+        width: 100%;
+    }
+
+    .middle-question-bar {
+        left: 36.5%;
+    }
+
+    .right-question-bar {
+        left: 77%;
+    }
+
+    .blue-header-wrap {
+        width: 90.7%;
+    }
+
+    .hotsale-offers-right {
+        display: none;
+    }
+
+    .hotsale-companies{
+        display: none;
+    }
+
+    .hotsale-deals {
+        width: calc(100% - 4px);
+    }
+
+    .hotsale-offers-left {
+        width: 100%;
+    }
+
+    .hotsale-deals .secondary-popular-deal:nth-child(4n+3) {
+        margin-left: 26px;
+        /* display: none; */
+    }
+
+
+    .faq-middle-right {
+        width: calc(100% - 60px);
+        padding: 0 30px;
+        position: relative;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .faq-middle-left {
+        display: none;
+    }
+
+    .faq-middle {
+        width: calc(90.7% - 100px);
+        padding: 20px 50px 100px 50px;
+        margin: 110px auto 40px;
+    }
+
+
+    .faq-responsive-how-it-works{
+        display: block;
+    }
+
+
+    .how-it-works-responsive-btn {
+        width: 40px;
+        height: 40px;
+        background-color: red;
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        line-height: 40px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        -webkit-transform: translate(50%, -50%);
+        -moz-transform: translate(50%, -50%);
+        -ms-transform: translate(50%, -50%);
+        -o-transform: translate(50%, -50%);
+        transform: translate(50%, -50%);
+        cursor: pointer;
+    }
+
+
+    .how-it-works-text {
+        display: none;
+        padding-top: 20px;
+    }
+
+    .how-it-works-title {
+        display: none;
+    }
+
+    .how-it-works-text {
+        display: none;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        overflow: scroll;
+        height: calc(100% - 50px);
+    }
+
+    .faq-responsive-how-it-works {
+        display: none;
+        position: absolute;
+        z-index: 32;
+        width: calc(80% - 100px);
+        padding: 50px;
+        height: 69%;
+        border-radius: 5px;
+        left: 50%;
+        top: 54%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
+        /*overflow: hidden;*/
+    }
+
+    .faq-responsive-show{
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width: 1050px) {
+
+
+    /*.company-page-header-info-company-name-address {*/
+    /*left: 280px;*/
+    /*!*left: 260px;*!*/
+    /*}*/
+
+    .company-page-company-deals .secondary-popular-deal:nth-child(6n+3) {
+        margin-left: 20px;
+        /* display: none; */
+    }
+
+    .company-page-company-deals .secondary-popular-deal:nth-child(6n+5) {
+        margin-left: 20px;
+        /* display: none; */
+    }
+
+    .whole-filter {
+        display: inline-block;
+        height: 80px;
+        position: absolute;
+        right: 30px;
+        line-height: 80px;
+    }
+
+    .whole-filter-text {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+
+
+
+
+}
+
+
+

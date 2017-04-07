@@ -1,0 +1,1056 @@
+
+@media screen and (max-width: 1700px) {
+
+    .fs-12 {
+        font-size: 11px;
+        line-height: 17px;
+    }
+
+    .fs-14 {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+
+
+    .fs-16 {
+        font-size: 15px;
+        line-height: 23.6px;
+
+    }
+
+    .fs-17 {
+        font-size: 16px;
+        line-height: 25.2px;
+
+    }
+
+    .fs-18 {
+        font-size: 17px;
+        line-height: 26.2px;
+
+    }
+
+    .fs-20 {
+        font-size: 19px;
+        line-height: 30px;
+
+    }
+
+    .fs-22 {
+        font-size: 21px;
+        line-height: 32px;
+    }
+
+    .fs-24 {
+        font-size: 23px;
+        line-height: 35px;
+    }
+
+    .fs-26 {
+        font-size: 25px;
+        line-height: 38px;
+
+    }
+
+    .fs-30 {
+        font-size: 29px;
+        line-height: 45px;
+
+    }
+
+    .fs-36 {
+        font-size: 35px;
+        line-height: 50px;
+
+    }
+
+    .fs-46 {
+        font-size: 45px;
+        line-height: 70px;
+
+    }
+
+    .white-header-wrap {
+        width: 90.7%;
+    }
+
+    .blue-header-wrap {
+        width: 90.7%;
+    }
+
+    .search-wrap {
+        width: 90.7%;
+    }
+
+    .popular-deals {
+        width: 90.7%;
+    }
+
+    .hotsale-offers {
+        width: 90.7%;
+    }
+
+    .hotsale-deals-companies {
+        width: 90.7%;
+    }
+
+    .subscribe {
+        line-height: 32px;
+    }
+
+    .follow-us-fb-twitter {
+        line-height: 35px;
+    }
+
+    .all-rights-reserved {
+        line-height: 85px;
+    }
+
+    .offers-order {
+        line-height: 80px;
+    }
+
+    .all-offers {
+        line-height: 80px;
+    }
+
+    .secondary-voucher-price {
+        line-height: 35px;
+    }
+
+
+    .main-popular-deal-percentage {
+        line-height: 35px;
+    }
+
+    .voucher-text {
+        line-height: 35px;
+    }
+
+
+    .secondary-deal-prices {
+        height: 32%;
+        line-height: 40px;
+    }
+
+
+    .secondary-deal-statistics {
+        height: 16%;
+        line-height: 47px;
+    }
+
+    .secondary-deal-img-text-title {
+        height: 52%;
+    }
+
+    .middle{
+        height:480px;
+    }
+
+    .footer-wrap {
+        width: 90%;
+    }
+
+
+    .newest-offers-amount {
+        height: 14px;
+    }
+
+    .newest-offers-text {
+        height: 14px;
+    }
+
+
+    .offers-order-newest {
+        width: 150px;
+    }
+
+    .offers-order-newest:hover .newest-offers-amount {
+        /*display: inline-block;*/
+        right: 15px;
+    }
+
+
+    .header-menu-wrap {
+        /* width: 68%; */
+    }
+
+    .deal-voucher-price.fs-14 {
+        font-size: 14px;
+        line-height: 44px;
+    }
+
+    .buy-voucher-button.fs-14{
+        font-size: 14px;
+        line-height: 44px;
+    }
+
+    .white-header-before-wrap{
+        width: 90.7%;
+
+    }
+
+    .detail-middle{
+        width: 90.7%;
+    }
+
+    .detail-header.header-menu-wrap{
+        width: 40%;
+    }
+
+    .detail-header .header-menu{
+        width:auto;
+    }
+
+    .search-bar-header-detail .search-anything {
+        width: 45%;
+        right: 5%;
+
+    }
+
+    .header-menu-item {
+        margin: 0 0 0 20px;
+    }
+
+    .main-info-text {
+        height: 45px;
+    }
+
+    .cart-buy-voucher-payment-mastercard {
+        line-height: 55px;
+    }
+
+    .cart-buy-voucher-payment-balance {
+        line-height: 55px;
+
+    }
+
+    .cart-shopping-list-item-info {
+        padding-left: 20px;
+    }
+
+    .hotsale-connecting-brands-text {
+        height: 200px;
+    }
+
+    .hotsale-companies-fixed {
+        width: 21.2%;
+        right: 4.75%;
+    }
+
+    .brands-hotsale-company img:last-child {
+        right: 35px;
+    }
+
+    .brands-hotsale-company img:first-child {
+        left: 20px;
+        width: 120px;
+    }
+
+    .brands-page:after {
+        right: 80px;
+    }
+
+    .brands-page {
+        height: 90px;
+    }
+
+    .search-word {
+        line-height: 60px;
+    }
+
+    .hotsale-connecting-brands-text {
+        padding-top: 10px;
+    }
+
+    .hotsale-connecting-brands-title {
+        padding-bottom: 10px;
+    }
+
+    .hotsale-connecting-brands {
+        height: 240px;
+    }
+
+    .brands-middle-content {
+        width: 93.7%;
+    }
+
+    .deal-recommended-info-item-text {
+        height: 60px;
+    }
+
+
+    .deal-recommended-info-item {
+        width: calc(48.89% - 30px);
+    }
+
+    .deal-header-after-scroll-deal-title {
+        /*top: 15px;*/
+    }
+
+    .deal-header-after-scroll-buy-deal {
+        line-height: 54px;
+    }
+
+    .deal-header-after-scroll-deal-prices {
+        left: 10px;
+    }
+
+    .deal-header-after-scroll-white-wrap {
+        width: 90.7%;
+    }
+
+    .searched-deal-mini-info-text {
+        height: 42px;
+    }
+
+    .sign-popup {
+        width: 70.37%;
+    }
+
+    .username-or-social {
+        line-height: 31px;
+    }
+
+    .categories-search-body {
+        width: 90.7%;
+        /* left: 49.9%; */
+    }
+
+    .white-header-arrow-left {
+        left: 21.5%;
+    }
+
+
+    .cart-middle-part {
+        width: 90.7%;
+    }
+
+    .secondary-popular-deal-info {
+        height: 68%;
+    }
+
+    .secondary-popular-deal-img {
+        height: 38%;
+    }
+
+    .company-middle-content {
+        width: 90.7%;
+    }
+
+    .extended-search-deals-more-btn {
+        line-height: 40px;
+    }
+
+    .cart-right-part {
+        width: 28%;
+        right: 5%;
+    }
+
+
+    .map-page-middle-wrap {
+        width: 90.7%;
+    }
+
+    .fixed-companies-detail {
+        right: 5%;
+        width: 28.87%;
+    }
+
+    .get-scroll-top-height{
+        height: 80px;
+        display: none;
+    }
+
+    .search-text-bar {
+        width: 95%;
+    }
+
+    .header .search-text-bar {
+        width: 55%;
+    }
+
+
+    .faq-middle {
+        width: calc(90.7% - 170px);
+        padding: 100px 100px 100px 70px;
+    }
+
+    .faq-middle-left {
+        width: 43%;
+    }
+
+
+
+    .fixed-contact-info {
+        right: 5.1%;
+        width: 17.2%;
+    }
+
+
+    .deal-seller-img {
+        max-height: 110px;
+        max-width: 110px;
+    }
+
+
+
+    .add-remove-voucher-amount .cart-shopping-list-item-voucher-amount {
+        padding: 0 16px 0 15px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 1450px) {
+    .offers-order-newest {
+        width: 135px;
+    }
+
+    .offers-order-newest img {
+        left: 15px;
+    }
+
+    .offers-order-newest {
+        left: 15%;
+    }
+
+    .newest-offers-text {
+        left: 10px;
+    }
+
+
+    .offers-order-newest:hover .newest-offers-amount {
+        /* display: inline-block; */
+        right: 10px;
+    }
+
+    .deal-header-after-scroll-deal-prices {
+        left: 35px;
+    }
+
+    .deal-header-after-scroll-white-wrap {
+        width: 95.7%;
+    }
+
+    .sign-popup {
+        width: 88.37%;
+    }
+
+    .username-or-social {
+        line-height: 31px;
+    }
+
+    /*.search-text-bar {*/
+    /*width: 75%;*/
+    /*}*/
+
+
+    .categories-search-body {
+        width: 95.7%;
+        /* left: 49.9%; */
+    }
+
+    .buy-voucher-title {
+        top: -5px;
+    }
+
+    .cart-buy-voucher-payment-mastercard {
+        height: 50px;
+    }
+
+    .cart-buy-voucher-payment-balance {
+        height: 50px;
+    }
+
+    .cart-buy-voucher {
+        height: 73.5%;
+    }
+
+    .cart-user-private-info {
+        height: calc(24% - 50px);
+        padding: 25px 10%;
+    }
+
+    .hotsale-company img:last-child {
+        width: 15px;
+    }
+
+    .company-deal {
+        left: 56%;
+    }
+
+    .company-deal-num {
+        left: 56%;
+    }
+
+    .hotsale-company img:first-child {
+        width: 100px;
+    }
+
+    .header-menu-item {
+        margin: 0 0 0 15px;
+    }
+
+    .header-logo img {
+        width: 110px;
+    }
+
+    .wrapper-dropdown-5 img {
+        width: 10px;
+    }
+
+
+    .search-city {
+        padding-left: 15px;
+    }
+
+    .search-categories {
+        width: 22%;
+        left: 50px;
+    }
+
+    .search-anything img {
+        width: 14px;
+        right: 20px;
+    }
+
+
+    .choose-city {
+        margin-left: 15px;
+        margin-right: 25px;
+    }
+
+
+    .map-page-middle-wrap {
+        width: 95.7%;
+    }
+
+    .map-page-body {
+        padding-top: 155px;
+    }
+
+
+    .faq-middle {
+        width: calc(95.7% - 160px);
+        padding: 100px 100px 100px 60px;
+    }
+
+
+
+    .hotsale-recommended-deals .recommended-deal-img {
+        height: 200px;
+    }
+
+
+    .hotsale-recommended-deals .slick-slider .slick-dots {
+        width: 99%;
+        bottom: 70px;
+    }
+
+
+    .search-bar-header-detail {
+        transform: translate(0, 22%);
+    }
+
+
+    .fixed-contact-info {
+        right: 2.1%;
+        width: 18.2%;
+    }
+
+
+    .deal-seller-img {
+        max-height: 70px;
+        max-width: 70px;
+    }
+
+
+    .add-remove-voucher-amount .cart-shopping-list-item-voucher-amount {
+        padding: 0 16px 0 12px;
+    }
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 1450px) {
+
+    .fs-36 {
+        font-size: 26px;
+    }
+
+    .fs-18 {
+        font-size: 14px;
+    }
+
+    .fs-16 {
+        font-size: 13px;
+    }
+
+    .fs-20 {
+        font-size: 17px;
+    }
+
+    .fs-14 {
+        font-size: 12px;
+    }
+
+    .fs-17 {
+        font-size: 15px;
+    }
+
+    .fs-30 {
+        font-size: 24px;
+    }
+
+    .fs-26 {
+        font-size: 24px;
+    }
+
+    .header-menu {
+        width: 60%;
+    }
+
+    .post-wrap {
+        width: 96%;
+    }
+
+    .sync-wrap {
+        left: 6%;
+        width: 88%;
+    }
+
+
+    .white-header-wrap {
+        height: 85px;
+    }
+
+
+    .search-wrap {
+        margin-top: 155px;
+    }
+
+    .detail-middle {
+        margin-top: 155px;
+    }
+
+    .hotel-info .hotel-info-text {
+        margin-top: 20px;
+        height: 75px;
+    }
+
+    .hms-screen {
+        height: 470px;
+    }
+
+    .lead-story-width {
+        width: 90%;
+    }
+
+    .hotel-info-prices .info {
+        width: 28%;
+    }
+
+    .search-wrap {
+        width: 95.7%;
+    }
+
+    .popular-deals {
+        width: 95.7%;
+    }
+
+    .main-popular-deal-img {
+        height: 58%;
+    }
+
+    .main-popular-deal-info {
+        height: 42%;
+    }
+
+    .main-info-left {
+        width: 80%;
+    }
+
+    .main-info-texts {
+        top: 40%;
+    }
+
+    .main-info-logo {
+        top: 36%;
+    }
+
+    .main-info-title {
+        margin-bottom: 5px;
+    }
+
+    .main-info-icons {
+        margin-bottom: 10px;
+    }
+
+    .main-info-text {
+        height: 90px;
+    }
+
+    .main-info-right {
+        right: 3.6%;
+    }
+
+    .popular-deals {
+        height: 480px;
+    }
+
+    .main-info-right {
+        top: 20px;
+    }
+
+    .secondary-info-text {
+        margin-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .secondary-popular-deal {
+        width: 23.4%;
+        margin-left: 1.7%;
+    }
+
+    .main-popular-deal {
+        width: 49.1%;
+    }
+
+    .popular-deals {
+        height: 480px;
+    }
+
+    .main-info-logo {
+        height: 88px;
+    }
+
+    .hotsale-offers {
+        width: 95.7%;
+    }
+
+    .hotsale-offers-left {
+        width: 74.6%;
+    }
+
+    .offers-order {
+        left: 15px;
+    }
+
+    .offers-order-newest {
+        width: 140px;
+    }
+
+    .hotsale-offers-right {
+        width: 23.4%;
+    }
+
+    .hotsale-deals-companies {
+        width: 95.7%;
+    }
+
+    .footer-wrap {
+        width: 95%;
+    }
+
+    .follow-us-footer {
+        width: 24.5%;
+        /* left: 74.7%; */
+    }
+
+    .change-language a:first-child {
+        padding: 0 1.4% 0 0;
+    }
+
+    .change-language a {
+        padding: 0 2.4%;
+    }
+
+    .change-language {
+        width: 40%;
+    }
+
+    .follow-fb-twitter {
+        width: 55%;
+    }
+
+    .all-rights-reserved {
+        left: 11%;
+    }
+
+    .white-header-wrap {
+        width: 95.7%;
+    }
+
+    .blue-header-wrap {
+        width: 95.7%;
+    }
+
+    /*.middle {*/
+    /*height: 520px;*/
+    /*width: 30.7%;*/
+    /*}*/
+    .hotsale-companies {
+        width: 23.4%;
+    }
+
+
+    .hotsale-companies-fixed {
+        width: 22%;
+        right: 2.3%;
+    }
+
+    .middle {
+        height: 480px;
+        margin-left: 2.45%;
+        width: 31.3%;
+    }
+
+
+
+    .detail-middle {
+        width: 95.7%;
+    }
+
+    .middle-deal-minimal-info {
+        width: 75%;
+        left: 25%;
+    }
+
+    .deal-hotsale-companies {
+        width: 100%;
+    }
+
+    .search-bar-header-detail {
+        width: 55%;
+    }
+
+    .search-bar-header-detail .search-anything {
+        width: 40%;
+    }
+
+    .buy-voucher {
+        width: calc(100% - 60px);
+        padding: 20px 30px;
+    }
+
+    .voucher-amount {
+        height: 110px;
+        line-height: 110px;
+    }
+
+    .voucher-price-saving {
+        height: 80px;
+        /*line-height: 80px;*/
+        width: 100%;
+    }
+
+    .buy-voucher-time-left {
+        right: 30px;
+    }
+
+    .deal-sale-info {
+        width: 90%;
+        left: 4%;
+    }
+
+    .right-side-info {
+        width: 45%;
+    }
+
+
+    .left-side-info {
+        width: 55%;
+    }
+
+    .deal-company-detailed-info {
+        width: 90%;
+        left: 4%;
+    }
+
+    .action-terms-title {
+        padding-left: 30px;
+    }
+
+    .action-terms-text {
+        padding-left: 30px;
+    }
+
+    .deal-company-branch-names {
+        left: 15%;
+        width: 80%;
+    }
+
+    .right-branches {
+        width: 51%;
+    }
+
+    .left-branches {
+        width: 51%;
+    }
+
+    .hotsale-recommended-deal-title {
+        left: 0;
+    }
+
+    .white-header {
+        height: 85px;
+    }
+
+    .header {
+        height: 125px;
+    }
+
+    .white-header-before-wrap {
+        height: 85px;
+        /*top: -85px;*/
+        width: 95.7%;
+    }
+
+    .header-menu-wrap {
+        height: 85px;
+        width: 68%;
+    }
+
+    .cart-middle-part {
+        width: 95.7%;
+    }
+
+    .cart-shopping-list-title {
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+
+    .cart-shopping-list-bottom {
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .cart-right-part {
+        height: 500px;
+    }
+
+    .cart-buy-voucher-wrap {
+        top: 20px;
+    }
+
+    .cart-buy-voucher-title {
+        padding-bottom: 20px;
+    }
+
+    .cart-buy-voucher-coupons-amount-price {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .cart-buy-voucher-payment-method {
+        padding-top: 20px;
+    }
+
+    .cart-buy-voucher-payment-title {
+        padding-bottom: 20px;
+    }
+
+    .company-middle-content {
+        margin-top: 150px;
+        width: 95.7%;
+    }
+
+    .company-right-content {
+        top: 405px;
+    }
+
+    .fixed-contact-info-wrap {
+        top: 160px;
+    }
+
+
+    .company-page-offers-order {
+        margin-top: 25px;
+    }
+
+    .company-page-company-deals .secondary-popular-deal:nth-child(3n+1) {
+        margin-top: 15px;
+    }
+
+    .company-page-company-deals {
+        margin-top: 10px;
+    }
+
+    .hotsale-connecting-brands-text {
+        padding-top: 20px;
+    }
+
+    .hotsale-connecting-brands-title {
+        padding-bottom: 20px;
+    }
+
+    .brands-page {
+        margin-left: 1.2%;
+    }
+
+
+    .hotsale-connecting-brands {
+        margin-left: 1.2%;
+        width: calc(31.5% - 40px);
+        padding: 20px;
+        height: 260px;
+
+    }
+
+    .brands-middle-content {
+        width: 98.7%;
+    }
+
+
+    .deal-hotsale-company img:last-child {
+        right: 30px;
+    }
+
+    .brands-company-deal {
+        right: calc(70px + 9%);
+    }
+
+    .deal-hotsale-company img:first-child {
+        left: 25px;
+        width: 130px;
+    }
+
+    /*.header-logo img {*/
+    /*vertical-align: middle;*/
+    /*width: 170px;*/
+    /*}*/
+
+    .details-deal-sale {
+        line-height: 33px;
+    }
+
+    .white-header-arrow-left {
+        left: 25.5%;
+    }
+
+    #extendedSearchHeader {
+        top: 25px;
+        width: 74.4%;
+        left: 0;
+    }
+
+
+    .fixed-companies-detail {
+        right: 2%;
+        width: 30.67%;
+    }
+
+    .get-scroll-top-height{
+        height: 60px;
+        display: none;
+    }
+
+}

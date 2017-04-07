@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'nino_mtavruli_bold';
+    src: url('../fonts/Ninomtavruli_Bold/bpg_nino_mtavruli_bold.ttf'); /* IE9 Compat Modes */
+    src: url('../fonts/Ninomtavruli_Bold/bpg_nino_mtavruli_bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Ninomtavruli_Bold/bpg_nino_mtavruli_bold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Ninomtavruli_Bold/bpg_nino_mtavruli_bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Ninomtavruli_Bold/bpg_nino_mtavruli_bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+    font-family: 'nino_mtavruli_normal';
+    src: url('../fonts/Ninomtavruli_normal/bpg_nino_mtavruli_normal.ttf'); /* IE9 Compat Modes */
+    src: url('../fonts/Ninomtavruli_normal/bpg_nino_mtavruli_normal.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Ninomtavruli_normal/bpg_nino_mtavruli_normal.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Ninomtavruli_normal/bpg_nino_mtavruli_normal.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Ninomtavruli_normal/bpg_nino_mtavruli_normal.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+    font-family: 'dejavu_sans';
+    src: url('../fonts/dejavu_sans/dejavu-sans.ttf'); /* IE9 Compat Modes */
+    src: url('../fonts/dejavu_sans/dejavu-sans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/dejavu_sans/dejavu-sans.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/dejavu_sans/dejavu-sans.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/dejavu_sans/dejavu-sans.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+@font-face {
+    font-family: 'bpg_nino_beqa';
+    src: url('../fonts/bpg_nino_beqa/bpg_nino_beqa.ttf'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg_nino_beqa/bpg_nino_beqa.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/bpg_nino_beqa/bpg_nino_beqa.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/bpg_nino_beqa/bpg_nino_beqa.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/bpg_nino_beqa/bpg_nino_beqa.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+
+.nino-mtavruli-bold{
+    font-family: nino_mtavruli_bold;
+    -webkit-font-smoothing: antialiased;
+}
+
+.nino-mtavruli-normal{
+    font-family: nino_mtavruli_normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+.dejavu-sans{
+    font-family: dejavu_sans;
+    -webkit-font-smoothing: antialiased;
+}
+
+.bpg-nino-beqa{
+    font-family: bpg_nino_beqa;
+    -webkit-font-smoothing: antialiased;
+}

@@ -335,7 +335,7 @@ $(document).ready(function(){
 
 
     $('.search-categories').click(function () {
-       $('.categories-search-body').toggleClass('passive-header');
+        $('.categories-search-body').toggleClass('passive-header');
     });
 
 
@@ -483,7 +483,7 @@ $(window).on( 'resize', createSlick );
 
 function chooseYourSeat() {
 
-    // console.log("aq modixar?");
+    console.log("aq modixar?");
     $('.cinema-hall-seats svg ').click(function () {
         console.log(this);
 

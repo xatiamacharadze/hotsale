@@ -1025,7 +1025,7 @@ div#burger {}
 
 
 .secondary-popular-deal{
-    width: 23.2%;
+    width: 23.15%;
     height: 100%;
     background-color: white;
     border-radius: 10px;
@@ -1695,7 +1695,7 @@ div#burger {}
 
 .middle{
     height: 580px;
-    width:31.3%;
+    width: 31.25%;
     margin-left: calc((100% - 94.8%) / 2);
 }
 

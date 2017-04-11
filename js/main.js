@@ -1,5 +1,4 @@
 
-
 $(function () {
 
     $('.responsive-show-hide').on('click', function(e) {
@@ -9,7 +8,6 @@ $(function () {
     });
 });
 
-
 $(function () {
 
     $('.company-page-contact-company-detailed-info').on('click', function(e) {
@@ -18,22 +16,6 @@ $(function () {
         e.preventDefault();
     });
 });
-
-
-
-//faq extend answer
-// $(function () {
-//
-//     $('.question-answer-faq').on('click', function(e) {
-//         $('.answer-faq').removeClass("faq-answer-closed"); //you can list several class names
-//         // $('.faq-extended').removeClass("faq-answer-closed");
-//         $(this).find('.answer-faq').toggleClass("faq-answer-closed"); //you can list several class names
-//         $(this).find('.faq-extended').toggleClass("faq-answer-closed");
-//         e.preventDefault();
-//     });
-// });
-
-
 
 var scrollFunctions = {
     '/hotsale/company-page.html' : fixCompanyInfo,
@@ -45,11 +27,7 @@ var scrollFunctions = {
     '/company-page.html' : fixCompanyInfo,
     '/shopping-cart.html' : shoppingCartFixed,
     '/detail_page.html' : detailPageChangeHeader
-
-
 };
-
-
 
 
 var scrollHeight, clientHeight, footerHeight, companies;
@@ -58,6 +36,9 @@ var contentTop;
 
 
 $(document).ready(function(){
+
+    changeLanguage();
+
 
     var pathname = window.location.pathname;
 
@@ -449,8 +430,6 @@ $(document).ready(function(){
 });
 
 
-
-
 function createSlick(){
 
     $(".slick-slider").not('.slick-initialized').slick({
@@ -480,12 +459,11 @@ createSlick();
 $(window).on( 'resize', createSlick );
 
 
-
 function chooseYourSeat() {
 
-    console.log("aq modixar?");
+    // console.log("aq modixar?");
     $('.cinema-hall-seats svg ').click(function () {
-        console.log(this);
+        // console.log(this);
 
         this.classList.toggle("chosen-seat");
         // $(this).toggleClass('chosen-seat');
@@ -493,6 +471,15 @@ function chooseYourSeat() {
 
 }
 
+
+function changeLanguage() {
+    $('.blue-header-lang img').click(function () {
+
+        $('.blue-header-lang img').removeClass('active-lang');
+        $(this).addClass('active-lang');
+        
+    });
+}
 
 
 function headerArrowHide() {
@@ -741,16 +728,4 @@ $(window).load(function(){
 
 });
 
-
-
-
-
-// var div = $('.'),
-//     divHeight = div.height(),
-//     scroll;
-//
-// $(window).scroll(function () {
-//     scroll = $(this).scrollTop();
-//     div.height(divHeight - scroll)
-// });
 

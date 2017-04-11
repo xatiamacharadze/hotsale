@@ -477,7 +477,7 @@ function changeLanguage() {
 
         $('.blue-header-lang img').removeClass('active-lang');
         $(this).addClass('active-lang');
-        
+
     });
 }
 

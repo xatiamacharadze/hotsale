@@ -86,7 +86,34 @@ $(document).ready(function(){
         $('.hotsale-body').removeClass('pos-fixed');
 
 
+
+        $(".hamburger").removeClass("is-active");
+        $('.responsive-header-menu-burger').addClass("responsive-header-burger-main-active");
+        // $('#responsive-overlay').removeClass("active-overlay");
+        // $('.hotsale-body').removeClass('hotsale-body-fixed');
+        $('#responsive-header-categories').removeClass('active-menu-categories-overlay');
+        // $('#bodyHide').removeClass('overflow-hidden');
+        $('.sign-popup').removeClass('sign-popup-active');
+        $('#dd').removeClass('active-city');
+        $('#searchBoxCategories').removeClass('active-city');
+        $('#contactUs').removeClass('contact-us-active');
     });
+
+
+
+    // $('#responsive-overlay').click(function () {
+    //     $(".hamburger").removeClass("is-active");
+    //     $('.responsive-header-menu-burger').addClass("responsive-header-burger-main-active");
+    //     $('#responsive-overlay').removeClass("active-overlay");
+    //     // $('.hotsale-body').removeClass('hotsale-body-fixed');
+    //     $('#responsive-header-categories').removeClass('active-menu-categories-overlay');
+    //     // $('#bodyHide').removeClass('overflow-hidden');
+    //     $('.sign-popup').removeClass('sign-popup-active');
+    //     $('#dd').removeClass('active-city');
+    //     $('#searchBoxCategories').removeClass('active-city');
+    //     $('#contactUs').removeClass('contact-us-active');
+    // });
+
 
 
     $(".question-answer-faq").click(function (e) {
@@ -127,10 +154,6 @@ $(document).ready(function(){
         $('.shopping-bag-mini-info-cart').toggleClass('hide-shopping-cart');
     });
 
-
-    $('#searchBoxCategories').click(function () {
-        $('#categoriesSearch').toggleClass('passive-header');
-    });
 
     $('#closeDealInfo').click(function () {
         $('.map-company-mini-info-pin').toggleClass('map-company-mini-info-close');
@@ -192,29 +215,45 @@ $(document).ready(function(){
 
 
 
+    $('#searchBoxCategories').click(function () {
+        $('#categoriesSearch').toggleClass('passive-header');
+
+        $('#searchBoxCategories').toggleClass('active-city');
+    });
+
+
+    // $('#searchBoxCategories').click(function () {
+    //
+    // });
+
+
+
     $('#searchBoxHeader').focus(function() {
-        $('#extendedSearchHeader').removeClass('header-logo-second');
-        $('#extendedSearchHeader').addClass('appear-extended-search');
+        $('#extendedSearchHeader').removeClass('header-logo-second').addClass('appear-extended-search');
+        // $('#extendedSearchHeader').addClass('appear-extended-search');
+    }).blur(function () {
+        $('#extendedSearchHeader').addClass('header-logo-second').removeClass('appear-extended-search');
+        // $('#extendedSearchHeader').removeClass('appear-extended-search');
     });
 
 
-    $('#searchBoxHeader').blur(function() {
-        $('#extendedSearchHeader').addClass('header-logo-second');
-        $('#extendedSearchHeader').removeClass('appear-extended-search');
-    });
+    // $('#searchBoxHeader').blur(function() {
+    //
+    // });
 
 
     $('#searchBoxBody').focus(function() {
-        console.log('rameeee');
-        $('#extendedSearchBody').removeClass('header-logo-second');
-        $('#extendedSearchBody').addClass('appear-extended-search');
+        $('#extendedSearchBody').removeClass('header-logo-second').addClass('appear-extended-search');
+        // $('#extendedSearchBody').addClass('appear-extended-search');
+    }).blur(function () {
+        $('#extendedSearchBody').addClass('header-logo-second').removeClass('appear-extended-search');
     });
 
 
-    $('#searchBoxBody').blur(function() {
-        $('#extendedSearchBody').addClass('header-logo-second');
-        $('#extendedSearchBody').removeClass('appear-extended-search');
-    });
+    // $('#searchBoxBody').blur(function() {
+    //     $('#extendedSearchBody').addClass('header-logo-second');
+    //     $('#extendedSearchBody').removeClass('appear-extended-search');
+    // });
 
 
     $(function() {
@@ -257,9 +296,6 @@ $(document).ready(function(){
     });
 
 
-    $('#searchBoxCategories').click(function () {
-        $('#searchBoxCategories').toggleClass('active-city');
-    });
 
 
     $('#headerCitySearch').click(function () {
@@ -383,20 +419,6 @@ $(document).ready(function(){
     });
 
 
-    $('#responsive-overlay').click(function () {
-        $(".hamburger").removeClass("is-active");
-        $('.responsive-header-menu-burger').addClass("responsive-header-burger-main-active");
-        $('#responsive-overlay').removeClass("active-overlay");
-        // $('.hotsale-body').removeClass('hotsale-body-fixed');
-        $('#responsive-header-categories').removeClass('active-menu-categories-overlay');
-        // $('#bodyHide').removeClass('overflow-hidden');
-        $('.sign-popup').removeClass('sign-popup-active');
-        $('#dd').removeClass('active-city');
-        $('#searchBoxCategories').removeClass('active-city');
-        $('#contactUs').removeClass('contact-us-active');
-    });
-
-
     $('#responsive-header-categories-btn').click(function () {
         $('#responsive-header-categories').toggleClass('active-menu-categories-overlay');
     });
@@ -411,6 +433,7 @@ $(document).ready(function(){
     $('.blue-header-user, .user-name').click(function () {
         $('#responsive-overlay').addClass("active-overlay");
         $('.sign-popup').addClass('sign-popup-active');
+        $('.hotsale-body').addClass('pos-fixed');
     });
 
 
@@ -418,12 +441,14 @@ $(document).ready(function(){
     $('#contactPopup').click(function () {
         $('#responsive-overlay').addClass("active-overlay");
         $('#contactUs').addClass('contact-us-active');
+        $('.hotsale-body').addClass('pos-fixed');
     });
 
     $('.close-btn').click(function () {
         $('.sign-popup').removeClass('sign-popup-active');
         $('#contactUs').removeClass('contact-us-active');
         $('#responsive-overlay').removeClass("active-overlay");
+        $('.hotsale-body').removeClass('pos-fixed');
     });
 
 

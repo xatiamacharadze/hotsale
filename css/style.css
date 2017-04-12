@@ -4869,3 +4869,8 @@ input.extended-search-focus:focus {
 .cinema-hall-seats svg.chosen-seat path{
     fill: #4373ff !important;
 }
+
+
+.fixed-overlay{
+    position: fixed;
+}

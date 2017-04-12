@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d34462df-9d53-44ca-ab7c-9a2657693714" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="hotsale.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -137,11 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="4871" column="0" selection-start-line="4871" selection-start-column="0" selection-end-line="4871" selection-end-column="0" />
+            <state relative-caret-position="764">
+              <caret line="4874" column="19" selection-start-line="4874" selection-start-column="19" selection-end-line="4874" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -180,17 +180,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="474" column="26" selection-start-line="474" selection-start-column="26" selection-end-line="474" selection-end-column="26" />
+            <state relative-caret-position="364">
+              <caret line="450" column="38" selection-start-line="450" selection-start-column="38" selection-end-line="450" selection-end-column="38" />
               <folding>
                 <element signature="e#15#300#0" expanded="false" />
                 <element signature="e#318#642#0" expanded="false" />
-                <element signature="e#1332#11779#0" expanded="false" />
-                <element signature="e#4714#5134#0" expanded="false" />
-                <element signature="e#5182#5580#0" expanded="false" />
+                <element signature="e#1585#1689#0" expanded="false" />
+                <element signature="e#3968#4773#0" expanded="false" />
+                <element signature="e#4826#4910#0" expanded="false" />
+                <element signature="e#4957#5048#0" expanded="false" />
+                <element signature="e#5097#5191#0" expanded="false" />
+                <element signature="e#5236#5322#0" expanded="false" />
+                <element signature="e#5366#5623#0" expanded="false" />
+                <element signature="e#5662#5918#0" expanded="false" />
+                <element signature="e#5984#6404#0" expanded="false" />
+                <element signature="e#6452#6850#0" expanded="false" />
+                <element signature="e#8199#8485#0" expanded="false" />
                 <element signature="n#!!block;n#createSlick#0" expanded="false" />
                 <element signature="n#!!block;n#chooseYourSeat#0" expanded="false" />
                 <element signature="n#!!block;n#changeLanguage#0" expanded="false" />
@@ -199,9 +207,9 @@
                 <element signature="n#!!block;n#fixedSideBarScroll#0" expanded="false" />
                 <element signature="n#!!block;n#shoppingCartFixed#0" expanded="false" />
                 <element signature="n#!!block;n#fixCompanyInfo#0" expanded="false" />
-                <element signature="e#20819#21256#0" expanded="false" />
-                <element signature="e#21286#21651#0" expanded="false" />
-                <marker date="1491911406000" expanded="false" signature="668:1092" ph="{&quot;/hotsale/company-page.html&quot;: fixCompanyInfo...}" />
+                <element signature="e#21942#22379#0" expanded="false" />
+                <element signature="e#22409#22774#0" expanded="false" />
+                <marker date="1492005249000" expanded="false" signature="668:1092" ph="{&quot;/hotsale/company-page.html&quot;: fixCompanyInfo...}" />
               </folding>
             </state>
           </provider>
@@ -227,12 +235,12 @@
         <option value="$PROJECT_DIR$/js/company_page.js" />
         <option value="$PROJECT_DIR$/js/detail_page.js" />
         <option value="$PROJECT_DIR$/js/index_page.js" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/contact.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/sign-in-popup.css" />
         <option value="$PROJECT_DIR$/css/style-max-width-1450.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -289,6 +297,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hotsale" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotsale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hotsale" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -372,7 +394,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491829100791</updated>
-      <workItem from="1491829102215" duration="12792000" />
+      <workItem from="1491829102215" duration="14227000" />
     </task>
     <task id="LOCAL-00001" summary="Changes for Ubuntu">
       <created>1491829566586</created>
@@ -392,7 +414,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12792000" />
+    <option name="totallyTimeSpent" value="14227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1920" height="980" extended-state="6" />
@@ -493,31 +515,6 @@
         <state relative-caret-position="180">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="474" column="26" selection-start-line="474" selection-start-column="26" selection-end-line="474" selection-end-column="26" />
-          <folding>
-            <element signature="e#15#300#0" expanded="false" />
-            <element signature="e#318#642#0" expanded="false" />
-            <element signature="e#1332#11779#0" expanded="false" />
-            <element signature="e#4714#5134#0" expanded="false" />
-            <element signature="e#5182#5580#0" expanded="false" />
-            <element signature="n#!!block;n#createSlick#0" expanded="false" />
-            <element signature="n#!!block;n#chooseYourSeat#0" expanded="false" />
-            <element signature="n#!!block;n#changeLanguage#0" expanded="false" />
-            <element signature="n#!!block;n#headerArrowHide#0" expanded="false" />
-            <element signature="n#!!block;n#detailPageChangeHeader#0" expanded="false" />
-            <element signature="n#!!block;n#fixedSideBarScroll#0" expanded="false" />
-            <element signature="n#!!block;n#shoppingCartFixed#0" expanded="false" />
-            <element signature="n#!!block;n#fixCompanyInfo#0" expanded="false" />
-            <element signature="e#20819#21256#0" expanded="false" />
-            <element signature="e#21286#21651#0" expanded="false" />
-            <marker date="1491911406000" expanded="false" signature="668:1092" ph="{&quot;/hotsale/company-page.html&quot;: fixCompanyInfo...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -636,9 +633,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="4871" column="0" selection-start-line="4871" selection-start-column="0" selection-end-line="4871" selection-end-column="0" />
+        <state relative-caret-position="764">
+          <caret line="4874" column="19" selection-start-line="4874" selection-start-column="19" selection-end-line="4874" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="450" column="38" selection-start-line="450" selection-start-column="38" selection-end-line="450" selection-end-column="38" />
+          <folding>
+            <element signature="e#15#300#0" expanded="false" />
+            <element signature="e#318#642#0" expanded="false" />
+            <element signature="e#1585#1689#0" expanded="false" />
+            <element signature="e#3968#4773#0" expanded="false" />
+            <element signature="e#4826#4910#0" expanded="false" />
+            <element signature="e#4957#5048#0" expanded="false" />
+            <element signature="e#5097#5191#0" expanded="false" />
+            <element signature="e#5236#5322#0" expanded="false" />
+            <element signature="e#5366#5623#0" expanded="false" />
+            <element signature="e#5662#5918#0" expanded="false" />
+            <element signature="e#5984#6404#0" expanded="false" />
+            <element signature="e#6452#6850#0" expanded="false" />
+            <element signature="e#8199#8485#0" expanded="false" />
+            <element signature="n#!!block;n#createSlick#0" expanded="false" />
+            <element signature="n#!!block;n#chooseYourSeat#0" expanded="false" />
+            <element signature="n#!!block;n#changeLanguage#0" expanded="false" />
+            <element signature="n#!!block;n#headerArrowHide#0" expanded="false" />
+            <element signature="n#!!block;n#detailPageChangeHeader#0" expanded="false" />
+            <element signature="n#!!block;n#fixedSideBarScroll#0" expanded="false" />
+            <element signature="n#!!block;n#shoppingCartFixed#0" expanded="false" />
+            <element signature="n#!!block;n#fixCompanyInfo#0" expanded="false" />
+            <element signature="e#21942#22379#0" expanded="false" />
+            <element signature="e#22409#22774#0" expanded="false" />
+            <marker date="1492005249000" expanded="false" signature="668:1092" ph="{&quot;/hotsale/company-page.html&quot;: fixCompanyInfo...}" />
+          </folding>
         </state>
       </provider>
     </entry>

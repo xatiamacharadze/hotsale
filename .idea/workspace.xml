@@ -149,9 +149,12 @@
       <file leaf-file-name="style-max-width-1450.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style-max-width-1450.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="806">
-              <caret line="1055" column="1" selection-start-line="1055" selection-start-column="1" selection-end-line="1055" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="401">
+              <caret line="335" column="0" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+              <folding>
+                <element signature="e#5967#8540#0" expanded="false" />
+                <element signature="e#8543#15411#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -368,7 +371,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491829100791</updated>
-      <workItem from="1491829102215" duration="11713000" />
+      <workItem from="1491829102215" duration="12257000" />
     </task>
     <task id="LOCAL-00001" summary="Changes for Ubuntu">
       <created>1491829566586</created>
@@ -388,7 +391,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11713000" />
+    <option name="totallyTimeSpent" value="12257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1920" height="980" extended-state="6" />
@@ -629,9 +632,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style-max-width-1450.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="1055" column="1" selection-start-line="1055" selection-start-column="1" selection-end-line="1055" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="401">
+          <caret line="335" column="0" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+          <folding>
+            <element signature="e#5967#8540#0" expanded="false" />
+            <element signature="e#8543#15411#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

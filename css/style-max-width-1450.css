@@ -327,6 +327,14 @@
         width: 90.7%;
     }
 
+    .secondary-popular-deal {
+        width: 23.1%;
+    }
+
+    .middle {
+        width: 31.25%;
+    }
+
     .secondary-popular-deal-info {
         height: 68%;
     }
@@ -399,6 +407,10 @@
     .add-remove-voucher-amount .cart-shopping-list-item-voucher-amount {
         padding: 0 16px 0 15px;
     }
+
+
+
+
 
 
 }

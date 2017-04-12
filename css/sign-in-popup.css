@@ -69,6 +69,7 @@ input[type="text"] {
     margin-top: 20px;
     height: 55px;
     line-height: 55px;
+    box-sizing: border-box;
 }
 
 .submit-info:hover {
@@ -236,6 +237,7 @@ select#dob-day {
     position: relative;
     left: 0;
     line-height: 47px;
+    box-sizing: border-box;
 }
 
 select#dob-month {
@@ -250,6 +252,7 @@ select#dob-month {
     left: 50%;
     transform: translateX(-50%);
     line-height: 47px;
+    box-sizing: border-box;
 }
 
 select#dob-year {
@@ -263,6 +266,7 @@ select#dob-year {
     position: absolute;
     right: 0;
     line-height: 47px;
+    box-sizing: border-box;
 }
 
 .controls {
@@ -295,6 +299,14 @@ select#dob-year {
     cursor: pointer;
 }
 
+
+.accept-terms a:hover {
+    color: #4373ff;
+}
+
+.accept-terms a {
+    color: #929ab1;
+}
 
 
 

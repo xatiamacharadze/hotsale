@@ -426,11 +426,13 @@ div#burger {}
 
 
 .blue-header-menu-right {
-    position: absolute;
+    position: relative;
     right: 0;
-    width: 30%;
+    /* width: 30%; */
     display: inline-block;
     height: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .lang-text {
@@ -478,9 +480,9 @@ div#burger {}
 .blue-header-lang {
     height: 100%;
     /*width: 10%;*/
-    display: inline-block;
-    position: absolute;
-    right: 135px;
+    /* display: inline-block; */
+    position: relative;
+    /* right: 135px; */
 }
 
 .blue-header-lang img {
@@ -505,40 +507,42 @@ div#burger {}
 
 
 .blue-header-user {
-    position: absolute;
+    position: relative;
     height: 100%;
     /* top: 0; */
     /*width: 16%;*/
-    right: 35px;
+    /* right: 35px; */
     display: inline-block;
+    margin: 0 30px;
 }
 
 .blue-header-user img {
-    position: absolute;
-    top: 45%;
+    position: relative;
+    top: 30%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
     right: 0;
 }
 
 .user-name{
     display: inline-block;
-    position: absolute;
+    position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    right: 30px;
+    /* right: 30px; */
+    margin-right: 10px;
 }
 
 
 .blue-header-basket {
-    position: absolute;
+    position: relative;
     display: inline-block;
     height: 100%;
     width: 15px;
-    right: 0;
+    /* right: 0; */
 }
 
 .blue-header-basket img{

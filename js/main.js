@@ -41,16 +41,7 @@ $(document).ready(function(){
 
 
     var pathname = window.location.pathname;
-
-    // console.log(pathname);
-
     var functionName = scrollFunctions[pathname];
-
-
-
-    // console.log(functionName, scrollFunctions);
-
-
     if(typeof functionName != 'undefined') {
         // console.log('aqxar?');
         functionName();
@@ -59,12 +50,8 @@ $(document).ready(function(){
     }
 
 
-    // shoppingCartFixed();
-    // //
-    // fixCompanyInfo();
-
-
     chooseYourSeat();
+
 
     $('.how-it-works-responsive-btn').click(function () {
         $('#responsive-overlay').toggleClass("active-overlay");
@@ -75,7 +62,6 @@ $(document).ready(function(){
         $('.hotsale-body').toggleClass('pos-fixed');
 
     });
-
 
 
     $('#responsive-overlay').click(function () {
@@ -98,22 +84,6 @@ $(document).ready(function(){
         $('#searchBoxCategories').removeClass('active-city');
         $('#contactUs').removeClass('contact-us-active');
     });
-
-
-
-    // $('#responsive-overlay').click(function () {
-    //     $(".hamburger").removeClass("is-active");
-    //     $('.responsive-header-menu-burger').addClass("responsive-header-burger-main-active");
-    //     $('#responsive-overlay').removeClass("active-overlay");
-    //     // $('.hotsale-body').removeClass('hotsale-body-fixed');
-    //     $('#responsive-header-categories').removeClass('active-menu-categories-overlay');
-    //     // $('#bodyHide').removeClass('overflow-hidden');
-    //     $('.sign-popup').removeClass('sign-popup-active');
-    //     $('#dd').removeClass('active-city');
-    //     $('#searchBoxCategories').removeClass('active-city');
-    //     $('#contactUs').removeClass('contact-us-active');
-    // });
-
 
 
     $(".question-answer-faq").click(function (e) {
@@ -149,7 +119,6 @@ $(document).ready(function(){
     });
 
 
-
     $('.blue-header-basket').click(function () {
         $('.shopping-bag-mini-info-cart').toggleClass('hide-shopping-cart');
     });
@@ -178,6 +147,7 @@ $(document).ready(function(){
         $('.map-categories-responsive').toggleClass('map-categories-responsive-open');
 
     });
+
 
     $('#cities').click(function () {
 
@@ -214,18 +184,11 @@ $(document).ready(function(){
     });
 
 
-
     $('#searchBoxCategories').click(function () {
         $('#categoriesSearch').toggleClass('passive-header');
 
         $('#searchBoxCategories').toggleClass('active-city');
     });
-
-
-    // $('#searchBoxCategories').click(function () {
-    //
-    // });
-
 
 
     $('#searchBoxHeader').focus(function() {
@@ -237,23 +200,12 @@ $(document).ready(function(){
     });
 
 
-    // $('#searchBoxHeader').blur(function() {
-    //
-    // });
-
-
     $('#searchBoxBody').focus(function() {
         $('#extendedSearchBody').removeClass('header-logo-second').addClass('appear-extended-search');
         // $('#extendedSearchBody').addClass('appear-extended-search');
     }).blur(function () {
         $('#extendedSearchBody').addClass('header-logo-second').removeClass('appear-extended-search');
     });
-
-
-    // $('#searchBoxBody').blur(function() {
-    //     $('#extendedSearchBody').addClass('header-logo-second');
-    //     $('#extendedSearchBody').removeClass('appear-extended-search');
-    // });
 
 
     $(function() {
@@ -296,13 +248,9 @@ $(document).ready(function(){
     });
 
 
-
-
     $('#headerCitySearch').click(function () {
         $('#headerCitySearch').toggleClass('active-city');
     });
-
-
 
 
     $('.company-page-responsive-things').click(function() {
@@ -324,11 +272,6 @@ $(document).ready(function(){
     });
 
 
-    // $(window).scroll(function(){
-    //     detailPageChangeHeader();
-    // });
-
-
     $('.categories-search-deals').slick({
         infinite: true,
         slidesToShow: 1,
@@ -338,17 +281,6 @@ $(document).ready(function(){
         // accessibility: false
         // lazyLoad: 'progressive'
     });
-
-
-
-
-    // $('.slick-slider').slick({
-    //     infinite: true,
-    //     slidesToShow: 3,
-    //     slidesToScroll: 3,
-    //     dots: true,
-    //     arrows: true
-    // });
 
 
     $('.search-categories').click(function () {
@@ -372,7 +304,6 @@ $(document).ready(function(){
     });
 
 
-
     $('#prevArrowRecommended').click(function (e) {
 
         $('.slick-prev').click();
@@ -388,13 +319,6 @@ $(document).ready(function(){
         // e.preventDefault();
 
     });
-
-    // console.log(contentTop);
-    // // jQuery plug-in
-    // $(window).scroll(function(){
-    //
-    //     fixedSideBarScroll();
-    // });
 
 
     $(function() {
@@ -437,12 +361,12 @@ $(document).ready(function(){
     });
 
 
-
     $('#contactPopup').click(function () {
         $('#responsive-overlay').addClass("active-overlay");
         $('#contactUs').addClass('contact-us-active');
         $('.hotsale-body').addClass('pos-fixed');
     });
+
 
     $('.close-btn').click(function () {
         $('.sign-popup').removeClass('sign-popup-active');

@@ -234,6 +234,7 @@ a {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    z-index: 15;
 }
 
 .blue-header-menu-item{
@@ -433,6 +434,7 @@ div#burger {}
     height: 100%;
     display: flex;
     justify-content: flex-end;
+    z-index: 14;
 }
 
 .lang-text {

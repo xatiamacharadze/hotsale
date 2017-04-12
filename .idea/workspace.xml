@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d34462df-9d53-44ca-ab7c-9a2657693714" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-max-width-1450.css" afterPath="$PROJECT_DIR$/css/style-max-width-1450.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="hotsale.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -136,17 +137,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2249">
-              <caret line="4869" column="0" selection-start-line="4869" selection-start-column="0" selection-end-line="4869" selection-end-column="0" />
+            <state relative-caret-position="779">
+              <caret line="4871" column="0" selection-start-line="4871" selection-start-column="0" selection-end-line="4871" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style-max-width-1450.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style-max-width-1450.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style-max-width-1450.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="401">
@@ -230,8 +231,8 @@
         <option value="$PROJECT_DIR$/css/contact.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/sign-in-popup.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/style-max-width-1450.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -371,7 +372,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491829100791</updated>
-      <workItem from="1491829102215" duration="12257000" />
+      <workItem from="1491829102215" duration="12792000" />
     </task>
     <task id="LOCAL-00001" summary="Changes for Ubuntu">
       <created>1491829566586</created>
@@ -391,7 +392,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12257000" />
+    <option name="totallyTimeSpent" value="12792000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1920" height="980" extended-state="6" />
@@ -622,14 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2249">
-          <caret line="4869" column="0" selection-start-line="4869" selection-start-column="0" selection-end-line="4869" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style-max-width-1450.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -638,6 +631,14 @@
             <element signature="e#5967#8540#0" expanded="false" />
             <element signature="e#8543#15411#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="4871" column="0" selection-start-line="4871" selection-start-column="0" selection-end-line="4871" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

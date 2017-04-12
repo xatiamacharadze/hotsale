@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d34462df-9d53-44ca-ab7c-9a2657693714" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/sign-in-popup.css" afterPath="$PROJECT_DIR$/css/sign-in-popup.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-max-width-1450.css" afterPath="$PROJECT_DIR$/css/style-max-width-1450.css" />
     </list>
     <ignored path="hotsale.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -138,11 +136,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
+            <state relative-caret-position="2249">
               <caret line="4869" column="0" selection-start-line="4869" selection-start-column="0" selection-end-line="4869" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style-max-width-1450.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style-max-width-1450.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="806">
+              <caret line="1055" column="1" selection-start-line="1055" selection-start-column="1" selection-end-line="1055" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -220,6 +228,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/sign-in-popup.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/style-max-width-1450.css" />
       </list>
     </option>
   </component>
@@ -359,7 +368,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491829100791</updated>
-      <workItem from="1491829102215" duration="11152000" />
+      <workItem from="1491829102215" duration="11713000" />
     </task>
     <task id="LOCAL-00001" summary="Changes for Ubuntu">
       <created>1491829566586</created>
@@ -379,7 +388,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11152000" />
+    <option name="totallyTimeSpent" value="11713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1920" height="980" extended-state="6" />
@@ -612,8 +621,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
+        <state relative-caret-position="2249">
           <caret line="4869" column="0" selection-start-line="4869" selection-start-column="0" selection-end-line="4869" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style-max-width-1450.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="1055" column="1" selection-start-line="1055" selection-start-column="1" selection-end-line="1055" selection-end-column="1" />
           <folding />
         </state>
       </provider>

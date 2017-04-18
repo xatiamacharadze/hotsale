@@ -1216,6 +1216,11 @@ div#burger {}
     transform: translateY(-50%);
     left: 4%;
     border: 1px solid #e5e8f1;
+    background: no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .main-info-left {

@@ -1335,7 +1335,8 @@ div#burger {}
     background-color: white;
 }
 
-.secondary-info-logo span {
+.secondary-info-logo span,
+.main-info-logo span{
     position: absolute;
     top: 55%;
     left: 50%;

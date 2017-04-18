@@ -84,6 +84,11 @@ body {
 }
 
 .fs-46{
+    font-size: 46px;
+    line-height:73px;
+}
+
+.fs-100{
     font-size: 100px;
     line-height:73px;
 }

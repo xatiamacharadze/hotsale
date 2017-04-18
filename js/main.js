@@ -253,6 +253,11 @@ $(document).ready(function(){
     });
 
 
+    $('#voucherChoosePrice').click(function () {
+        $('#voucherChoosePrice').toggleClass('active-city');
+    });
+
+
     $('.company-page-responsive-things').click(function() {
         $('.company-page-responsive-things').removeClass('active-company-info-responsive');
         $(this).addClass('active-company-info-responsive');

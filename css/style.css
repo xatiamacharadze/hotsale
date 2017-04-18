@@ -2357,14 +2357,13 @@ input:focus{
 
 
 .buy-voucher{
-    height: 330px;
+    height: 390px;
     display: inline-block;
     width: calc(100% - 100px);
     padding: 45px 50px;
     margin-bottom: 15px;
     border-radius: 10px;
     position: relative;
-
 }
 
 .time-left{
@@ -2541,7 +2540,6 @@ input:focus{
 
 
 .voucher-price-saving:after {
-    content: '';
     height: 1px;
     width: 100%;
     position: absolute;
@@ -4907,4 +4905,55 @@ input.extended-search-focus:focus {
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+
+.voucher-choose-price {
+    width: 100%;
+    height: 47px;
+    line-height: 47px;
+    border: 1px solid #e1e4ef;
+    padding: 0 25px;
+    /*box-sizing: border-box;*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 15;
+}
+
+.choose-voucher {
+    display: inline-block;
+}
+
+.voucher-choose-price img {
+    width: 10px;
+    height: 6px;
+}
+
+
+.voucher-choose-price.wrapper-dropdown-5.active-city {
+    background-color: white;
+    z-index: 15;
+}
+
+.voucher-choose-price.wrapper-dropdown-5.active-city .dropdown {
+    border: 1px solid #e1e4ef;
+    width: 100%;
+    margin-left: -1px;
+    visibility: visible;
+}
+
+
+.voucher-choose-price.wrapper-dropdown-5 .dropdown li:hover a div {
+    background-color: transparent;
+}
+
+.voucher-choose-price.wrapper-dropdown-5 .dropdown {
+    border: 1px solid #e1e4ef;
+    width: 100%;
+    margin-left: -1px;
+    visibility: hidden;
 }

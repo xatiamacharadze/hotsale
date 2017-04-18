@@ -84,9 +84,8 @@ body {
 }
 
 .fs-46{
-    font-size: 46px;
+    font-size: 100px;
     line-height:73px;
-
 }
 
 
@@ -3786,6 +3785,7 @@ input:focus{
 }
 
 .company-page-header-info-icon {
+    background-color: white;
     border: 35px solid white;
     position: absolute;
     width: 127px;
@@ -4899,4 +4899,12 @@ input.extended-search-focus:focus {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+}
+
+
+.company-page-header-info-icon span {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

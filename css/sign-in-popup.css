@@ -315,6 +315,8 @@ select#dob-year {
     margin-top: 145px;
     margin-bottom: 50px;
     position: relative;
+    width: 100%;
+    max-width: 1265px;
 }
 
 
@@ -344,11 +346,28 @@ select#dob-year {
 
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1450px){
 
-    .sign-popup {
-        width: 95.37% !important;
+
+    .sign-page.sign-popup {
+        max-width: 1050px;
+        height: 800px;
+        margin-top: 120px;
+    }
+
+    .sign-in-title {
+        padding-top: 55px;
     }
 }
 
+
+
+@media screen and (max-width: 1200px){
+
+    .sign-page.sign-popup {
+        width: 95.37% !important;
+        margin-top: 80px;
+    }
+
+}
 

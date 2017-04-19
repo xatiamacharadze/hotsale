@@ -1131,7 +1131,15 @@ div#burger {}
     -webkit-transform: translate(-50%, 50%);
     -ms-transform: translate(-50%, 50%);
     transform: translate(-50%, 50%);
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
 
+.secondary-info-icons {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
 }
 
 .main-popular-deal-info {
@@ -1439,23 +1447,23 @@ div#burger {}
 
 .secondary-icon-amount {
     display: inline-block;
-    position: absolute;
-    left: 0;
+    position: relative;
+    /* left: 0; */
 }
 
 .secondary-icon-interested {
     display: inline-block;
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
+    position: relative;
+    /* left: 50%; */
+    /* -webkit-transform: translateX(-50%); */
     -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
 }
 
 .secondary-icon-time {
     display: inline-block;
-    position: absolute;
-    right: 0;
+    position: relative;
+    /* right: 0; */
 }
 
 

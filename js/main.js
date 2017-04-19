@@ -258,6 +258,12 @@ $(document).ready(function(){
     });
 
 
+    $('.user-types .type').click(function() {
+        $('.user-types .type').removeClass('active-type');
+        $(this).addClass('active-type');
+    });
+
+
     $('.company-page-responsive-things').click(function() {
         $('.company-page-responsive-things').removeClass('active-company-info-responsive');
         $(this).addClass('active-company-info-responsive');

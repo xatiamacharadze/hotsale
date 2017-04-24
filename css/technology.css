@@ -1,0 +1,56 @@
+.technology-deals-filter {
+    display: flex;
+    align-items: flex-start;
+}
+
+.technology-filter {
+    width: 24%;
+    position: relative;
+    /*height: 200px;*/
+    display: inline-block;
+    margin-right: 1.9%;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.technology-filter-category {
+    padding: 25px;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+.technology-filter-category img {
+    width: 8px;
+}
+
+.technology-filter-categories-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.technology-category-filter{
+    color: #7f7f7f;
+    padding-left: 15px;
+}
+
+
+
+.technology-category-filter li{
+    list-style-type: circle;
+    -webkit-padding-start: 15px !important;
+
+}
+
+
+.technology-category-filter li:after{
+    content: '';
+
+}
+

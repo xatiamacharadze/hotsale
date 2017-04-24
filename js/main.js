@@ -57,7 +57,7 @@ $(document).ready(function(){
         // $(this).find('.category-search-subcategory').slideDown('subcategory-hide-show');
 
 
-        $('.category-search-subcategory').slideUp("fast");
+        // $('.category-search-subcategory').slideUp("fast");
 
         if ($(this).has('.category-search-subcategory').length) {
 

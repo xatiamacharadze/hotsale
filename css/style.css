@@ -2222,7 +2222,7 @@ input:focus{
     left: 0;
 }
 
-.search-bar-header-detail .search-anything:before{
+.search-bar-header-detail .search-anything:before {
     content: '';
     height: 80%;
     width: 1px;
@@ -2230,13 +2230,7 @@ input:focus{
     background-color: #f1f1f1;
     bottom: 60px;
     z-index: 1;
-    top: 50%;
-
-    -webkit-transform: translate(-50%);
-    -moz-transform: translate(-50%);
-    -ms-transform: translate(-50%);
-    -o-transform: translate(-50%);
-    transform: translate(-50%);
+    top: 10%;
     left: 100%;
 }
 

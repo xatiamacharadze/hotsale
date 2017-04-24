@@ -94,6 +94,8 @@
 
     .main-info-logo {
         height: 66px;
+        width: 66px;
+        background-size: 60px;
     }
 
     .main-info-logo {
@@ -130,8 +132,20 @@
         width: 100%;
     }
 
-    .secondary-icon-interested {
-        left: 43%;
+    /*.secondary-icon-interested {*/
+        /*left: 43%;*/
+    /*}*/
+
+
+
+
+    .secondary-info-icons:after {
+        content: '';
+        width: 100%;
+        height: 1px;
+        left: 0;
+        position: absolute;
+        background-color: #f1f1f1;
     }
 
 
@@ -207,7 +221,7 @@
 
     .secondary-info-text {
         padding-bottom: 15px;
-        height: 90px;
+        /*height: 90px;*/
         margin-top: 15px;
         white-space: normal;
     }

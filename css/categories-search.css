@@ -14,6 +14,8 @@
     transition: 0.3s ease;
     margin-right: auto;
     display: block;
+    /* z-index: 35; */
+    overflow: hidden;
 }
 
 
@@ -34,6 +36,7 @@
     height: 100%;
     position: relative;
     left: 0;
+    overflow: scroll;
 }
 
 .categories-search-left-title-circle {
@@ -90,6 +93,7 @@
     height: 29px;
     line-height: 29px;
     cursor: pointer;
+    z-index: 30;
 }
 
 img {
@@ -117,7 +121,48 @@ img {
 }
 
 
+.subcategory-hide-show.categories-search-left-category:after{
+    display: none;
+}
 
+
+.category-search-subcategory li{
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 10px 0;
+}
+
+.category-search-subcategory {
+    /*display: none;*/
+
+    position: relative;
+    background-color: white;
+    width: calc(100% + 0px);
+    left: -20px;
+    border-left: 2px solid #4373ff;
+}
+
+.categories-search-left-category.subcategory-hide-show > .category-search-keyword {
+    left: 0;
+    color: #4373FE;
+}
+
+.categories-search-left-category.subcategory-hide-show > .category-icon {
+    /* visibility: visible; */
+    opacity: 1;
+    left: 0;
+}
+
+.categories-search-left-category.subcategory-hide-show > .category-search-amount {
+    background-color: #4373ff;
+    color: #FFFFFF;
+    border: 1px solid #4373ff;
+}
+
+.categories-search-left-category.subcategory-hide-show {
+    z-index: 35;
+    height: auto;
+}
 
 .categories-search-left:after{
     content: '';
@@ -301,5 +346,15 @@ img {
 .categories-search-left-category:hover svg line,
 .categories-search-left-category:hover svg circle,
 .categories-search-left-category:hover svg rect {
+    stroke: #4373ff !important;
+}
+
+
+.categories-search-left-category.subcategory-hide-show  svg path,
+.categories-search-left-category.subcategory-hide-show  svg polygon,
+.categories-search-left-category.subcategory-hide-show  svg polyline,
+.categories-search-left-category.subcategory-hide-show  svg line,
+.categories-search-left-category.subcategory-hide-show  svg circle,
+.categories-search-left-category.subcategory-hide-show  svg rect {
     stroke: #4373ff !important;
 }

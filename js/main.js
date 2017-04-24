@@ -52,6 +52,36 @@ $(document).ready(function(){
 
     chooseYourSeat();
 
+    $('.categories-search-left-category').click(function () {
+        // $('.category-search-subcategory').slideDown('subcategory-hide-show');
+        // $(this).find('.category-search-subcategory').slideDown('subcategory-hide-show');
+
+
+        $('.category-search-subcategory').slideUp("fast");
+
+        if ($(this).has('.category-search-subcategory').length) {
+
+            if ($(this).hasClass("subcategory-hide-show")) {
+
+                $(this).removeClass("subcategory-hide-show");
+
+                $(this).find(".category-search-subcategory").slideUp("fast");
+
+            } else {
+                $('.category-search-subcategory').removeClass("subcategory-hide-show");
+
+                $(this).addClass("subcategory-hide-show");
+
+                $(this).find(".category-search-subcategory").slideDown("fast");
+
+            }
+        }
+
+
+        e.preventDefault();
+
+    });
+
 
     $('.how-it-works-responsive-btn').click(function () {
         $('#responsive-overlay').toggleClass("active-overlay");

@@ -133,7 +133,7 @@ img {
 }
 
 .category-search-subcategory {
-    /*display: none;*/
+    display: none;
 
     position: relative;
     background-color: white;

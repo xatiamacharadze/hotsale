@@ -196,7 +196,7 @@ a {
 
 
 .margin-top{
-    margin-top: 140px;
+    margin-top: 140px !important;
 }
 
 .header-logo-second{

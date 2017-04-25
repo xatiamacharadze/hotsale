@@ -398,20 +398,15 @@ input[type="text"] {
         padding: 15px;
         flex: 3;
         margin-bottom: 20px;
+        justify-content: space-between;
     }
 
     .profile-edit-info-body .personal-info {
         margin: 5px 0;
-    }
-
-    .profile-edit-info-body .personal-info:last-child{
-        display: block;
-    }
-
-    .profile-edit-info-body .personal-info:first-child,
-    .profile-edit-info-body .personal-info:nth-child(2){
         display: inline-block;
+        width: 46%;
     }
+
 
     input[type="text"] {
         width: 100% !important;

@@ -195,6 +195,10 @@ a {
 }
 
 
+.margin-top{
+    margin-top: 140px;
+}
+
 .header-logo-second{
     display: none;
 }

@@ -25,6 +25,7 @@
     margin-bottom: 20px;
     padding: 30px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .profile-personal-bottom {
@@ -188,6 +189,76 @@ img.profile-icon {
 
 
 
+
+
+.profile-edit-right {
+    border-radius: 10px;
+    padding: 80px 130px;
+    margin-bottom: 90px;
+}
+
+.profile-edit-title {
+    margin-bottom: 30px;
+}
+
+.edit-info {
+    width: 50%;
+}
+
+
+.edit-info-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+input[type="text"] {
+    position: relative;
+    top: auto;
+    /* border: none; */
+    resize: none;
+    height: 58px;
+    line-height: 58px !important;
+    padding-left: 30px;
+    z-index: 8;
+    width: 100%;
+}
+
+.edit-info {
+    width: 100%;
+    height: 58px;
+    line-height: 58px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.edit-info-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.edit-info-label-input {
+    width: 48.5%;
+    margin-bottom: 30px;
+}
+
+.save-cancel-btn button {
+    border: none;
+    padding: 8px 45px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.save-cancel-btn .cancel-btn {
+    border: 1px solid #e1e1e1;
+}
+
+
+
+
+
+
 @media screen and (max-width: 1700px) {
 
 
@@ -197,7 +268,6 @@ img.profile-icon {
 
 
 }
-
 
 @media screen and (max-width: 1450px) {
 
@@ -228,7 +298,6 @@ img.profile-icon {
 
 
 }
-
 
 @media screen and (max-width: 1200px) {
 
@@ -278,35 +347,83 @@ img.profile-icon {
 
     }
 
+    .profile-edit-right {
+        border-radius: 10px;
+        padding: 40px 30px;
+        margin-bottom: 90px;
+    }
+
+    .edit-info {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    input[type="text"] {
+        height: 50px;
+        line-height: 50px;
+    }
+
 }
-
-
 
 @media screen and (max-width: 900px) {
 
-
-    .about-hotSale-info {
-        width: 90%;
-        top: 30px;
-        padding: 50px 60px;
+    .profile-edit-info-body .profile-middle {
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-
-    .about-hotSale-bg {
-        height: 180px;
+    .profile-edit-info-body .profile-right {
+        flex: initial;
+        width: 85%;
+        margin: 0 auto;
     }
 
+    .profile-edit-info-body .profile-left {
+        flex: initial;
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+    }
+
+    .profile-edit-info-body .profile-personal-upper {
+        padding: 20px;
+        flex: 2;
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+
+    .profile-edit-info-body .profile-personal-bottom {
+        padding: 15px;
+        flex: 3;
+        margin-bottom: 20px;
+    }
+
+    .profile-edit-info-body .personal-info {
+        margin: 5px 0;
+    }
+
+    .profile-edit-info-body .personal-info:last-child{
+        display: block;
+    }
+
+    .profile-edit-info-body .personal-info:first-child,
+    .profile-edit-info-body .personal-info:nth-child(2){
+        display: inline-block;
+    }
+
+    input[type="text"] {
+        width: 100% !important;
+    }
+
+    .edit-info-label-input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 
 }
 
 @media screen and (max-width: 600px) {
-
-
-    .about-hotSale-info {
-        width: 95%;
-        top: 40px;
-        padding: 30px 40px;
-    }
-
 
 }

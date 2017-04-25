@@ -395,11 +395,11 @@ $(document).ready(function(){
     });
 
 
-    $('.blue-header-user, .user-name').click(function () {
-        $('#responsive-overlay').addClass("active-overlay");
-        $('.sign-popup').addClass('sign-popup-active');
-        $('.hotsale-body').addClass('pos-fixed');
-    });
+    // $('.blue-header-user, .user-name').click(function () {
+    //     $('#responsive-overlay').addClass("active-overlay");
+    //     $('.sign-popup').addClass('sign-popup-active');
+    //     $('.hotsale-body').addClass('pos-fixed');
+    // });
 
 
     $('#contactPopup').click(function () {

@@ -1,0 +1,312 @@
+.profile-page-body {
+    top: 140px;
+    position: relative;
+}
+
+.profile-middle {
+    min-height: 391px;
+    position: relative;
+    top: 30px;
+    display: -webkit-flex;
+    display: flex;
+    width: 79.9%;
+    max-width: 1530px;
+    margin: 0 auto;
+}
+
+.profile-left {
+    position: relative;
+    width: 360px;
+    flex: 1;
+}
+
+.profile-personal-upper {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.profile-personal-bottom {
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+img.profile-icon {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-personal-info {
+    text-align: center;
+}
+
+.person-name {
+    margin-bottom: 20px;
+}
+
+.person-name-balance {
+    display: flex;
+    justify-content: space-between;
+}
+
+.person-name-balance:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #e5e5e5;
+    left: 0;
+}
+
+.person-balance {
+    /* display: flex; */
+    /* align-items: center; */
+    position: relative;
+    width: 50%;
+    text-align: left;
+    padding: 20px 20px 0;
+    box-sizing: border-box;
+}
+
+.person-balance span {
+    width: 100%;
+    position: relative;
+}
+
+.person-balance div {
+    display: block;
+}
+
+.person-balance:first-child:after {
+    content: '';
+    position: absolute;
+    height: calc(100% + 30px);
+    width: 1px;
+    background-color: #e5e5e5;
+    left: 100%;
+    top: 0;
+}
+
+.person-balance:last-child {
+    padding-left: 50px;
+}
+
+
+.personal-info-edit {
+    margin: 0;
+    border: none;
+    padding: 15px 0;
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.personal-info {
+    margin: 30px 0;
+}
+
+.personal-info div {
+    margin: 5px 0;
+}
+
+/*.personal-info:first-child {*/
+/*margin-top: 0;*/
+/*}*/
+
+
+.profile-right {
+    flex: 3;
+    margin-left: 30px;
+}
+
+.user-current-deals {
+    border-radius: 10px;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.user-current-deals.no-deals > span{
+    display: block;
+}
+
+.user-current-deals.no-deals{
+    text-align: center;
+    padding: 30px;
+}
+
+
+.person-deals-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+
+.person-deal {
+    width: 23%;
+    position: relative;
+    /* margin-left: 40px; */
+    margin-bottom: 30px;
+}
+
+.person-deal-img {
+    position: absolute;
+    padding-top: 75%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 10px;
+}
+
+.person-deals-bought {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.person-deal-text {
+    margin-top: 80%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1700px) {
+
+
+    .profile-middle {
+        width: 90.9%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1450px) {
+
+
+    .profile-middle {
+        width: 95%;
+    }
+
+    .profile-page-body {
+        top: 120px;
+    }
+
+    .personal-info {
+        margin: 15px 0;
+    }
+
+    .profile-personal-upper {
+        padding: 25px;
+    }
+
+    .user-current-deals.no-deals {
+        padding: 25px;
+    }
+
+    .user-current-deals {
+        padding: 40px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+
+    .profile-personal-upper {
+        padding: 15px;
+    }
+
+    .person-balance {
+        padding: 10px 0 0;
+    }
+
+
+    .person-balance:last-child {
+        padding-left: 20px;
+    }
+
+    img.profile-icon {
+        width: 65px;
+    }
+
+    .profile-page-body .fs-16 {
+        font-size: 14px;
+    }
+
+    .profile-personal-bottom {
+        padding: 15px;
+    }
+
+    .personal-info-edit {
+        padding: 13px 0;
+    }
+
+
+    .profile-page-body {
+        top: 75px;
+        margin-bottom: 120px;
+    }
+
+    .user-current-deals {
+        padding: 30px;
+    }
+
+    .person-deal {
+        margin-bottom: 20px;
+        width: 30%;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+
+    .about-hotSale-info {
+        width: 90%;
+        top: 30px;
+        padding: 50px 60px;
+    }
+
+
+    .about-hotSale-bg {
+        height: 180px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .about-hotSale-info {
+        width: 95%;
+        top: 40px;
+        padding: 30px 40px;
+    }
+
+
+}

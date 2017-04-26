@@ -506,7 +506,7 @@ function detailPageChangeHeader() {
         // console.log($(window).scrollTop());
         // var scrollTop = $(window).scrollTop();
         if ($(window).scrollTop() > contentTop) {
-            $(".detail-page-header").addClass("passive-header");
+            $("#burger").addClass("passive-header");
             $(".deal-header-after-scroll").removeClass("passive-header");
 
 
@@ -546,7 +546,7 @@ function detailPageChangeHeader() {
             }
 
         }else{
-            $(".detail-page-header").removeClass("passive-header");
+            $("#burger").removeClass("passive-header");
             $(".deal-header-after-scroll").addClass("passive-header");
         }
     });

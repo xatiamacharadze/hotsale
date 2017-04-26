@@ -18,15 +18,15 @@ $(function () {
 });
 
 var scrollFunctions = {
-    '/hotsale/company-page.html' : fixCompanyInfo,
-    '/hotsale/shopping-cart.html' : shoppingCartFixed,
-    '/hotsale/index.html' : fixedSideBarScroll,
-    '/hotsale/detail_page.html' : detailPageChangeHeader,
-    '/' : fixedSideBarScroll,
-    '/index.html' : fixedSideBarScroll,
-    '/company-page.html' : fixCompanyInfo,
-    '/shopping-cart.html' : shoppingCartFixed,
-    '/detail_page.html' : detailPageChangeHeader
+    // '/hotsale/company-page.html' : fixCompanyInfo,
+    // '/hotsale/shopping-cart.html' : shoppingCartFixed,
+    // '/hotsale/index.html' : fixedSideBarScroll,
+    // '/hotsale/detail_page.html' : detailPageChangeHeader,
+    // '/' : fixedSideBarScroll,
+    // '/index.html' : fixedSideBarScroll
+    // '/company-page.html' : fixCompanyInfo
+    // '/shopping-cart.html' : shoppingCartFixed
+    // '/detail_page.html' : detailPageChangeHeader
 };
 
 

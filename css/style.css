@@ -2616,6 +2616,9 @@ input:focus{
     height: 530px;
     width: 100%;
     border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 

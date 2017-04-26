@@ -37,15 +37,15 @@
 
 .technology-category-filter{
     color: #7f7f7f;
-    padding-left: 15px;
+    padding-left: 0;
 }
 
 
 
 .technology-category-filter li{
-    list-style-type: circle;
-    -webkit-padding-start: 15px !important;
-
+    list-style-type: none;
+    /* -webkit-padding-start: 15px !important; */
+    margin: 15px 0;
 }
 
 
@@ -54,3 +54,49 @@
 
 }
 
+.technology-filter-brand {
+    padding: 25px;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+
+.technology-filter-price {
+    padding: 25px;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.technology-category-filter li input {
+    margin-right: 15px;
+}
+
+.subcategories {
+    border-left: 1px solid #4373ff;
+    display: none;
+}
+
+.technology-category-filter li label {
+    -webkit-transition: color 0.1s ease;
+    -moz-transition: color 0.1s ease;
+    -ms-transition: color 0.1s ease;
+    -o-transition: color 0.1s ease;
+    transition: color 0.1s ease;
+}
+
+
+
+
+input[type=checkbox]:checked + label {
+    color: #4373ff;
+}
+
+input[type=checkbox]:checked ~ .subcategories{
+   display: block;
+}

@@ -17,17 +17,6 @@ $(function () {
     });
 });
 
-var scrollFunctions = {
-    // '/hotsale/company-page.html' : fixCompanyInfo,
-    // '/hotsale/shopping-cart.html' : shoppingCartFixed,
-    // '/hotsale/index.html' : fixedSideBarScroll,
-    // '/hotsale/detail_page.html' : detailPageChangeHeader,
-    // '/' : fixedSideBarScroll,
-    // '/index.html' : fixedSideBarScroll
-    // '/company-page.html' : fixCompanyInfo
-    // '/shopping-cart.html' : shoppingCartFixed
-    // '/detail_page.html' : detailPageChangeHeader
-};
 
 
 var scrollHeight, clientHeight, footerHeight, companies;
@@ -38,17 +27,6 @@ var contentTop;
 $(document).ready(function(){
 
     changeLanguage();
-
-
-    var pathname = window.location.pathname;
-    var functionName = scrollFunctions[pathname];
-    if(typeof functionName != 'undefined') {
-        // console.log('aqxar?');
-        functionName();
-        // console.log(functionName);
-
-    }
-
 
     chooseYourSeat();
 
@@ -369,7 +347,7 @@ $(document).ready(function(){
         });
     });
 
-    // var $hamburger = $(".hamburger");
+
     $(".hamburger").click(function(e) {
         $(".hamburger").toggleClass("is-active");
 
@@ -447,6 +425,13 @@ createSlick();
 
 //Now it will not throw error, even if called multiple times.
 $(window).on( 'resize', createSlick );
+
+function technologyCategoriesChecked() {
+    if($(".isSelected").is(':checked'))
+        $("#txtAge").show();  // checked
+    else
+        $("#txtAge").hide();
+}
 
 
 function chooseYourSeat() {

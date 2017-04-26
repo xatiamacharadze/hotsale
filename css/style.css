@@ -596,6 +596,9 @@ div#burger {}
     height: 100%;
     position: relative;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -658,12 +661,12 @@ div#burger {}
 
 .deal-header-after-scroll-right {
     display: inline-block;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
+    position: relative;
+    /* right: 0; */
+    /* top: 50%; */
+    /* -webkit-transform: translateY(-50%); */
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
 }
 
 .deal-header-after-scroll-deal-price {
@@ -1378,7 +1381,7 @@ div#burger {}
     /*padding-bottom: 10px;*/
     margin-bottom: 15px;
     position: relative;
-    /* height: 89px; */
+    height: calc(1.7em * 3);
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -2551,6 +2554,9 @@ input:focus{
     border-radius: 5px;
     position: relative;
     text-align: center;
+    border: none;
+    padding: 0;
+    top: -30px;
 }
 
 .voucher-info-price-right {
@@ -2619,6 +2625,7 @@ input:focus{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    /* padding-top: 53%; */
 }
 
 
@@ -4281,8 +4288,12 @@ input.extended-search-focus:focus {
 }
 
 
-.add-remove-voucher-amount .cart-shopping-list-item-voucher-amount{
+.add-remove-voucher-amount .cart-shopping-list-item-voucher-amount {
     padding: 0 16px 0 18px;
+    height: 50px;
+    line-height: 50px;
+    border: none;
+    width: 14%;
 }
 
 
@@ -4986,6 +4997,16 @@ input.extended-search-focus:focus {
 }
 
 
+
+
+
+input#voucher {
+    visibility: hidden;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
 
 
 /*.subcategory-hide-show{*/

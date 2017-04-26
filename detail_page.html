@@ -559,15 +559,11 @@
             <div class="buy-voucher bg-white">
                 <div class="buy-voucher-title fs-18 fc-blue nino-mtavruli-bold">შეკვეთა</div>
 
-
                 <div class="deal-voucher-price fc-bluish-grey fs-14 nino-mtavruli-bold">
                     ვაუჩერი 3 <div class="lari lari-comic"></div>
                     
                     <img src="image/bottom-arrow.png">
                 </div>
-
-
-
 
                 <div class="voucher-price-saving">
                     <div class="voucher-info-price-right">
@@ -588,29 +584,34 @@
 
                 </div>
 
-                <div id="voucherChoosePrice" class="voucher-choose-price wrapper-dropdown-5" tabindex="1">
-                    <div class="choose-voucher nino-mtavruli-bold fs-14 fc-bluish-grey">ვაუჩერი</div>
-                    <img src="image/bottom-arrow.png">
-                    <ul class="dropdown nino-mtavruli-bold fs-12 ">
-                        <li><a href="#">ვაუჩერი 18 <div class="lari lari-comic"></div></a></li>
-                        <li><a href="#">ვაუჩერი 25 <div class="lari lari-comic"></div></a></li>
-                        <li><a href="#">ვაუჩერი 10 <div class="lari lari-comic"></div></a></li>
-                    </ul>
-                </div>
+                <form class="buy-voucher-form">
+                    <label for="voucher"></label>
+                    <input id="voucher" class="form-control" name="voucher">
 
-                <div class="voucher-amount">
-                    <div class="voucher-amount-title fc-grey fs-16 nino-mtavruli-bold">რაოდენობა</div>
-                    <div class="add-remove-voucher-amount">
-                        <div class="cart-shopping-list-item-minus fs-14 fc-grey"> - </div>
-                        <div class="cart-shopping-list-item-voucher-amount dejavu-sans fs-14 fc-grey">2</div>
-                        <div class="cart-shopping-list-item-plus fs-14 fc-grey"> + </div>
-                    </div>
-                    <div class="summary-price bg-red nino-mtavruli-bold fc-white">
-                        9 <div class="lari lari-comic"></div>
+                    <div id="voucherChoosePrice" class="voucher-choose-price wrapper-dropdown-5" tabindex="1">
+                        <span class="choose-voucher nino-mtavruli-bold fs-14 fc-bluish-grey">ვაუჩერი</span>
+                        <img src="image/bottom-arrow.png">
+                        <ul class="dropdown nino-mtavruli-bold fs-12">
+                            <li><a href="#">ვაუჩერი 18 <div class="lari lari-comic"></div></a></li>
+                            <li><a href="#">ვაუჩერი 25 <div class="lari lari-comic"></div></a></li>
+                            <li><a href="#">ვაუჩერი 10 <div class="lari lari-comic"></div></a></li>
+                        </ul>
                     </div>
 
-                    <div class="buy-voucher-button bg-blue fc-white fs-14 nino-mtavruli-bold">იყიდე</div>
-                </div>
+                    <div class="voucher-amount">
+                        <div class="voucher-amount-title fc-grey fs-16 nino-mtavruli-bold">რაოდენობა</div>
+                        <div class="add-remove-voucher-amount">
+                            <div class="cart-shopping-list-item-minus fs-14 fc-grey"> - </div>
+                            <input class="cart-shopping-list-item-voucher-amount dejavu-sans fs-14 fc-grey" title="amount" value="1">
+                            <div class="cart-shopping-list-item-plus fs-14 fc-grey"> + </div>
+                        </div>
+                        <div class="summary-price bg-red nino-mtavruli-bold fc-white">
+                            9 <div class="lari lari-comic"></div>
+                        </div>
+
+                        <button class="buy-voucher-button bg-blue fc-white fs-14 nino-mtavruli-bold">იყიდე</button>
+                    </div>
+                </form>
 
                 <div class="buy-voucher-time-left">
                     <img src="image/time.png">
@@ -998,6 +999,7 @@
 <script type="text/javascript" src="js/slick.js"></script>
 <script type="text/javascript" src="js/jcarousel.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/dropdown.js"></script>
 <script>
     detailPageChangeHeader();
 </script>

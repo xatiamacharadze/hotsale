@@ -2368,6 +2368,10 @@ input:focus{
     padding-left: 50px;
 }
 
+.action-terms-text > ul{
+    padding-left: 0;
+}
+
 .buy-voucher-title{
     display: inline-block;
     top: -15px;

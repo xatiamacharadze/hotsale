@@ -104,6 +104,7 @@ img.profile-icon {
     position: relative;
     margin-bottom: 10px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .personal-info {

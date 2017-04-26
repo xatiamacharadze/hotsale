@@ -988,7 +988,7 @@
 
             <form class="technology-filter-form">
 
-                <div class=" technology-filter-category bg-white">
+                <div class="technology-filter-category bg-white">
                     <div class="technology-filter-js technology-filter-categories-title">
                         <span class="fc-black nino-mtavruli-bold fs-16">კატეგორია</span>
                         <img src="image/plus-icon.png">
@@ -1088,7 +1088,7 @@
 
                 </div>
 
-                <div class="technology-filter-js technology-filter-brand bg-white">
+                <div class="technology-filter-brand bg-white">
                     <div class="technology-filter-js technology-filter-categories-title">
                         <span class="fc-black nino-mtavruli-bold fs-16">აირჩიე ბრენდი</span>
                         <img src="image/plus-icon.png">
@@ -1163,28 +1163,41 @@
                     </ul>
                 </div>
 
-                <div class="technology-filter-js technology-filter-price bg-white">
+                <div class="technology-filter-price bg-white">
                     <div class="technology-filter-js technology-filter-categories-title">
                         <span class="fc-black nino-mtavruli-bold fs-16">ფასები</span>
                         <img src="image/plus-icon.png">
                     </div>
 
+
                     <ul class="technology-category-filter fc-black nino-mtavruli-normal fs-14">
-                        <li>კომპიუტერები/აქსესუარები</li>
-                        <li>Desktop კომპიუტერები</li>
-                        <li>Laptop კომპიუტერები</li>
-                        <li>USB Flash ბარათები</li>
-                        <li>USB გაჯეტები</li>
-                        <li>ვებკამერები</li>
-                        <li>კომპიუტერის დინამიკები</li>
-                        <li>კომპიუტერის ნაწილები</li>
-                        <li>მაუსები</li>
-                        <li>მიკროფონები</li>
-                        <li>მონიტორები</li>
-                        <li>პლანშეტები, iPad-ები</li>
-                        <li>პრინტერები</li>
-                        <li>პრინტერის კარტრიჯები</li>
+                        <li>
+                            <input type="checkbox" id="range1" name="range1" value="range1">
+                            <label for="range1"> $10 - $50</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="range2" name="range2" value="range2">
+                            <label for="range2">$50 - $100</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="range3" name="range3" value="range3">
+                            <label for="range3">$100 - $150 </label>
+                        </li>
+
+                        <div class="range-from-to">
+                            <input class="fc-black nino-mtavruli-normal fs-14" type="number" id="from" name="from" title="from">
+                            <input class="fc-black nino-mtavruli-normal fs-14" type="number" id="to" name="to" title="to">
+                        </div>
+
+                        <li>
+                            <button class="search-btn-categories fc-white bg-blue nino-mtavruli-bold fs-14">ძებნა</button>
+                        </li>
+
                     </ul>
+
+
 
                 </div>
 

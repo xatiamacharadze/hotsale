@@ -123,3 +123,41 @@ input[type=checkbox]:checked ~ .subcategories{
     -webkit-transform: rotate(180deg); /* Safari and Chrome */
     -o-transform: rotate(180deg); /* Opera */
 }
+
+
+.range-from-to {
+    width: 100%;
+    position: relative;
+    border: 1px solid #dee1ed;
+    border-radius: 5px;
+    height: 58px;
+    line-height: 58px;
+    margin-top: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.range-from-to input {
+    width: 40%;
+    border: none;
+    height: 45px;
+}
+
+
+.range-from-to input:last-child {
+    border-left: 1px solid #dee1ed;
+    border-radius: 0;
+}
+
+.search-btn-categories {
+    height: 50px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0;
+    line-height: 50px;
+}

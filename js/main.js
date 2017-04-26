@@ -30,6 +30,10 @@ $(document).ready(function(){
 
     chooseYourSeat();
 
+    technologyCategoriesChecked();
+
+    technologyFilter();
+
     $('.categories-search-left-category').click(function () {
         // $('.category-search-subcategory').slideDown('subcategory-hide-show');
         // $(this).find('.category-search-subcategory').slideDown('subcategory-hide-show');
@@ -427,10 +431,19 @@ createSlick();
 $(window).on( 'resize', createSlick );
 
 function technologyCategoriesChecked() {
-    if($(".isSelected").is(':checked'))
-        $("#txtAge").show();  // checked
-    else
-        $("#txtAge").hide();
+
+    $(".isSelected").click(function () {
+        $(this).siblings('.subcategories').slideToggle('fast');  // checked
+        $(this).siblings('img').toggleClass('rotated');
+    });
+
+}
+
+
+function technologyFilter() {
+    $('.technology-filter-js').click(function () {
+       $(this).siblings('.technology-category-filter').slideToggle('fast');
+    });
 }
 
 

@@ -38,6 +38,7 @@
 .technology-category-filter{
     color: #7f7f7f;
     padding-left: 0;
+    display: none;
 }
 
 
@@ -46,6 +47,7 @@
     list-style-type: none;
     /* -webkit-padding-start: 15px !important; */
     margin: 15px 0;
+    position: relative;
 }
 
 
@@ -98,5 +100,26 @@ input[type=checkbox]:checked + label {
 }
 
 input[type=checkbox]:checked ~ .subcategories{
-   display: block;
+   /*display: block;*/
+}
+
+.technology-filter-category li img {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+
+.technology-filter-category li img.rotated {
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -moz-transform: rotate(180deg); /* Firefox */
+    -webkit-transform: rotate(180deg); /* Safari and Chrome */
+    -o-transform: rotate(180deg); /* Opera */
 }

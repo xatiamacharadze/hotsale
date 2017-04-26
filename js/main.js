@@ -686,7 +686,7 @@ $(window).resize(function(){
     //
     // fixedSideBarScroll();
     //
-    detailPageChangeHeader();
+    // detailPageChangeHeader();
 
     if($('body').outerWidth() <= 1200){
         $('.deal-company-info').click(function () {

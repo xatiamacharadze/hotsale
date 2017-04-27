@@ -1,0 +1,43 @@
+.delivery-info img {
+    width: 20px;
+    margin-right: 15px;
+}
+
+
+.food-delivery-page .secondary-popular-deal-info {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.food-delivery-page .secondary-info-text {
+    height: calc(1.7em * 1);
+    -webkit-line-clamp: 1;
+}
+
+.secondary-deal-delivery-info {
+    position: relative;
+    margin-bottom: 35px;
+    border-top: 1px solid #ebebeb;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.secondary-deal-delivery-info .delivery-info {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.food-delivery-page .secondary-deal-statistics {
+    border-top: 1px solid #ebebeb;
+}
+
+.food-delivery-page .secondary-deal-img-text-title {
+    height: auto;
+}
+
+.food-delivery-page .secondary-voucher-price {
+    width: auto;
+    padding: 0 10px;
+}

@@ -45,6 +45,6 @@ $(document).ready(function () {
         });
 
     });
-});d/**
+});/**
  * Created by user on 4/26/17.
  */

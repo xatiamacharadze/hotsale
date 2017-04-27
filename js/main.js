@@ -24,6 +24,10 @@ var searchWrapHeight, popularDealsHeight, hotsaleOffersHeight, popularDealsMargi
 var contentTop;
 
 
+
+
+
+
 $(document).ready(function(){
 
     changeLanguage();
@@ -33,6 +37,25 @@ $(document).ready(function(){
     technologyCategoriesChecked();
 
     technologyFilter();
+
+    $('.about-hotSale-section').click(function (e) {
+        e.preventDefault();
+        var id = $(this).attr('href');
+
+
+        $('html, body').animate({
+            scrollTop: $(id).offset().top - 150
+        }, 500);
+
+    });
+
+
+    $('.grid').masonry({
+        itemSelector: '.grid-item',
+        // gutter: 30,
+        percentPosition: true
+    });
+
 
     $('.categories-search-left-category').click(function () {
         // $('.category-search-subcategory').slideDown('subcategory-hide-show');
@@ -62,6 +85,13 @@ $(document).ready(function(){
 
         e.preventDefault();
 
+    });
+
+
+    $('#writeUsBtn').click(function () {
+        $('#responsive-overlay').addClass("active-overlay");
+        $('#contactUs').addClass('contact-us-active');
+        $('.hotSale-gives-you-body').addClass('pos-fixed');
     });
 
 
@@ -95,6 +125,7 @@ $(document).ready(function(){
         $('#dd').removeClass('active-city');
         $('#searchBoxCategories').removeClass('active-city');
         $('#contactUs').removeClass('contact-us-active');
+        $('.hotSale-gives-you-body').removeClass('pos-fixed');
     });
 
 
@@ -396,6 +427,8 @@ $(document).ready(function(){
         $('#contactUs').removeClass('contact-us-active');
         $('#responsive-overlay').removeClass("active-overlay");
         $('.hotsale-body').removeClass('pos-fixed');
+        $('.hotSale-gives-you-body').removeClass('pos-fixed');
+
     });
 
 

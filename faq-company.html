@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Faq</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=600, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"/>
     <link rel="stylesheet" href="css/hamburgers.css">
     <link rel="stylesheet" href="fonts/font-larisome-master/css/font-larisome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/hotsale-gives-you.css">
     <link rel="stylesheet" href="css/faq-company.css">
     <link rel="stylesheet" href="css/style-max-width-1450.css">
@@ -17,8 +18,9 @@
 
     <link rel="shortcut icon" href="image/hotsale-favicon.png"/>
 </head>
-<body class="bg-light-grey">
+<body class="bg-light-grey faq-company-body">
 
+<div id="responsive-overlay" class="responsive-overlay"></div>
 
 
 <div id="burger" class="header bg-white">
@@ -149,6 +151,64 @@
 </div>
 
 
+<div id="contactUs" class="contact-popup bg-white">
+
+    <img class="close-btn" src="image/close-btn.png">
+
+    <div class="contact-popup-left">
+        <div class="contact-popup-left-title fs-18 nino-mtavruli-bold fc-blue">კონტაქტი</div>
+        <form class="sign-up-form">
+            <input class="contact-me fs-14 nino-mtavruli-bold fc-bluish-grey" id="contactUsername" name="username"
+                   type="text" placeholder="თქვენი სახელი" required>
+            <input class="contact-me fs-14 nino-mtavruli-bold fc-bluish-grey" id="contactMail" name="mail" type="email"
+                   placeholder="მეილი" required>
+            <input class="contact-me fs-14 nino-mtavruli-bold fc-bluish-grey" id="contactSurname" name="name-surname"
+                   type="text" placeholder="თემის სათაური" required>
+            <textarea class="contact-me-text fs-14 nino-mtavruli-bold fc-bluish-grey" id="text-me" name="text-me"
+                      placeholder="შეტყობინების ტექსტი" required></textarea>
+
+            <div class="accept-terms">
+                <input id="contactUsAcceptTerms" name="terms" type="checkbox">
+                <label class="fs-12 nino-mtavruli-bold fc-bluish-grey" for="contactUsAcceptTerms">შეტყობინების ასლის
+                    საკუთარ ელ.ფოსტაზე გაგზავნა</label>
+            </div>
+
+            <button class="send-mail bg-blue fs-16 nino-mtavruli-bold fc-white" name="submit" id="contactSignUp"
+                    type="submit">გაგზავნა
+            </button>
+
+        </form>
+    </div>
+
+    <div class="contact-popup-right">
+        <div class="contact-popup-right-title fs-18 nino-mtavruli-bold fc-blue">საკონტაქტო ინფორმაცია</div>
+
+        <div class="contact-popup-address">
+            <div class="contact-popup-address-title fs-16 nino-mtavruli-bold fc-blue">მისამართი</div>
+            <div class="contact-popup-address-value dejavu-sans fs-14 fc-bluish-grey">თბილისი - დადიანის ქ. N 34</div>
+        </div>
+
+        <div class="contact-popup-phone">
+            <div class="contact-popup-phone-title fs-16 nino-mtavruli-bold fc-blue">ტელეფონი</div>
+            <div class="contact-popup-phone-telephone dejavu-sans fs-14 fc-bluish-grey">032 2 40 40 40</div>
+            <div class="contact-popup-phone-mobile dejavu-sans fs-14 fc-bluish-grey">577 77 77 77</div>
+        </div>
+
+        <div class="contact-popup-left-socials">
+            <img src="image/fb.png">
+            <img src="image/twitter.png">
+        </div>
+
+
+        <div class="contact-popup-right-map fc-white fs-18 nino-mtavruli-bold "
+             style="background-image: url('image/contact-map.jpg');">
+            <div class="rotate">რუკაზე ნახვა</div>
+        </div>
+    </div>
+
+
+</div>
+
 <div class="responsive-header-main responsive-show">
     <div class="responsive-header-main-blue bg-blue"></div>
     <div class="responsive-header-main-white bg-white">
@@ -244,13 +304,139 @@
             </div>
         </div>
 
-        <div class="about-hotSale-company">
-            <div class="about-company"></div>
-            <div class=""></div>
-            <div class="contact-us"></div>
-
+        <div class="about-hotSale-company bg-blue nino-mtavruli-bold fs-16">
+            <a href="#1" class="about-hotSale-section bg-white fc-black">კომპანიის შესახებ</a>
+            <a href="#2" class="about-hotSale-section bg-white fc-black">მომსახურების პირობები</a>
+            <a href="#3" class="about-hotSale-section bg-white fc-black">დაგვიკავშირდით</a>
         </div>
 
+        <section id="1" class="about-hotSale-details">
+            <div class="hotSale-company-details bg-white">
+                <div class="company-detail fs-14 fc-black dejavu-sans">
+                    <div class="company-detail-wrap">
+                        <div class="company-detail-circle bg-yellow"></div>
+                        <div class="company-detail-wrap-wrap">
+                            <div class="fc-black nino-mtavruli-bold fs-12">დაარსდა:</div>
+                            <div class="fc-black dejavu-sans fs-24">2017</div>
+                        </div>
+                    </div>
+                    <div class="fs-14 fc-black dejavu-sans">
+                        კომპანიის საქმიანობის სფეროს
+წარმოადგენს ელექტრონული კომერცია.
+                    </div>
+                </div>
+                <div class="company-detail fs-14 fc-black dejavu-sans">
+                    HotSale.ge მომხმარებლებს ყოველდღიურად სთავაზობს ექსკლუზიური ფასდაკლებით, ხარისხიანი და მაღალმოთხოვნადი პროდუქციისა და მომსახურების მრავალფეროვან არჩევანს.
+                </div>
+                <div class="company-detail fs-14 fc-black dejavu-sans">
+                    HotSale. ge ბიზნეს პარტნიორებს სთავაზობს, ეფექტურ  და გაზომვად სარეკლამო მომსახურებას,  რომლის საშუალებითაც ბიზნესი  მიიღებს გარანტირებული კლიენტების რაოდენობას,  გაიზრდება მისი ცნობადობა და მომხმარებელთა რაოდენობა.
+                </div>
+            </div>
+        </section>
+
+        <section id="2" class="service-terms">
+            <div class="service-terms-title fc-dark-bluish-grey fs-18 nino-mtavruli-bold">მომსახურების პირობები</div>
+            <div class="service-terms-text fc-bluish-grey fs-14 dejavu-sans">
+                ყურადღებით წაიკითხეთ მომსახურების პირობები. თუ თქვენ არ ეთანხმებით
+                წინამდებარე მომსახურების პირობებს მაშინ ნუ ისარგებლებთ საიტით HotSale.ge.
+
+                <br>
+                <br>
+                <span class="fc-dark-bluish-grey">ყურადღება:</span> იმ შემთხვევაში თუ თქვენ დაარეგისტრირებთ ბიზნესს, მაშინ თქვენ ასევე
+                უნდა გაეცნოთ და დაეთანხმოთ ბიზნესისთვის დამატებითი:
+            </div>
+            <div class="service-terms-file-download bg-white fc-bluish-grey fs-12 dejavu-sans">
+                მომსახურების პირობები
+                <img src="image/bottom-arrow.png">
+            </div>
+
+            <div class="grid service-terms-grid">
+                <div class="grid-item bg-white">
+                    <div class="grid-item-title fs-16 fc-blue dejavu-sans">საჯარო ოფერტი</div>
+                    <div class="grid-item-text fs-14 fc-bluish-grey dejavu-sans">
+                        წინამდებარე ხელშეკრულება იდება ფიზიკურ პირს (შემდგომში „მყიდველი“, „მომხმარებელი“), რომელიც რეგისტრირდება საიტზე www.hotsale.ge (შემდგომში „საიტი“)  და შპს „რეშენალ სოლუშენს“ (შემდგომში „შუამავალი“) შორის, რომელიც  არის იმ პირის(შემდგომში „გამყიდველი) შუამავალი, რომელიც მითითებულია ამ ხელშეკრულების დანართში.  შუამავალი მოქმედებს გამყიდველის სახელით.
+                        ხელშეკრულება იდება შემდეგზე:
+                    </div>
+                </div>
+
+                <div class="grid-item bg-white">
+                    <div class="grid-item-title fs-16 fc-blue dejavu-sans">01 - ტერმინები და განსაზღვრებები</div>
+                    <div class="grid-item-text fs-14 fc-bluish-grey dejavu-sans">
+                        a)    საჯარო ოფერტი – შეთავაზება გამყიდველის საქონლის ან მომსახურების შეძენის შესახებ, რომელიც განთავსებულია შუამავლის საიტზე და წარმოადგენს შეთავაზებას საიტის მომხმარებლებისადმი.
+
+                    </div>
+                </div>
+
+                <div class="grid-item bg-white">
+                    <div class="grid-item-title fs-16 fc-blue dejavu-sans">01 - ტერმინები და განსაზღვრებები</div>
+                    <div class="grid-item-text fs-14 fc-bluish-grey dejavu-sans">
+                        b)    აქცია – ღონისძიება, რომელსაც მართავს გამყიდველი საკუთარი საქონლის და/ან მომსახურების რეალიზაციის მიზნით. ეს ღონისძიება განკუთვნილია შუამავლის საიტის მომხმარებლებისათვის, რომლებიც შეიძენენ ვაუჩერებს შუამავალთან იმ პირობებით, რომლებიც განსაზღვრულია წინამდებარე საჯარო ოფერტში. შუამავალის მომხმარებელი/მყიდველი აღიარებული იქნება აქციის ფაქტიურ მონაწილედ, თუ მის მიერ შეძენილი იქნება გამყიდველის საქონელი/მომასახურება საჯარო ოფერტის ჩარჩოებში ვაუჩერის წარდგენით. აქციის ჩატარების პირობები ქვეყნდება საიტზე და წარმოადგენს წინამდებარე საჯარო ოფერტის(ხელშეკრულების) განუყოფელ ნაწილს(დანართს).
+
+                    </div>
+                </div>
+
+                <div class="grid-item bg-white">
+                    <div class="grid-item-title fs-16 fc-blue dejavu-sans">01 - ტერმინები და განსაზღვრებები</div>
+                    <div class="grid-item-text fs-14 fc-bluish-grey dejavu-sans">
+                        c)    აქციის მოქმედების დრო – დროის პერიოდი, რომლის დროსაც შუამავალი მომხმარებელს აძლევს საშუალებას მიიღოს ვაუჩერ(ებ)ი.
+                    </div>
+                </div>
+
+                <div class="grid-item bg-white">
+                    <div class="grid-item-title fs-16 fc-blue dejavu-sans">01 - ტერმინები და განსაზღვრებები</div>
+                    <div class="grid-item-text fs-14 fc-bluish-grey dejavu-sans">
+                        d)    ვაუჩერი – მომხმარებლის მიერ შუამავალთან მიღებული დოკუმენტი რომელიც არის  ასოებისა და ციფრებისაგან შედგენილი კოდი, უნიკალური იდენტიფიკატორი და მომხმარებლის პირადი ნომერი, რის საშუალებითაც ხდება მომხმარებლის/მყიდველის იდენტიფიცირება და რომელიც იძლევა გამყიდველთან საქონლის/ მომსახურების  შეძენის უფლებას აქციის პირობებით მისი მოქმედების დროს.
+                    </div>
+                </div>
+
+                <div class="grid-item bg-white">
+                    <div class="grid-item-title fs-16 fc-blue dejavu-sans">საჯარო ოფერტი</div>
+                    <div class="grid-item-text fs-14 fc-bluish-grey dejavu-sans">
+                        ხელშეკრულების საგანი, პირობები და მოქმედების ვადა განისაზღვრება ხელშეკრულების შესაბამის დანართში(აქციის ჩატარების პირობები).
+                    </div>
+                </div>
+
+                <div class="grid-item bg-white">
+                    <div class="grid-item-title fs-16 fc-blue dejavu-sans">საჯარო ოფერტი</div>
+                    <div class="grid-item-text fs-14 fc-bluish-grey dejavu-sans">
+                        ხელშეკრულების საგანი, პირობები და მოქმედების ვადა განისაზღვრება ხელშეკრულების შესაბამის დანართში(აქციის ჩატარების პირობები).
+                        ხელშეკრულების საგანი, პირობები და მოქმედების ვადა განისაზღვრება ხელშეკრულების შესაბამის დანართში(აქციის ჩატარების პირობები).
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="3" class="hotSale-contact-info">
+            <div class="hotSale-on-map fc-white nino-mtavruli-bold fs-18" style="background-image: url('image/map-faq.jpg');">
+               <p> რუკაზე ნახვა</p>
+            </div>
+
+            <div class="hotSale-contact-us fc-bluish-grey nino-mtavruli-bold">
+
+                <div class="contact-us-details bg-white">
+                    <div class="contact-us-details-title fs-16">საკონტაქტო ინფორმაცია</div>
+
+                    <div class="contact-us-details-info fs-14">
+                        <div class="contact-us-details-left">
+                            <div>Hotsale.ge - ს ცხელი ხაზი: 2 19 44 88</div>
+                            <div>ორშაბათი-პარასკევი: 09.30-21.00</div>
+                            <div>შაბათი-კვირა: 10.00-19.00</div>
+                        </div>
+                        <div class="contact-us-details-right">
+                            <div>მობ.: 551 00 44 88</div>
+                            <div>ორშაბათი-პარასკევი: 09.30-22.00</div>
+                            <div>შაბათი-კვირა: 10.00-21.00</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="writeUsBtn" class="contact-us-popup bg-white fs-12 nino-mtavruli-bold fc-bluish-grey">
+                    მოგვწერეთ
+                </div>
+
+            </div>
+        </section>
     </div>
 
     <div class="hotsale-footer detailed-deal-footer">
@@ -352,15 +538,11 @@
     </div>
 </div>
 
-
-
-
-
-
-
 <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 <script type="text/javascript" src="js/jcarousel.min.js"></script>
-<script type="text/javascript" src="js/masonry.min.js"></script>
+<script type="text/javascript" src="js/slick.js"></script>
+<!--<script type="text/javascript" src="js/masonry.min.js"></script>-->
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 
 </body>

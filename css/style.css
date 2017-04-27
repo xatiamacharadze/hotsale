@@ -126,6 +126,10 @@ body {
     background-color: #8ed76d;
 }
 
+.bg-yellow{
+    background-color: #f2cb5f;
+}
+
 
 
 .fc-blue{
@@ -139,6 +143,10 @@ body {
 
 .fc-grey{
     color: #595c64;
+}
+
+.fc-dark-bluish-grey{
+    color: #626b88;
 }
 
 .fc-grey-contact{

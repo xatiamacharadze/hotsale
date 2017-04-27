@@ -1,0 +1,514 @@
+.about-hotSale-company {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+
+.about-hotSale-section {
+    height: 100px;
+    flex: 1;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.about-hotSale-section:nth-child(2){
+    border-left: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+}
+
+.about-hotSale-details {
+    /* height: 260px; */
+    margin-top: 50px;
+}
+
+.hotSale-company-details {
+    width: 79.9%;
+    position: relative;
+    /* height: 260px; */
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.company-detail {
+    flex: 1;
+    padding: 53px 25px;
+    border-right: 1px solid #e5e8f1;
+}
+
+.company-detail-circle {
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.company-detail-wrap-wrap {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.company-detail-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.company-detail > div:last-child {
+    padding-right: 33%;
+    margin-top: 30px;
+}
+
+.company-detail:last-child {
+    border-right: none;
+}
+
+section.service-terms {
+    width: 79.9%;
+    margin: 100px auto 0;
+    position: relative;
+    text-align: center;
+}
+
+.service-terms-title {padding-bottom: 20px;position: relative;}
+
+.service-terms-text {
+    width: 38%;
+    margin: 35px auto;
+}
+
+.service-terms-file-download {
+    padding: 14px 26px;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.service-terms-file-download img {
+    margin-left: 20px;
+}
+
+.service-terms-file-download:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: #e5e8f1;
+    top: 0;
+    right: 50px;
+}
+
+.grid-item {
+    width: calc((100% - 90px) / 3);
+    border-radius: 5px;
+    padding: 50px;
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: left;
+}
+
+
+
+.service-terms-grid {
+    margin-top: 50px;
+}
+
+.grid-item-title {
+    margin-bottom: 20px;
+}
+
+.hotSale-contact-info {
+    width: 100%;
+    margin: 100px auto 0;
+    position: relative;
+    text-align: center;
+}
+
+.hotSale-on-map {
+    width: 100%;
+    position: relative;
+    padding-top: 11%;
+}
+
+.hotSale-on-map p {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hotSale-contact-us {
+    width: 39%;
+    margin: -4% auto 4%;
+    position: relative;
+    text-align: left;
+}
+
+
+.contact-us-details {
+    border-radius: 5px;
+    position: relative;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.contact-us-popup {
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    height: 60px;
+    line-height: 60px;
+    cursor: pointer;
+    box-shadow: 0px 30px 30px 0px rgba(49, 49, 54, 0.15);
+
+}
+
+.contact-us-details-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-us-details-left {
+    width: 44%;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    border-right: 1px solid #ebebeb;
+}
+
+.contact-us-details-right {
+    width: 50%;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+.contact-us-details-title {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.contact-us-details-title:after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: #4373ff;
+}
+
+.contact-us-details-right div {
+    margin: 7px 0;
+}
+
+.contact-us-details-left > div {
+    margin: 7px 0;
+}
+
+
+.service-terms-title:after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    left: calc(50% - 15px);
+    bottom: 0;
+    background-color: #4373ff;
+}
+
+.faq-company-body .contact-popup {
+    width: 1000px;
+}
+
+.pos-fixed {
+    position: fixed;
+}
+
+.about-hotSale-section:hover {
+    color: white;
+    background-color: #4373ff;
+}
+
+
+
+@media screen and (max-width: 1700px) {
+
+    .contact-us-popup.fs-12{
+        line-height: 60px;
+    }
+
+    /*.hotSale-contact-us {*/
+        /*width: 45%;*/
+    /*}*/
+
+    /*.service-terms-text {*/
+        /*width: 45%;*/
+    /*}*/
+
+    section.service-terms {
+        width: 90.9%;
+    }
+
+    .hotSale-company-details {
+        width: 90.9%;
+    }
+
+    .company-detail > div:last-child {
+        padding-right: 25%;
+    }
+
+
+}
+
+@media screen and (max-width: 1450px) {
+
+    .faq-company-body .about-hotSale-bg {
+        top: 0;
+    }
+
+
+    .hotSale-gives-you-middle {
+        top: 125px;
+    }
+
+    .about-hotSale-section {
+        height: 75px;
+        line-height: 75px;
+    }
+
+    .about-hotSale-details {
+        /* height: 260px; */
+        margin-top: 35px;
+    }
+
+    .hotSale-company-details {
+        width: 95.9%;
+        padding: 0 35px;
+    }
+
+    .company-detail {
+        padding: 35px 25px;
+    }
+
+    section.service-terms {
+        width: 95.9%;
+        margin-top: 60px;
+    }
+
+    .service-terms-text {
+        width: 38%;
+        margin: 25px auto;
+    }
+
+    .grid-item {
+        width: calc((100% - 60px) / 3);
+        padding: 35px;
+        margin-bottom: 25px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .hotSale-contact-info {
+        margin: 60px auto 0;
+    }
+
+    .hotSale-on-map {
+        padding-top: 13%;
+    }
+
+    .hotSale-contact-us {
+        width: 60%;
+        margin: -6% auto 6%;
+    }
+
+    .about-hotSale-bg {
+        height: 200px;
+    }
+
+    .contact-us-details-left {
+        width: 50%;
+    }
+
+    .contact-us-details-right {
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .service-terms-text {
+        width: 50%;
+    }
+
+    .hotSale-company-details {
+        padding: 0 30px;
+    }
+
+    .company-detail {
+        padding: 30px 20px;
+    }
+
+    .company-detail-circle {
+        height: 60px;
+        width: 60px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .grid-item {
+        width: calc((100% - 100px) / 2);
+        padding: 35px;
+        margin-bottom: 25px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+
+    .hotSale-on-map {
+        padding-top: 20%;
+    }
+
+    .hotSale-contact-us {
+        width: 75%;
+        margin: -7% auto 7%;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .hotSale-company-details {
+        display: block;
+    }
+
+    .company-detail{
+        border: none;
+    }
+
+    .service-terms-text {
+        width: 95%;
+    }
+
+    .grid-item {
+        width: 100%;
+        padding: 35px;
+        margin-bottom: 25px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .hotSale-on-map {
+        padding-top: 25%;
+    }
+
+    .hotSale-contact-us {
+        width: 100%;
+    }
+
+    .contact-us-details {
+        border-radius: 0;
+    }
+
+    .contact-us-popup {
+        width: 90%;
+        height: 50px;
+        line-height: 50px;
+        margin: 0 auto;
+    }
+
+    .hotSale-gives-you-middle {
+        margin-bottom: 120px;
+    }
+
+    .hotSale-contact-info {
+        margin: 20px auto 0;
+    }
+
+    .faq-company-body .contact-popup {
+        /*width: 1000px;*/
+
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .hotSale-company-details {
+        padding: 0 10px;
+    }
+
+    .contact-us-details-info {
+        display: block;
+    }
+
+    .contact-us-details-left {
+        width: 100%;
+        border: none;
+    }
+
+    .contact-us-details-right {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .hotSale-on-map {
+        padding-top: 35%;
+    }
+
+    .about-hotSale-section {
+        height: 55px;
+        line-height: 55px;
+    }
+
+    .about-hotSale-company.fs-16{
+        font-size: 10px;
+    }
+
+    .about-hotSale-bg {
+        height: 120px;
+    }
+
+    .hotSale-gives-you-middle {
+        top: 82px;
+    }
+
+    .service-terms-grid {
+        margin-top: 30px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .about-hotSale-section {
+        height: 38px;
+        line-height: 15px;
+        padding-top: 20px;
+    }
+
+    .contact-us-details {
+        padding: 30px;
+    }
+
+    .grid-item {
+        padding: 25px;
+    }
+}
+
+

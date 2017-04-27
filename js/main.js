@@ -50,11 +50,7 @@ $(document).ready(function(){
     });
 
 
-    $('.grid').masonry({
-        itemSelector: '.grid-item',
-        // gutter: 30,
-        percentPosition: true
-    });
+
 
 
     $('.categories-search-left-category').click(function () {

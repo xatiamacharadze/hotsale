@@ -161,3 +161,88 @@ input[type=number]::-webkit-outer-spin-button {
     padding: 0;
     line-height: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropdown {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 1504px;
+    z-index: 272;
+}
+.Shape_704 {
+    background-color: rgb(235, 235, 235);
+    position: absolute;
+    left: 1460px;
+    top: 102px;
+    width: 260px;
+    height: 1px;
+    z-index: 271;
+}
+.Group_18 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 1504px;
+    z-index: 270;
+}
+.პარამეტრები {
+    font-size: 14px;
+    font-family: "BPG Nino Mtavruli";
+    color: rgb(67, 115, 255);
+    font-weight: bold;
+    line-height: 1.714;
+    position: absolute;
+    left: 1525.391px;
+    top: 59.002px;
+    z-index: 269;
+}
+.Group_19 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 1504px;
+    z-index: 266;
+}
+.გასვლა {
+    font-size: 14px;
+    font-family: "BPG Nino Mtavruli";
+    color: rgb(67, 115, 255);
+    font-weight: bold;
+    line-height: 1.714;
+    text-align: left;
+    position: absolute;
+    left: 1525.391px;
+    top: 118.502px;
+    z-index: 265;
+}
+.Rounded_Rectangle_698 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 30px 30px 0px rgba(49, 49, 54, 0.15);
+    position: absolute;
+    left: 1460px;
+    top: 40px;
+    width: 260px;
+    height: 120px;
+    z-index: 262;
+}

@@ -15,6 +15,11 @@
     opacity: 0;
 }
 
+.contact-popup-page-show{
+    visibility: visible;
+    opacity: 1;
+}
+
 
 .contact-us-active {
     visibility: visible;

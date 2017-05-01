@@ -335,6 +335,7 @@ $(document).ready(function(){
 
     $('.search-categories').click(function () {
         $('.categories-search-body').toggleClass('passive-header');
+        $('#bodyHide').toggleClass('overflow-hidden');
     });
 
 

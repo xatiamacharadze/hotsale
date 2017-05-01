@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/slick-theme.css">
     <link rel="stylesheet" href="fonts/font-larisome-master/css/font-larisome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style-max-width-1450.css">
     <link rel="stylesheet" href="css/style-max-width-1200.css">
@@ -314,11 +315,17 @@
                 <div class="deal-gallery-info">
                     <div class="deal-gallery-info-title nino-mtavruli-bold fs-18 fc-blue">გალერეა</div>
                     <div class="deal-gallery-info-img">
-                        <img src="image/sairme4.jpg">
-                        <img src="image/sairme1.jpg">
-                        <img src="image/sairme2.jpg">
-                        <img src="image/sairme3.jpg">
-                        <img src="image/sairme4.jpg">
+                        <!--<img src="image/sairme4.jpg">-->
+                        <!--<img src="image/sairme1.jpg">-->
+                        <!--<img src="image/sairme2.jpg">-->
+                        <!--<img src="image/sairme3.jpg">-->
+                        <!--<img src="image/sairme4.jpg">-->
+
+
+                        <a href="image/sairme4.jpg" data-lightbox="roadtrip"><img src="image/sairme1.jpg"></a>
+                        <a href="image/sairme4.jpg" data-lightbox="roadtrip"><img src="image/sairme1.jpg"></a>
+                        <a href="image/sairme4.jpg" data-lightbox="roadtrip"><img src="image/sairme1.jpg"></a>
+
                     </div>
                 </div>
 
@@ -999,9 +1006,16 @@
 <script type="text/javascript" src="js/slick.js"></script>
 <script type="text/javascript" src="js/jcarousel.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
 <script type="text/javascript" src="js/dropdown.js"></script>
 <script>
     detailPageChangeHeader();
+
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true,
+        'disableScrolling': true
+    })
 </script>
 </body>
 </html>

@@ -409,6 +409,9 @@
     }
 
 
+    .secondary-info-text {
+        height: calc(1.6em * 3);
+    }
 
 
 
@@ -588,6 +591,14 @@
 
 
 
+    .recommended-deal-company-description {
+        height: calc(1.65em * 5);
+    }
+
+
+    .secondary-info-text {
+        height: calc(1.8em * 3);
+    }
 
 }
 

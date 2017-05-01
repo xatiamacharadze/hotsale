@@ -330,7 +330,7 @@ img {
     top: 0;
     position: relative;
     visibility: hidden;
-    transform: none;
+    /*transform: none;*/
     margin: 0 auto;
     display: block;
 }

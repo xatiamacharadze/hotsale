@@ -50,9 +50,6 @@ $(document).ready(function(){
     });
 
 
-
-
-
     $('.categories-search-left-category').click(function () {
         // $('.category-search-subcategory').slideDown('subcategory-hide-show');
         // $(this).find('.category-search-subcategory').slideDown('subcategory-hide-show');
@@ -358,7 +355,6 @@ $(document).ready(function(){
     });
 
 
-
     $('.search-categories').click(function () {
         var categories = $('.categories-search-body');
         var citySearch = $('#headerCitySearch');
@@ -450,13 +446,6 @@ $(document).ready(function(){
         $('#responsive-header-categories').toggleClass('active-menu-categories-overlay');
 
     });
-
-
-    // $('.blue-header-user, .user-name').click(function () {
-    //     $('#responsive-overlay').addClass("active-overlay");
-    //     $('.sign-popup').addClass('sign-popup-active');
-    //     $('.hotsale-body').addClass('pos-fixed');
-    // });
 
 
     $('#contactPopup').click(function () {
@@ -634,12 +623,15 @@ function fixedSideBarScroll() {
     clientHeight = document.documentElement.clientHeight;
     footerHeight = $('.hotsale-footer').height();
     companies = $('.hotsale-companies');
+    var popularDeals = $('.popular-deals');
+    var hotSaleOffers = $('.hotsale-offers');
+    // var hotSaleCompanies = $(".hotsale-companies");
 
     searchWrapHeight = $('.search-wrap').height();
-    popularDealsHeight = $('.popular-deals').height();
-    hotsaleOffersHeight = $('.hotsale-offers').height();
-    popularDealsMargin = $('.popular-deals').css('margin-top');
-    hotsaleOffersMargin = $('.hotsale-offers').css('margin-top');
+    popularDealsHeight = popularDeals.height();
+    hotsaleOffersHeight = hotSaleOffers.height();
+    popularDealsMargin = popularDeals.css('margin-top');
+    hotsaleOffersMargin = hotSaleOffers.css('margin-top');
     hotsaleDealsCompaniesMargin = $('.hotsale-deals-companies').css('margin-top');
 
     if(typeof popularDealsMargin != 'undefined' && typeof hotsaleOffersMargin != 'undefined' && typeof hotsaleDealsCompaniesMargin != 'undefined'){
@@ -656,7 +648,7 @@ function fixedSideBarScroll() {
 
                 $(".white-header-wrap").addClass("passive-header");
                 $(".white-header-before-wrap").removeClass("passive-header");
-                $(".hotsale-companies").addClass("hotsale-companies-fixed");
+                companies.addClass("hotsale-companies-fixed");
                 if($(window).scrollTop() > scrollHeight - footerHeight - clientHeight){
                     $(".hotsale-companies").addClass("hotsale-companies-fixed-bottom");
 
@@ -710,45 +702,46 @@ function fixCompanyInfo() {
     scrollHeight = document.documentElement.scrollHeight;
     clientHeight = document.documentElement.clientHeight;
     footerHeight = $('.hotsale-footer').height();
+    var companyPageDeals = $('.company-page-company-deals');
     var companyPageHeaderHeight = $('.company-page-header-photo-info').height();
     var companyOffersHeight = $('.company-page-offers-order').height();
-    var companyDealsHeight = $('.company-page-company-deals').height();
-
+    var companyDealsHeight = companyPageDeals.height();
 
     var companyRightContent = $('.company-right-content');
     var contactInfo = $('.company-page-company-contact-info');
 
-
-
     contentTop = companyPageHeaderHeight + companyOffersHeight + companyDealsHeight;
 
+    if (companyPageDeals.children().length > 1){
+
+        $(window).scroll(function() {
+
+            if ($(window).scrollTop() > companyPageHeaderHeight + 40) {
+                contactInfo.addClass('fixed-contact-info');
+                companyRightContent.addClass('fixed-contact-info-wrap');
 
 
-    $(window).scroll(function() {
+                if ($(window).scrollTop() > scrollHeight - footerHeight - clientHeight){
 
-        if ($(window).scrollTop() > companyPageHeaderHeight + 40) {
-            contactInfo.addClass('fixed-contact-info');
-            companyRightContent.addClass('fixed-contact-info-wrap');
+                    // console.log("scrollTop: ", $(window).scrollTop(), ". fixHeight", scrollHeight - footerHeight - clientHeight );
 
+                    contactInfo.css({bottom: (footerHeight - (scrollHeight - $(window).scrollTop() - clientHeight) + 40)});
 
-            if ($(window).scrollTop() > scrollHeight - footerHeight - clientHeight){
+                }else{
+                    // contactInfo.css({bottom: 'auto'});
+                }
 
-                console.log("scrollTop: ", $(window).scrollTop(), ". fixHeight", scrollHeight - footerHeight - clientHeight );
+            }else {
+                contactInfo.css({bottom: 'auto'});
+                contactInfo.removeClass('fixed-contact-info');
+                companyRightContent.removeClass('fixed-contact-info-wrap');
 
-                contactInfo.css({bottom: (footerHeight - (scrollHeight - $(window).scrollTop() - clientHeight) + 40)});
-
-            }else{
                 // contactInfo.css({bottom: 'auto'});
             }
-
-        }else {
-            contactInfo.css({bottom: 'auto'});
-            contactInfo.removeClass('fixed-contact-info');
-            companyRightContent.removeClass('fixed-contact-info-wrap');
-
-            // contactInfo.css({bottom: 'auto'});
-        }
-    });
+        });
+    }else{
+        $('.company-page-no-deals').removeClass('company-page-no-deals-hide');
+    }
 
 }
 

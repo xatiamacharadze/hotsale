@@ -414,6 +414,10 @@
     }
 
 
+    .company-middle-content {
+        min-height: 900px;
+    }
+
 
 
 }
@@ -1074,6 +1078,10 @@
     .get-scroll-top-height{
         height: 60px;
         display: none;
+    }
+
+    .company-middle-content {
+        min-height: 880px;
     }
 
 }

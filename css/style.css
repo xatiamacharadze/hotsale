@@ -423,6 +423,7 @@ div#burger {}
     width: 20px;
     text-align: center;
     height: 100%;
+    cursor: pointer;
 }
 
 
@@ -3872,11 +3873,22 @@ input:focus{
 
 .company-middle-content {
     position: relative;
-    margin-top: 175px;
+    /*margin-top: 175px;*/
     width: 79.7%;
     /* left: 50%; */
     /* transform: translateX(-50%); */
     margin: 175px auto 0 auto;
+    min-height: 920px;
+}
+
+
+.company-page-no-deals {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.company-page-no-deals-hide{
+    display: none;
 }
 
 .company-page-header-img {
@@ -4338,6 +4350,7 @@ input.extended-search-focus:focus {
     width: 20px;
     text-align: center;
     height: 100%;
+    cursor: pointer;
 }
 
 

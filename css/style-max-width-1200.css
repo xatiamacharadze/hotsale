@@ -1691,6 +1691,11 @@
         display: none;
     }
 
+
+    .company-middle-content {
+        min-height: 630px;
+    }
+
 }
 
 

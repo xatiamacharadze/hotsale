@@ -362,8 +362,12 @@
     }
 
     .fixed-companies-detail {
-        right: 5%;
+        right: 4.8%;
         width: 28.87%;
+    }
+
+    .fixed-companies-detail {
+        top: 160px;
     }
 
     .get-scroll-top-height{
@@ -498,13 +502,14 @@
         width: 15px;
     }
 
-    .company-deal {
-        left: 56%;
-    }
+    /*.company-deal {*/
+        /*left: 56%;*/
+    /*}*/
 
-    .company-deal-num {
-        left: 56%;
-    }
+    /*.company-deal-num {*/
+        /*left: 56%;*/
+    /*}*/
+
 
     .hotsale-company img:first-child {
         width: 100px;
@@ -603,6 +608,16 @@
     .secondary-info-text {
         height: calc(1.8em * 3);
     }
+
+    .jcarousel ul {
+        height: 85px;
+    }
+
+
+    /*.hotsale-companies-fixed {*/
+        /*top: 140px;*/
+    /*}*/
+
 
 }
 
@@ -830,8 +845,8 @@
 
 
     .hotsale-companies-fixed {
-        width: 22%;
-        right: 2.3%;
+        width: 22.3%;
+        right: 2.2%;
     }
 
     .middle {

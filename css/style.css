@@ -276,7 +276,7 @@ a {
     -ms-transform: translateY(0);
     transform: translateY(0);
     transition: -webkit-transform .5s ease .5s;
-    transition: transform .5s ease .5s;
+    /*transition: transform .5s ease .5s;*/
     transition: transform .5s ease .5s, -webkit-transform .5s ease .5s;
     box-shadow: 0px 5px 11px 0px rgba(0,0,0,0.1);
 }
@@ -288,6 +288,7 @@ div#burger {}
     /* float: right; */
     margin: 0 0 0 20px;
     cursor: pointer;
+    position: relative;
 }
 
 .header-menu {
@@ -301,11 +302,24 @@ div#burger {}
     transform: translateY(-50%);
     right: calc(4% + 10px);
     text-align: right;
+    display: flex;
 }
 
+/*.header-menu-wrap {*/
+/*overflow: hidden;*/
+/*white-space: nowrap;*/
+/*width: 73%;*/
+/*position: absolute;*/
+/*height: 100px;*/
+/*max-width: 1530px;*/
+/*display: inline-block;*/
+/*right: 4%;*/
+/*}*/
+
+
 .header-menu-wrap {
-    overflow: hidden;
-    white-space: nowrap;
+    overflow: visible;
+    /* white-space: normal; */
     width: 73%;
     position: absolute;
     height: 100px;
@@ -313,6 +327,7 @@ div#burger {}
     display: inline-block;
     right: 4%;
 }
+
 
 .header-logo{
     display: inline-block;
@@ -348,6 +363,114 @@ div#burger {}
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
+
+
+.header-sub-menu {
+    position: absolute;
+    border-top: 2px solid #4373ff;
+    text-align: left;
+    /* padding: 0 50px; */
+    border-radius: 0 0 5px 5px;
+    top: calc(100% - 2px);
+    display: none;
+    box-shadow: 0 30px 30px 0 rgba(49, 49, 54, 0.15);
+    /* z-index: 15; */
+}
+
+.hover-header:hover > .header-sub-menu{
+    display: block;
+}
+
+.header-sub-menu-item {
+    display: block;
+    padding: 15px 50px;
+    position: relative;
+    cursor: pointer;
+    height: 52px;
+    box-sizing: border-box;
+}
+
+
+.header-sub-menu-item:hover {
+    color: #4373ff;
+}
+
+
+.header-sub-menu-item:after {
+    content: '';
+    background-color: #ececec;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+}
+
+.header-sub-menu-item:last-child:after {
+    display: none;
+}
+
+
+
+.header-sub-sub-menu {
+    position: absolute;
+    left: 100%;
+    border-top: 2px solid #4373ff;
+    top: -2px;
+    /* padding: 0 50px; */
+    z-index: 10;
+    border-radius: 0 0 5px 5px;
+    display: none;
+    box-shadow: inset 0 0 1px 0 rgba(49, 49, 54, 0.15), 6px 5px 30px 3px rgba(49, 49, 54, 0.15);
+}
+
+.header-sub-sub-menu div {
+    display: block;
+    padding: 15px 50px;
+    position: relative;
+    white-space: nowrap;
+}
+
+.header-sub-sub-menu div:after {
+    content: '';
+    background-color: #ececec;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+}
+
+.header-sub-sub-menu div:last-child:after {
+    display: none;
+}
+
+.header-sub-menu-item:hover > .header-sub-sub-menu{
+    display: block;
+    z-index: -1;
+}
+
+
+.header-sub-sub-menu div:hover {
+    color: #4373ff;
+    padding-right: 35px;
+}
+
+
+.header-sub-sub-menu div:hover:before {
+    content: "•";
+    padding-right: 10px;
+    color: #4373ff;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -1813,6 +1936,7 @@ div#burger {}
     right: 0;
     margin-top: 15px;
     height: auto;
+    overflow: hidden;
 }
 
 
@@ -1822,10 +1946,10 @@ div#burger {}
     display: inline-block;
     border-radius: 5px;
     position: fixed;
-    top: 150px;
+    top: 140px;
     right: 10.15%;
     margin-top: 15px;
-    height: auto;
+    /*height: auto;*/
 }
 
 
@@ -1861,26 +1985,48 @@ div#burger {}
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     right: 20px;
+    -webkit-transition: right 0.3s ease;
+    -moz-transition: right 0.3s ease;
+    -ms-transition: right 0.3s ease;
+    -o-transition: right 0.3s ease;
+    transition: right 0.3s ease;
 }
 
-.company-deal-num {
+
+.hotsale-company:hover img:last-child{
+    right: 12px;
+
+}
+
+.company-deal-num-amount {
+    position: relative;
     display: inline-block;
-    position: absolute;
-    left: 64%;
-    top: 40%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 75%;
+}
+
+
+
+.company-deal-num {
+    display: block;
+    position: relative;
+    /* left: 64%; */
+    /* top: 40%; */
+    /* -webkit-transform: translateY(-50%); */
+    /*-ms-transform: translateY(-50%);*/
+    /* transform: translateY(-50%); */
 }
 
 .company-deal {
-    display: inline-block;
-    position: absolute;
-    left: 64%;
-    top: 60%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    display: block;
+    position: relative;
+    /* left: 64%; */
+    /* top: 60%; */
+    /* -webkit-transform: translateY(-50%); */
+    /*-ms-transform: translateY(-50%);*/
+    /* transform: translateY(-50%); */
 }
 
 .hotsale-company:first-child{
@@ -2369,7 +2515,23 @@ input:focus{
     width: 32%;
     display: inline-block;
     right: 0;
+    height: 100%;
 }
+
+
+.detail-middle-wrap {
+    position: relative;
+}
+
+
+.detail-companies-fixed-bottom{
+    bottom: 0 !important;
+    top: auto !important;
+    position: absolute !important;
+    width: 100% !important;
+    right: 0 !important;
+}
+
 
 .deal-hotsale-company {
     height: 80px;
@@ -2378,6 +2540,7 @@ input:focus{
     border-radius: 10px;
     display: inline-block;
     margin-top: 13px;
+    float: left;
 }
 
 .deal-hotsale-company img {
@@ -2554,7 +2717,7 @@ input:focus{
 }
 
 .add-remove-voucher-amount {
-    display: inline-block;
+    /*display: inline-block;*/
     border: 1px solid #e1e4ef;
     border-radius: 5px;
     height: 50px;
@@ -2568,6 +2731,10 @@ input:focus{
     transform: translateY(-50%);
     width: calc(31% - 14px);
     text-align: center;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .add-remove-voucher-amount img{
@@ -2677,16 +2844,39 @@ input:focus{
     /* padding-left: 10px; */
 }
 
+/*.details-right-img {*/
+    /*position: relative;*/
+    /*height: 530px;*/
+    /*width: 100%;*/
+    /*border-radius: 10px;*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+    /*!* padding-top: 53%; *!*/
+/*}*/
+
+
+.details-main-vertical-img {
+    background-color: white;
+    background-size: cover;
+    border-radius: 10px;
+    height: 530px;
+}
+
 .details-right-img {
     position: relative;
-    height: 530px;
-    width: 100%;
-    border-radius: 10px;
+    height: 88%;
+    width: 75%;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     /* padding-top: 53%; */
+    border-radius: 10px;
 }
+
 
 
 .details-deal-sale{
@@ -3057,12 +3247,13 @@ input:focus{
 }
 
 
-.deal-fb-comments{
+.deal-fb-comments {
     border-radius: 10px;
-    padding-top:30px;
+    padding-top: 30px;
     padding-bottom: 30px;
-    /*margin-bottom: 30px;*/
-
+    /* margin-bottom: 30px; */
+    min-height: 245px;
+    box-sizing: border-box;
 }
 
 .fb-comments{
@@ -3253,24 +3444,30 @@ input:focus{
 
 .jcarousel {
     position: relative;
-    overflow: hidden;
     padding-top: 25px;
     margin-left: 30px;
+    overflow: visible;
 }
 
 
 .jcarousel ul {
     width: 20000em;
     position: relative;
-
     list-style: none;
     margin: 0;
     padding: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    transform: translateY(0);
 }
 
 
 .jcarousel li {
     float: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -4431,7 +4628,7 @@ input.extended-search-focus:focus {
 .fixed-companies-detail {
     position: fixed;
     z-index: 60;
-    top: 180px;
+    top: 160px;
     right: 10.2%;
     width: 25.5%;
 }
@@ -4491,19 +4688,19 @@ input.extended-search-focus:focus {
 }
 
 /*.recommended-deal-company-description {*/
-     /*width: 90%;*/
-     /*padding: 5%;*/
-     /*top: 100%;*/
-     /*!*display: inline-block;*!*/
-     /*position: absolute;*/
-     /*height: 94px;*/
-     /*display: none;*/
-     /*left: 0;*/
-     /*-webkit-transform: translateY(-110%);*/
-     /*-ms-transform: translateY(-110%);*/
-     /*transform: translateY(-110%);*/
-     /*overflow: hidden;*/
- /*}*/
+/*width: 90%;*/
+/*padding: 5%;*/
+/*top: 100%;*/
+/*!*display: inline-block;*!*/
+/*position: absolute;*/
+/*height: 94px;*/
+/*display: none;*/
+/*left: 0;*/
+/*-webkit-transform: translateY(-110%);*/
+/*-ms-transform: translateY(-110%);*/
+/*transform: translateY(-110%);*/
+/*overflow: hidden;*/
+/*}*/
 
 
 .recommended-deal-company-description {

@@ -1,7 +1,6 @@
-
 $(function () {
 
-    $('.responsive-show-hide').on('click', function(e) {
+    $('.responsive-show-hide').on('click', function (e) {
         $(this).find('.helper-class-show-hide').toggleClass("hide-text"); //you can list several class names
         $(this).find('.remove-padding-title').toggleClass("responsive-title");
         e.preventDefault();
@@ -10,7 +9,7 @@ $(function () {
 
 $(function () {
 
-    $('.company-page-contact-company-detailed-info').on('click', function(e) {
+    $('.company-page-contact-company-detailed-info').on('click', function (e) {
         $(this).find('.company-page-extend-or-not').toggleClass("extend-info"); //you can list several class names
         $(this).find('.company-page-contact-company-content').toggleClass("extend-info");
         e.preventDefault();
@@ -18,17 +17,12 @@ $(function () {
 });
 
 
-
 var scrollHeight, clientHeight, footerHeight, companies;
 var searchWrapHeight, popularDealsHeight, hotsaleOffersHeight, popularDealsMargin, hotsaleOffersMargin, hotsaleDealsCompaniesMargin;
 var contentTop;
 
 
-
-
-
-
-$(document).ready(function(){
+$(document).ready(function () {
 
     changeLanguage();
 
@@ -37,6 +31,7 @@ $(document).ready(function(){
     technologyCategoriesChecked();
 
     technologyFilter();
+
 
     $('.about-hotSale-section').click(function (e) {
         e.preventDefault();
@@ -105,7 +100,6 @@ $(document).ready(function(){
         $('.faq-responsive-how-it-works').slideUp('active-answer');
         $('.how-it-works-text').slideUp('active-answer');
         $('.hotsale-body').removeClass('pos-fixed');
-
 
 
         $(".hamburger").removeClass("is-active");
@@ -208,7 +202,7 @@ $(document).ready(function(){
     });
 
 
-    $(".hamburger-city").click(function(e) {
+    $(".hamburger-city").click(function (e) {
         $(".hamburger-city").toggleClass("is-active");
         $(".map-categories-search-city-wrap").toggleClass("is-active");
 
@@ -227,7 +221,7 @@ $(document).ready(function(){
     });
 
 
-    $('#searchBoxHeader').focus(function() {
+    $('#searchBoxHeader').focus(function () {
         $('#extendedSearchHeader').removeClass('header-logo-second').addClass('appear-extended-search');
         // $('#extendedSearchHeader').addClass('appear-extended-search');
     }).blur(function () {
@@ -236,7 +230,7 @@ $(document).ready(function(){
     });
 
 
-    $('#searchBoxBody').focus(function() {
+    $('#searchBoxBody').focus(function () {
         $('#extendedSearchBody').removeClass('header-logo-second').addClass('appear-extended-search');
         // $('#extendedSearchBody').addClass('appear-extended-search');
     }).blur(function () {
@@ -244,7 +238,7 @@ $(document).ready(function(){
     });
 
 
-    $(function() {
+    $(function () {
         $('.jcarousel').jcarousel({
 
             scroll: '+=1'
@@ -266,13 +260,13 @@ $(document).ready(function(){
     });
 
 
-    $('.button').click(function(){
-        $('#modal').css('display','block');
+    $('.button').click(function () {
+        $('#modal').css('display', 'block');
         $('.modal-bg').fadeIn();
     });
 
 
-    $('#close').click(function(){
+    $('#close').click(function () {
         $('.modal-bg').fadeOut();
         $('#modal').fadeOut();
         return false;
@@ -294,13 +288,13 @@ $(document).ready(function(){
     });
 
 
-    $('.user-types .type').click(function() {
+    $('.user-types .type').click(function () {
         $('.user-types .type').removeClass('active-type');
         $(this).addClass('active-type');
     });
 
 
-    $('.company-page-responsive-things').click(function() {
+    $('.company-page-responsive-things').click(function () {
         $('.company-page-responsive-things').removeClass('active-company-info-responsive');
         $(this).addClass('active-company-info-responsive');
     });
@@ -340,6 +334,7 @@ $(document).ready(function(){
         // lazyLoad: 'progressive'
     });
 
+
     $('#galleryPrev').click(function (e) {
 
         $('.slick-prev').click();
@@ -358,7 +353,7 @@ $(document).ready(function(){
     $('.search-categories').click(function () {
         var categories = $('.categories-search-body');
         var citySearch = $('#headerCitySearch');
-        if (citySearch.hasClass('active-city')){
+        if (citySearch.hasClass('active-city')) {
             citySearch.removeClass('active-city')
         }
         if (categories.hasClass('passive-header')) {
@@ -367,7 +362,7 @@ $(document).ready(function(){
             categories.removeClass('passive-header');
             $('#bodyHide').addClass('overflow-hidden');
             $('#bodyOverlay').addClass('body-overlay');
-        }else{
+        } else {
             categories.addClass('passive-header');
             $('#bodyHide').removeClass('overflow-hidden');
             $('#bodyOverlay').removeClass('body-overlay');
@@ -415,15 +410,15 @@ $(document).ready(function(){
     });
 
 
-    $(function() {
-        $('.header-menu-item').click(function() {
+    $(function () {
+        $('.header-menu-item').click(function () {
             $('.header-menu-item').removeClass('active-header-item');
             $(this).addClass('active-header-item');
         });
     });
 
 
-    $(".hamburger").click(function(e) {
+    $(".hamburger").click(function (e) {
         $(".hamburger").toggleClass("is-active");
 
         // console.log("rame");
@@ -468,15 +463,15 @@ $(document).ready(function(){
 });
 
 
-function createSlick(){
+function createSlick() {
 
     $(".slick-slider").not('.slick-initialized').slick({
         // autoplay: true,
         dots: true,
-        arrows : true,
+        arrows: true,
         slidesToShow: 4,
         slidesToScroll: 4,
-        infinite : false,
+        infinite: false,
         responsive: [{
             breakpoint: 500,
             settings: {
@@ -494,7 +489,7 @@ function createSlick(){
 createSlick();
 
 //Now it will not throw error, even if called multiple times.
-$(window).on( 'resize', createSlick );
+$(window).on('resize', createSlick);
 
 function technologyCategoriesChecked() {
 
@@ -508,7 +503,7 @@ function technologyCategoriesChecked() {
 
 function technologyFilter() {
     $('.technology-filter-js').click(function () {
-       $(this).siblings('.technology-category-filter').slideToggle('fast');
+        $(this).siblings('.technology-category-filter').slideToggle('fast');
     });
 }
 
@@ -537,9 +532,9 @@ function changeLanguage() {
 
 
 function headerArrowHide() {
-    if($('.header-menu').css('left') === "0px"){
+    if ($('.header-menu').css('left') === "0px") {
         $('.white-header-arrow-left').hide();
-    }else{
+    } else {
         console.log("ra");
         $('.white-header-arrow-left').show();
     }
@@ -554,62 +549,60 @@ function detailPageChangeHeader() {
 
     var dealMinimalInfoHeight = $('.deal-minimal-info').height();
     var detailsRightImg = $('.details-right-img').height();
-    var contentTop = detailsRightImg + dealMinimalInfoHeight;
+    var contentTop = detailsRightImg + dealMinimalInfoHeight + 70;
 
 
     var detailCompanies = $('.detail-companies');
-    var recommendedDealsHeight = $('.hotsale-recommended-deals').height();
+    var recommendedDealsHeight = $('.hotsale-recommended-deals').outerHeight(true) + 30;
 
-    var scrollTopHeight = 0;
-    // console.log("content " + contentTop);
 
-    // console.log("aq xar?");
+    var buyVoucherHeight = $('.buy-voucher').outerHeight(true);
+    var actionTermsHeight = $('.action-terms.action-terms-jquery').height();
 
-    $(window).scroll(function() {
+    var marginHeight = $('.detail-middle').outerHeight(true) - $('.detail-middle').height() - $('#burger').height();
 
-        // console.log($(window).scrollTop());
+    $(window).scroll(function () {
+        var scrollTopHeight = buyVoucherHeight + $('.action-terms.action-terms-jquery').height() + marginHeight;
+
+        if ($(window).scrollTop() > scrollTopHeight) {
+
+            detailCompanies.addClass('fixed-companies-detail');
+
+            console.log(scrollHeight - footerHeight - clientHeight - recommendedDealsHeight, $('.action-terms.action-terms-jquery').height());
+
+            if ($(window).scrollTop() > scrollHeight - footerHeight - clientHeight - recommendedDealsHeight + 50) {
+
+                // detailCompanies.css({bottom: (footerHeight - (scrollHeight - $(window).scrollTop() - clientHeight) + 40)});
+                // var sum = scrollHeight - footerHeight - clientHeight - recommendedDealsHeight - 30;
+                // console.log("scroll: " + $(window).scrollTop(),"sum: " + sum);
+                // console.log(scrollHeight, $(window).scrollTop(), scrollHeight - $(window).scrollTop(), clientHeight, $(window).height(),  footerHeight);
+                // detailCompanies.css({top: 'inherit'});
+                // detailCompanies.addClass('detail-companies-top-auto');
+                detailCompanies.addClass('detail-companies-fixed-bottom');
+
+            } else {
+                detailCompanies.removeClass('detail-companies-fixed-bottom');
+
+                // detailCompanies.css({top: 180});
+                // detailCompanies.addClass('detail-companies-top-long');
+                // detailCompanies.css({bottom: 'auto'});
+            }
+
+        }
+        else {
+            // detailCompanies.css({top: 0});
+            // detailCompanies.addClass('detail-companies-top-zero');
+            detailCompanies.removeClass('fixed-companies-detail');
+        }
+
         // var scrollTop = $(window).scrollTop();
         if ($(window).scrollTop() > contentTop) {
             $("#burger").addClass("passive-header");
             $(".deal-header-after-scroll").removeClass("passive-header");
 
+            // scrollTopHeight = $('.get-scroll-top-height').height();
 
-            scrollTopHeight = $('.get-scroll-top-height').height();
-
-            // console.log(scrollTopHeight + "scroll top height");
-
-
-            if($(window).scrollTop() > contentTop + scrollTopHeight){
-
-
-                detailCompanies.addClass('fixed-companies-detail');
-
-                console.log(scrollHeight - footerHeight - clientHeight - recommendedDealsHeight);
-
-
-                if($(window).scrollTop() > scrollHeight - footerHeight - clientHeight - recommendedDealsHeight + 40){
-
-                    // detailCompanies.css({bottom: (footerHeight - (scrollHeight - $(window).scrollTop() - clientHeight) + 40)});
-                    // var sum = scrollHeight - footerHeight - clientHeight - recommendedDealsHeight - 30;
-                    // console.log("scroll: " + $(window).scrollTop(),"sum: " + sum);
-                    // console.log(scrollHeight, $(window).scrollTop(), scrollHeight - $(window).scrollTop(), clientHeight, $(window).height(),  footerHeight);
-                    detailCompanies.css({top: 'inherit'});
-                    // detailCompanies.addClass('detail-companies-top-auto');
-                    detailCompanies.css({bottom: (footerHeight - (scrollHeight - $(window).scrollTop() - clientHeight - recommendedDealsHeight) - 125)});
-                }else{
-                    detailCompanies.css({top: 180});
-                    // detailCompanies.addClass('detail-companies-top-long');
-                    detailCompanies.css({bottom: 'auto'});
-                }
-
-            }else {
-                detailCompanies.css({top: 0});
-                // detailCompanies.addClass('detail-companies-top-zero');
-                detailCompanies.removeClass('fixed-companies-detail');
-
-            }
-
-        }else{
+        } else {
             $("#burger").removeClass("passive-header");
             $(".deal-header-after-scroll").addClass("passive-header");
         }
@@ -619,6 +612,7 @@ function detailPageChangeHeader() {
 
 
 function fixedSideBarScroll() {
+
     scrollHeight = document.documentElement.scrollHeight;
     clientHeight = document.documentElement.clientHeight;
     footerHeight = $('.hotsale-footer').height();
@@ -634,33 +628,37 @@ function fixedSideBarScroll() {
     hotsaleOffersMargin = hotSaleOffers.css('margin-top');
     hotsaleDealsCompaniesMargin = $('.hotsale-deals-companies').css('margin-top');
 
-    if(typeof popularDealsMargin != 'undefined' && typeof hotsaleOffersMargin != 'undefined' && typeof hotsaleDealsCompaniesMargin != 'undefined'){
-        popularDealsMargin = parseInt(popularDealsMargin.substring(0, popularDealsMargin.length-2), 10);
-        hotsaleOffersMargin = parseInt(hotsaleOffersMargin.substring(0, hotsaleOffersMargin.length-2), 10);
-        hotsaleDealsCompaniesMargin = parseInt(hotsaleDealsCompaniesMargin.substr(0, hotsaleDealsCompaniesMargin.length-2), 10);
+    if (typeof popularDealsMargin != 'undefined' && typeof hotsaleOffersMargin != 'undefined' && typeof hotsaleDealsCompaniesMargin != 'undefined') {
+        popularDealsMargin = parseInt(popularDealsMargin.substring(0, popularDealsMargin.length - 2), 10);
+        hotsaleOffersMargin = parseInt(hotsaleOffersMargin.substring(0, hotsaleOffersMargin.length - 2), 10);
+        hotsaleDealsCompaniesMargin = parseInt(hotsaleDealsCompaniesMargin.substr(0, hotsaleDealsCompaniesMargin.length - 2), 10);
 
-        contentTop = searchWrapHeight + popularDealsHeight + hotsaleOffersHeight + popularDealsMargin + hotsaleOffersMargin + 2*hotsaleDealsCompaniesMargin;
+        contentTop = searchWrapHeight + popularDealsHeight + hotsaleOffersHeight + popularDealsMargin + hotsaleOffersMargin + 2 * hotsaleDealsCompaniesMargin;
 
         // jQuery plug-in
-        $(window).scroll(function(){
-            if($(window).scrollTop() > contentTop){
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > contentTop) {
                 // console.log("client height: " + clientHeight);
 
                 $(".white-header-wrap").addClass("passive-header");
                 $(".white-header-before-wrap").removeClass("passive-header");
                 companies.addClass("hotsale-companies-fixed");
-                if($(window).scrollTop() > scrollHeight - footerHeight - clientHeight){
+
+                // console.log($(window).scrollTop(), scrollHeight, footerHeight, clientHeight);
+
+                if ($(window).scrollTop() > scrollHeight - footerHeight - clientHeight - 25) {
                     $(".hotsale-companies").addClass("hotsale-companies-fixed-bottom");
 
                     // console.log(scrollHeight, $(window).scrollTop(), scrollHeight - $(window).scrollTop(), clientHeight, $(window).height(),  footerHeight);
+                    console.log("raa");
                     companies.css({bottom: (footerHeight - (scrollHeight - $(window).scrollTop() - clientHeight) + 40)});
-                }else{
+                } else {
                     companies.css({bottom: 'auto'});
                     $(".hotsale-companies").removeClass("hotsale-companies-fixed-bottom");
 
                 }
 
-            }else{
+            } else {
                 $(".white-header-wrap").removeClass("passive-header");
                 $(".white-header-before-wrap").addClass("passive-header");
                 $(".hotsale-companies").removeClass("hotsale-companies-fixed");
@@ -685,13 +683,13 @@ function shoppingCartFixed() {
     shoppingHeight = shoppingBag.height();
     var diff = companiesHeight - shoppingHeight;
 
-    $(window).scroll(function() {
+    $(window).scroll(function () {
 
         if ($(window).scrollTop() > diff) {
 
             shoppingBag.css({bottom: (footerHeight - (scrollHeight - $(window).scrollTop() - clientHeight) + 35)});
 
-        }else{
+        } else {
             shoppingBag.css({bottom: 'auto'});
         }
     });
@@ -712,26 +710,26 @@ function fixCompanyInfo() {
 
     contentTop = companyPageHeaderHeight + companyOffersHeight + companyDealsHeight;
 
-    if (companyPageDeals.children().length > 1){
+    if (companyPageDeals.children().length > 1) {
 
-        $(window).scroll(function() {
+        $(window).scroll(function () {
 
             if ($(window).scrollTop() > companyPageHeaderHeight + 40) {
                 contactInfo.addClass('fixed-contact-info');
                 companyRightContent.addClass('fixed-contact-info-wrap');
 
 
-                if ($(window).scrollTop() > scrollHeight - footerHeight - clientHeight){
+                if ($(window).scrollTop() > scrollHeight - footerHeight - clientHeight) {
 
                     // console.log("scrollTop: ", $(window).scrollTop(), ". fixHeight", scrollHeight - footerHeight - clientHeight );
 
                     contactInfo.css({bottom: (footerHeight - (scrollHeight - $(window).scrollTop() - clientHeight) + 40)});
 
-                }else{
+                } else {
                     // contactInfo.css({bottom: 'auto'});
                 }
 
-            }else {
+            } else {
                 contactInfo.css({bottom: 'auto'});
                 contactInfo.removeClass('fixed-contact-info');
                 companyRightContent.removeClass('fixed-contact-info-wrap');
@@ -739,14 +737,43 @@ function fixCompanyInfo() {
                 // contactInfo.css({bottom: 'auto'});
             }
         });
-    }else{
+    } else {
         $('.company-page-no-deals').removeClass('company-page-no-deals-hide');
     }
 
 }
 
 
-$(window).resize(function(){
+function companyDealsHide() {
+
+    clientHeight = document.documentElement.clientHeight;
+    var headerHeight = $('#burger').outerHeight(true);
+    var itemHeight = 0;
+    var margin = 0;
+    var item_count = 0;
+
+    if ($('.hotsale-company').length) {
+        margin = 15;
+        itemHeight = $('.hotsale-company').outerHeight(true) + margin;
+        item_count = $('.hotsale-company').length;
+    } else {
+        margin = 13;
+        itemHeight = $('.deal-hotsale-company').outerHeight() + margin;
+        item_count = $('.deal-hotsale-company').length;
+    }
+
+    var item_fit = Math.floor((clientHeight - headerHeight - 20) / itemHeight);
+    var items = item_fit > item_count ? item_count : item_fit;
+    var dealsHeight = items * itemHeight;
+
+    console.log(dealsHeight, itemHeight, margin);
+    $('.hotsale-companies').height(dealsHeight);
+    $('.hotsale-companies').css({height: dealsHeight});
+
+}
+
+
+$(window).resize(function () {
 
     // fixCompanyInfo();
     //
@@ -756,7 +783,9 @@ $(window).resize(function(){
     //
     // detailPageChangeHeader();
 
-    if($('body').outerWidth() <= 1200){
+    companyDealsHide();
+
+    if ($('body').outerWidth() <= 1200) {
         $('.deal-company-info').click(function () {
             window.location = 'responsive-company-info.html';
         });
@@ -768,13 +797,16 @@ $(window).resize(function(){
 });
 
 
-$(window).load(function(){
+$(window).load(function () {
 
     // fixCompanyInfo();
     //
     // shoppingCartFixed();
 
-    if($('body').outerWidth() <= 1200){
+    companyDealsHide();
+
+
+    if ($('body').outerWidth() <= 1200) {
         $('.deal-company-info').click(function () {
             window.location = 'responsive-company-info.html';
         });

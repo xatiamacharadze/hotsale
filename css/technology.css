@@ -180,69 +180,162 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 
-.dropdown {
+.head_menu_sub_dropdown {
     position: absolute;
     left: 0px;
     top: 0px;
     width: 1920px;
-    height: 1504px;
-    z-index: 272;
+    height: 2566px;
+    z-index: 814;
 }
-.Shape_704 {
+.Shape_797_copy_3 {
     background-color: rgb(235, 235, 235);
     position: absolute;
-    left: 1460px;
-    top: 102px;
-    width: 260px;
+    left: 504px;
+    top: 387px;
+    width: 230px;
     height: 1px;
-    z-index: 271;
+    z-index: 813;
 }
-.Group_18 {
+.Shape_797_copy_2 {
+    background-color: rgb(235, 235, 235);
     position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 1920px;
-    height: 1504px;
-    z-index: 270;
+    left: 504px;
+    top: 326px;
+    width: 230px;
+    height: 1px;
+    z-index: 812;
 }
-.პარამეტრები {
+.Shape_797_copy {
+    background-color: rgb(235, 235, 235);
+    position: absolute;
+    left: 504px;
+    top: 266px;
+    width: 230px;
+    height: 1px;
+    z-index: 811;
+}
+.Shape_797 {
+    background-color: rgb(235, 235, 235);
+    position: absolute;
+    left: 504px;
+    top: 206px;
+    width: 230px;
+    height: 1px;
+    z-index: 810;
+}
+.კინოთეატრები_თეატრი_ხელოვნება_აზარტული_თამაშები {
     font-size: 14px;
     font-family: "BPG Nino Mtavruli";
     color: rgb(67, 115, 255);
     font-weight: bold;
-    line-height: 1.714;
+    line-height: 4.286;
+    text-align: right;
     position: absolute;
-    left: 1525.391px;
-    top: 59.002px;
-    z-index: 269;
+    left: 533.516px;
+    top: 205.729px;
+    z-index: 806;
 }
-.Group_19 {
+.Shape_805 {
+    background-color: rgb(67, 115, 255);
     position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 1920px;
-    height: 1504px;
-    z-index: 266;
+    left: 504px;
+    top: 138px;
+    width: 230px;
+    height: 2px;
+    z-index: 805;
 }
-.გასვლა {
-    font-size: 14px;
-    font-family: "BPG Nino Mtavruli";
-    color: rgb(67, 115, 255);
-    font-weight: bold;
-    line-height: 1.714;
-    text-align: left;
-    position: absolute;
-    left: 1525.391px;
-    top: 118.502px;
-    z-index: 265;
-}
-.Rounded_Rectangle_698 {
+.Rounded_Rectangle_795 {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 30px 30px 0px rgba(49, 49, 54, 0.15);
     position: absolute;
-    left: 1460px;
-    top: 40px;
-    width: 260px;
-    height: 120px;
-    z-index: 262;
+    left: 504px;
+    top: 140px;
+    width: 230px;
+    height: 310px;
+    z-index: 804;
 }
+
+
+.sub_nav {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 2566px;
+    z-index: 802;
+}
+.Shape_797_copy_2 {
+    background-color: rgb(235, 235, 235);
+    position: absolute;
+    left: 734px;
+    top: 326px;
+    width: 230px;
+    height: 1px;
+    z-index: 801;
+}
+.Shape_797_copy {
+    background-color: rgb(235, 235, 235);
+    position: absolute;
+    left: 734px;
+    top: 266px;
+    width: 230px;
+    height: 1px;
+    z-index: 800;
+}
+.Shape_797 {
+    background-color: rgb(235, 235, 235);
+    position: absolute;
+    left: 734px;
+    top: 206px;
+    width: 230px;
+    height: 1px;
+    z-index: 799;
+}
+.Ellipse_813 {
+    border-radius: 50%;
+    background-color: rgb(67, 115, 255);
+    position: absolute;
+    left: 764px;
+    top: 234px;
+    width: 4px;
+    height: 4px;
+    z-index: 798;
+}
+.რუსთაველი______ამირანი_აპოლო_კავეა {
+    font-size: 14px;
+    font-family: "BPG Nino Mtavruli";
+    color: rgb(159, 159, 159);
+    font-weight: bold;
+    line-height: 4.286;
+    text-align: right;
+    position: absolute;
+    left: 763.516px;
+    top: 205.979px;
+    z-index: 797;
+}
+.Shape_805 {
+    background-color: rgb(67, 115, 255);
+    position: absolute;
+    left: 734px;
+    top: 138px;
+    width: 230px;
+    height: 2px;
+    z-index: 796;
+}
+.Rounded_Rectangle_795 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 30px 30px 0px rgba(49, 49, 54, 0.15);
+    position: absolute;
+    left: 734px;
+    top: 140px;
+    width: 230px;
+    height: 248px;
+    z-index: 795;
+}
+
+
+
+
+
+

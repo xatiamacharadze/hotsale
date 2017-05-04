@@ -3951,7 +3951,7 @@ input:focus{
 
 
 .cart-shopping-list-item:hover .cart-shopping-list-item-amount{
-    left: 56%;
+    /*left: 56%;*/
 }
 
 .cart-shopping-list-item:hover .cart-shopping-list-item-price{
@@ -5068,7 +5068,7 @@ input.extended-search-focus:focus {
 
 
 .shopping-bag-mini-info-cart .cart-shopping-list-item:hover .cart-shopping-list-item-amount {
-    left: 50%;
+    /*left: 50%;*/
 }
 
 

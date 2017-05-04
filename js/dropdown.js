@@ -20,10 +20,10 @@ DropDown.prototype = {
         });
         obj.opts.on('click',function() {
             var opt = $(this);
-            obj.val = opt.text();
+            obj.val = opt.find('a').html();
             obj.id = opt.children().first().attr('id');
             obj.index = opt.index();
-            obj.placeholder.text(obj.val);
+            obj.placeholder.html(obj.val);
             $('#voucher').val(obj.id);
         });
     },

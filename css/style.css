@@ -203,6 +203,10 @@ body {
 }
 
 
+.padding-left{
+    padding-left: 50px;
+}
+
 a {
     text-decoration: none;
 }
@@ -1393,7 +1397,7 @@ a {
 }
 
 .main-info-logo {
-    width: 20%;
+    width: 120px;
     height: 120px;
     position: absolute;
     top: 50%;
@@ -1455,7 +1459,7 @@ a {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    left: 28%;
+    left: calc(8% + 120px);
     height: 120px;
 }
 

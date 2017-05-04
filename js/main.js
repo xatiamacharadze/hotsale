@@ -45,7 +45,7 @@ $(document).ready(function () {
     });
 
 
-    $('.categories-search-left-category').click(function () {
+    $('.categories-search-left-category').click(function (e) {
         // $('.category-search-subcategory').slideDown('subcategory-hide-show');
         // $(this).find('.category-search-subcategory').slideDown('subcategory-hide-show');
 
@@ -221,6 +221,14 @@ $(document).ready(function () {
     });
 
 
+    $('#bodyOverlay').click(function (event) {
+
+        $('#extendedSearchBody').addClass('header-logo-second').removeClass('appear-extended-search');
+        $('#extendedSearchHeader').addClass('header-logo-second').removeClass('appear-extended-search');
+
+    });
+
+
     $('#searchBoxHeader, #searchBoxBody').click(function () {
 
         var headerSearch = $('#extendedSearchHeader');
@@ -229,9 +237,9 @@ $(document).ready(function () {
 
 
         if ($(this).attr('id') === 'searchBoxHeader') {
-            extendSearch(headerSearch);
-        }else{
-            extendSearch(bodySearch);
+            // extendSearch(headerSearch);
+        } else {
+            // extendSearch(bodySearch);
         }
 
     });
@@ -369,7 +377,7 @@ $(document).ready(function () {
     });
 
 
-    $('#bodyOverlay, #headerCitySearch, .search-anything').click(function () {
+    $('#bodyOverlay, #headerCitySearch').click(function () {
         $('.categories-search-body').addClass('passive-header');
         $('#bodyHide').removeClass('overflow-hidden');
         $('#bodyOverlay').removeClass('body-overlay');
@@ -778,13 +786,20 @@ function extendSearch(headerPosition) {
 
         headerPosition.addClass('header-logo-second').removeClass('appear-extended-search');
 
-        $('#bodyHide').addClass('overflow-hidden');
-        $('#bodyOverlay').addClass('body-overlay');
-    } else {
-        headerPosition.removeClass('header-logo-second').addClass('appear-extended-search');
+
+        console.log("rame1");
 
         $('#bodyHide').removeClass('overflow-hidden');
         $('#bodyOverlay').removeClass('body-overlay');
+
+    } else {
+        headerPosition.removeClass('header-logo-second').addClass('appear-extended-search');
+
+
+        console.log("rame2");
+
+        $('#bodyHide').addClass('overflow-hidden');
+        $('#bodyOverlay').addClass('body-overlay');
     }
 
 }

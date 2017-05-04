@@ -1,4 +1,21 @@
 
+
+@media screen and (max-width: 1800px){
+    .main-info-logo {
+        width: 110px;
+        height: 110px;
+    }
+
+
+    .main-info-texts {
+        left: calc(8% + 110px);
+    }
+}
+
+
+
+
+
 @media screen and (max-width: 1700px) {
 
     .fs-12 {
@@ -423,6 +440,17 @@
     }
 
 
+    .main-info-logo {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .main-info-texts {
+        left: calc(8% + 100px);
+    }
+
+
 
 }
 
@@ -778,7 +806,13 @@
 
     .main-info-logo {
         height: 88px;
+        width: 88px;
     }
+
+    .main-info-texts {
+        left: calc(8% + 88px);
+    }
+
 
     .hotsale-offers {
         width: 95.7%;

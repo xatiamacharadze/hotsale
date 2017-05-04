@@ -611,6 +611,12 @@
 
     .jcarousel ul {
         height: 85px;
+        padding-top: 32px;
+    }
+
+    .header-sub-menu {
+        top: 83px;
+        /* z-index: 15; */
     }
 
 

@@ -44,6 +44,12 @@ $(document).ready(function () {
             $('.wrapper-dropdown-5').removeClass('active-voucher');
         });
 
+        // var searchBoxCategories = new DropDown( $('#searchBoxCategories') );
+        // $(document).click(function() {
+        //     // all dropdowns
+        //     $('.wrapper-dropdown-5').removeClass('active-voucher');
+        // });
+
     });
 });/**
  * Created by user on 4/26/17.

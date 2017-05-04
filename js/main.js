@@ -221,20 +221,19 @@ $(document).ready(function () {
     });
 
 
-    $('#searchBoxHeader').focus(function () {
-        $('#extendedSearchHeader').removeClass('header-logo-second').addClass('appear-extended-search');
-        // $('#extendedSearchHeader').addClass('appear-extended-search');
-    }).blur(function () {
-        $('#extendedSearchHeader').addClass('header-logo-second').removeClass('appear-extended-search');
-        // $('#extendedSearchHeader').removeClass('appear-extended-search');
-    });
+    $('#searchBoxHeader, #searchBoxBody').click(function () {
+
+        var headerSearch = $('#extendedSearchHeader');
+
+        var bodySearch = $('#extendedSearchBody');
 
 
-    $('#searchBoxBody').focus(function () {
-        $('#extendedSearchBody').removeClass('header-logo-second').addClass('appear-extended-search');
-        // $('#extendedSearchBody').addClass('appear-extended-search');
-    }).blur(function () {
-        $('#extendedSearchBody').addClass('header-logo-second').removeClass('appear-extended-search');
+        if ($(this).attr('id') === 'searchBoxHeader') {
+            extendSearch(headerSearch);
+        }else{
+            extendSearch(bodySearch);
+        }
+
     });
 
 
@@ -769,6 +768,24 @@ function companyDealsHide() {
     console.log(dealsHeight, itemHeight, margin);
     $('.hotsale-companies').height(dealsHeight);
     $('.hotsale-companies').css({height: dealsHeight});
+
+}
+
+
+function extendSearch(headerPosition) {
+
+    if (headerPosition.hasClass('appear-extended-search')) {
+
+        headerPosition.addClass('header-logo-second').removeClass('appear-extended-search');
+
+        $('#bodyHide').addClass('overflow-hidden');
+        $('#bodyOverlay').addClass('body-overlay');
+    } else {
+        headerPosition.removeClass('header-logo-second').addClass('appear-extended-search');
+
+        $('#bodyHide').removeClass('overflow-hidden');
+        $('#bodyOverlay').removeClass('body-overlay');
+    }
 
 }
 

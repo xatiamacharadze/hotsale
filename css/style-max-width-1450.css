@@ -220,11 +220,11 @@
         width:auto;
     }
 
-    .search-bar-header-detail .search-anything {
-        width: 45%;
-        right: 5%;
+    /*.search-bar-header-detail .search-anything {*/
+        /*width: 45%;*/
+        /*right: 5%;*/
 
-    }
+    /*}*/
 
     .header-menu-item {
         margin: 0 0 0 20px;
@@ -396,9 +396,9 @@
         width: 95%;
     }
 
-    .header .search-text-bar {
-        width: 55%;
-    }
+    /*.header .search-text-bar {*/
+        /*width: 55%;*/
+    /*}*/
 
 
     .faq-middle {
@@ -556,14 +556,14 @@
     }
 
 
-    .search-city {
-        padding-left: 15px;
-    }
+    /*.search-city {*/
+        /*padding-left: 15px;*/
+    /*}*/
 
-    .search-categories {
-        width: 22%;
-        left: 50px;
-    }
+    /*.search-categories {*/
+        /*width: 22%;*/
+        /*left: 50px;*/
+    /*}*/
 
     .search-anything img {
         width: 14px;
@@ -914,9 +914,9 @@
         width: 55%;
     }
 
-    .search-bar-header-detail .search-anything {
-        width: 40%;
-    }
+    /*.search-bar-header-detail .search-anything {*/
+        /*width: 40%;*/
+    /*}*/
 
     .buy-voucher {
         width: calc(100% - 60px);

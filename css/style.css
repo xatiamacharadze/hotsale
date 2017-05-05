@@ -985,7 +985,7 @@ a {
 .choose-city {
     display: inline-block;
     margin-left: 20px;
-    margin-right: 45px;
+    margin-right: 25px;
 }
 
 .search-word {
@@ -2437,13 +2437,16 @@ input:focus{
     position: relative;
 }
 
+
+
 .search-bar-header-detail .search-box {
     position: relative;
     width: 100%;
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     right: auto;
     top: 0;
-
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
@@ -2458,14 +2461,17 @@ input:focus{
 
 
 
-.search-bar-header-detail .search-anything{
-    width: 40%;
-    right: 7%;
+.search-bar-header-detail .search-anything {
+     width: auto;
+    flex: 2;
+    /* right: 7%; */
+    position: relative;
 }
 
-.search-bar-header-detail .search-city{
-    width: calc(25% - 30px);
-    left: 50px;
+.search-bar-header-detail .search-city {
+    width: auto;
+    /* left: 50px; */
+    flex: 1;
 }
 
 .search-bar-header-detail .search-city:before {
@@ -2497,8 +2503,8 @@ input:focus{
 
 .white-header-before-wrap .search-text-bar {
     display: inline-block;
-    width: 50%;
-    left: 12%;
+    width: 46%;
+    left: 14%;
 }
 
 
@@ -2519,10 +2525,11 @@ input:focus{
 
 .search-categories {
     display: inline-block;
-    width: 19%;
-    left: 50px;
+    /* width: 22%; */
+    /* left: 50px; */
     position: relative;
     cursor: pointer;
+    flex: 1;
 }
 
 

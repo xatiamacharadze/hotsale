@@ -7,8 +7,6 @@ function DropDown(el) {
     this.index = -1;
     this.initEvents();
 }
-
-
 DropDown.prototype = {
     initEvents : function() {
         var obj = this;
@@ -22,12 +20,11 @@ DropDown.prototype = {
         });
         obj.opts.on('click',function() {
             var opt = $(this);
-            obj.val = opt.text();
-            // obj.id = opt.children().first().attr('id');
+            obj.val = opt.find('a').html();
+            obj.id = opt.children().first().attr('id');
             obj.index = opt.index();
-            obj.placeholder.text(obj.val);
-            $('#voucher').val(opt.data('voucher-price'));
-            // console.log($('#voucher').val());
+            obj.placeholder.html(obj.val);
+            $('#voucher').val(obj.id);
         });
     },
     getValue : function() {
@@ -41,24 +38,19 @@ DropDown.prototype = {
 $(document).ready(function () {
     $(function() {
 
-
-
         var voucherChoosePrice = new DropDown( $('#voucherChoosePrice') );
-
-        var searchBoxCategories = new DropDown( $('#searchBoxCategories') );
-
-
         $(document).click(function() {
             // all dropdowns
-            $('.wrapper-dropdown-5').removeClass('active-voucher').removeClass('active-city');
-
-            // $('.wrapper-dropdown-5').removeClass('active-city');
-
+            $('.wrapper-dropdown-5').removeClass('active-voucher');
         });
 
+        // var searchBoxCategories = new DropDown( $('#searchBoxCategories') );
         // $(document).click(function() {
         //     // all dropdowns
+        //     $('.wrapper-dropdown-5').removeClass('active-voucher');
         // });
 
     });
-});
+});/**
+ * Created by user on 4/26/17.
+ */

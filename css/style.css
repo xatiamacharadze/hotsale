@@ -1379,7 +1379,7 @@ a {
 }
 
 .secondary-voucher-price {
-    width: 110px;
+    width: 73px;
     height: 30px;
     border-radius: 5px;
     position: absolute;
@@ -3166,13 +3166,16 @@ input:focus{
     margin-bottom: 30px;
 }
 
-.deal-company-info-map{
+#google-maps {
     height: 280px;
     width: 100%;
-    margin-top: 30px;
     position: relative;
     bottom: 0;
     border-radius: 0 0 10px 10px;
+}
+
+.deal-company-info-map{
+    margin-top: 30px;
 }
 
 .deal-company-info-title{
@@ -3982,7 +3985,7 @@ input:focus{
 
 
 .cart-shopping-list-item:hover .cart-shopping-list-item-amount{
-    left: 56%;
+    /*left: 56%;*/
 }
 
 .cart-shopping-list-item:hover .cart-shopping-list-item-price{
@@ -5099,7 +5102,7 @@ input.extended-search-focus:focus {
 
 
 .shopping-bag-mini-info-cart .cart-shopping-list-item:hover .cart-shopping-list-item-amount {
-    left: 50%;
+    /*left: 50%;*/
 }
 
 

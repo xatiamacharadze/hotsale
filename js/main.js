@@ -236,7 +236,7 @@ $(document).ready(function () {
         var bodySearch = $('#extendedSearchBody');
 
 
-        // bodySearch.removeClass('header-logo-second').addClass('appear-extended-search');
+        bodySearch.removeClass('header-logo-second').addClass('appear-extended-search');
 
 
         if ($(this).attr('id') === 'searchBoxHeader') {
@@ -562,7 +562,7 @@ function detailPageChangeHeader() {
     var contentTop = detailsRightImg + dealMinimalInfoHeight + 70;
 
 
-    var detailCompanies = $('.detail-companies');
+    var detailCompanies = $('.deal-companies-wrapper-details-page');
     var recommendedDealsHeight = $('.hotsale-recommended-deals').outerHeight(true) + 30;
 
 

@@ -482,7 +482,7 @@ a {
 
 
 .header-sub-sub-menu div:hover:before {
-    content: "•";
+    content: "â€¢";
     padding-right: 10px;
     color: #4373ff;
 }
@@ -780,7 +780,7 @@ a {
 .deal-header-after-scroll-left {
     width: 50%;
     position: relative;
-    height: 100%;
+    height: 70%;
     display: inline-block;
 }
 
@@ -809,15 +809,16 @@ a {
     display: inline-block;
     position: relative;
     left: 165px;
-    top: -7px;
+    top: 0px;
 }
 
 .deal-header-after-scroll-deal-prices {
-    position: relative;
+    position: absolute;
     top: 50px;
-    /* width: 60%; */
-    left: 135px;
-    display: inline-block;
+    width: calc(80% - 165px);
+    left: 165px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .deal-header-after-scroll-price {
@@ -918,18 +919,20 @@ a {
     max-width: 1530px;
     width: 79.7%;
     position: relative;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
+    /* left: 50%; */
+    /* -webkit-transform: translateX(-50%); */
     -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
     border-radius: 10px;
     height: 160px;
-    margin-top: 175px;
+    margin: 175px auto 0;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     z-index: 13;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .search-title{
@@ -948,14 +951,21 @@ a {
 .search-text-bar {
     position: relative;
     /*top: 50%;*/
-
-    -webkit-transform: translate(-50%, -50%);
+    /* -webkit-transform: translate(-50%, -50%); */
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    /* left: 50%; */
     width: 84%;
+    display: block;
+    margin: 0 auto;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+
+.search-text-title {
     display: inline-block;
 }
 
@@ -966,10 +976,10 @@ a {
     position: absolute;
     display: inline-block;
     right: 0;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
+    /* top: 50%; */
+    /* -webkit-transform: translateY(-50%); */
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
 }
 
 .choose-city {
@@ -996,31 +1006,19 @@ a {
     line-height: 60px;
     position: relative;
     padding-left: 25px;
+    box-sizing: border-box;
 }
 
 .search-anything {
     display: inline-block;
-    width: 52%;
+    width: 70%;
     height: 60px;
     position: absolute;
     right: 0;
     top: 0;
+    border-radius: 5px;
 }
 
-.search-city:after{
-    content: '';
-    height: 80%;
-    width: 1px;
-    position: absolute;
-    background-color: #f1f1f1;
-    bottom: 60px;
-    z-index: 12;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: 100%;
-}
 
 .search-city img:last-child {
     position: absolute;
@@ -1072,7 +1070,7 @@ a {
 
 .wrapper-dropdown-5 {
     position: relative;
-    width: calc(25% - 30px);
+    width: calc(30% - 15px);
     margin: 0 auto;
     /*padding: 16px 0 16px 30px;*/
     background: #fff;
@@ -1950,14 +1948,41 @@ a {
     margin-left:0;
 }
 
-.hotsale-companies{
+
+.deal-companies-wrapper-details-page {
+    width: 100%;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+    /* top: 20px; */
+    right: 0;
+    margin-top: 15px;
+    height: auto;
+     overflow: hidden;
+}
+
+
+.deal-companies-wrapper-main-page {
     width: 23.5%;
     display: inline-block;
     border-radius: 5px;
     position: absolute;
-    /*top: 20px;*/
+    /* top: 20px; */
     right: 0;
     margin-top: 15px;
+    height: auto;
+    overflow: hidden;
+}
+
+
+.hotsale-companies {
+    width: 100%;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+    /* top: 20px; */
+    right: 0;
+    /* margin-top: 15px; */
     height: auto;
     overflow: hidden;
 }
@@ -2347,7 +2372,7 @@ input:focus{
 
 .detail-header{
     right: 0;
-    width: 36.25%;
+    width: 40.25%;
 }
 
 .detail-header .header-menu{
@@ -2468,6 +2493,12 @@ input:focus{
     z-index: 1;
     top: 10%;
     left: 100%;
+}
+
+.white-header-before-wrap .search-text-bar {
+    display: inline-block;
+    width: 50%;
+    left: 12%;
 }
 
 
@@ -4418,12 +4449,12 @@ input.extended-search-focus:focus {
 
 
 .extended-search-deals {
-    border-radius: 0 0 5px 5px;
+    border-radius: 5px;
     padding-bottom: 35px;
     padding-top: 45px;
     visibility: hidden;
     position: relative;
-    top: -5px;
+    top: 15px;
     opacity: 0;
     /*height: 0;*/
     /*transform: translateY(-100%);*/

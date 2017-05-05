@@ -1216,9 +1216,9 @@
         width: 75%;
     }
 
-    .hotsale-companies {
+    .deal-companies-wrapper-main-page {
         width: 23%;
-        right: 5px;
+        /*right: 5px;*/
     }
 
     .hotsale-deals {

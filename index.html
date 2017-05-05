@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="css/style-max-width-1450.css">
     <link rel="stylesheet" href="css/style-max-width-1200.css">
     <link rel="stylesheet" href="css/style-max-width-900.css">
-
     <link rel="shortcut icon" href="image/hotsale-favicon.png"/>
 
 </head>
@@ -1164,7 +1163,7 @@
 <div class="hotsale-body bg-light-grey">
 
     <div class="search-wrap" style="background-image: url('image/header-open.jpg')">
-        <div class="search-text-bar " style="top: 50%;">
+        <div class="search-text-bar ">
             <div class="search-text-title">
                 <div class="search-title nino-mtavruli-bold fs-24 fc-white">
                     მოძებნეთ სასურველი ვაუჩერი
@@ -1173,9 +1172,9 @@
                     გამოიყენეთ ქალაქისა და კატეგორიის ფილტრი
                 </div>
             </div>
-            <div id="searchBox" class="search-box search-box-shadow bg-white">
+            <div id="searchBox" class="search-box search-box-shadow ">
 
-                <div id="dd" class="wrapper-dropdown-5 search-city" tabindex="1">
+                <div id="dd" class="wrapper-dropdown-5 search-city bg-white" tabindex="1">
                     <img src="image/grey-pin.png">
                     <div class="choose-city dejavu-sans fs-16 fc-black">ქალაქი</div>
                     <img src="image/bottom-arrow.png">
@@ -1192,42 +1191,7 @@
                     </ul>
                 </div>
 
-                <!--<div class="search-city">-->
-                <!--<img src="image/grey-pin.png">-->
-                <!--<div class="choose-city dejavu-sans fs-16 fc-black">ქალაქი</div>-->
-
-                <!--<img src="image/bottom-arrow.png">-->
-                <!--</div>-->
-
-                <div id="searchBoxCategories" class="wrapper-dropdown-5 search-city" tabindex="1">
-                    <img src="image/grey-categories.png">
-                    <div class="search-box-categories-text dejavu-sans fs-16 fc-black">კატეგორიები</div>
-
-                    <ul class="dropdown nino-mtavruli-bold fs-12 ">
-                        <li><a href="#">კვება
-                            <div class="city-bullets bg-bluish-grey"></div>
-                        </a></li>
-                        <li><a href="#">გართობა
-                            <div class="city-bullets bg-bluish-grey"></div>
-                        </a></li>
-                        <li><a href="#">სილამაზე
-                            <div class="city-bullets bg-bluish-grey"></div>
-                        </a></li>
-                        <li><a href="#">ჯანმრთელობა
-                            <div class="city-bullets bg-bluish-grey"></div>
-                        </a></li>
-                        <li><a href="#">ტურიზმი
-                            <div class="city-bullets bg-bluish-grey"></div>
-                        </a></li>
-                        <li><a href="#">ბავშვები
-                            <div class="city-bullets bg-bluish-grey"></div>
-                        </a></li>
-                    </ul>
-
-
-                </div>
-
-                <div class="search-anything">
+                <div class="search-anything bg-white">
                     <div class="search-word dejavu-sans fs-16 fc-bluish-grey">
                         <input type="text" id="searchBoxBody"
                                class="extended-search-focus dejavu-sans fs-16 fc-bluish-grey"
@@ -2232,7 +2196,10 @@
 
         </div>
 
-        <div class="hotsale-companies">
+
+        <div class="deal-companies-wrapper-main-page">
+
+            <div class="hotsale-companies">
             <a href="company-page.html" class="hotsale-company bg-white">
                 <img src="image/aversi.jpg">
 
@@ -2322,6 +2289,7 @@
             </a>
 
 
+        </div>
         </div>
     </div>
 
@@ -2439,10 +2407,12 @@
 
     companyDealsHide();
 
-
     $(window).resize(function(){
 //        console.log("raa");
         fixedSideBarScroll();
+
+
+
     });
 
 </script>

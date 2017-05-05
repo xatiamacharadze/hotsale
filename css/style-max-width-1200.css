@@ -97,13 +97,13 @@
 
 
     .search-anything {
-        width: 46%;
+        width: 70%;
     }
 
 
 
     .search-city {
-        width: calc(26% - 30px);
+        width: calc(30% - 20px);
     }
     /*.hotsale-deals .secondary-popular-deal:nth-child(2n+1) {*/
     /*margin-left: 0;*/

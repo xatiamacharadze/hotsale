@@ -12,9 +12,9 @@
     }
 
     .search-text-bar {
-        top: 50%;
-        transform: translate(-50%, -50%);
-        left: 50%;
+        /* top: 50%; */
+        /* transform: translate(-50%, -50%); */
+        /* left: 50%; */
         width: 80%;
         /*border-radius: 0;*/
     }
@@ -133,7 +133,7 @@
     }
 
     /*.secondary-icon-interested {*/
-        /*left: 43%;*/
+    /*left: 43%;*/
     /*}*/
 
 

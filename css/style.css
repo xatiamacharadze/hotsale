@@ -1380,7 +1380,7 @@ a {
 }
 
 .secondary-voucher-price {
-    width: 73px;
+    /*width: 73px;*/
     height: 30px;
     border-radius: 5px;
     position: absolute;
@@ -1388,6 +1388,7 @@ a {
     line-height: 35px;
     top: 20px;
     right: 20px;
+    padding: 0 10px;
 }
 
 .space{

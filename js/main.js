@@ -855,8 +855,9 @@ $(window).load(function () {
 
 
 $(document).on('click', function (e) {
-    if ($(e.target).closest('#searchBox').length === 0) {
+    if ($(e.target).closest('.search-part').length === 0) {
         $('#extendedSearchBody').removeClass('appear-extended-search');
+        $('#extendedSearchHeader').removeClass('appear-extended-search');
     }
 
 

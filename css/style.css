@@ -604,7 +604,7 @@ a {
     -ms-transform: translateY(0%);
     transform: translateY(0%);
     transition: -webkit-transform .5s ease .5s;
-    transition: transform .5s ease .5s;
+    /*transition: transform .5s ease .5s;*/
     transition: transform .5s ease .5s, -webkit-transform .5s ease .5s;
 }
 
@@ -613,12 +613,12 @@ a {
     position: relative;
     right: 0;
     /* width: 30%; */
-    display: inline-block;
+    /*display: inline-block;*/
     height: 100%;
     display: flex;
     justify-content: flex-end;
     z-index: 14;
-    background-color: #4373ff;
+    /*background-color: #4373ff;*/
 }
 
 .lang-text {

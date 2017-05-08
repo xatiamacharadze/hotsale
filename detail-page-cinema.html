@@ -335,6 +335,87 @@
                         </div>
                     </div>
 
+
+                    <div class="cinema-time-choose bg-blue">
+
+                        <img id="cinemaPrev" class="cinema-time-choose-arrow-left" src="image/map-categories-arrow.png">
+
+
+                        <div class="cinema-time-choose-wrapper">
+
+                            <span class="cinema-time-one cinema-time-chosen-active fc-white nino-mtavruli-bold">
+                            13:00 საათი
+                        </span>
+
+                            <span class="cinema-time-one fc-white nino-mtavruli-bold">
+                            18:00 საათი
+                        </span>
+
+                            <span class="cinema-time-one fc-white nino-mtavruli-bold">
+                            22:00 საათი
+                        </span>
+
+                            <span class="cinema-time-one fc-white nino-mtavruli-bold">
+                            13:00 საათი
+                        </span>
+
+                            <span class="cinema-time-one fc-white nino-mtavruli-bold">
+                            18:00 საათი
+                        </span>
+
+                            <span class="cinema-time-one fc-white nino-mtavruli-bold">
+                            22:00 საათი
+                        </span>
+
+                        </div>
+
+                        <img id="cinemaNext" class="cinema-time-choose-arrow-right" src="image/map-categories-arrow.png">
+
+                    </div>
+
+                    <div class="cinema-date-choose bg-blue">
+
+                        <img id="datePrev" class="cinema-time-choose-arrow-left" src="image/map-categories-arrow.png">
+
+                        <div class="cinema-date-choose-wrapper">
+
+                            <span class="cinema-date-one cinema-time-chosen-active fc-white nino-mtavruli-bold">
+                                <span>23</span>
+                                <span>თებ</span>
+                            </span>
+
+                            <span class="cinema-date-one fc-white nino-mtavruli-bold">
+                                <span>23</span>
+                                <span>თებ</span>
+                            </span>
+
+                            <span class="cinema-date-one fc-white nino-mtavruli-bold">
+                                <span>23</span>
+                                <span>თებ</span>
+                            </span>
+
+                            <span class="cinema-date-one fc-white nino-mtavruli-bold">
+                                <span>23</span>
+                                <span>თებ</span>
+                            </span>
+
+                            <span class="cinema-date-one fc-white nino-mtavruli-bold">
+                                <span>23</span>
+                                <span>თებ</span>
+                            </span>
+
+                            <span class="cinema-date-one fc-white nino-mtavruli-bold">
+                                <span>23</span>
+                                <span>თებ</span>
+                            </span>
+
+                        </div>
+
+                        <img id="dateNext" class="cinema-time-choose-arrow-right" src="image/map-categories-arrow.png">
+
+
+                    </div>
+
                     <div class="cinema-hall-seats bg-white">
 
                         <ol type="1" class="" >
@@ -1758,6 +1839,21 @@
 <script type="text/javascript" src="js/slick.js"></script>
 <script type="text/javascript" src="js/jcarousel.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+
+<script>
+
+    $('.cinema-time-choose-wrapper').slick({
+        slidesToShow: 3,
+//        slidesToScroll: 1,
+//        centerMode: true,
+        variableWidth: true,
+        arrows: true,
+        infinite: false
+    });
+
+</script>
+
+
 
 </body>
 </html>

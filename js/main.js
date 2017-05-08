@@ -360,6 +360,23 @@ $(document).ready(function () {
     });
 
 
+
+    $('#cinemaPrev').click(function (e) {
+
+        $('.slick-prev').click();
+        // e.preventDefault();
+    });
+
+
+    $('#cinemaNext').click(function (e) {
+
+        $('.slick-next').click();
+
+        // e.preventDefault();
+    });
+
+
+
     $('.search-categories').click(function () {
         var categories = $('.categories-search-body');
         var citySearch = $('#headerCitySearch');

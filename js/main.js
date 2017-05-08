@@ -236,7 +236,7 @@ $(document).ready(function () {
         var bodySearch = $('#extendedSearchBody');
 
 
-        bodySearch.removeClass('header-logo-second').addClass('appear-extended-search');
+        // bodySearch.removeClass('header-logo-second').addClass('appear-extended-search');
 
 
         if ($(this).attr('id') === 'searchBoxHeader') {

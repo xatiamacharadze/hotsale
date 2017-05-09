@@ -171,7 +171,7 @@ $(document).ready(function () {
     });
 
 
-    $('.blue-header-basket').click(function () {
+    $('#basketBtn').click(function () {
         $('.shopping-bag-mini-info-cart').toggleClass('hide-shopping-cart');
     });
 
@@ -943,5 +943,11 @@ $(document).on('click', function (e) {
         $('#extendedSearchHeader').removeClass('appear-extended-search');
     }
 
+    if ($(e.target).closest('.blue-header-basket').length === 0) {
+
+        $('.shopping-bag-mini-info-cart').addClass('hide-shopping-cart');
+        // $('#extendedSearchBody').removeClass('appear-extended-search');
+        // $('#extendedSearchHeader').removeClass('appear-extended-search');
+    }
 
 });

@@ -849,7 +849,7 @@ function headerSize() {
         sum_width += $(this).width();
     });
 
-    if(sum_width <= header.width()){
+    if(sum_width <= header.width() && sum_width !== 0){
         header.css({
             'right': 0,
             'width': sum_width

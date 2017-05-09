@@ -7,9 +7,13 @@
 .modal .active {
     border:0;
 }
-.jcarousel li:hover{
-    height: 400px;
+
+
+.jcarousel li:hover {
+    height: 800px;
 }
+
+
 
 html, body{
     margin: 0;
@@ -434,8 +438,8 @@ a {
 }
 
 
-.header-sub-menu-item:hover {
-    color: #4373ff;
+.header-sub-menu-item:hover > .item-name {
+    /*color: #4373ff;*/
 }
 
 
@@ -493,10 +497,14 @@ a {
     z-index: -1;
 }
 
+.header-sub-sub-menu div a {
+    padding-right: 20px;
+}
 
-.header-sub-sub-menu div:hover {
+
+.header-sub-sub-menu div:hover > a {
     color: #4373ff;
-    padding-right: 35px;
+    padding-right: 5px;
 
 }
 

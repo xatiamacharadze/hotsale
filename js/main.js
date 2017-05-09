@@ -24,6 +24,34 @@ var contentTop;
 
 $(document).ready(function () {
 
+
+    $('.cinema-time').click(function () {
+        $('.cinema-date-choose').slideUp();
+
+        $('.cinema-time-choose').slideToggle(300, 'linear', function () {
+            if ($(this).is(':visible'))
+                $(this).css('display','flex');
+        });
+    });
+
+    //
+    // $('#my-block').slideToggle('medium', function() {
+    //     if ($(this).is(':visible'))
+    //         $(this).css('display','inline-block');
+    // });
+
+
+
+    $('.cinema-date').click(function () {
+        $('.cinema-time-choose').slideUp();
+
+        $('.cinema-date-choose').slideToggle(300, 'linear', function () {
+            if ($(this).is(':visible'))
+                $(this).css('display','flex');
+        });
+    });
+
+
     changeLanguage();
 
     chooseYourSeat();
@@ -376,6 +404,20 @@ $(document).ready(function () {
     });
 
 
+    $('#datePrev').click(function (e) {
+
+        $('.slick-prev').click();
+        // e.preventDefault();
+    });
+
+
+    $('#dateNext').click(function (e) {
+
+        $('.slick-next').click();
+
+        // e.preventDefault();
+    });
+
 
     $('.search-categories').click(function () {
         var categories = $('.categories-search-body');
@@ -517,6 +559,7 @@ createSlick();
 
 //Now it will not throw error, even if called multiple times.
 $(window).on('resize', createSlick);
+
 
 function technologyCategoriesChecked() {
 

@@ -42,7 +42,7 @@
 }
 
 input[type="text"] {
-    width: 86%;
+    width: 63%;
     position: relative;
     /* top: 0; */
     /*border: 1px solid #dee1ed;*/
@@ -367,7 +367,7 @@ select#dob-year {
 
     .sign-page.sign-popup {
         width: 95.37% !important;
-        margin-top: 80px;
+        margin-top: 140px;
     }
 
 }

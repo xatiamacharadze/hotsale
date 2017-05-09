@@ -141,10 +141,13 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0;
 }
 
+
+
 .range-from-to input {
-    width: 40%;
+    width: 26%;
     border: none;
     height: 45px;
+    text-align: right;
 }
 
 
@@ -163,7 +166,15 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
-
+.range-from-to:after {
+    content: '';
+    background-color: #dee1ed;
+    height: 70%;
+    width: 1px;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+}
 
 
 

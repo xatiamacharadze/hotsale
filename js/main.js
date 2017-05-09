@@ -24,6 +24,17 @@ var contentTop;
 
 $(document).ready(function () {
 
+    headerSize();
+
+    changeLanguage();
+
+    chooseYourSeat();
+
+    technologyCategoriesChecked();
+
+    technologyFilter();
+
+
 
     $('.cinema-time').click(function () {
         $('.cinema-date-choose').slideUp();
@@ -34,14 +45,6 @@ $(document).ready(function () {
         });
     });
 
-    //
-    // $('#my-block').slideToggle('medium', function() {
-    //     if ($(this).is(':visible'))
-    //         $(this).css('display','inline-block');
-    // });
-
-
-
     $('.cinema-date').click(function () {
         $('.cinema-time-choose').slideUp();
 
@@ -50,15 +53,6 @@ $(document).ready(function () {
                 $(this).css('display','flex');
         });
     });
-
-
-    changeLanguage();
-
-    chooseYourSeat();
-
-    technologyCategoriesChecked();
-
-    technologyFilter();
 
 
     $('.about-hotSale-section').click(function (e) {
@@ -843,6 +837,31 @@ function companyDealsHide() {
 }
 
 
+function headerSize() {
+
+    var sum_width = 0;
+
+    var header = $('.header-menu-wrap');
+
+
+
+    $('.header-menu-width').children().each(function () {
+        sum_width += $(this).width();
+    });
+
+    if(sum_width <= header.width()){
+        header.css({
+            'right': 0,
+            'width': sum_width
+        });
+
+        $('.jcarousel-prev, .jcarousel-next').addClass('display-none');
+    }
+
+}
+
+
+
 function extendSearch(headerPosition) {
 
     if (headerPosition.hasClass('appear-extended-search')) {
@@ -878,6 +897,8 @@ $(window).resize(function () {
     //
     // detailPageChangeHeader();
 
+    headerSize();
+
     companyDealsHide();
 
     if ($('body').outerWidth() <= 1200) {
@@ -897,6 +918,8 @@ $(window).load(function () {
     // fixCompanyInfo();
     //
     // shoppingCartFixed();
+
+    headerSize();
 
     companyDealsHide();
 

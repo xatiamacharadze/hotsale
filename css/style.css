@@ -26,6 +26,13 @@ body {
     overflow-x: hidden;
 }
 
+
+.fs-10{
+    font-size: 10px;
+    line-height: 16px;
+}
+
+
 .fs-12{
     font-size: 12px;
     line-height: 19px;
@@ -203,6 +210,12 @@ body {
 }
 
 
+.display-none{
+    display: none !important;
+}
+
+
+
 .padding-left{
     padding-left: 50px;
 }
@@ -375,9 +388,11 @@ a {
     color: #4373ff;
 }
 
-.header-wrap{
+
+
+.header-wrap {
     display: inline-block;
-    width: 11.19%;
+    width: 18.19%;
     left: 0;
     position: absolute;
     /* height: 66%; */
@@ -562,7 +577,7 @@ a {
 
 .white-header-arrow {
     position: absolute;
-    right: 10px;
+    right: 0;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -574,21 +589,34 @@ a {
 }
 
 
-.white-header-wrap:before {
+/*.white-header-wrap:before {*/
+    /*content: '';*/
+    /*height: 80%;*/
+    /*width: 1px;*/
+    /*position: absolute;*/
+    /*background-color: #f1f1f1;*/
+    /*left: auto;*/
+    /*bottom: 60px;*/
+    /*z-index: 1;*/
+    /*top: 50%;*/
+    /*-webkit-transform: translateY(-50%);*/
+    /*-ms-transform: translateY(-50%);*/
+    /*transform: translateY(-50%);*/
+    /*right: calc(2% + 10px);*/
+/*}*/
+
+
+.jcarousel-next:before {
     content: '';
+    position: absolute;
     height: 80%;
     width: 1px;
-    position: absolute;
     background-color: #f1f1f1;
-    left: auto;
-    bottom: 60px;
-    z-index: 1;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    right: calc(2% + 10px);
+    top: 10%;
+    left: -50%;
 }
+
+
 
 .white-header-wrap{
     position: relative;
@@ -2084,7 +2112,7 @@ a {
 }
 
 .hotsale-footer {
-    height: 345px;
+    min-height: 235px;
     margin-top: 50px;
     position: relative;
     width: 100%;
@@ -2093,7 +2121,7 @@ a {
 }
 
 .hotsale-white-footer {
-    height: 260px;
+    min-height: 150px;
     width: 100%;
     position: relative;
 }
@@ -2153,7 +2181,7 @@ span.fc-grey-contact {
     display: block;
 }
 
-.first {
+.about-hotsale-footer > .footer-sub-question:nth-child(2) {
     margin-top: 20px;
 }
 
@@ -2358,14 +2386,16 @@ input:focus{
     height: 80px;
 }
 
-.white-footer-wrap{
-    height:260px;
+.white-footer-wrap {
+    min-height: 150px;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 
@@ -3173,6 +3203,7 @@ input:focus{
     /* padding-bottom: 40px; */
     position: relative;
     margin-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 #google-maps {
@@ -4925,12 +4956,16 @@ input.extended-search-focus:focus {
     width: 100%;
 }
 
+.cinema-date-choose-wrapper {
+    width: 100%;
+}
+
 
 
 .cinema-date-choose {
     padding: 30px 15%;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    display: flex;
+    /*display: flex;*/
     justify-content: space-between;
     align-items: center;
     display: none;
@@ -4940,10 +4975,12 @@ input.extended-search-focus:focus {
     display: inline-block;
     border: 1px solid white;
     border-radius: 50px;
-    padding: 5px 13px;
+    padding: 5px 5px;
     text-align: center;
     cursor: pointer;
     margin: 0 10px;
+    height: 40px;
+    width: 40px;
 }
 
 .cinema-date-one:hover {

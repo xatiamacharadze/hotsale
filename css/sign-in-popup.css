@@ -387,6 +387,35 @@ input#id::-webkit-outer-spin-button{
 
 
 
+.user-name-surname .authentication {
+    flex: 1;
+    /* width: auto; */
+    left: 0;
+    transform: translateX(0);
+}
+
+.user-name-surname {
+    width: calc(63% + 22px);
+    position: relative;
+    /* margin-top: 9px; */
+    /* height: 45px; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.user-name-surname .authentication:first-child {
+    margin-right: 5px;
+}
+
+.user-name-surname .authentication:last-child {
+    margin-left: 5px;
+    /* flex: 3; */
+}
+
+
 
 
 @media screen and (max-width: 1450px){

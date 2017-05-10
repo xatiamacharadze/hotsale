@@ -418,7 +418,7 @@ a {
     text-align: left;
     /* padding: 0 50px; */
     border-radius: 0 0 5px 5px;
-    top: 100px;
+    top: 98px;
     display: none;
     box-shadow: 0 30px 30px 0 rgba(49, 49, 54, 0.15);
     /* z-index: 15; */
@@ -439,7 +439,7 @@ a {
 
 
 .header-sub-menu-item:hover > .item-name {
-    /*color: #4373ff;*/
+    color: #4373ff;
 }
 
 
@@ -468,7 +468,7 @@ a {
     z-index: 10;
     border-radius: 0 0 5px 5px;
     display: none;
-    box-shadow: inset 0 0 1px 0 rgba(49, 49, 54, 0.15), 6px 5px 30px 3px rgba(49, 49, 54, 0.15);
+    box-shadow: inset 0 0 1px 0 rgba(49, 49, 54, 0.15), inset 15px 5px 10px -10px rgba(49, 49, 54, 0.08);
 }
 
 .header-sub-sub-menu div {
@@ -494,7 +494,7 @@ a {
 
 .header-sub-menu-item:hover > .header-sub-sub-menu{
     display: block;
-    z-index: -1;
+    z-index: 1;
 }
 
 .header-sub-sub-menu div a {
@@ -3234,17 +3234,19 @@ input:focus{
     display: none;
 }
 
-.deal-company-info{
+.deal-company-info {
     margin-top: 15px;
     border-radius: 10px;
     /* padding-bottom: 40px; */
     position: relative;
     margin-bottom: 30px;
-    padding-bottom: 10px;
+    box-shadow: 0px 11px 10px -9px rgba(49, 49, 54, 0.15);
 }
 
+
+
 #google-maps {
-    height: 200px;
+    height: 180px;
     width: 100%;
     position: relative;
     bottom: 0;
@@ -4421,11 +4423,11 @@ input:focus{
     border-radius: 5px;
     background-position: center center;
     margin-bottom: 10px;
-    height: 150px;
+    height: 180px;
 }
 
 .company-page-company-contact-info-title {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .company-page-contact-company-detailed-info {

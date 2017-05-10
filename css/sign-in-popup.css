@@ -122,20 +122,21 @@ input[type="text"] {
 
 .sign-in-socials {
     /* display: inline-block; */
-    top: 50%;
-    transform: translateY(-50%);
+    /*top: 50%;*/
+    /*transform: translateY(-50%);*/
     position: relative;
     text-align: center;
+    margin-top: 15%;
 }
 
 .sign-in-top {
-    height: 430px;
+    /*height: 430px;*/
     position: relative;
     width: 100%;
 }
 
 .sign-in-bottom {
-    height: 300px;
+    /*height: 300px;*/
     position: relative;
     width: 100%;
 }
@@ -149,14 +150,14 @@ a.sign-in-google img {
 }
 
 
-.sign-in-bottom:after {
+.sign-in-top:after {
     content: '';
     height: 1px;
     width: calc(63% + 22px);
     position: absolute;
     background-color: #e1e1e1;
     z-index: 52;
-    top: 0;
+    bottom: 0;
     transform: translateX(-50%);
     left: 50%;
 }
@@ -183,7 +184,7 @@ a.sign-in-google img {
     line-height: 31px;
     z-index: 60;
     left: 50%;
-    top: 415px;
+    bottom: -15px;
     transform: translateX(-50%);
     background-color: #f1f1f1;
 }
@@ -248,6 +249,9 @@ select#dob-day {
     left: 0;
     line-height: 47px;
     box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 select#dob-month {
@@ -263,6 +267,9 @@ select#dob-month {
     transform: translateX(-50%);
     line-height: 47px;
     box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 select#dob-year {
@@ -277,7 +284,34 @@ select#dob-year {
     right: 0;
     line-height: 47px;
     box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
+
+
+input#mobile,
+input#id{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance:none;
+}
+
+
+input#mobile::-webkit-inner-spin-button,
+input#mobile::-webkit-outer-spin-button,
+input#id::-webkit-inner-spin-button,
+input#id::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
 
 .controls {
     position: relative;

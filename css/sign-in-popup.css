@@ -392,6 +392,7 @@ input#id::-webkit-outer-spin-button{
     /* width: auto; */
     left: 0;
     transform: translateX(0);
+    padding-right: 22px;
 }
 
 .user-name-surname {

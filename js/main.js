@@ -772,35 +772,48 @@ function fixCompanyInfo() {
     var companyRightContent = $('.company-right-content');
     var contactInfo = $('.company-page-company-contact-info');
 
+    var contact_info_width = contactInfo.width();
+
+    var company_deals_num = companyPageDeals.children().length;
+
+
+
     contentTop = companyPageHeaderHeight + companyOffersHeight + companyDealsHeight;
 
-    if (companyPageDeals.children().length > 1) {
-
-        $(window).scroll(function () {
-
-            if ($(window).scrollTop() > companyPageHeaderHeight + 40) {
-                contactInfo.addClass('fixed-contact-info');
-                companyRightContent.addClass('fixed-contact-info-wrap');
 
 
-                if ($(window).scrollTop() > scrollHeight - footerHeight - clientHeight) {
+    if (company_deals_num > 1) {
 
-                    // console.log("scrollTop: ", $(window).scrollTop(), ". fixHeight", scrollHeight - footerHeight - clientHeight );
+        if(company_deals_num > 7) {
 
-                    contactInfo.css({bottom: (footerHeight - (scrollHeight - $(window).scrollTop() - clientHeight) + 40)});
+            $(window).scroll(function () {
+
+                if ($(window).scrollTop() > companyPageHeaderHeight + 40) {
+                    contactInfo.addClass('fixed-contact-info');
+                    companyRightContent.addClass('fixed-contact-info-wrap');
+
+                    contactInfo.width(contact_info_width);
+
+                    if ($(window).scrollTop() > scrollHeight - footerHeight - clientHeight) {
+
+                        // console.log("scrollTop: ", $(window).scrollTop(), ". fixHeight", scrollHeight - footerHeight - clientHeight );
+
+                        contactInfo.css({bottom: (footerHeight - (scrollHeight - $(window).scrollTop() - clientHeight) + 40)});
+
+                    } else {
+                        // contactInfo.css({bottom: 'auto'});
+                    }
 
                 } else {
+                    contactInfo.css({bottom: 'auto'});
+                    contactInfo.removeClass('fixed-contact-info');
+                    companyRightContent.removeClass('fixed-contact-info-wrap');
+
                     // contactInfo.css({bottom: 'auto'});
                 }
+            });
 
-            } else {
-                contactInfo.css({bottom: 'auto'});
-                contactInfo.removeClass('fixed-contact-info');
-                companyRightContent.removeClass('fixed-contact-info-wrap');
-
-                // contactInfo.css({bottom: 'auto'});
-            }
-        });
+        }
     } else {
         $('.company-page-no-deals').removeClass('company-page-no-deals-hide');
     }
@@ -859,7 +872,6 @@ function headerSize() {
     }
 
 }
-
 
 
 function extendSearch(headerPosition) {

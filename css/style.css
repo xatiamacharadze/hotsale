@@ -2407,7 +2407,7 @@ input:focus{
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 20px;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
 }
 
 
@@ -4381,10 +4381,15 @@ input:focus{
     vertical-align: middle;
 }
 
+.company-page-js-wrapper {
+    margin-top: 35px;
+    position: relative;
+}
+
 .company-page-offers-order {
     width: 74%;
     height: 80px;
-    margin-top: 35px;
+    /*margin-top: 35px;*/
     border-radius: 5px;
     position: relative;
     display: inline-block;
@@ -4405,17 +4410,18 @@ input:focus{
 
 .company-right-content {
     position: absolute;
-    width: 23%;
-    top: 415px;
+    width: 23.6%;
+    top: 0;
     right: 0;
 }
 
 .company-page-company-contact-info {
     position: relative;
     border-radius: 5px;
-    width: calc(100% - 60px);
+    width: 100%;
     padding: 35px 35px 5px 35px;
-    margin-left: -10px;
+    /* margin-left: -10px; */
+    box-sizing: border-box;
 }
 
 .company-page-contact-map {
@@ -4744,16 +4750,15 @@ input.extended-search-focus:focus {
 .fixed-contact-info-wrap {
     position: fixed;
     right: 10.1%;
-    width: 15.2%;
+    width: 18.2%;
     top: 170px;
 }
 
 .fixed-contact-info {
     position: fixed;
     right: 10.1%;
-    width: 15.2%;
+    width: 18.8%;
 }
-
 
 .fixed-companies-detail {
     position: fixed;

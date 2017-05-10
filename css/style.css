@@ -439,7 +439,7 @@ a {
 
 
 .header-sub-menu-item:hover > .item-name {
-    /*color: #4373ff;*/
+    color: #4373ff;
 }
 
 
@@ -3234,14 +3234,16 @@ input:focus{
     display: none;
 }
 
-.deal-company-info{
+.deal-company-info {
     margin-top: 15px;
     border-radius: 10px;
     /* padding-bottom: 40px; */
     position: relative;
     margin-bottom: 30px;
-    padding-bottom: 10px;
+    box-shadow: 0px 11px 10px -9px rgba(49, 49, 54, 0.15);
 }
+
+
 
 #google-maps {
     height: 200px;

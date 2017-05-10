@@ -948,7 +948,6 @@ $(window).load(function () {
 
 });
 
-
 $(document).on('click', function (e) {
     if ($(e.target).closest('.search-part').length === 0) {
         $('#extendedSearchBody').removeClass('appear-extended-search');
@@ -956,10 +955,10 @@ $(document).on('click', function (e) {
     }
 
     if ($(e.target).closest('.blue-header-basket').length === 0) {
-
         $('.shopping-bag-mini-info-cart').addClass('hide-shopping-cart');
-        // $('#extendedSearchBody').removeClass('appear-extended-search');
-        // $('#extendedSearchHeader').removeClass('appear-extended-search');
     }
 
+    if ($(e.target).closest('#user-part').length === 0) {
+        $('#user-menu').removeClass('active-drop-down');
+    }
 });

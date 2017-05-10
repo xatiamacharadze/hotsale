@@ -5615,7 +5615,6 @@ input#voucher {
     padding: 20px 0 10px;
     display: flex;
     align-items: flex-start;
-    cursor: pointer;
 }
 
 .drop-down-item:first-child:after{

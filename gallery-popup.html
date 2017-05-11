@@ -2,9 +2,417 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=600, initial-scale=1">
+    <link rel="stylesheet" href="css/hamburgers.css">
+    <link rel="stylesheet" href="fonts/font-larisome-master/css/font-larisome.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css?v=1.0.7" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/gallery-popup.css">
+    <link rel="stylesheet" href="css/style-max-width-1450.css">
+    <link rel="stylesheet" href="css/style-max-width-1200.css">
+    <link rel="stylesheet" href="css/style-max-width-900.css">
+    <link rel="shortcut icon" href="image/hotsale-favicon.png"/>
 </head>
-<body>
-$END$
+
+
+<body class="bg-light-grey">
+
+<div id="burger" class="header bg-white">
+    <div class="blue-header bg-blue">
+        <div class="blue-header-wrap">
+
+            <div class="blue-header-menu fs-14 nino-mtavruli-bold">
+                <a href="index.html">
+                    <div class="blue-header-menu-item fc-white">მთავარი</div>
+                </a>
+                <a href="">
+                    <div class="blue-header-menu-item fc-white">დღის აქციები</div>
+                </a>
+                <a href="">
+                    <div class="blue-header-menu-item fc-white">მალე</div>
+                </a>
+                <a href="brands.html">
+                    <div class="blue-header-menu-item fc-white">ბრენდები</div>
+                </a>
+                <a href="map.html">
+                    <div class="blue-header-menu-item fc-white">აქციები რუკაზე</div>
+                </a>
+                <a>
+                    <div id="contactPopup" class="blue-header-menu-item fc-white">კონტაქტი</div>
+                </a>
+            </div>
+
+            <div class="blue-header-menu-right">
+                <div class="blue-header-lang">
+                    <img class="active-lang" src="image/ge.svg">
+                    <img src="image/ru.svg">
+                    <img src="image/en.svg">
+                </div>
+                <a href="sign_in_popup.html" class="blue-header-user">
+                    <div class="user-name nino-mtavruli-bold fs-12 fc-white">ნიკოლოზ</div>
+                    <img src="image/white-arrow.png">
+                </a>
+                <div class="blue-header-basket">
+
+                    <!--<div class="shopping-bag-items">4</div>-->
+                    <div class="basket-num nino-mtavruli-bold fs-12 fc-white"></div>
+                    <img src="image/urika.png">
+
+                    <div class="shopping-bag-mini-info-cart hide-shopping-cart bg-white">
+
+                        <div class="shopping-cart-deals-to-buy">
+                            <div class="cart-shopping-list-item after-none">
+                                <div class="cart-shopping-list-item-img-info">
+                                    <div class="cart-shopping-list-item-img"
+                                         style="background-image: url('image/sairme2.jpg');"></div>
+
+                                </div>
+
+                                <div class="cart-shopping-list-item-amount">
+                                    <div class="cart-shopping-list-item-minus fs-14 fc-grey"> -</div>
+                                    <div class="cart-shopping-list-item-voucher-amount dejavu-sans fs-14 fc-grey">2
+                                    </div>
+                                    <div class="cart-shopping-list-item-plus fs-14 fc-grey"> +</div>
+                                </div>
+
+                                <div class="cart-shopping-list-item-price nino-mtavruli-bold fs-16 fc-blue">
+                                    9
+                                    <div class="lari lari-comic"></div>
+                                </div>
+
+                                <div class="cart-shopping-list-item-remove dejavu-sans fs-14 fc-bluish-grey">
+                                    <img src="image/delete-btn.png">
+                                </div>
+
+                                <div class="cart-shopping-list-item-info dejavu-sans fs-14 fc-bluish-grey">
+                                    უგემრიელესი კერძებით დატვირთული მენიუ 10-12 პერსონაზე ყველაზე საქეიფო გარემოში
+                                </div>
+
+                            </div>
+                        </div>
+                        <a href="shopping-cart.html" class="continue-shopping dejavu-sans fs-14 fc-bluish-grey">
+                            <span>ყიდვის გაგრძელება</span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- active-drop-down კლასი ჩამოსაშლელად-->
+
+            <div class="profile-drop-down bg-white fc-bluish-grey nino-mtavruli-bold fs-14">
+                <div class="drop-down-item">
+                    <img src="image/settings.svg">
+                    <span>პარამეტრები</span>
+                </div>
+
+                <div class="drop-down-item">
+                    <img src="image/log-out.svg">
+                    <span>გასვლა</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="white-header bg-white">
+        <div class="white-header-wrap">
+
+            <div class="header-wrap">
+                <a href="">
+                    <div class="header-logo">
+                        <img src="image/LOGO.svg">
+                    </div>
+                </a>
+            </div>
+
+            <a class="jcarousel-prev white-header-arrow-left"><img src="image/right-arrow.png"></a>
+
+            <div class="header-menu-wrap">
+                <div class="header-jcarousel jcarousel" data-jcarousel="true">
+                    <ul class="header-menu header-menu-width nino-mtavruli-bold fs-16" style="left: 0px;">
+                        <li class="hover-header">
+                            <div class="header-menu-item fc-black active-header-item">კვება</div>
+                        </li>
+
+
+                        <li class="hover-header">
+                            <div class="header-menu-item fc-black">გართობა</div>
+
+                            <div class="header-sub-menu fs-14 nino-mtavruli-bold fc-bluish-grey bg-white">
+                                <div class="header-sub-menu-item">
+                                    <span>კინო</span>
+
+                                    <div class="header-sub-sub-menu bg-white fs-14 nino-mtavruli-bold fc-bluish-grey">
+                                        <div>რუსთაველი</div>
+                                        <div>ამირანი</div>
+                                        <div>კავეა ისთ ფოინთი</div>
+                                        <div>კავეა თბილისი მოლი</div>
+                                    </div>
+
+                                </div>
+                                <div class="header-sub-menu-item">თეატრი</div>
+                                <div class="header-sub-menu-item">ხელოვნება</div>
+                                <div class="header-sub-menu-item">ღამის კლუბები</div>
+                                <div class="header-sub-menu-item">აზარტული თამაშები</div>
+                            </div>
+
+                        </li>
+
+
+                        <li class="hover-header">
+                            <div class="header-menu-item fc-black">სილამაზე</div>
+                        </li>
+
+
+                        <li class="hover-header">
+                            <div class="header-menu-item fc-black">ჯანმრთელობა</div>
+                        </li>
+
+
+                        <li class="hover-header">
+                            <div class="header-menu-item fc-black">ტურიზმი/სასტუმროები</div>
+                        </li>
+
+
+                        <li class="hover-header">
+                            <div class="header-menu-item fc-black">ბავშვები</div>
+                        </li>
+
+
+                        <li class="hover-header">
+                            <div class="header-menu-item fc-black">განათლება</div>
+                        </li>
+
+
+                        <li class="hover-header">
+                            <div class="header-menu-item fc-black">ავტო</div>
+                        </li>
+
+
+                        <li class="hover-header">
+                            <div class="header-menu-item fc-black">სხვა მომსახურება</div>
+                        </li>
+
+
+                        <li class="hover-header">
+                            <div class="header-menu-item fc-black">სხვა პროდუქცია</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <a class="jcarousel-next white-header-arrow"><img src="image/right-arrow.png"></a>
+
+
+        </div>
+
+        <div class="white-header-before-wrap bg-white passive-header">
+
+            <div class="search-text-bar search-bar-header-detail">
+                <div class="search-box bg-white">
+                    <div class="search-categories">
+                        <img src="image/categories.png">
+                        <div class="details-header-categories fc-blue fs-16 nino-mtavruli-bold">კატეგორიები</div>
+                    </div>
+                    <div id="headerCitySearch" class="wrapper-dropdown-5 search-city" tabindex="1">
+                        <img src="image/grey-pin.png">
+                        <div class="choose-city dejavu-sans fs-16 fc-black">ქალაქი</div>
+                        <img src="image/bottom-arrow.png">
+                        <ul class="dropdown nino-mtavruli-bold fs-12 ">
+                            <li><a href="#">თბილისი
+                                <div class="city-bullets bg-bluish-grey"></div>
+                            </a></li>
+                            <li><a href="#">რუსთავი
+                                <div class="city-bullets bg-bluish-grey"></div>
+                            </a></li>
+                            <li><a href="#">ქუთაისი
+                                <div class="city-bullets bg-bluish-grey"></div>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="search-anything">
+                        <div class="search-word dejavu-sans fs-16 fc-bluish-grey">
+                            <input type="text" id="searchBoxHeader"
+                                   class="extended-search-focus dejavu-sans fs-16 fc-bluish-grey"
+                                   placeholder="საძიებო სიტყვა">
+                        </div>
+                        <img src="image/lupa.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-wrap">
+                <a href="">
+                    <div class="header-logo">
+                        <img src="image/hotsale-logo-big.png">
+                    </div>
+                </a>
+            </div>
+
+            <div class="header-menu-wrap detail-header">
+                <div class="header-menu nino-mtavruli-bold fs-16">
+                    <a href="">
+                        <div class="header-menu-item fc-black active-header">ახალი</div>
+                    </a>
+                    <a href="">
+                        <div class="header-menu-item fc-black">ფასდაკლების %</div>
+                    </a>
+                    <a href="">
+                        <div class="header-menu-item fc-black">პოპულარული</div>
+                    </a>
+                    <a href="">
+                        <div class="header-menu-item fc-black">მთავრდება</div>
+                    </a>
+                    <a href="">
+                        <div class="header-menu-item fc-black">დანაზოგი</div>
+                    </a>
+                </div>
+            </div>
+
+            <div id="extendedSearchHeader" class="extended-search-deals header-logo-second search-bar-shadow bg-white">
+                <div class="searched-deal-mini-info">
+                    <div class="searched-deal-mini-info-img" style="background-image: url('image/kanchi.jpg');"></div>
+
+                    <!--<p class="overflow ellipsis">This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>-->
+                    <div class="searched-deal-mini-info-text fs-14 fc-bluish-grey dejavu-sans">აუზი, ფიტნესი, თურქული და
+                        ფინური საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი აუზი, ფიტნესი, თურქული და ფინური საუნა. 1 თვიანი
+                        ულიმიტო VIP აბონიმენტი!
+                    </div>
+                    <div class="searched-deal-mini-info-price bg-red fc-white dejavu-sans">3
+                        <div class="lari lari-comic"></div>
+                    </div>
+                </div>
+
+                <div class="searched-deal-mini-info">
+                    <div class="searched-deal-mini-info-img" style="background-image: url('image/kanchi.jpg');"></div>
+
+                    <!--<p class="overflow ellipsis">This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>-->
+                    <div class="searched-deal-mini-info-text fs-14 fc-bluish-grey dejavu-sans">აუზი, ფიტნესი, თურქული და
+                        ფინური საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი აუზი, ფიტნესი, თურქული და ფინური საუნა. 1 თვიანი
+                        ულიმიტო VIP აბონიმენტი!
+                    </div>
+                    <div class="searched-deal-mini-info-price bg-red fc-white dejavu-sans">3
+                        <div class="lari lari-comic"></div>
+                    </div>
+                </div>
+
+                <div class="searched-deal-mini-info">
+                    <div class="searched-deal-mini-info-img" style="background-image: url('image/kanchi.jpg');"></div>
+
+                    <!--<p class="overflow ellipsis">This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>-->
+                    <div class="searched-deal-mini-info-text fs-14 fc-bluish-grey dejavu-sans">აუზი, ფიტნესი, თურქული და
+                        ფინური საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი აუზი, ფიტნესი, თურქული და ფინური საუნა. 1 თვიანი
+                        ულიმიტო VIP აბონიმენტი!
+                    </div>
+                    <div class="searched-deal-mini-info-price bg-red fc-white dejavu-sans">3
+                        <div class="lari lari-comic"></div>
+                    </div>
+                </div>
+
+                <div class="searched-deal-mini-info">
+                    <div class="searched-deal-mini-info-img" style="background-image: url('image/kanchi.jpg');"></div>
+
+                    <!--<p class="overflow ellipsis">This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>-->
+                    <div class="searched-deal-mini-info-text fs-14 fc-bluish-grey dejavu-sans">აუზი, ფიტნესი, თურქული და
+                        ფინური საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი აუზი, ფიტნესი, თურქული და ფინური საუნა. 1 თვიანი
+                        ულიმიტო VIP აბონიმენტი!
+                    </div>
+                    <div class="searched-deal-mini-info-price bg-red fc-white dejavu-sans">3
+                        <div class="lari lari-comic"></div>
+                    </div>
+                </div>
+
+                <div class="searched-deal-mini-info">
+                    <div class="searched-deal-mini-info-img" style="background-image: url('image/kanchi.jpg');"></div>
+
+                    <!--<p class="overflow ellipsis">This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>-->
+                    <div class="searched-deal-mini-info-text fs-14 fc-bluish-grey dejavu-sans">აუზი, ფიტნესი, თურქული და
+                        ფინური საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი აუზი, ფიტნესი, თურქული და ფინური საუნა. 1 თვიანი
+                        ულიმიტო VIP აბონიმენტი!
+                    </div>
+                    <div class="searched-deal-mini-info-price bg-red fc-white dejavu-sans">3
+                        <div class="lari lari-comic"></div>
+                    </div>
+                </div>
+
+                <div class="searched-deal-mini-info">
+                    <div class="searched-deal-mini-info-img" style="background-image: url('image/kanchi.jpg');"></div>
+
+                    <!--<p class="overflow ellipsis">This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>-->
+                    <div class="searched-deal-mini-info-text fs-14 fc-bluish-grey dejavu-sans">აუზი, ფიტნესი, თურქული და
+                        ფინური საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი აუზი, ფიტნესი, თურქული და ფინური საუნა. 1 თვიანი
+                        ულიმიტო VIP აბონიმენტი!
+                    </div>
+                    <div class="searched-deal-mini-info-price bg-red fc-white dejavu-sans">3
+                        <div class="lari lari-comic"></div>
+                    </div>
+                </div>
+
+                <div class="extended-search-deals-more-btn bg-blue fc-white fs-16 nino-mtavruli-bold">მეტი</div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!--<div id="responsive-overlay" class="responsive-overlay active-overlay"></div>-->
+
+
+<div class="gallery-popup pos-fixed">
+    <!--<div class="deal-gallery-header">-->
+        <!--<div class="gallery-header-left">-->
+            <!--<div class="secondary-info-logo">-->
+                <!--<span class="fs-30 nino-mtavruli-bold fc-blue">D</span>-->
+            <!--</div>-->
+            <!--<div class="secondary-deal-title fs-18 bpg-nino-beqa fc-white">Seaside</div>-->
+        <!--</div>-->
+
+        <!--<div class="gallery-header-right">-->
+            <!--<div class="gallery-deal-price bg-red nino-mtavruli-bold fc-white">-->
+                <!--9 <div class="lari lari-comic"></div>-->
+            <!--</div>-->
+            <!--<button class="gallery-buy-voucher bg-blue fc-white fs-14 nino-mtavruli-bold">ვაუჩერის ყიდვა</button>-->
+        <!--</div>-->
+    <!--</div>-->
+
+
+</div>
+
+
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<script type="text/javascript" src="js/jcarousel.min.js"></script>
+<script type="text/javascript" src="js/slick.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<script>
+
+
+    $(".fancybox-thumb").fancybox({
+        prevEffect	: 'none',
+        nextEffect	: 'none',
+        helpers	: {
+            title	: null,
+
+            thumbs	: {
+                width	: 230,
+                height	: 130
+            }
+        }
+    });
+
+</script>
+
 </body>
 </html>

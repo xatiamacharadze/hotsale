@@ -356,31 +356,30 @@ $(document).ready(function () {
     });
 
 
-    $('.deal-gallery-info-img').slick({
-        infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        // dots: true,
-        arrows: true
-        // accessibility: false
-        // lazyLoad: 'progressive'
-    });
+    // $('.deal-gallery-info-img').slick({
+    //     infinite: true,
+    //     slidesToShow: 4,
+    //     slidesToScroll: 4,
+    //     // dots: true,
+    //     arrows: true
+    //     // accessibility: false
+    //     // lazyLoad: 'progressive'
+    // });
 
 
     $('#galleryPrev').click(function (e) {
 
-        $('.slick-prev').click();
+        $.fancybox.prev();
         // e.preventDefault();
     });
 
 
     $('#galleryNext').click(function (e) {
 
-        $('.slick-next').click();
+        $.fancybox.next();
 
         // e.preventDefault();
     });
-
 
 
     $('#cinemaPrev').click(function (e) {
@@ -714,7 +713,7 @@ function fixedSideBarScroll() {
                     $(".hotsale-companies").addClass("hotsale-companies-fixed-bottom");
 
                     // console.log(scrollHeight, $(window).scrollTop(), scrollHeight - $(window).scrollTop(), clientHeight, $(window).height(),  footerHeight);
-                    console.log("raa");
+                    // console.log("raa");
                     companies.css({bottom: (footerHeight - (scrollHeight - $(window).scrollTop() - clientHeight) + 40)});
                 } else {
                     companies.css({bottom: 'auto'});

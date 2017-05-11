@@ -1,0 +1,55 @@
+.gallery-popup {
+    position: relative;
+    width: 66%;
+    height: 74%;
+    margin: 0 auto;
+    top: 21%;
+    z-index: 51;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+
+.deal-gallery-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-header-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery-deal-price {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.gallery-buy-voucher {
+    border: none;
+    height: 40px;
+    /* line-height: 40px; */
+    padding: 0 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.gallery-header-left {
+    display: flex;
+    align-items: center;
+}
+
+.gallery-header-left .secondary-deal-title {
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+.gallery-body {
+    position: relative;
+}
+

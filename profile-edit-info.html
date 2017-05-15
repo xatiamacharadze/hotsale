@@ -301,7 +301,15 @@
             <div class="profile-left">
                 <div class="profile-personal-upper bg-white">
                     <div class="profile-personal-info">
-                        <img class="profile-icon" src="image/profile-icon.jpg">
+
+                        <div class="profile-picture-change" style="background-image: url('image/profile-icon.jpg')">
+                            <!--<img class="profile-icon" src="image/profile-icon.jpg">-->
+
+                            <label for="profile-picture"></label>
+                            <input type="file" name="" id="profile-picture" accept="image/*">
+                            <span class="nino-mtavruli-bold fs-10 fc-bluish-grey">შეცვლა</span>
+                        </div>
+
 
                         <div class="person-name fc-blue fs-16 nino-mtavruli-bold">ნიკოლოზ ერგემლიძე</div>
                     </div>
@@ -373,13 +381,13 @@
 
                     <div class="edit-info-label-input">
                         <label class="fs-14 nino-mtavruli-bold fc-bluish-grey" for="id">პირადი ნომერი</label>
-                        <input class="edit-info fs-14 nino-mtavruli-bold fc-bluish-grey" id="id" name="id"  type="number" placeholder="" required>
+                        <input class="edit-info fs-14 nino-mtavruli-bold fc-bluish-grey" id="id" name="id"  type="text" placeholder="" required>
                     </div>
 
 
                     <div class="edit-info-label-input">
                         <label class="fs-14 nino-mtavruli-bold fc-bluish-grey" for="mobile">მობილურის ნომერი</label>
-                        <input class="edit-info fs-14 nino-mtavruli-bold fc-bluish-grey" id="mobile" name="mobile"  type="number" placeholder="" required>
+                        <input class="edit-info fs-14 nino-mtavruli-bold fc-bluish-grey" id="mobile" name="mobile"  type="text" placeholder="" required>
                     </div>
 
                     <div class="save-cancel-btn">

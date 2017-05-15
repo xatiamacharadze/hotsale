@@ -169,6 +169,47 @@ img.profile-icon {
     border-radius: 10px;
 }
 
+
+
+.profile-picture-change {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.profile-picture-change span {
+    background: rgba(0,0,0,.54);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    text-align: center;
+    padding: 3px 0;
+}
+
+
+.profile-picture-change > label {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.profile-picture-change > input {
+    display: none;
+}
+
+
 .person-deals-bought {
     display: flex;
     flex-wrap: wrap;

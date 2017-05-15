@@ -66,9 +66,10 @@ img.profile-icon {
     /* align-items: center; */
     position: relative;
     width: 50%;
-    text-align: left;
-    padding: 20px 20px 0;
+    /*text-align: left;*/
+    padding: 20px 0 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .person-balance span {
@@ -90,9 +91,9 @@ img.profile-icon {
     top: 0;
 }
 
-.person-balance:last-child {
-    padding-left: 50px;
-}
+/*.person-balance:last-child {*/
+    /*padding-left: 50px;*/
+/*}*/
 
 
 .personal-info-edit {

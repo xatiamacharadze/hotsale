@@ -1308,13 +1308,32 @@ a {
     height: 56%;
 }
 
-.secondary-deal-title{
+.secondary-deal-title {
     margin-top: 20px;
     margin-left: 10px;
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
+    position: absolute;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    width: calc(100% - 100px);
+    left: 85px;
+    top: 0;
 }
+
+
+.secondary-deal-title span {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    width: 100%;
+    left: 85px;
+    top: 0;
+    max-height: calc(1.7em * 2);
+    line-height: 22px;
+}
+
+
 
 .secondary-deal-prices:after {
     content: '';
@@ -2276,11 +2295,12 @@ input:focus{
     line-height: 32px;
 }
 
-.subscribe-mail{
+.subscribe-mail {
     width: 100%;
-    height: 23%;
+    height: 57px;
     position: relative;
     top: 24%;
+    box-sizing: border-box;
 }
 
 .follow-us-fb-twitter{

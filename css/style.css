@@ -1977,15 +1977,18 @@ a {
     right:20px;
 }
 
+
 .hotsale-deals-companies {
     max-width: 1530px;
     height: auto;
     width: 79.7%;
     position: relative;
     margin: 15px auto 0 auto;
-    /*left: 50%;*/
-    /*transform: translateX(-50%);*/
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    min-height: 520px;
 }
+
 
 .hotsale-deals {
     height: auto;
@@ -4509,6 +4512,10 @@ input:focus{
     opacity: 0;
     transition: visibility 0s, opacity 0.5s ease;
     height:0;
+}
+
+.company-page-contact-company-content a {
+    color: #929ab1;
 }
 
 

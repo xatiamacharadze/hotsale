@@ -852,7 +852,7 @@ a {
     display: inline-block;
     position: relative;
     left: 165px;
-    top: 0px;
+    top: 0;
 }
 
 .deal-header-after-scroll-deal-prices {
@@ -3010,6 +3010,13 @@ input:focus{
 }
 
 
+.details-right-img img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
 
 .vertical-details-right-img{
     background-size: contain;
@@ -3775,21 +3782,26 @@ input:focus{
     /* height: 17px; */
     /* line-height: 17px; */
     transition: .1s linear;
-    font-family: dejavu_sans;
+    font-family: dejavu_sans, serif;
     -webkit-font-smoothing: antialiased;
 }
 
 .cart-shopping-list-item-voucher-amount {
     display: inline-block;
-    padding: 0 6px 0 4px;
+    padding: 0 0 0 10px;
+    width: 50px;
+    height: auto;
+    border: none;
+    text-align: center;
 }
+
 
 .cart-shopping-list-item-plus {
     display: inline-block;
     /*padding: 0 10px;*/
     transition: 0.1s linear;
-    padding: 0px 4px;
-    font-family: dejavu_sans;
+    padding: 0 4px;
+    font-family: dejavu_sans, serif;
     -webkit-font-smoothing: antialiased;
     text-align: center;
 }
@@ -4733,13 +4745,13 @@ input.extended-search-focus:focus {
 }
 
 
-.add-remove-voucher-amount .cart-shopping-list-item-voucher-amount {
-    padding: 0 16px 0 18px;
-    height: 50px;
-    line-height: 50px;
-    border: none;
-    width: 14%;
-}
+/*.add-remove-voucher-amount .cart-shopping-list-item-voucher-amount {*/
+    /*padding: 0 16px 0 18px;*/
+    /*height: 50px;*/
+    /*line-height: 50px;*/
+    /*border: none;*/
+    /*width: 14%;*/
+/*}*/
 
 
 #extendedSearchHeader {
@@ -5279,6 +5291,13 @@ input.extended-search-focus:focus {
     left: 31%;
     top: 30px;
     /* transform: translateY(-50%); */
+    max-width: 15%;
+}
+
+
+input.cart-shopping-list-item-voucher-amount:focus{
+    border: none;
+    color: #595c64;
 }
 
 .shopping-bag-mini-info-cart .cart-shopping-list-item-remove {

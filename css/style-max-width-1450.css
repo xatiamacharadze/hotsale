@@ -10,6 +10,15 @@
     .main-info-texts {
         left: calc(8% + 110px);
     }
+
+    /*.header-menu-wrap {*/
+        /*width: 79.5%;*/
+    /*}*/
+    .header-menu-item {
+        /*margin: 0 0 0 13px;*/
+        font-size: 14px;
+    }
+
 }
 
 
@@ -186,9 +195,13 @@
     }
 
 
-    .header-menu-wrap {
-        /* width: 68%; */
-    }
+    /*.header-menu-wrap {*/
+        /*width: 84%;*/
+    /*}*/
+
+    /*.header-wrap {*/
+        /*width: 12.19%;*/
+    /*}*/
 
     .deal-voucher-price.fs-14 {
         font-size: 14px;
@@ -223,9 +236,9 @@
 
     /*}*/
 
-    .header-menu-item {
-        margin: 0 0 0 20px;
-    }
+    /*.header-menu-item {*/
+        /*margin: 0 0 0 20px;*/
+    /*}*/
 
     .main-info-text {
         height: 45px;
@@ -560,7 +573,7 @@
     }
 
     .header-menu-item {
-        margin: 0 0 0 15px;
+        /*margin: 0 0 0 13px;*/
     }
 
     /*.header-logo img {*/
@@ -1038,7 +1051,7 @@
 
     .header-menu-wrap {
         height: 85px;
-        width: 68%;
+        /*width: 85%;*/
     }
 
     .cart-middle-part {
@@ -1177,6 +1190,27 @@
 
     .company-middle-content {
         min-height: 880px;
+    }
+
+}
+
+
+@media screen and (max-width: 1350px){
+
+    .white-header-before-wrap.passive-header {
+         top: 85px;
+    }
+
+    .white-header-before-wrap {
+        top: 0;
+    }
+
+    .search-wrap {
+        display: none;
+    }
+
+    .popular-deals {
+        margin-top: 155px;
     }
 
 }

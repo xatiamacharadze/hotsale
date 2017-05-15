@@ -313,7 +313,8 @@ a {
 .header-menu-item{
     display: inline-block;
     /* float: right; */
-    margin: 0 0 0 20px;
+    margin: 0 0 0 13px;
+    /*margin: 0;*/
     cursor: pointer;
     position: relative;
 }
@@ -359,12 +360,13 @@ a {
 .header-menu-wrap {
     /*overflow: visible;*/
     /* white-space: normal; */
-    width: 73%;
+    /*width: 86.2%;*/
     position: absolute;
     height: 100px;
     max-width: 1530px;
     display: inline-block;
-    right: 4%;
+    /*right: 4%;*/
+    right: 0;
     overflow-y: visible;
 }
 
@@ -396,7 +398,7 @@ a {
 
 .header-wrap {
     display: inline-block;
-    width: 18.19%;
+    width: 12%;
     left: 0;
     position: absolute;
     /* height: 66%; */
@@ -510,7 +512,7 @@ a {
 
 
 .header-sub-sub-menu div:hover:before {
-    content: "•";
+    content: "â€¢";
     padding-right: 10px;
     color: #4373ff;
 }
@@ -602,19 +604,19 @@ a {
 
 
 /*.white-header-wrap:before {*/
-    /*content: '';*/
-    /*height: 80%;*/
-    /*width: 1px;*/
-    /*position: absolute;*/
-    /*background-color: #f1f1f1;*/
-    /*left: auto;*/
-    /*bottom: 60px;*/
-    /*z-index: 1;*/
-    /*top: 50%;*/
-    /*-webkit-transform: translateY(-50%);*/
-    /*-ms-transform: translateY(-50%);*/
-    /*transform: translateY(-50%);*/
-    /*right: calc(2% + 10px);*/
+/*content: '';*/
+/*height: 80%;*/
+/*width: 1px;*/
+/*position: absolute;*/
+/*background-color: #f1f1f1;*/
+/*left: auto;*/
+/*bottom: 60px;*/
+/*z-index: 1;*/
+/*top: 50%;*/
+/*-webkit-transform: translateY(-50%);*/
+/*-ms-transform: translateY(-50%);*/
+/*transform: translateY(-50%);*/
+/*right: calc(2% + 10px);*/
 /*}*/
 
 
@@ -2000,7 +2002,7 @@ a {
     right: 0;
     margin-top: 15px;
     height: auto;
-     overflow: hidden;
+    overflow: hidden;
 }
 
 
@@ -2453,15 +2455,15 @@ input:focus{
 
 
 /*.white-header-before-wrap {*/
-    /*top: -100px;*/
-    /*position: relative;*/
-    /*width: 79.7%;*/
-    /*height: 100px;*/
-    /*max-width: 1530px;*/
-    /*margin: 0 auto;*/
-    /*z-index: 15;*/
-    /*transition: -webkit-transform .5s ease .5s;*/
-    /*transition: transform .5s ease .5s, -webkit-transform .5s ease .5s;*/
+/*top: -100px;*/
+/*position: relative;*/
+/*width: 79.7%;*/
+/*height: 100px;*/
+/*max-width: 1530px;*/
+/*margin: 0 auto;*/
+/*z-index: 15;*/
+/*transition: -webkit-transform .5s ease .5s;*/
+/*transition: transform .5s ease .5s, -webkit-transform .5s ease .5s;*/
 /*}*/
 
 
@@ -2531,7 +2533,7 @@ input:focus{
 
 
 .search-bar-header-detail .search-anything {
-     width: auto;
+    width: auto;
     flex: 2;
     /* right: 7%; */
     position: relative;
@@ -2995,16 +2997,23 @@ input:focus{
 
 .details-right-img {
     position: relative;
-    height: 88%;
-    width: 75%;
+    height: 100%;
+    width: 100%;
     margin: 0 auto;
     top: 50%;
     transform: translateY(-50%);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
     /* padding-top: 53%; */
     border-radius: 10px;
+}
+
+
+
+.vertical-details-right-img{
+    background-size: contain;
+    height: 95%;
 }
 
 
@@ -3029,10 +3038,12 @@ input:focus{
     top: 35px;
     /*transform: translateY(-50%);*/
     left: 4%;
+    width: 150px;
     max-height: 150px;
     max-width: 150px;
-    padding: 40px 30px;
+    padding: 20px 20px;
     box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.1);
+    box-sizing: border-box;
 }
 
 
@@ -3218,7 +3229,7 @@ input:focus{
 
 .deal-sale-info {
     width: 61%;
-    left: 20%;
+    left: calc(10% + 150px);
     position: relative;
     padding-bottom: 30px;
     margin-top: 30px;
@@ -3270,7 +3281,7 @@ input:focus{
 
 .deal-company-detailed-info{
     width: 70%;
-    left: 20%;
+    left: calc(10% + 150px);
     position: relative;
     display: inline-block;
 }
@@ -3587,14 +3598,17 @@ input:focus{
 
 
 .jcarousel ul {
-    width: 20000em;
+    /*width: 20000em;*/
     position: relative;
     list-style: none;
     margin: 0;
     padding: 0;
-    display: table;
+    /*display: table;*/
     transform: translateY(0);
     padding-top: 38px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -4451,7 +4465,7 @@ input:focus{
     display: inline-block;
     position: absolute;
     right: 10px;
-    top: 15px;
+    top: 20px;
 }
 
 .company-page-contact-company-detailed-info:visited {

@@ -114,7 +114,8 @@
 			//Set initial width
 			this.width = this.list.children().eq(0).outerWidth(true);
 
-			this.list.width(this.width * (obj.group.length + 1)).css('left', Math.floor($(window).width() * 0.5 - (obj.index * this.width + this.width * 0.5)));
+			// this.list.width(this.width * (obj.group.length + 1)).css('left', Math.floor($(window).width() * 0.5 - (obj.index * this.width + this.width * 0.5)));
+			this.list.width(this.width * (obj.group.length + 1)).css('left', 0);
 		},
 
 		beforeLoad: function (opts, obj) {
@@ -146,7 +147,7 @@
 		onUpdate: function (opts, obj) {
 			if (this.list) {
 				this.list.stop(true).animate({
-					'left': Math.floor($(window).width() * 0.5 - (obj.index * this.width + this.width * 0.5))
+					'left': Math.floor(-(obj.index * this.width))
 				}, 150);
 			}
 		},

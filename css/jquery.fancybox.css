@@ -201,7 +201,8 @@
 	overflow: hidden;
 	display: none;
 	z-index: 8010;
-	background: url(../image/fancybox_overlay.png);
+	/*background: url(../image/fancybox_overlay.png);*/
+	background-color: rgba(0,0,0, 0.75);
 }
 
 .fancybox-overlay-fixed {
@@ -259,6 +260,10 @@
 	margin-top: 10px;
 	color: #fff;
 	padding: 0 15px;
+	top: 45px;
+	font-size: 16px;
+	font-family: nino_mtavruli_bold, serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 .fancybox-title-inside-wrap {

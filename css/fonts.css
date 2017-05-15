@@ -40,21 +40,21 @@
 
 
 .nino-mtavruli-bold{
-    font-family: nino_mtavruli_bold;
+    font-family: nino_mtavruli_bold, serif;
     -webkit-font-smoothing: antialiased;
 }
 
 .nino-mtavruli-normal{
-    font-family: nino_mtavruli_normal;
+    font-family: nino_mtavruli_normal, serif;
     -webkit-font-smoothing: antialiased;
 }
 
 .dejavu-sans{
-    font-family: dejavu_sans;
+    font-family: dejavu_sans, serif;
     -webkit-font-smoothing: antialiased;
 }
 
 .bpg-nino-beqa{
-    font-family: bpg_nino_beqa;
+    font-family: bpg_nino_beqa, serif;
     -webkit-font-smoothing: antialiased;
 }

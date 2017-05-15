@@ -28,7 +28,7 @@
 #fancybox-thumbs ul li {
 	float: left;
 	padding: 1px;
-	opacity: 0.75;
+	opacity: 1;
 	position: relative;
 	margin-left: 10px;
 }

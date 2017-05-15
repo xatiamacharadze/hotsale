@@ -24,7 +24,7 @@ var contentTop;
 
 $(document).ready(function () {
 
-    headerSize();
+    // headerSize();
 
     changeLanguage();
 
@@ -598,7 +598,7 @@ function headerArrowHide() {
     if ($('.header-menu').css('left') === "0px") {
         $('.white-header-arrow-left').hide();
     } else {
-        console.log("ra");
+        // console.log("ra");
         $('.white-header-arrow-left').show();
     }
 }
@@ -631,7 +631,7 @@ function detailPageChangeHeader() {
 
             detailCompanies.addClass('fixed-companies-detail');
 
-            console.log(scrollHeight - footerHeight - clientHeight - recommendedDealsHeight, $('.action-terms.action-terms-jquery').height());
+            // console.log(scrollHeight - footerHeight - clientHeight - recommendedDealsHeight, $('.action-terms.action-terms-jquery').height());
 
             if ($(window).scrollTop() > scrollHeight - footerHeight - clientHeight - recommendedDealsHeight + 50) {
 
@@ -842,7 +842,7 @@ function companyDealsHide() {
     var items = item_fit > item_count ? item_count : item_fit;
     var dealsHeight = items * itemHeight;
 
-    console.log(dealsHeight, itemHeight, margin);
+    // console.log(dealsHeight, itemHeight, margin);
     $('.hotsale-companies').height(dealsHeight);
     $('.hotsale-companies').css({height: dealsHeight});
 
@@ -861,7 +861,12 @@ function headerSize() {
         sum_width += $(this).width();
     });
 
-    if(sum_width <= header.width() && sum_width !== 0){
+    console.log(sum_width, "sum width", header.width(), "header width");
+
+    console.log(sum_width <= header.width(), sum_width !== 0);
+
+    if(sum_width - 20 <= header.width() && sum_width !== 0){
+
         header.css({
             'right': 0,
             'width': sum_width
@@ -880,7 +885,7 @@ function extendSearch(headerPosition) {
         headerPosition.addClass('header-logo-second').removeClass('appear-extended-search');
 
 
-        console.log("rame1");
+        // console.log("rame1");
 
         $('#bodyHide').removeClass('overflow-hidden');
         $('#bodyOverlay').removeClass('body-overlay');
@@ -889,7 +894,7 @@ function extendSearch(headerPosition) {
         headerPosition.removeClass('header-logo-second').addClass('appear-extended-search');
 
 
-        console.log("rame2");
+        // console.log("rame2");
 
         $('#bodyHide').addClass('overflow-hidden');
         $('#bodyOverlay').addClass('body-overlay');
@@ -908,7 +913,7 @@ $(window).resize(function () {
     //
     // detailPageChangeHeader();
 
-    headerSize();
+    // headerSize();
 
     companyDealsHide();
 
@@ -930,7 +935,7 @@ $(window).load(function () {
     //
     // shoppingCartFixed();
 
-    headerSize();
+    // headerSize();
 
     companyDealsHide();
 

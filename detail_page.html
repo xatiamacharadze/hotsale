@@ -330,7 +330,10 @@
             <div class="details-right-side">
 
                 <div class="details-main-vertical-img">
-                    <div class="details-right-img" style="background-image: url('image/sairme.jpg');">
+
+                    <!-- vertical-details-right-img კლასი უნდა მიედგას თუ სურათი ვერტიკალურია-->
+                    <div class="details-right-img">
+                        <img src="image/sairme.jpg">
                         <div class="details-deal-sale bg-red fc-white fs-18 nino-mtavruli-bold">-45%</div>
                     </div>
                 </div>
@@ -1335,7 +1338,10 @@
             prevEffect	: 'none',
             nextEffect	: 'none',
             helpers	: {
-                title	: null,
+                title	: {
+                    type: 'outside',
+                    position: 'top'
+                },
 
                 thumbs	: {
                     width	: 230,

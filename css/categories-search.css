@@ -284,9 +284,10 @@ img {
 
 .recommended-deal {
     margin-top: 10px;
-    width: 24%;
+    /*width: 24%;*/
     text-align: left;
-    /*width: 245px;*/
+    width: 245px;
+    height: 250px;
 }
 
 .categories-search-deals {

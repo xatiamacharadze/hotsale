@@ -2659,11 +2659,15 @@ input:focus{
     position: relative;
 }
 
+
 .action-terms {
     position: relative;
     border-radius: 10px;
     height: auto;
+    padding: 50px;
+    margin-bottom: 15px;
 }
+
 
 .detail-middle{
     position: relative;
@@ -2755,12 +2759,12 @@ input:focus{
 
 .action-terms-title {
     width: 90%;
-    padding-left: 50px;
-    padding-top: 30px;
+    /*padding-left: 50px;*/
+    /*padding-top: 30px;*/
 }
 
 .action-terms-text {
-    padding-left: 50px;
+    /*padding-left: 50px;*/
 }
 
 .action-terms-text > ul{
@@ -3044,6 +3048,9 @@ input:focus{
     background-position: center center;
     /* padding-top: 53%; */
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -3051,7 +3058,7 @@ input:focus{
     max-width: 100%;
     max-height: 100%;
     display: block;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
 }
 
 
@@ -3504,7 +3511,7 @@ input:focus{
 }
 
 
-.recommended-voucher-price{
+.recommended-voucher-price {
     display: inline-block;
     border-radius: 5px;
     padding: 0 10px;
@@ -3513,21 +3520,52 @@ input:focus{
     height: 30px;
     line-height: 34px;
     position: absolute;
+    z-index: 15;
 }
+
+
 
 .hotsale-recommended-arrows img {
     padding-right: 30px;
 }
 
-.hotsale-recommended-deals .recommended-deal-img {
+
+
+.hotsale-recommended-deals .recommended-deal-wrap {
     display: inline-block;
-    height: 250px;
+    height: 100%;
     width: 95%;
     border-radius: 5px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    position: relative;
+    position: absolute;
+    overflow: hidden;
+    /* transform: scale(1.2); */
+}
+
+.hotsale-recommended-deals .recommended-deal-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+
+.recommended-deal:hover .recommended-deal-img{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 
@@ -3541,6 +3579,8 @@ input:focus{
     background-position: center center;
     position: relative;
 }
+
+
 
 .hotsale-recommended-deals-all {
     width: calc(100% - 30px);
@@ -3560,6 +3600,8 @@ input:focus{
     position: relative;
     /*width: 17%;*/
     width: 260px;
+    height: 250px;
+    overflow: hidden;
 }
 
 .deal-responsive-details{
@@ -4907,6 +4949,9 @@ input.extended-search-focus:focus {
 .recommended-deal-company-info {
     display: flex;
     align-items: center;
+    top: 0;
+    position: absolute;
+    z-index: 15;
 }
 
 /*.recommended-deal-company-description {*/
@@ -4926,28 +4971,29 @@ input.extended-search-focus:focus {
 
 
 .recommended-deal-company-description {
-    width: 90%;
+    width: 85%;
     margin: 5%;
     top: 100%;
     /* display: inline-block; */
     position: absolute;
     height: calc(1.55em * 5);
-    display: none;
+    /*display: none;*/
     left: 0;
     -webkit-transform: translateY(-140%);
     -ms-transform: translateY(-140%);
     transform: translateY(-140%);
     overflow: hidden;
-    /*display: -webkit-box;*/
+    display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     box-sizing: border-box;
+    z-index: 15;
 }
 
 
 
 
-.recommended-deal:hover .recommended-deal-img:before{
+.recommended-deal .recommended-deal-img:before{
     content: '';
     position: absolute;
     width: 100%;
@@ -4970,10 +5016,10 @@ input.extended-search-focus:focus {
     /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );*/
 }
 
-.recommended-deal-img:hover .recommended-deal-company-description{
-    display: inline-block;
-    display: -webkit-box;
-}
+/*.recommended-deal:hover .recommended-deal-company-description{*/
+    /*display: inline-block;*/
+    /*display: -webkit-box;*/
+/*}*/
 
 #prevArrowRecommended img {
     -webkit-transform: rotate(180deg);

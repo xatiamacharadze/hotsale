@@ -840,7 +840,7 @@ function companyDealsHide() {
 
     var item_fit = Math.floor((clientHeight - headerHeight - 20) / itemHeight);
     var items = item_fit > item_count ? item_count : item_fit;
-    var dealsHeight = items * itemHeight;
+    var dealsHeight = items * itemHeight - margin;
 
     // console.log(dealsHeight, itemHeight, margin);
     $('.hotsale-companies').height(dealsHeight);

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
     <title>KFC</title>
     <link rel="stylesheet" href="css/hamburgers.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/jquery.fancybox-thumbs.css">
     <link rel="stylesheet" href="fonts/font-larisome-master/css/font-larisome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
@@ -245,7 +247,7 @@
                     <div class="company-page-white-header-right">
                         <div class="company-page-white-gallery">
                             <img class="company-page-gallery-icon" src="image/gallery-icon.png">
-                            <span class="company-page-gallery-title fc-bluish-grey fs-14 nino-mtavruli-bold">გალერეა +12</span>
+                            <span id="companyGalleryBtn" class="company-page-gallery-title fc-bluish-grey fs-14 nino-mtavruli-bold">გალერეა +12</span>
                         </div>
 
                         <div class="company-page-white-company-site fc-bluish-grey fs-12 dejavu-sans">
@@ -1818,11 +1820,46 @@
 
 <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 <script type="text/javascript" src="js/slick.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox-thumbs.js"></script>
 <script type="text/javascript" src="js/jcarousel.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 
 <script>
-    fixCompanyInfo();
+
+    $(document).ready(function () {
+
+        fixCompanyInfo();
+
+        $("#companyGalleryBtn").click(function() {
+            $.fancybox([
+                'http://farm8.staticflickr.com/7308/15783866983_27160395b9_b.jpg',
+                'http://farm3.staticflickr.com/2880/10346743894_0cfda8ff7a_b.jpg',
+                'http://farm8.staticflickr.com/7308/15783866983_27160395b9_b.jpg',
+                'http://farm3.staticflickr.com/2880/10346743894_0cfda8ff7a_b.jpg',
+                'http://farm2.staticflickr.com/1669/23976340262_a5ca3859f6_b.jpg',
+                'http://farm2.staticflickr.com/1459/23610702803_83655c7c56_b.jpg',
+                {
+                    'href'	: 'http://farm6.staticflickr.com/5612/15344856989_449794889d_b.jpg',
+                    'title'	: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+                }
+            ], {prevEffect	: 'none',
+                nextEffect	: 'none',
+                helpers	: {
+                    title: {
+                        type: 'outside',
+                        position: 'top'
+                    },
+
+                    thumbs: {
+                        width: 230,
+                        height: 130
+                    }
+                }
+            });
+        });
+
+    });
 </script>
 
 </body>

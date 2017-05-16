@@ -85,7 +85,8 @@
 
 
 a.fancybox-thumb {
-	width: 287px;
+	/*width: 287px;*/
+	width: 31%;
 	padding-left: 20px;
 	display: inline-block;
 }

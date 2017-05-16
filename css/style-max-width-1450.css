@@ -482,6 +482,14 @@
 
 
 
+    /*.deal-gallery-info {*/
+        /*height: 255px;*/
+    /*}*/
+
+    /*a.fancybox-thumb {*/
+        /*width: 249px;*/
+    /*}*/
+
 }
 
 
@@ -1190,6 +1198,10 @@
 
     .company-middle-content {
         min-height: 880px;
+    }
+
+    .deal-gallery-info {
+        height: 235px;
     }
 
 }

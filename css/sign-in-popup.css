@@ -396,7 +396,7 @@ input#id::-webkit-outer-spin-button{
     /* width: auto; */
     left: 0;
     transform: translateX(0);
-    padding-right: 22px;
+    padding-right: 10px;
 }
 
 .user-name-surname {
@@ -428,6 +428,12 @@ input#id::-webkit-outer-spin-button{
 .sign-up-popup .authentication {
     margin-top: 10px;
 }
+
+.sign-up-popup input {
+    padding-left: 15px;
+}
+
+
 
 
 

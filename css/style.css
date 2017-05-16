@@ -1111,11 +1111,18 @@ a {
 }
 
 
+div#cityDropdownWrapper {
+    position: relative;
+    width: calc(30% - 15px);
+    display: inline-block;
+}
+
+
 .wrapper-dropdown-5 {
     position: relative;
     width: calc(30% - 15px);
     margin: 0 auto;
-    /*padding: 16px 0 16px 30px;*/
+    /* padding: 16px 0 16px 30px; */
     background: #fff;
     border-radius: 5px;
     /* box-shadow: 0 1px 0 rgba(0,0,0,0.2); */
@@ -1123,6 +1130,13 @@ a {
     outline: none;
     transition: all 0.3s ease-out;
 }
+
+
+#cityDropdownWrapper .wrapper-dropdown-5{
+    width: 100%;
+
+}
+
 
 /*.wrapper-dropdown-5:after { !* Little arrow *!*/
 /*content: "";*/

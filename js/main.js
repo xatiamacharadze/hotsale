@@ -952,6 +952,7 @@ $(window).load(function () {
 
 });
 
+
 $(document).on('click', function (e) {
     if ($(e.target).closest('.search-part').length === 0) {
         $('#extendedSearchBody').removeClass('appear-extended-search');
@@ -964,5 +965,9 @@ $(document).on('click', function (e) {
 
     if ($(e.target).closest('#user-part').length === 0) {
         $('#user-menu').removeClass('active-drop-down');
+    }
+
+    if ($(e.target).closest('#cityDropdownWrapper').length === 0) {
+        $('#dd').removeClass('active-city');
     }
 });

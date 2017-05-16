@@ -4974,24 +4974,17 @@ input.extended-search-focus:focus {
 .recommended-deal-company-description {
     width: 85%;
     margin: 5%;
-    top: 100%;
-    /* display: inline-block; */
     position: absolute;
-    height: calc(1.55em * 5);
-    /*display: none;*/
+    max-height: calc(1.55em * 5);
     left: 0;
-    -webkit-transform: translateY(-140%);
-    -ms-transform: translateY(-140%);
-    transform: translateY(-140%);
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     box-sizing: border-box;
     z-index: 15;
+    bottom: 0;
 }
-
-
 
 
 .recommended-deal .recommended-deal-img:before{

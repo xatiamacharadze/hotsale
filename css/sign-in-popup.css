@@ -193,11 +193,15 @@ a.sign-in-google img {
 .control-group {
     width: calc(63% + 22px);
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    display: inline-block;
-    top: -13px;
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    display: block;
+    margin: 0 auto;
+    /* top: -13px; */
+    margin-top: 12px;
 }
+
+
 
 .accept-terms{
     width: calc(63% + 22px);
@@ -405,17 +409,25 @@ input#id::-webkit-outer-spin-button{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    align-items: center;
+    margin-top: 12px;
 }
 
 .user-name-surname .authentication:first-child {
     margin-right: 5px;
+    margin-top: 0;
 }
 
 .user-name-surname .authentication:last-child {
     margin-left: 5px;
+    margin-top: 0;
     /* flex: 3; */
 }
 
+
+.sign-up-popup .authentication {
+    margin-top: 10px;
+}
 
 
 

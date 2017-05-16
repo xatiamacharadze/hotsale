@@ -4390,6 +4390,7 @@ input:focus{
     display: inline-block;
     padding-right: 25px;
     position: relative;
+    cursor: pointer;
 }
 
 

@@ -1162,7 +1162,7 @@ div#cityDropdownWrapper {
     /* Styles */
     background: #fff;
     border-radius: 0 0 5px 5px;
-    border: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 1px solid #f1f1f1;
     border-top: none;
     border-bottom: none;
     list-style: none;
@@ -1228,7 +1228,7 @@ div#cityDropdownWrapper {
 }
 
 .wrapper-dropdown-5.active-city .dropdown {
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 1px solid #f1f1f1;
     max-height: 400px;
     margin: 0;
     padding: 0;
@@ -2582,9 +2582,10 @@ input:focus{
     flex: 1;
 }
 
-.search-bar-header-detail .search-city:before {
+.search-bar-header-detail .search-city:before,
+.search-bar-header-detail .search-city:after {
     content: '';
-    height: 80%;
+    height: 100%;
     width: 1px;
     position: absolute;
     background-color: #f1f1f1;
@@ -2594,8 +2595,17 @@ input:focus{
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+.search-bar-header-detail .search-city:before{
     left: 0;
 }
+
+.search-bar-header-detail .search-city:after {
+    right: 0;
+}
+
+
 
 .search-bar-header-detail .search-anything:before {
     content: '';
@@ -2608,6 +2618,9 @@ input:focus{
     top: 10%;
     left: 100%;
 }
+
+
+
 
 .white-header-before-wrap .search-text-bar {
     display: inline-block;

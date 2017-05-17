@@ -91,7 +91,7 @@ input[type="text"] {
 }
 
 .sign-in-title {
-    width: calc(63% + 22px);
+    width: 63%;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -100,12 +100,12 @@ input[type="text"] {
     /* font-weight: bold; */
 }
 
-.sign-in-error-message{
-    width: calc(63% + 22px);
+.sign-in-error-message {
+    width: 63%;
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 5px;
+    padding-left: 5px;
+    display: block;
+    margin: 5px auto;
 }
 
 .forgot-password {
@@ -191,7 +191,7 @@ a.sign-in-google img {
 
 
 .control-group {
-    width: calc(63% + 22px);
+    width: 63%;
     position: relative;
     /* left: 50%; */
     /* transform: translateX(-50%); */
@@ -203,14 +203,14 @@ a.sign-in-google img {
 
 
 
-.accept-terms{
-    width: calc(63% + 22px);
+.accept-terms {
+    width: 63%;
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    display: inline-block;
-    margin-top: 5px;
+    display: block;
+    margin: 5px auto;
 }
+
+
 
 input[type='checkbox']{
     width: auto;
@@ -387,6 +387,7 @@ input#id::-webkit-outer-spin-button{
     margin: 11px auto 0;
     display: flex;
     justify-content: flex-start;
+    box-sizing: border-box;
 }
 
 
@@ -400,18 +401,16 @@ input#id::-webkit-outer-spin-button{
 }
 
 .user-name-surname {
-    width: calc(63% + 22px);
+    width: 63%;
     position: relative;
-    /* margin-top: 9px; */
-    /* height: 45px; */
-    /* left: 50%; */
-    /* transform: translateX(-50%); */
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     align-items: center;
     margin-top: 12px;
+    box-sizing: border-box;
 }
+
 
 .user-name-surname .authentication:first-child {
     margin-right: 5px;
@@ -431,6 +430,7 @@ input#id::-webkit-outer-spin-button{
 
 .sign-up-popup input {
     padding-left: 15px;
+    box-sizing: border-box;
 }
 
 

@@ -4,7 +4,7 @@
     display: block;
     margin: 0 auto;
     position: fixed;
-    height: 860px;
+    min-height: 860px;
     /* left: 50%; */
     /* top: 50%; */
     /* transform: translate(-50%, -50%); */
@@ -63,7 +63,7 @@ input[type="text"] {
     text-decoration: none;
     opacity: 1;
     border: 0;
-    width: calc(63% + 22px);
+    width: 63%
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -382,15 +382,14 @@ input#id::-webkit-outer-spin-button{
     background-color: #4373ff;
 }
 
+
 .user-types {
-    width: calc(63% + 22px);
+    width: 63%;
     margin: 11px auto 0;
     display: flex;
     justify-content: flex-start;
     box-sizing: border-box;
 }
-
-
 
 .user-name-surname .authentication {
     flex: 1;
@@ -431,6 +430,25 @@ input#id::-webkit-outer-spin-button{
 .sign-up-popup input {
     padding-left: 15px;
     box-sizing: border-box;
+}
+
+
+.user-name-surname > div {
+    width: 49%;
+}
+
+.user-name-surname > div .authentication {
+    width: 100%;
+}
+
+.user-name-surname > div .sign-in-error-message {
+    display: inline-block;
+    width: 100%;
+}
+
+
+.accept-terms .sign-in-error-message {
+    width: 100%;
 }
 
 

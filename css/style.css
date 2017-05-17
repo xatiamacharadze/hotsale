@@ -2583,8 +2583,13 @@ input:focus{
     flex: 1;
 }
 
-.search-bar-header-detail .search-city:before,
-.search-bar-header-detail .search-city:after {
+#cityDropdownWrapperHeader {
+    flex: 1;
+    position: relative;
+}
+
+#cityDropdownWrapperHeader:before,
+#cityDropdownWrapperHeader:after {
     content: '';
     height: 100%;
     width: 1px;
@@ -2598,11 +2603,11 @@ input:focus{
     transform: translateY(-50%);
 }
 
-.search-bar-header-detail .search-city:before{
+#cityDropdownWrapperHeader:before{
     left: 0;
 }
 
-.search-bar-header-detail .search-city:after {
+#cityDropdownWrapperHeader:after {
     right: 0;
 }
 

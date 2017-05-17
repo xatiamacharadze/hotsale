@@ -1179,9 +1179,11 @@ div#cityDropdownWrapper {
 
 
 .wrapper-dropdown-5 .dropdown li {
-    padding: 0 25px;
+    padding: 0 15px 0 25px;
     cursor: pointer;
 }
+
+
 
 .wrapper-dropdown-5 .dropdown li a {
     display: block;
@@ -2578,9 +2580,9 @@ input:focus{
 }
 
 .search-bar-header-detail .search-city {
-    width: auto;
+    width: 100%;
     /* left: 50px; */
-    flex: 1;
+    /*flex: 1;*/
 }
 
 #cityDropdownWrapperHeader {

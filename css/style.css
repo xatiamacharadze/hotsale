@@ -1228,7 +1228,8 @@ div#cityDropdownWrapper {
 }
 
 .wrapper-dropdown-5.active-city .dropdown {
-    border-bottom: 1px solid #f1f1f1;
+    border: 1px solid #f1f1f1;
+    border-top: none;
     max-height: 400px;
     margin: 0;
     padding: 0;

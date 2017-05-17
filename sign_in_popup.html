@@ -304,6 +304,12 @@
             <form class="sign-in-form">
                 <input class="authentication fs-14 nino-mtavruli-bold fc-bluish-grey" id="username" name="username" type="text" placeholder="მომხმარებელი" required>
                 <input class="authentication fs-14 nino-mtavruli-bold fc-bluish-grey" id="password" name="password" type="password" placeholder="პაროლი" required>
+
+                <div class="accept-terms">
+                    <input id="saveUser" name="saveUser" type="checkbox">
+                    <label class="fs-14 nino-mtavruli-bold fc-bluish-grey"  for="saveUser">მომხმარებლის ინფორმაციის შენახვა</label>
+                </div>
+
                 <button class="submit-info submit-info-left bg-blue fs-16 nino-mtavruli-bold fc-white" name="submit" id="sign-in" type="submit">ავტორიზაცია</button>
                 <div class="forgot-password fs-14 nino-mtavruli-bold fc-bluish-grey">პაროლის აღდგენა</div>
 
@@ -355,9 +361,8 @@
             <input class="authentication fs-14 nino-mtavruli-bold fc-bluish-grey" id="id" name="id" type="text" placeholder="პირადი ნომერი" required>
 
             <div class="control-group">
-                <label for="dob-day" class="control-label"></label>
                 <div class="controls ">
-                    <select class="nino-mtavruli-bold fs-14 fc-bluish-grey bg-white" name="dob-day" id="dob-day">
+                    <select class="nino-mtavruli-bold fs-14 fc-bluish-grey bg-white" name="dob-day" id="dob-day" title="dob-day">
                         <option value="">დღე</option>
                         <option value="">---</option>
                         <option value="01">01</option>
@@ -392,7 +397,7 @@
                         <option value="30">30</option>
                         <option value="31">31</option>
                     </select>
-                    <select class="nino-mtavruli-bold fs-14 fc-bluish-grey bg-white" name="dob-month" id="dob-month" title="">
+                    <select class="nino-mtavruli-bold fs-14 fc-bluish-grey bg-white" name="dob-month" id="dob-month" title="dob-month">
                         <option value="">თვე</option>
                         <option value="">-----</option>
                         <option value="01">იანვარი</option>
@@ -408,7 +413,7 @@
                         <option value="11">ნოემბერი</option>
                         <option value="12">დეკემბერი</option>
                     </select>
-                    <select class="nino-mtavruli-bold fs-14 fc-bluish-grey bg-white" name="dob-year" id="dob-year" title="">
+                    <select class="nino-mtavruli-bold fs-14 fc-bluish-grey bg-white" name="dob-year" id="dob-year" title="dob-year">
                         <option value="">წელი</option>
                         <option value="">----</option>
                         <option value="2012">2012</option>

@@ -63,11 +63,11 @@ input[type="text"] {
     text-decoration: none;
     opacity: 1;
     border: 0;
-    width: 63%
+    width: 63%;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 20px;
+    margin-top: 10px;
     height: 55px;
     line-height: 55px;
     box-sizing: border-box;
@@ -88,16 +88,15 @@ input[type="text"] {
     left: 50%;
     transform: translateX(-50%);
     border: 1px solid #dee1ed;
+    box-sizing: border-box;
 }
 
 .sign-in-title {
     width: 63%;
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
     padding-top: 55px;
     padding-bottom: 10px;
-    /* font-weight: bold; */
+    margin: 0 auto;
 }
 
 .sign-in-error-message {
@@ -207,7 +206,7 @@ a.sign-in-google img {
     width: 63%;
     position: relative;
     display: block;
-    margin: 5px auto;
+    margin: 10px auto;
 }
 
 

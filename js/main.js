@@ -970,4 +970,9 @@ $(document).on('click', function (e) {
     if ($(e.target).closest('#cityDropdownWrapper').length === 0) {
         $('#dd').removeClass('active-city');
     }
+
+
+    if ($(e.target).closest('#cityDropdownWrapperHeader').length === 0) {
+        $('#headerCitySearch').removeClass('active-city');
+    }
 });

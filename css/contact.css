@@ -313,6 +313,62 @@ input[type='checkbox']{
 /*}*/
 
 
+/*pay with cash or card popup start*/
+
+
+.pay-cash-or-card-popup {
+    position: absolute;
+    width: 490px;
+    height: 260px;
+    z-index: 90;
+    border-radius: 5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+
+.show-pay-popup{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.pay-popup-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pay-cash-or-card-popup .cart-buy-voucher-payment-mastercard {
+    width: 100%;
+}
+
+.pay-cash-or-card-popup .cart-buy-voucher-payment-balance {
+    width: 100%;
+}
+
+
+.pay-popup-title img {
+    width: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+/*pay with cash or card popup end*/
+
 
 
 @media screen and (max-width: 1700px){

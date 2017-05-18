@@ -34,6 +34,10 @@ $(document).ready(function () {
 
     technologyFilter();
 
+    //
+    // $('.pay-popup-title img').click(function () {
+    //     closePayPopUp();
+    // });
 
 
     $('.cinema-time').click(function () {
@@ -44,6 +48,7 @@ $(document).ready(function () {
                 $(this).css('display','flex');
         });
     });
+
 
     $('.cinema-date').click(function () {
         $('.cinema-time-choose').slideUp();
@@ -135,6 +140,8 @@ $(document).ready(function () {
         $('#searchBoxCategories').removeClass('active-city');
         $('#contactUs').removeClass('contact-us-active');
         $('.hotSale-gives-you-body').removeClass('pos-fixed');
+
+        closePayPopUp();
     });
 
 
@@ -846,6 +853,18 @@ function companyDealsHide() {
     $('.hotsale-companies').height(dealsHeight);
     $('.hotsale-companies').css({height: dealsHeight});
 
+}
+
+
+function openPayPopUp() {
+    $('.pay-cash-or-card-popup').addClass('show-pay-popup');
+    $('#responsive-overlay').addClass("active-overlay");
+}
+
+
+function closePayPopUp() {
+    $('.pay-cash-or-card-popup').removeClass('show-pay-popup');
+    $('#responsive-overlay').removeClass("active-overlay");
 }
 
 

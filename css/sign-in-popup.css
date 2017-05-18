@@ -4,7 +4,7 @@
     display: block;
     margin: 0 auto;
     position: fixed;
-    min-height: 860px;
+    /*min-height: 860px;*/
     /* left: 50%; */
     /* top: 50%; */
     /* transform: translate(-50%, -50%); */
@@ -26,19 +26,20 @@
 }
 
 .sign-in-popup {
-    position: absolute;
+    position: relative;
     width: 49%;
     display: inline-block;
     left: 0;
-    height: 100%;
+    height: auto;
 }
 
 .sign-up-popup {
     width: 49%;
     display: inline-block;
     right: 0;
-    position: absolute;
-    height: 100%;
+    position: relative;
+    height: auto;
+    padding-bottom: 40px;
 }
 
 input[type="text"] {
@@ -161,7 +162,7 @@ a.sign-in-google img {
     left: 50%;
 }
 
-.sign-in-popup:after {
+.sign-up-popup:after {
     content: '';
     height: 100%;
     width: 1px;
@@ -169,7 +170,7 @@ a.sign-in-google img {
     background-color: #dee1ed;
     z-index: 52;
     top: 0;
-    left: 100%;
+    left: 0;
 }
 
 

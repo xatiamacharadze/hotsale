@@ -364,6 +364,8 @@ input#id::-webkit-outer-spin-button{
     position: relative;
     width: 100%;
     max-width: 1265px;
+    display: flex;
+    align-items: flex-start;
 }
 
 

@@ -4625,7 +4625,7 @@ hr{
 
 input[type="text"] {
     width: calc(100% - 50px);
-    position: absolute;
+    /*position: absolute;*/
     top: 0;
     /*border: none;*/
     resize: none;

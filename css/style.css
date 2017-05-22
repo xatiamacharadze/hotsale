@@ -1638,7 +1638,7 @@ div#cityDropdownWrapper {
     /*padding-bottom: 10px;*/
     margin-bottom: 15px;
     position: relative;
-    height: calc(1.7em * 3);
+    max-height: calc(1.7em * 3);
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 3;

@@ -1696,6 +1696,16 @@
         min-height: 630px;
     }
 
+
+    .main-info-text {
+        max-height: calc(1.5em * 3);
+    }
+
+    .secondary-info-text {
+       max-height: calc(1.4em * 3);
+    }
+
+
 }
 
 

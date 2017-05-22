@@ -442,7 +442,7 @@
 
 
     .secondary-info-text {
-        height: calc(1.6em * 3);
+        max-height: calc(1.6em * 3);
     }
 
 
@@ -670,7 +670,7 @@
 
 
     .secondary-info-text {
-        height: calc(1.8em * 3);
+        max-height: calc(1.8em * 3);
     }
 
     .jcarousel ul {
@@ -815,13 +815,13 @@
         width: 80%;
     }
 
-    .main-info-texts {
-        top: 40%;
-    }
+    /*.main-info-texts {*/
+        /*top: 40%;*/
+    /*}*/
 
-    .main-info-logo {
-        top: 36%;
-    }
+    /*.main-info-logo {*/
+        /*top: 36%;*/
+    /*}*/
 
     .main-info-title {
         margin-bottom: 5px;

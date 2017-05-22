@@ -1478,10 +1478,10 @@ div#cityDropdownWrapper {
     width: 120px;
     height: 120px;
     position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    top: 30px;
+    /* -webkit-transform: translateY(-50%); */
+    /*-ms-transform: translateY(-50%);*/
+    /* transform: translateY(-50%); */
     left: 4%;
     border: 1px solid #e5e8f1;
     background-repeat: no-repeat;
@@ -1526,17 +1526,21 @@ div#cityDropdownWrapper {
 }
 
 .main-info-text {
-    height: 60px;
+    max-height: calc(1.7em * 3);
     overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    width: 100%;
 }
 
 .main-info-texts {
     width: 63%;
     position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    top: 30px;
+    /*-webkit-transform: translateY(-50%);*/
+    /*-ms-transform: translateY(-50%);*/
+    /*transform: translateY(-50%);*/
     left: calc(8% + 120px);
     height: 120px;
 }

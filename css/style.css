@@ -4791,6 +4791,129 @@ input.extended-search-focus:focus {
 
 
 
+.company-page-food-deals {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 74%;
+    padding: 45px;
+    box-sizing: border-box;
+}
+
+.company-food-deals-left > ul > li {
+    list-style-type: none;
+    margin: 17px 0;
+    cursor: pointer;
+}
+
+.company-food-deals-left > ul > li:hover {
+    opacity: 0.8;
+}
+
+.company-food-deals-left > ul {
+    padding: 0;
+}
+
+
+.company-food-deals-left {
+    flex: 1;
+    position: relative;
+}
+
+.company-food-deals-right {
+    flex: 2;
+}
+
+
+.company-food-deals-left:after {
+    content: '';
+    position: absolute;
+    height: calc(100% + 90px);
+    width: 1px;
+    top: -45px;
+    background-color: #ebebeb;
+    left: 70%;
+}
+
+
+.company-food-deals ul {
+    padding: 0;
+}
+
+
+.company-food-deals ul {
+    padding: 0;
+}
+
+.company-food-deals ul li {
+    list-style-type: none;
+    border: 1px solid #ebebeb;
+    padding: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.company-food-deals ul li .right img {
+    height: 60px;
+    margin-right: 25px;
+    width: 60px;
+}
+
+.company-food-deals ul li .right div span {
+    display: block;
+}
+
+.company-food-deals ul li .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.company-food-deals ul li .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.food-deals-price-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.food-deals-price {
+    border: 1px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.food-deals-price span {
+    padding: 12px 40px;
+}
+
+.food-deals-price img {
+    padding: 15px 15px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /*Company page end*/

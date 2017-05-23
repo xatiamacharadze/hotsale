@@ -1238,4 +1238,9 @@
         padding-left: 15px;
     }
 
+
+    .company-food-deals-right {
+        flex: 3;
+    }
+
 }

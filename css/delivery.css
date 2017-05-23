@@ -31,6 +31,9 @@
 
 .food-delivery-page .secondary-deal-statistics {
     border-top: 1px solid #ebebeb;
+    height: 28%;
+    bottom: 14%;
+    line-height: 60px;
 }
 
 .food-delivery-page .secondary-deal-img-text-title {
@@ -40,4 +43,24 @@
 .food-delivery-page .secondary-voucher-price {
     width: auto;
     padding: 0 10px;
+}
+
+.food-delivery-wrapper {
+    margin-top: 170px;
+}
+
+.food-deals .secondary-popular-deal {
+    height: 420px;
+}
+
+.food-deals .secondary-popular-deal .secondary-popular-deal-img {
+    height: 57%;
+}
+
+.food-deals .secondary-popular-deal .secondary-popular-deal-info {
+    height: 51%;
+}
+
+.secondary-info-food-type {
+    margin: 25px 0;
 }

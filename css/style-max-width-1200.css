@@ -1705,6 +1705,28 @@
        max-height: calc(1.4em * 3);
     }
 
+    .margin-top {
+        margin-top: 110px !important;
+    }
+
+    .technology-filter-brand {
+        margin: 15px 0;
+        padding: 20px;
+    }
+
+    .technology-filter-category {
+        padding: 20px;
+    }
+
+
+    .food-deals .secondary-popular-deal {
+        height: 350px;
+    }
+
+    .secondary-info-food-type {
+        margin: 15px 0;
+    }
+
 
 }
 

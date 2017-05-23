@@ -113,98 +113,8 @@
     </div>
 
     <div class="white-header bg-white">
-        <div class="white-header-wrap">
 
-            <div class="header-wrap">
-                <a href="">
-                    <div class="header-logo">
-                        <img src="image/LOGO.svg">
-                    </div>
-                </a>
-            </div>
-
-            <a class="jcarousel-prev white-header-arrow-left"><img src="image/right-arrow.png"></a>
-
-            <div class="header-menu-wrap">
-                <div class="header-jcarousel jcarousel" data-jcarousel="true">
-                    <ul class="header-menu header-menu-width nino-mtavruli-bold fs-16" style="left: 0px;">
-                        <li class="hover-header">
-                            <div class="header-menu-item fc-black active-header-item">კვება</div>
-                        </li>
-
-
-                        <li class="hover-header">
-                            <div class="header-menu-item fc-black">გართობა</div>
-
-                            <div class="header-sub-menu fs-14 nino-mtavruli-bold fc-bluish-grey bg-white">
-                                <div class="header-sub-menu-item">
-                                    <span>კინო</span>
-
-                                    <div class="header-sub-sub-menu bg-white fs-14 nino-mtavruli-bold fc-bluish-grey">
-                                        <div>რუსთაველი</div>
-                                        <div>ამირანი</div>
-                                        <div>კავეა ისთ ფოინთი</div>
-                                        <div>კავეა თბილისი მოლი</div>
-                                    </div>
-
-                                </div>
-                                <div class="header-sub-menu-item">თეატრი</div>
-                                <div class="header-sub-menu-item">ხელოვნება</div>
-                                <div class="header-sub-menu-item">ღამის კლუბები</div>
-                                <div class="header-sub-menu-item">აზარტული თამაშები</div>
-                            </div>
-
-                        </li>
-
-
-                        <li class="hover-header">
-                            <div class="header-menu-item fc-black">სილამაზე</div>
-                        </li>
-
-
-                        <li class="hover-header">
-                            <div class="header-menu-item fc-black">ჯანმრთელობა</div>
-                        </li>
-
-
-                        <li class="hover-header">
-                            <div class="header-menu-item fc-black">ტურიზმი/სასტუმროები</div>
-                        </li>
-
-
-                        <li class="hover-header">
-                            <div class="header-menu-item fc-black">ბავშვები</div>
-                        </li>
-
-
-                        <li class="hover-header">
-                            <div class="header-menu-item fc-black">განათლება</div>
-                        </li>
-
-
-                        <li class="hover-header">
-                            <div class="header-menu-item fc-black">ავტო</div>
-                        </li>
-
-
-                        <li class="hover-header">
-                            <div class="header-menu-item fc-black">სხვა მომსახურება</div>
-                        </li>
-
-
-                        <li class="hover-header">
-                            <div class="header-menu-item fc-black">სხვა პროდუქცია</div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <a class="jcarousel-next white-header-arrow"><img src="image/right-arrow.png"></a>
-
-
-        </div>
-
-        <div class="white-header-before-wrap bg-white passive-header">
+        <div class="white-header-before-wrap bg-white">
 
             <div class="search-text-bar search-bar-header-detail">
                 <div class="search-box bg-white">
@@ -212,22 +122,26 @@
                         <img src="image/categories.png">
                         <div class="details-header-categories fc-blue fs-16 nino-mtavruli-bold">კატეგორიები</div>
                     </div>
-                    <div id="headerCitySearch" class="wrapper-dropdown-5 search-city" tabindex="1">
-                        <img src="image/grey-pin.png">
-                        <div class="choose-city dejavu-sans fs-16 fc-black">ქალაქი</div>
-                        <img src="image/bottom-arrow.png">
-                        <ul class="dropdown nino-mtavruli-bold fs-12 ">
-                            <li><a href="#">თბილისი
-                                <div class="city-bullets bg-bluish-grey"></div>
-                            </a></li>
-                            <li><a href="#">რუსთავი
-                                <div class="city-bullets bg-bluish-grey"></div>
-                            </a></li>
-                            <li><a href="#">ქუთაისი
-                                <div class="city-bullets bg-bluish-grey"></div>
-                            </a></li>
-                        </ul>
+
+                    <div id="cityDropdownWrapperHeader">
+                        <div id="headerCitySearch" class="wrapper-dropdown-5 search-city" tabindex="1">
+                            <img src="image/grey-pin.png">
+                            <div class="choose-city dejavu-sans fs-16 fc-black">ქალაქი</div>
+                            <img src="image/bottom-arrow.png">
+                            <ul class="dropdown nino-mtavruli-bold fs-12 ">
+                                <li><a href="#">თბილისი
+                                    <div class="city-bullets bg-bluish-grey"></div>
+                                </a></li>
+                                <li><a href="#">რუსთავი
+                                    <div class="city-bullets bg-bluish-grey"></div>
+                                </a></li>
+                                <li><a href="#">ქუთაისი
+                                    <div class="city-bullets bg-bluish-grey"></div>
+                                </a></li>
+                            </ul>
+                        </div>
                     </div>
+
                     <div class="search-anything">
                         <div class="search-word dejavu-sans fs-16 fc-bluish-grey">
                             <input type="text" id="searchBoxHeader"
@@ -242,7 +156,7 @@
             <div class="header-wrap">
                 <a href="">
                     <div class="header-logo">
-                        <img src="image/hotsale-logo-big.png">
+                        <img src="image/LOGO.svg">
                     </div>
                 </a>
             </div>
@@ -500,1243 +414,675 @@
 
 <div class="hotsale-body bg-light-grey">
 
-    <div class="search-wrap" style="background-image: url('image/header-open.jpg')">
-        <div class="search-text-bar ">
-            <div class="search-text-title">
-                <div class="search-title nino-mtavruli-bold fs-24 fc-white">
-                    მოძებნეთ სასურველი ვაუჩერი
-                </div>
-                <div class="search-text dejavu-sans fs-14 fc-white">
-                    გამოიყენეთ ქალაქისა და კატეგორიის ფილტრი
-                </div>
+    <div class="margin-top">
+
+        <div class="hotsale-offers ">
+            <div class="hotsale-offers-left bg-white">
+                <div class="offers-order fs-17 fc-black nino-mtavruli-bold">დალაგება:</div>
+
+                <a href="#" class="offers-order-newest active">
+                    <img class="offers-order-icon" src="image/newest.png">
+                    <div class="newest-offers-text nino-mtavruli-bold fs-14 fc-bluish-grey">ახალი</div>
+                    <div class="newest-offers-amount nino-mtavruli-bold fs-14 fc-bluish-grey">164</div>
+                </a>
+
+                <a href="#" class="offers-order-newest responsive-hide">
+                    <img class="offers-order-icon" src="image/newest.png">
+                    <div class="newest-offers-text nino-mtavruli-bold fs-14 fc-bluish-grey">ვაუჩერი</div>
+                    <div class="newest-offers-amount nino-mtavruli-bold fs-14 fc-bluish-grey">164</div>
+                </a>
+
+                <a href="#" class="offers-order-newest responsive-hide">
+                    <img class="offers-order-icon" src="image/newest.png">
+                    <div class="newest-offers-text nino-mtavruli-bold fs-14 fc-bluish-grey">პოპულარული</div>
+                    <div class="newest-offers-amount nino-mtavruli-bold fs-14 fc-bluish-grey">164</div>
+                </a>
+
+                <a href="#" class="offers-order-newest responsive-hide">
+                    <img class="offers-order-icon" src="image/newest.png">
+                    <div class="newest-offers-text nino-mtavruli-bold fs-14 fc-bluish-grey">მთავრდება</div>
+                    <div class="newest-offers-amount nino-mtavruli-bold fs-14 fc-bluish-grey">164</div>
+                </a>
+
+                <a href="#" class="offers-order-newest responsive-hide">
+                    <img class="offers-order-icon" src="image/newest.png">
+                    <div class="newest-offers-text nino-mtavruli-bold fs-14 fc-bluish-grey">დანაზოგი</div>
+                    <div class="newest-offers-amount nino-mtavruli-bold fs-14 fc-bluish-grey">164</div>
+                </a>
+
             </div>
-            <div id="searchBox" class="search-box search-box-shadow ">
 
 
-                <div id="cityDropdownWrapper">
-                    <div id="dd" class="wrapper-dropdown-5 search-city bg-white" tabindex="1">
-                        <img src="image/grey-pin.png">
-                        <div class="choose-city dejavu-sans fs-16 fc-black">ქალაქი</div>
-                        <img src="image/bottom-arrow.png">
-                        <ul class="dropdown nino-mtavruli-bold fs-12 ">
-                            <li><a href="#">თბილისი
-                                <div class="city-bullets bg-bluish-grey"></div>
-                            </a></li>
-                            <li><a href="#">რუსთავი
-                                <div class="city-bullets bg-bluish-grey"></div>
-                            </a></li>
-                            <li><a href="#">ქუთაისი
-                                <div class="city-bullets bg-bluish-grey"></div>
-                            </a></li>
+            <div class="hotsale-offers-right bg-white">
+                <div class="all-offers nino-mtavruli-bold fc-blue fs-17">შემოთავაზება</div>
+                <div class="all-offers-amount fc-white bg-blue fs-12 dejavu-sans ">345</div>
+            </div>
+
+
+            <div class="whole-filter">
+                <div class="whole-filter-text nino-mtavruli-bold fs-14 fc-bluish-grey">სრული ფილტრი</div>
+                <img src="image/whole-arrow.png">
+            </div>
+
+        </div>
+
+        <div class="hotsale-deals-companies technology-deals-filter">
+
+            <div class="technology-filter">
+
+                <form class="technology-filter-form">
+
+                    <div class="technology-filter-category bg-white">
+                        <div class="technology-filter-js technology-filter-categories-title">
+                            <span class="fc-black nino-mtavruli-bold fs-16">შეკვეთა</span>
+                            <img src="image/plus-icon.png">
+                        </div>
+
+                        <ul class="technology-category-filter fc-black nino-mtavruli-normal fs-14">
+                            <li>
+                                <input type="checkbox" id="comps" name="comps" value="comps">
+                                <label for="comps">მიტანა</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" id="desktop" name="desktop" value="desktop">
+                                <label for="desktop">წაღება</label>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="technology-filter-brand bg-white">
+                        <div class="technology-filter-js technology-filter-categories-title">
+                            <span class="fc-black nino-mtavruli-bold fs-16">კატეგორია</span>
+                            <img src="image/plus-icon.png">
+                        </div>
+
+                        <ul class="technology-category-filter fc-black nino-mtavruli-normal fs-14">
+                            <li>
+                                <input class="isSelected" type="checkbox" id="comps1" name="comps" value="comps">
+                                <label for="comps1">კომპიუტერები/აქსესუარები</label>
+                                <img src="image/bottom-arrow.png">
+
+                                <ul class="subcategories">
+                                    <li>
+                                        <input type="checkbox" id="desktop2" name="desktop" value="desktop">
+                                        <label for="desktop2">Desktop კომპიუტერები</label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="laptop2" name="laptop" value="laptop">
+                                        <label for="laptop2">Laptop კომპიუტერები</label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="usbCards2" name="usbCards" value="usbCards">
+                                        <label for="usbCards2">USB Flash ბარათები</label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="gadgets2" name="gadgets" value="gadgets">
+                                        <label for="gadgets2">USB გაჯეტები</label>
+                                    </li>
+                                </ul>
+
+                            </li>
+
+                            <li>
+                                <input type="checkbox" id="desktop1" name="desktop" value="desktop">
+                                <label for="desktop1">Desktop კომპიუტერები</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" id="laptop1" name="laptop" value="laptop">
+                                <label for="laptop1">Laptop კომპიუტერები</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" id="usbCards1" name="usbCards" value="usbCards">
+                                <label for="usbCards1">USB Flash ბარათები</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" id="gadgets1" name="gadgets" value="gadgets">
+                                <label for="gadgets1">USB გაჯეტები</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" id="speakers1" name="speakers" value="speakers">
+                                <label for="speakers1">კომპიუტერის დინამიკები</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" id="compParts1" name="compParts" value="compParts">
+                                <label for="compParts1">კომპიუტერის ნაწილები</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" id="mouse1" name="mouse" value="mouse">
+                                <label for="mouse1">მაუსები</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" id="microphones1" name="microphones" value="microphones">
+                                <label for="microphones1">მიკროფონები</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" id="monitors1" name="monitors" value="monitors">
+                                <label for="monitors1">მონიტორები</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" id="tablets1" name="tablets" value="tablets">
+                                <label for="tablets1">პლანშეტები, iPad-ები</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" id="printers1" name="printers" value="printers">
+                                <label for="printers1">პრინტერები</label>
+                            </li>
+
+                            <li>
+                                <input type="checkbox" id="cartridges1" name="cartridges" value="cartridges">
+                                <label for="cartridges1">პრინტერის კარტრიჯები</label>
+                            </li>
+
                         </ul>
                     </div>
-                </div>
 
-
-                <div class="search-anything bg-white">
-                    <div class="search-word dejavu-sans fs-16 fc-bluish-grey">
-                        <input type="text" id="searchBoxBody"
-                               class="extended-search-focus dejavu-sans fs-16 fc-bluish-grey"
-                               placeholder="საძიებო სიტყვა">
-                    </div>
-                    <img src="image/lupa.png">
-                </div>
-
-
-                <div id="extendedSearchBody"
-                     class="extended-search-deals header-logo-second search-bar-shadow bg-white">
-                    <a href="detail_page.html" class="searched-deal-mini-info">
-                        <div class="searched-deal-mini-info-img"
-                             style="background-image: url('image/kanchi.jpg');"></div>
-
-                        <!--<p class="overflow ellipsis">This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>-->
-                        <div class="searched-deal-mini-info-text fs-14 fc-bluish-grey dejavu-sans">აუზი, ფიტნესი,
-                            თურქული და ფინური საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი აუზი, ფიტნესი, თურქული და ფინური
-                            საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი!
-                        </div>
-                        <div class="searched-deal-mini-info-price bg-red fc-white dejavu-sans">3
-                            <div class="lari lari-comic"></div>
-                        </div>
-                    </a>
-
-                    <a href="detail_page.html" class="searched-deal-mini-info">
-                        <div class="searched-deal-mini-info-img"
-                             style="background-image: url('image/kanchi.jpg');"></div>
-
-                        <!--<p class="overflow ellipsis">This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>-->
-                        <div class="searched-deal-mini-info-text fs-14 fc-bluish-grey dejavu-sans">აუზი, ფიტნესი,
-                            თურქული და ფინური საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი აუზი, ფიტნესი, თურქული და ფინური
-                            საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი!
-                        </div>
-                        <div class="searched-deal-mini-info-price bg-red fc-white dejavu-sans">3
-                            <div class="lari lari-comic"></div>
-                        </div>
-                    </a>
-
-                    <a href="detail_page.html" class="searched-deal-mini-info">
-                        <div class="searched-deal-mini-info-img"
-                             style="background-image: url('image/kanchi.jpg');"></div>
-
-                        <!--<p class="overflow ellipsis">This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>-->
-                        <div class="searched-deal-mini-info-text fs-14 fc-bluish-grey dejavu-sans">აუზი, ფიტნესი,
-                            თურქული და ფინური საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი აუზი, ფიტნესი, თურქული და ფინური
-                            საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი!
-                        </div>
-                        <div class="searched-deal-mini-info-price bg-red fc-white dejavu-sans">3
-                            <div class="lari lari-comic"></div>
-                        </div>
-                    </a>
-
-                    <a href="detail_page.html" class="searched-deal-mini-info">
-                        <div class="searched-deal-mini-info-img"
-                             style="background-image: url('image/kanchi.jpg');"></div>
-
-                        <!--<p class="overflow ellipsis">This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>-->
-                        <div class="searched-deal-mini-info-text fs-14 fc-bluish-grey dejavu-sans">აუზი, ფიტნესი,
-                            თურქული და ფინური საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი აუზი, ფიტნესი, თურქული და ფინური
-                            საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი!
-                        </div>
-                        <div class="searched-deal-mini-info-price bg-red fc-white dejavu-sans">3
-                            <div class="lari lari-comic"></div>
-                        </div>
-                    </a>
-
-                    <a href="detail_page.html" class="searched-deal-mini-info">
-                        <div class="searched-deal-mini-info-img"
-                             style="background-image: url('image/kanchi.jpg');"></div>
-
-                        <!--<p class="overflow ellipsis">This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>-->
-                        <div class="searched-deal-mini-info-text fs-14 fc-bluish-grey dejavu-sans">აუზი, ფიტნესი,
-                            თურქული და ფინური საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი აუზი, ფიტნესი, თურქული და ფინური
-                            საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი!
-                        </div>
-                        <div class="searched-deal-mini-info-price bg-red fc-white dejavu-sans">3
-                            <div class="lari lari-comic"></div>
-                        </div>
-                    </a>
-
-                    <a href="detail_page.html" class="searched-deal-mini-info">
-                        <div class="searched-deal-mini-info-img"
-                             style="background-image: url('image/kanchi.jpg');"></div>
-
-                        <!--<p class="overflow ellipsis">This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.</p>-->
-                        <div class="searched-deal-mini-info-text fs-14 fc-bluish-grey dejavu-sans">აუზი, ფიტნესი,
-                            თურქული და ფინური საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი აუზი, ფიტნესი, თურქული და ფინური
-                            საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი!
-                        </div>
-                        <div class="searched-deal-mini-info-price bg-red fc-white dejavu-sans">3
-                            <div class="lari lari-comic"></div>
-                        </div>
-                    </a>
-
-                    <div class="extended-search-deals-more-btn bg-blue fc-white fs-16 nino-mtavruli-bold">მეტი</div>
-                </div>
+                </form>
             </div>
-        </div>
-    </div>
 
-    <div class="popular-deals">
-        <!--<div class="popular-deals-helper"></div>-->
+            <div class="food-deals hotsale-deals">
 
-        <!--erti da igive postebia erti responsive-tvisaa-->
-        <div class="main-popular-deal main-popular-deal-none">
-            <a href="detail_page.html" class="main-popular-deal-img" style="background-image: url('image/churchxelebi.jpg')">
-                <div class="main-popular-deal-voucher dejavu-sans fc-white bg-red">
-                    <div class="voucher-text dejavu-sans fs-12">ვაუჩერი</div>
-                    <div class="voucher-price fs-18">3 <i class="lari lari-comic"></i></div>
-                </div>
-                <div class="main-popular-deal-percentage fs-14 dejavu-sans fc-white bg-red">
-                    -45%
-                </div>
-            </a>
-            <div class="main-popular-deal-info">
-                <div class="main-info-left">
-                    <a href="company-page.html" class="main-info-logo">
-                        <span class="fs-46 nino-mtavruli-bold fc-blue">D</span>
-                    </a>
-                    <div class="main-info-texts">
-                        <a href="company-page.html" class="main-info-title fs-18 nino-mtavruli-bold fc-blue">
-                            ღვინის სახლი "მარანი"
-                        </a>
-                        <div class="main-info-icons">
-                            <div class="main-icon-amount">
-                                <img src="image/user.png">
-                                <div class="sold-amount dejavu-sans fs-14 fc-light-grey">X12</div>
+                <!--<div class="secondary-popular-deal " style="display: none;">-->
+
+                <!--</div>-->
+
+
+                <div class="secondary-popular-deal responsive-secondary-popular-deal-change food-delivery-page middle">
+
+                    <div class="secondary-popular-deal-img" style="background-image: url('image/coffee.jpg')">
+                        <div class="deal-delivery-service">
+                            <img src="image/motomoto.svg">
+                        </div>
+
+                        <div class="secondary-voucher-price nino-mtavruli-bold fc-white bg-green fs-14">
+                            ღიაა 09:00დან 23:00
+                        </div>
+
+                    </div>
+
+                    <div class="secondary-popular-deal-info">
+
+                        <div class="secondary-deal-img-text-title">
+                            <div class="secondary-info-logo">
+                                <span class="fs-30 nino-mtavruli-bold fc-blue">D</span>
                             </div>
+                            <div class="secondary-deal-title fs-18 bpg-nino-beqa fc-blue">Seaside</div>
 
-                            <div class="main-icon-interested">
-                                <img src="image/sales.png">
-                                <div class="sold-amount dejavu-sans fs-14 fc-light-grey">112</div>
-                            </div>
+                            <div class="secondary-info-food-type fs-12 dejavu-sans fc-bluish-grey">აზიური სამზარეულო</div>
 
-                            <div class="main-icon-time">
-                                <img src="image/calendar.png">
-                                <div class="sold-amount dejavu-sans fs-14 fc-light-grey">12:21:16</div>
+                        </div>
+
+
+                        <div class="secondary-deal-statistics">
+                            <div class="delivery-info">
+                                <img src="image/delivery-price.svg">
+                                <span class="fs-14 dejavu-sans fc-bluish-grey">მიტანის ფასი: 3 ლარი</span>
                             </div>
                         </div>
-                        <div class="main-info-text fs-16 fc-grey dejavu-sans">
-                            მიირთვით უგემრიელესი კანჭის მენიუ + 4 კოკა-კოლა პაბ-რესტორანში Galleria Italiana, შეხვდი
-                            მეგობრებს სასიამოვნო და მყუდრო გარემოში
-                        </div>
-                    </div>
-                </div>
-                <div class="main-info-right">
-                    <div class="main-info-right-price">
-                        <span class="fc-light-grey dejavu-sans fs-12">ღირებულება</span>
-                        <div class="current-price fs-18 fc-blue dejavu-sans"> 140
-                            <div class="lari lari-comic"></div>
-                        </div>
-                        <div class="real-price fs-14 fc-red line-through dejavu-sans"> 320
-                            <div class="lari lari-comic"></div>
-                        </div>
-                    </div>
 
-                    <div class="main-info-right-sale">
-                        <span class="fc-light-grey dejavu-sans fs-12">დანაზოგი</span>
-                        <div class="fs-18 fc-blue dejavu-sans"> 140
-                            <div class="lari lari-comic"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="secondary-popular-deal main-to-second-popular-deal">
-
-            <a href="detail_page.html" class="secondary-popular-deal-img" style="background-image: url('image/mwvadi.jpg')">
-
-                <div class="deal-delivery-service">
-                    <img src="image/motomoto.svg">
-                </div>
-
-                <div class="secondary-voucher-price nino-mtavruli-bold fc-white bg-red fs-14">ფასი
-                    <div class="space"></div>
-                    110 <i class="lari lari-comic"></i>
-                </div>
-
-            </a>
-
-            <div class="secondary-popular-deal-info">
-
-                <div class="secondary-deal-img-text-title">
-                    <a href="company-page.html" class="secondary-info-logo" style="background-image: url('image/seaside-logo.png')">
-                    </a>
-                    <a href="company-page.html" class="secondary-deal-title fs-18 bpg-nino-beqa fc-blue">Seaside</a>
-
-                    <div class="secondary-info-text fs-16 fc-grey dejavu-sans">
-                        აუზი, ფიტნესი, თურქული და ფინური საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი!
-                    </div>
-
-                </div>
-
-                <div class="secondary-deal-prices">
-                    <div class="secondary-info-right-price">
-                        <span class="fc-light-grey dejavu-sans fs-12">ღირებულება</span>
-                        <div class="current-price fs-18 fc-blue dejavu-sans"> 140
-                            <div class="lari lari-comic"></div>
-                        </div>
-                        <div class="real-price fs-14 fc-red line-through dejavu-sans"> 320
-                            <div class="lari lari-comic"></div>
-                        </div>
-                    </div>
-
-                    <div class="secondary-info-right-savings">
-                        <span class="fc-light-grey dejavu-sans fs-12">დანაზოგი</span>
-                        <div class="fs-18 fc-blue dejavu-sans"> 140
-                            <div class="lari lari-comic"></div>
-                        </div>
-                    </div>
-
-                    <div class="secondary-info-right-sale">
-                        <span class="fc-light-grey dejavu-sans fs-12">ვაუჩერი</span>
-                        <div class="fs-18 fc-blue dejavu-sans"> 3
-                            <div class="lari lari-comic"></div>
-                        </div>
                     </div>
                 </div>
 
-                <div class="secondary-deal-statistics">
-                    <div class="secondary-info-icons">
-                        <div class="secondary-icon-amount">
-                            <img src="image/user.png">
-                            <div class="sold-amount dejavu-sans fs-14 fc-light-grey">X 12</div>
+                <div class="main-popular-deal responsive-main-popular-deal-change">
+                    <div class="main-popular-deal-img" style="background-image: url('image/churchxelebi.jpg')">
+                        <div class="main-popular-deal-voucher dejavu-sans fc-white bg-red">
+                            <div class="voucher-text dejavu-sans fs-12">ვაუჩერი</div>
+                            <div class="voucher-price fs-18">3 <i class="lari lari-comic"></i></div>
                         </div>
-
-                        <div class="secondary-icon-interested">
-                            <img src="image/sales.png">
-                            <div class="sold-amount dejavu-sans fs-14 fc-light-grey">112</div>
-                        </div>
-
-                        <div class="secondary-icon-time">
-                            <img src="image/calendar.png">
-                            <div class="sold-amount dejavu-sans fs-14 fc-light-grey">12:21:16</div>
+                        <div class="main-popular-deal-percentage fs-14 dejavu-sans fc-white bg-red">
+                            -45%
                         </div>
                     </div>
-                </div>
+                    <div class="main-popular-deal-info">
+                        <div class="main-info-left">
+                            <div class="main-info-logo" style="background-image: url('image/marani.png')"></div>
+                            <div class="main-info-texts">
+                                <div class="main-info-title fs-18 nino-mtavruli-bold fc-blue">
+                                    ღვინის სახლი "მარანი"
+                                </div>
+                                <div class="main-info-icons">
+                                    <div class="main-icon-amount">
+                                        <img src="image/user.png">
+                                        <div class="sold-amount dejavu-sans fs-14 fc-light-grey">X12</div>
+                                    </div>
 
-            </div>
+                                    <div class="main-icon-interested">
+                                        <img src="image/sales.png">
+                                        <div class="sold-amount dejavu-sans fs-14 fc-light-grey">112</div>
+                                    </div>
 
-
-        </div>
-        <!--erti da igive postebia erti responsive-tvisaa-->
-
-
-        <div class="secondary-popular-deal">
-
-            <a href="detail_page.html" class="secondary-popular-deal-img" style="background-image: url('image/mwvadi.jpg')">
-
-                <div class="deal-delivery-service">
-                    <img src="image/motomoto.svg">
-                </div>
-
-                <div class="secondary-voucher-price nino-mtavruli-bold fc-white bg-red fs-14">ფასი
-                    <div class="space"></div>
-                    110 <i class="lari lari-comic"></i>
-                </div>
-
-            </a>
-
-            <div class="secondary-popular-deal-info">
-
-                <div class="secondary-deal-img-text-title">
-                    <a href="company-page.html" class="secondary-info-logo" style="background-image: url('image/seaside-logo.png')">
-                    </a>
-                    <a href="company-page.html" class="secondary-deal-title fs-18 bpg-nino-beqa fc-blue">Seaside</a>
-
-                    <div class="secondary-info-text fs-16 fc-grey dejavu-sans">
-                        აუზი, ფიტნესი, თურქული და ფინური საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი!
-                    </div>
-
-                </div>
-
-                <div class="secondary-deal-prices">
-                    <div class="secondary-info-right-price">
-                        <span class="fc-light-grey dejavu-sans fs-12">ღირებულება</span>
-                        <div class="current-price fs-18 fc-blue dejavu-sans"> 140
-                            <div class="lari lari-comic"></div>
+                                    <div class="main-icon-time">
+                                        <img src="image/calendar.png">
+                                        <div class="sold-amount dejavu-sans fs-14 fc-light-grey">12:21:16</div>
+                                    </div>
+                                </div>
+                                <div class="main-info-text fs-16 fc-grey dejavu-sans">
+                                    მიირთვით უგემრიელესი კანჭის მენიუ + 4 კოკა-კოლა პაბ-რესტორანში Galleria Italiana, შეხვდი
+                                    მეგობრებს სასიამოვნო და მყუდრო გარემოში
+                                </div>
+                            </div>
                         </div>
-                        <div class="real-price fs-14 fc-red line-through dejavu-sans"> 320
-                            <div class="lari lari-comic"></div>
-                        </div>
-                    </div>
-
-                    <div class="secondary-info-right-savings">
-                        <span class="fc-light-grey dejavu-sans fs-12">დანაზოგი</span>
-                        <div class="fs-18 fc-blue dejavu-sans"> 140
-                            <div class="lari lari-comic"></div>
-                        </div>
-                    </div>
-
-                    <div class="secondary-info-right-sale">
-                        <span class="fc-light-grey dejavu-sans fs-12">ვაუჩერი</span>
-                        <div class="fs-18 fc-blue dejavu-sans"> 3
-                            <div class="lari lari-comic"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="secondary-deal-statistics">
-                    <div class="secondary-info-icons">
-                        <div class="secondary-icon-amount">
-                            <img src="image/user.png">
-                            <div class="sold-amount dejavu-sans fs-14 fc-light-grey">X 12</div>
-                        </div>
-
-                        <div class="secondary-icon-interested">
-                            <img src="image/sales.png">
-                            <div class="sold-amount dejavu-sans fs-14 fc-light-grey">112</div>
-                        </div>
-
-                        <div class="secondary-icon-time">
-                            <img src="image/calendar.png">
-                            <div class="sold-amount dejavu-sans fs-14 fc-light-grey">12:21:16</div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-
-        </div>
-
-        <div class="secondary-popular-deal">
-
-            <a href="detail_page.html" class="secondary-popular-deal-img" style="background-image: url('image/mwvadi.jpg')">
-
-                <div class="deal-delivery-service">
-                    <img src="image/motomoto.svg">
-                </div>
-
-                <div class="secondary-voucher-price nino-mtavruli-bold fc-white bg-red fs-14">ფასი
-                    <div class="space"></div>
-                    110 <i class="lari lari-comic"></i>
-                </div>
-
-            </a>
-
-            <div class="secondary-popular-deal-info">
-
-                <div class="secondary-deal-img-text-title">
-                    <a href="company-page.html" class="secondary-info-logo" style="background-image: url('image/seaside-logo.png')">
-                    </a>
-                    <a href="company-page.html" class="secondary-deal-title fs-18 bpg-nino-beqa fc-blue">Seaside</a>
-
-                    <div class="secondary-info-text fs-16 fc-grey dejavu-sans">
-                        აუზი, ფიტნესი, თურქული და ფინური საუნა. 1 თვიანი ულიმიტო VIP აბონიმენტი!
-                    </div>
-
-                </div>
-
-                <div class="secondary-deal-prices">
-                    <div class="secondary-info-right-price">
-                        <span class="fc-light-grey dejavu-sans fs-12">ღირებულება</span>
-                        <div class="current-price fs-18 fc-blue dejavu-sans"> 140
-                            <div class="lari lari-comic"></div>
-                        </div>
-                        <div class="real-price fs-14 fc-red line-through dejavu-sans"> 320
-                            <div class="lari lari-comic"></div>
-                        </div>
-                    </div>
-
-                    <div class="secondary-info-right-savings">
-                        <span class="fc-light-grey dejavu-sans fs-12">დანაზოგი</span>
-                        <div class="fs-18 fc-blue dejavu-sans"> 140
-                            <div class="lari lari-comic"></div>
-                        </div>
-                    </div>
-
-                    <div class="secondary-info-right-sale">
-                        <span class="fc-light-grey dejavu-sans fs-12">ვაუჩერი</span>
-                        <div class="fs-18 fc-blue dejavu-sans"> 3
-                            <div class="lari lari-comic"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="secondary-deal-statistics">
-                    <div class="secondary-info-icons">
-                        <div class="secondary-icon-amount">
-                            <img src="image/user.png">
-                            <div class="sold-amount dejavu-sans fs-14 fc-light-grey">X 12</div>
-                        </div>
-
-                        <div class="secondary-icon-interested">
-                            <img src="image/sales.png">
-                            <div class="sold-amount dejavu-sans fs-14 fc-light-grey">112</div>
-                        </div>
-
-                        <div class="secondary-icon-time">
-                            <img src="image/calendar.png">
-                            <div class="sold-amount dejavu-sans fs-14 fc-light-grey">12:21:16</div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-    <div class="hotsale-offers ">
-        <div class="hotsale-offers-left bg-white">
-            <div class="offers-order fs-17 fc-black nino-mtavruli-bold">დალაგება:</div>
-
-            <a href="#" class="offers-order-newest active">
-                <img class="offers-order-icon" src="image/newest.png">
-                <div class="newest-offers-text nino-mtavruli-bold fs-14 fc-bluish-grey">ახალი</div>
-                <div class="newest-offers-amount nino-mtavruli-bold fs-14 fc-bluish-grey">164</div>
-            </a>
-
-            <a href="#" class="offers-order-newest responsive-hide">
-                <img class="offers-order-icon" src="image/newest.png">
-                <div class="newest-offers-text nino-mtavruli-bold fs-14 fc-bluish-grey">ვაუჩერი</div>
-                <div class="newest-offers-amount nino-mtavruli-bold fs-14 fc-bluish-grey">164</div>
-            </a>
-
-            <a href="#" class="offers-order-newest responsive-hide">
-                <img class="offers-order-icon" src="image/newest.png">
-                <div class="newest-offers-text nino-mtavruli-bold fs-14 fc-bluish-grey">პოპულარული</div>
-                <div class="newest-offers-amount nino-mtavruli-bold fs-14 fc-bluish-grey">164</div>
-            </a>
-
-            <a href="#" class="offers-order-newest responsive-hide">
-                <img class="offers-order-icon" src="image/newest.png">
-                <div class="newest-offers-text nino-mtavruli-bold fs-14 fc-bluish-grey">მთავრდება</div>
-                <div class="newest-offers-amount nino-mtavruli-bold fs-14 fc-bluish-grey">164</div>
-            </a>
-
-            <a href="#" class="offers-order-newest responsive-hide">
-                <img class="offers-order-icon" src="image/newest.png">
-                <div class="newest-offers-text nino-mtavruli-bold fs-14 fc-bluish-grey">დანაზოგი</div>
-                <div class="newest-offers-amount nino-mtavruli-bold fs-14 fc-bluish-grey">164</div>
-            </a>
-
-        </div>
-
-
-        <div class="hotsale-offers-right bg-white">
-            <div class="all-offers nino-mtavruli-bold fc-blue fs-17">შემოთავაზება</div>
-            <div class="all-offers-amount fc-white bg-blue fs-12 dejavu-sans ">345</div>
-        </div>
-
-
-        <div class="whole-filter">
-            <div class="whole-filter-text nino-mtavruli-bold fs-14 fc-bluish-grey">სრული ფილტრი</div>
-            <img src="image/whole-arrow.png">
-        </div>
-
-    </div>
-
-    <div class="hotsale-deals-companies technology-deals-filter">
-
-        <div class="technology-filter">
-
-            <form class="technology-filter-form">
-
-                <div class="technology-filter-category bg-white">
-                    <div class="technology-filter-js technology-filter-categories-title">
-                        <span class="fc-black nino-mtavruli-bold fs-16">შეკვეთა</span>
-                        <img src="image/plus-icon.png">
-                    </div>
-
-                    <ul class="technology-category-filter fc-black nino-mtavruli-normal fs-14">
-                        <li>
-                            <input type="checkbox" id="comps" name="comps" value="comps">
-                            <label for="comps">მიტანა</label>
-                        </li>
-
-                        <li>
-                            <input type="checkbox" id="desktop" name="desktop" value="desktop">
-                            <label for="desktop">წაღება</label>
-                        </li>
-
-                    </ul>
-
-                </div>
-
-                <div class="technology-filter-brand bg-white">
-                    <div class="technology-filter-js technology-filter-categories-title">
-                        <span class="fc-black nino-mtavruli-bold fs-16">კატეგორია</span>
-                        <img src="image/plus-icon.png">
-                    </div>
-
-                    <ul class="technology-category-filter fc-black nino-mtavruli-normal fs-14">
-                        <li>
-                            <input class="isSelected" type="checkbox" id="comps1" name="comps" value="comps">
-                            <label for="comps1">კომპიუტერები/აქსესუარები</label>
-                            <img src="image/bottom-arrow.png">
-
-                            <ul class="subcategories">
-                                <li>
-                                    <input type="checkbox" id="desktop2" name="desktop" value="desktop">
-                                    <label for="desktop2">Desktop კომპიუტერები</label>
-                                </li>
-
-                                <li>
-                                    <input type="checkbox" id="laptop2" name="laptop" value="laptop">
-                                    <label for="laptop2">Laptop კომპიუტერები</label>
-                                </li>
-
-                                <li>
-                                    <input type="checkbox" id="usbCards2" name="usbCards" value="usbCards">
-                                    <label for="usbCards2">USB Flash ბარათები</label>
-                                </li>
-
-                                <li>
-                                    <input type="checkbox" id="gadgets2" name="gadgets" value="gadgets">
-                                    <label for="gadgets2">USB გაჯეტები</label>
-                                </li>
-                            </ul>
-
-                        </li>
-
-                        <li>
-                            <input type="checkbox" id="desktop1" name="desktop" value="desktop">
-                            <label for="desktop1">Desktop კომპიუტერები</label>
-                        </li>
-
-                        <li>
-                            <input type="checkbox" id="laptop1" name="laptop" value="laptop">
-                            <label for="laptop1">Laptop კომპიუტერები</label>
-                        </li>
-
-                        <li>
-                            <input type="checkbox" id="usbCards1" name="usbCards" value="usbCards">
-                            <label for="usbCards1">USB Flash ბარათები</label>
-                        </li>
-
-                        <li>
-                            <input type="checkbox" id="gadgets1" name="gadgets" value="gadgets">
-                            <label for="gadgets1">USB გაჯეტები</label>
-                        </li>
-
-                        <li>
-                            <input type="checkbox" id="speakers1" name="speakers" value="speakers">
-                            <label for="speakers1">კომპიუტერის დინამიკები</label>
-                        </li>
-
-                        <li>
-                            <input type="checkbox" id="compParts1" name="compParts" value="compParts">
-                            <label for="compParts1">კომპიუტერის ნაწილები</label>
-                        </li>
-
-                        <li>
-                            <input type="checkbox" id="mouse1" name="mouse" value="mouse">
-                            <label for="mouse1">მაუსები</label>
-                        </li>
-
-                        <li>
-                            <input type="checkbox" id="microphones1" name="microphones" value="microphones">
-                            <label for="microphones1">მიკროფონები</label>
-                        </li>
-
-                        <li>
-                            <input type="checkbox" id="monitors1" name="monitors" value="monitors">
-                            <label for="monitors1">მონიტორები</label>
-                        </li>
-
-                        <li>
-                            <input type="checkbox" id="tablets1" name="tablets" value="tablets">
-                            <label for="tablets1">პლანშეტები, iPad-ები</label>
-                        </li>
-
-                        <li>
-                            <input type="checkbox" id="printers1" name="printers" value="printers">
-                            <label for="printers1">პრინტერები</label>
-                        </li>
-
-                        <li>
-                            <input type="checkbox" id="cartridges1" name="cartridges" value="cartridges">
-                            <label for="cartridges1">პრინტერის კარტრიჯები</label>
-                        </li>
-
-                    </ul>
-                </div>
-
-            </form>
-        </div>
-
-        <div class="technology-deals hotsale-deals">
-
-            <!--<div class="secondary-popular-deal " style="display: none;">-->
-
-            <!--</div>-->
-
-
-            <div class="secondary-popular-deal responsive-secondary-popular-deal-change food-delivery-page middle">
-
-                <div class="secondary-popular-deal-img" style="background-image: url('image/coffee.jpg')">
-                    <div class="deal-delivery-service">
-                        <img src="image/motomoto.svg">
-                    </div>
-
-                    <div class="secondary-voucher-price nino-mtavruli-bold fc-white bg-green fs-14">
-                        ღიაა 09:00დან 23:00
-                    </div>
-
-                </div>
-
-                <div class="secondary-popular-deal-info">
-
-                    <div class="secondary-deal-img-text-title">
-                        <div class="secondary-info-logo">
-                            <span class="fs-30 nino-mtavruli-bold fc-blue">D</span>
-                        </div>
-                        <div class="secondary-deal-title fs-18 bpg-nino-beqa fc-blue">Seaside</div>
-
-                        <div class="secondary-info-text fs-16 fc-grey dejavu-sans"> საფირმო ლაფშა საქონლის. </div>
-
-                        <div class="secondary-info-food-type fs-12 dejavu-sans fc-bluish-grey">აზიური სამზარეულო</div>
-
-                    </div>
-
-                    <div class="secondary-deal-delivery-info">
-                        <div class="delivery-info">
-                            <img src="image/delivery-time.svg">
-                            <span class="fs-14 dejavu-sans fc-bluish-grey">მიტანის დრო: 20 - 40 წუთი</span>
-                        </div>
-
-                        <div class="delivery-info">
-                            <img src="image/delivery-price.svg">
-                            <span class="fs-14 dejavu-sans fc-bluish-grey">მიტანის ფასი: 3 ლარი</span>
-                        </div>
-
-                        <div class="delivery-info">
-                            <img src="image/meal-price.svg">
-                            <span class="fs-14 dejavu-sans fc-bluish-grey">კერძის ღირებულება: 15 ლარი</span>
-                        </div>
-                    </div>
-
-                    <div class="secondary-deal-statistics">
-                        <div class="secondary-info-icons">
-                            <div class="secondary-icon-interested">
-                                <img src="image/sales.png">
-                                <div class="sold-amount dejavu-sans fs-14 fc-light-grey">112</div>
+                        <div class="main-info-right">
+                            <div class="main-info-right-price">
+                                <span class="fc-light-grey dejavu-sans fs-12">ღირებულება</span>
+                                <div class="current-price fs-18 fc-blue dejavu-sans"> 140
+                                    <div class="lari lari-comic"></div>
+                                </div>
+                                <div class="real-price fs-14 fc-red line-through dejavu-sans"> 320
+                                    <div class="lari lari-comic"></div>
+                                </div>
                             </div>
 
-                            <div class="secondary-icon-time">
-                                <img src="image/calendar.png">
-                                <div class="sold-amount dejavu-sans fs-14 fc-light-grey">12:21:16</div>
+                            <div class="main-info-right-sale">
+                                <span class="fc-light-grey dejavu-sans fs-12">დანაზოგი</span>
+                                <div class="fs-18 fc-blue dejavu-sans"> 140
+                                    <div class="lari lari-comic"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                </div>
 
+
+                <div class="secondary-popular-deal responsive-secondary-popular-deal-change food-delivery-page middle">
+
+                    <div class="secondary-popular-deal-img" style="background-image: url('image/peppers.jpg')">
+                        <div class="deal-delivery-service">
+                            <img src="image/motomoto.svg">
+                        </div>
+
+                        <div class="secondary-voucher-price nino-mtavruli-bold fc-white bg-red fs-14">
+                            ღიაა 09:00დან 23:00
+                        </div>
+
+                    </div>
+
+                    <div class="secondary-popular-deal-info">
+
+                        <div class="secondary-deal-img-text-title">
+                            <div class="secondary-info-logo">
+                                <span class="fs-30 nino-mtavruli-bold fc-blue">D</span>
+                            </div>
+                            <div class="secondary-deal-title fs-18 bpg-nino-beqa fc-blue">Seaside</div>
+
+                            <div class="secondary-info-food-type fs-12 dejavu-sans fc-bluish-grey">აზიური სამზარეულო</div>
+
+                        </div>
+
+
+                        <div class="secondary-deal-statistics">
+                            <div class="delivery-info">
+                                <img src="image/delivery-price.svg">
+                                <span class="fs-14 dejavu-sans fc-bluish-grey">მიტანის ფასი: 3 ლარი</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="main-popular-deal responsive-main-popular-deal-change">
+                    <div class="main-popular-deal-img" style="background-image: url('image/churchxelebi.jpg')">
+                        <div class="main-popular-deal-voucher dejavu-sans fc-white bg-red">
+                            <div class="voucher-text dejavu-sans fs-12">ვაუჩერი</div>
+                            <div class="voucher-price fs-18">3 <i class="lari lari-comic"></i></div>
+                        </div>
+                        <div class="main-popular-deal-percentage fs-14 dejavu-sans fc-white bg-red">
+                            -45%
+                        </div>
+                    </div>
+                    <div class="main-popular-deal-info">
+                        <div class="main-info-left">
+                            <div class="main-info-logo" style="background-image: url('image/marani.png')"></div>
+                            <div class="main-info-texts">
+                                <div class="main-info-title fs-18 nino-mtavruli-bold fc-blue">
+                                    ღვინის სახლი "მარანი"
+                                </div>
+                                <div class="main-info-icons">
+                                    <div class="main-icon-amount">
+                                        <img src="image/user.png">
+                                        <div class="sold-amount dejavu-sans fs-14 fc-light-grey">X12</div>
+                                    </div>
+
+                                    <div class="main-icon-interested">
+                                        <img src="image/sales.png">
+                                        <div class="sold-amount dejavu-sans fs-14 fc-light-grey">112</div>
+                                    </div>
+
+                                    <div class="main-icon-time">
+                                        <img src="image/calendar.png">
+                                        <div class="sold-amount dejavu-sans fs-14 fc-light-grey">12:21:16</div>
+                                    </div>
+                                </div>
+                                <div class="main-info-text fs-16 fc-grey dejavu-sans">
+                                    მიირთვით უგემრიელესი კანჭის მენიუ + 4 კოკა-კოლა პაბ-რესტორანში Galleria Italiana, შეხვდი
+                                    მეგობრებს სასიამოვნო და მყუდრო გარემოში
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-info-right">
+                            <div class="main-info-right-price">
+                                <span class="fc-light-grey dejavu-sans fs-12">ღირებულება</span>
+                                <div class="current-price fs-18 fc-blue dejavu-sans"> 140
+                                    <div class="lari lari-comic"></div>
+                                </div>
+                                <div class="real-price fs-14 fc-red line-through dejavu-sans"> 320
+                                    <div class="lari lari-comic"></div>
+                                </div>
+                            </div>
+
+                            <div class="main-info-right-sale">
+                                <span class="fc-light-grey dejavu-sans fs-12">დანაზოგი</span>
+                                <div class="fs-18 fc-blue dejavu-sans"> 140
+                                    <div class="lari lari-comic"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="secondary-popular-deal responsive-secondary-popular-deal-change food-delivery-page middle">
+
+                    <div class="secondary-popular-deal-img" style="background-image: url('image/camping.jpg')">
+
+                        <div class="secondary-voucher-price nino-mtavruli-bold fc-white bg-green fs-14">
+                            ღიაა 09:00დან 23:00
+                        </div>
+
+                    </div>
+
+                    <div class="secondary-popular-deal-info">
+
+                        <div class="secondary-deal-img-text-title">
+                            <div class="secondary-info-logo">
+                                <span class="fs-30 nino-mtavruli-bold fc-blue">D</span>
+                            </div>
+                            <div class="secondary-deal-title fs-18 bpg-nino-beqa fc-blue">Seaside</div>
+
+                            <div class="secondary-info-food-type fs-12 dejavu-sans fc-bluish-grey">აზიური სამზარეულო</div>
+
+                        </div>
+
+
+                        <div class="secondary-deal-statistics">
+                            <div class="delivery-info">
+                                <img src="image/delivery-price.svg">
+                                <span class="fs-14 dejavu-sans fc-bluish-grey">მიტანის ფასი: 3 ლარი</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="main-popular-deal responsive-main-popular-deal-change">
+                    <div class="main-popular-deal-img" style="background-image: url('image/churchxelebi.jpg')">
+                        <div class="main-popular-deal-voucher dejavu-sans fc-white bg-red">
+                            <div class="voucher-text dejavu-sans fs-12">ვაუჩერი</div>
+                            <div class="voucher-price fs-18">3 <i class="lari lari-comic"></i></div>
+                        </div>
+                        <div class="main-popular-deal-percentage fs-14 dejavu-sans fc-white bg-red">
+                            -45%
+                        </div>
+                    </div>
+                    <div class="main-popular-deal-info">
+                        <div class="main-info-left">
+                            <div class="main-info-logo" style="background-image: url('image/marani.png')"></div>
+                            <div class="main-info-texts">
+                                <div class="main-info-title fs-18 nino-mtavruli-bold fc-blue">
+                                    ღვინის სახლი "მარანი"
+                                </div>
+                                <div class="main-info-icons">
+                                    <div class="main-icon-amount">
+                                        <img src="image/user.png">
+                                        <div class="sold-amount dejavu-sans fs-14 fc-light-grey">X12</div>
+                                    </div>
+
+                                    <div class="main-icon-interested">
+                                        <img src="image/sales.png">
+                                        <div class="sold-amount dejavu-sans fs-14 fc-light-grey">112</div>
+                                    </div>
+
+                                    <div class="main-icon-time">
+                                        <img src="image/calendar.png">
+                                        <div class="sold-amount dejavu-sans fs-14 fc-light-grey">12:21:16</div>
+                                    </div>
+                                </div>
+                                <div class="main-info-text fs-16 fc-grey dejavu-sans">
+                                    მიირთვით უგემრიელესი კანჭის მენიუ + 4 კოკა-კოლა პაბ-რესტორანში Galleria Italiana, შეხვდი
+                                    მეგობრებს სასიამოვნო და მყუდრო გარემოში
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-info-right">
+                            <div class="main-info-right-price">
+                                <span class="fc-light-grey dejavu-sans fs-12">ღირებულება</span>
+                                <div class="current-price fs-18 fc-blue dejavu-sans"> 140
+                                    <div class="lari lari-comic"></div>
+                                </div>
+                                <div class="real-price fs-14 fc-red line-through dejavu-sans"> 320
+                                    <div class="lari lari-comic"></div>
+                                </div>
+                            </div>
+
+                            <div class="main-info-right-sale">
+                                <span class="fc-light-grey dejavu-sans fs-12">დანაზოგი</span>
+                                <div class="fs-18 fc-blue dejavu-sans"> 140
+                                    <div class="lari lari-comic"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="secondary-popular-deal responsive-secondary-popular-deal-change food-delivery-page middle">
+
+                    <div class="secondary-popular-deal-img" style="background-image: url('image/breakfast.jpg')">
+
+                        <div class="secondary-voucher-price nino-mtavruli-bold fc-white bg-red fs-14">
+                            ღიაა 09:00დან 23:00
+                        </div>
+
+                    </div>
+
+                    <div class="secondary-popular-deal-info">
+
+                        <div class="secondary-deal-img-text-title">
+                            <div class="secondary-info-logo">
+                                <span class="fs-30 nino-mtavruli-bold fc-blue">D</span>
+                            </div>
+                            <div class="secondary-deal-title fs-18 bpg-nino-beqa fc-blue">Seaside</div>
+
+                            <div class="secondary-info-food-type fs-12 dejavu-sans fc-bluish-grey">აზიური სამზარეულო</div>
+
+                        </div>
+
+
+                        <div class="secondary-deal-statistics">
+                            <div class="delivery-info">
+                                <img src="image/delivery-price.svg">
+                                <span class="fs-14 dejavu-sans fc-bluish-grey">მიტანის ფასი: 3 ლარი</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="main-popular-deal responsive-main-popular-deal-change">
+                    <div class="main-popular-deal-img" style="background-image: url('image/churchxelebi.jpg')">
+                        <div class="main-popular-deal-voucher dejavu-sans fc-white bg-red">
+                            <div class="voucher-text dejavu-sans fs-12">ვაუჩერი</div>
+                            <div class="voucher-price fs-18">3 <i class="lari lari-comic"></i></div>
+                        </div>
+                        <div class="main-popular-deal-percentage fs-14 dejavu-sans fc-white bg-red">
+                            -45%
+                        </div>
+                    </div>
+                    <div class="main-popular-deal-info">
+                        <div class="main-info-left">
+                            <div class="main-info-logo" style="background-image: url('image/marani.png')"></div>
+                            <div class="main-info-texts">
+                                <div class="main-info-title fs-18 nino-mtavruli-bold fc-blue">
+                                    ღვინის სახლი "მარანი"
+                                </div>
+                                <div class="main-info-icons">
+                                    <div class="main-icon-amount">
+                                        <img src="image/user.png">
+                                        <div class="sold-amount dejavu-sans fs-14 fc-light-grey">X12</div>
+                                    </div>
+
+                                    <div class="main-icon-interested">
+                                        <img src="image/sales.png">
+                                        <div class="sold-amount dejavu-sans fs-14 fc-light-grey">112</div>
+                                    </div>
+
+                                    <div class="main-icon-time">
+                                        <img src="image/calendar.png">
+                                        <div class="sold-amount dejavu-sans fs-14 fc-light-grey">12:21:16</div>
+                                    </div>
+                                </div>
+                                <div class="main-info-text fs-16 fc-grey dejavu-sans">
+                                    მიირთვით უგემრიელესი კანჭის მენიუ + 4 კოკა-კოლა პაბ-რესტორანში Galleria Italiana, შეხვდი
+                                    მეგობრებს სასიამოვნო და მყუდრო გარემოში
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-info-right">
+                            <div class="main-info-right-price">
+                                <span class="fc-light-grey dejavu-sans fs-12">ღირებულება</span>
+                                <div class="current-price fs-18 fc-blue dejavu-sans"> 140
+                                    <div class="lari lari-comic"></div>
+                                </div>
+                                <div class="real-price fs-14 fc-red line-through dejavu-sans"> 320
+                                    <div class="lari lari-comic"></div>
+                                </div>
+                            </div>
+
+                            <div class="main-info-right-sale">
+                                <span class="fc-light-grey dejavu-sans fs-12">დანაზოგი</span>
+                                <div class="fs-18 fc-blue dejavu-sans"> 140
+                                    <div class="lari lari-comic"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="secondary-popular-deal responsive-secondary-popular-deal-change food-delivery-page middle">
+
+                    <div class="secondary-popular-deal-img" style="background-image: url('image/pizza-time.jpg')">
+
+                        <div class="secondary-voucher-price nino-mtavruli-bold fc-white bg-green fs-14">
+                            ღიაა 09:00დან 23:00
+                        </div>
+
+                    </div>
+
+                    <div class="secondary-popular-deal-info">
+
+                        <div class="secondary-deal-img-text-title">
+                            <div class="secondary-info-logo">
+                                <span class="fs-30 nino-mtavruli-bold fc-blue">D</span>
+                            </div>
+                            <div class="secondary-deal-title fs-18 bpg-nino-beqa fc-blue">Seaside</div>
+
+                            <div class="secondary-info-food-type fs-12 dejavu-sans fc-bluish-grey">აზიური სამზარეულო</div>
+
+                        </div>
+
+
+                        <div class="secondary-deal-statistics">
+                            <div class="delivery-info">
+                                <img src="image/delivery-price.svg">
+                                <span class="fs-14 dejavu-sans fc-bluish-grey">მიტანის ფასი: 3 ლარი</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="main-popular-deal responsive-main-popular-deal-change">
+                    <div class="main-popular-deal-img" style="background-image: url('image/churchxelebi.jpg')">
+                        <div class="main-popular-deal-voucher dejavu-sans fc-white bg-red">
+                            <div class="voucher-text dejavu-sans fs-12">ვაუჩერი</div>
+                            <div class="voucher-price fs-18">3 <i class="lari lari-comic"></i></div>
+                        </div>
+                        <div class="main-popular-deal-percentage fs-14 dejavu-sans fc-white bg-red">
+                            -45%
+                        </div>
+                    </div>
+                    <div class="main-popular-deal-info">
+                        <div class="main-info-left">
+                            <div class="main-info-logo" style="background-image: url('image/marani.png')"></div>
+                            <div class="main-info-texts">
+                                <div class="main-info-title fs-18 nino-mtavruli-bold fc-blue">
+                                    ღვინის სახლი "მარანი"
+                                </div>
+                                <div class="main-info-icons">
+                                    <div class="main-icon-amount">
+                                        <img src="image/user.png">
+                                        <div class="sold-amount dejavu-sans fs-14 fc-light-grey">X12</div>
+                                    </div>
+
+                                    <div class="main-icon-interested">
+                                        <img src="image/sales.png">
+                                        <div class="sold-amount dejavu-sans fs-14 fc-light-grey">112</div>
+                                    </div>
+
+                                    <div class="main-icon-time">
+                                        <img src="image/calendar.png">
+                                        <div class="sold-amount dejavu-sans fs-14 fc-light-grey">12:21:16</div>
+                                    </div>
+                                </div>
+                                <div class="main-info-text fs-16 fc-grey dejavu-sans">
+                                    მიირთვით უგემრიელესი კანჭის მენიუ + 4 კოკა-კოლა პაბ-რესტორანში Galleria Italiana, შეხვდი
+                                    მეგობრებს სასიამოვნო და მყუდრო გარემოში
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-info-right">
+                            <div class="main-info-right-price">
+                                <span class="fc-light-grey dejavu-sans fs-12">ღირებულება</span>
+                                <div class="current-price fs-18 fc-blue dejavu-sans"> 140
+                                    <div class="lari lari-comic"></div>
+                                </div>
+                                <div class="real-price fs-14 fc-red line-through dejavu-sans"> 320
+                                    <div class="lari lari-comic"></div>
+                                </div>
+                            </div>
+
+                            <div class="main-info-right-sale">
+                                <span class="fc-light-grey dejavu-sans fs-12">დანაზოგი</span>
+                                <div class="fs-18 fc-blue dejavu-sans"> 140
+                                    <div class="lari lari-comic"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
 
             </div>
-
-            <div class="main-popular-deal responsive-main-popular-deal-change">
-                <div class="main-popular-deal-img" style="background-image: url('image/churchxelebi.jpg')">
-                    <div class="main-popular-deal-voucher dejavu-sans fc-white bg-red">
-                        <div class="voucher-text dejavu-sans fs-12">ვაუჩერი</div>
-                        <div class="voucher-price fs-18">3 <i class="lari lari-comic"></i></div>
-                    </div>
-                    <div class="main-popular-deal-percentage fs-14 dejavu-sans fc-white bg-red">
-                        -45%
-                    </div>
-                </div>
-                <div class="main-popular-deal-info">
-                    <div class="main-info-left">
-                        <div class="main-info-logo" style="background-image: url('image/marani.png')"></div>
-                        <div class="main-info-texts">
-                            <div class="main-info-title fs-18 nino-mtavruli-bold fc-blue">
-                                ღვინის სახლი "მარანი"
-                            </div>
-                            <div class="main-info-icons">
-                                <div class="main-icon-amount">
-                                    <img src="image/user.png">
-                                    <div class="sold-amount dejavu-sans fs-14 fc-light-grey">X12</div>
-                                </div>
-
-                                <div class="main-icon-interested">
-                                    <img src="image/sales.png">
-                                    <div class="sold-amount dejavu-sans fs-14 fc-light-grey">112</div>
-                                </div>
-
-                                <div class="main-icon-time">
-                                    <img src="image/calendar.png">
-                                    <div class="sold-amount dejavu-sans fs-14 fc-light-grey">12:21:16</div>
-                                </div>
-                            </div>
-                            <div class="main-info-text fs-16 fc-grey dejavu-sans">
-                                მიირთვით უგემრიელესი კანჭის მენიუ + 4 კოკა-კოლა პაბ-რესტორანში Galleria Italiana, შეხვდი
-                                მეგობრებს სასიამოვნო და მყუდრო გარემოში
-                            </div>
-                        </div>
-                    </div>
-                    <div class="main-info-right">
-                        <div class="main-info-right-price">
-                            <span class="fc-light-grey dejavu-sans fs-12">ღირებულება</span>
-                            <div class="current-price fs-18 fc-blue dejavu-sans"> 140
-                                <div class="lari lari-comic"></div>
-                            </div>
-                            <div class="real-price fs-14 fc-red line-through dejavu-sans"> 320
-                                <div class="lari lari-comic"></div>
-                            </div>
-                        </div>
-
-                        <div class="main-info-right-sale">
-                            <span class="fc-light-grey dejavu-sans fs-12">დანაზოგი</span>
-                            <div class="fs-18 fc-blue dejavu-sans"> 140
-                                <div class="lari lari-comic"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="secondary-popular-deal responsive-secondary-popular-deal-change food-delivery-page middle">
-
-                <div class="secondary-popular-deal-img" style="background-image: url('image/peppers.jpg')">
-                    <div class="deal-delivery-service">
-                        <img src="image/motomoto.svg">
-                    </div>
-
-                    <div class="secondary-voucher-price nino-mtavruli-bold fc-white bg-red fs-14">
-                        ღიაა 09:00დან 23:00
-                    </div>
-
-                </div>
-
-                <div class="secondary-popular-deal-info">
-
-                    <div class="secondary-deal-img-text-title">
-                        <div class="secondary-info-logo">
-                            <span class="fs-30 nino-mtavruli-bold fc-blue">D</span>
-                        </div>
-                        <div class="secondary-deal-title fs-18 bpg-nino-beqa fc-blue">Seaside</div>
-
-                        <div class="secondary-info-text fs-16 fc-grey dejavu-sans"> საფირმო ლაფშა საქონლის. </div>
-
-                        <div class="secondary-info-food-type fs-12 dejavu-sans fc-bluish-grey">აზიური სამზარეულო</div>
-
-                    </div>
-
-                    <div class="secondary-deal-delivery-info">
-                        <div class="delivery-info">
-                            <img src="image/delivery-time.svg">
-                            <span class="fs-14 dejavu-sans fc-bluish-grey">მიტანის დრო: 20 - 40 წუთი</span>
-                        </div>
-
-                        <div class="delivery-info">
-                            <img src="image/delivery-price.svg">
-                            <span class="fs-14 dejavu-sans fc-bluish-grey">მიტანის ფასი: 3 ლარი</span>
-                        </div>
-
-                        <div class="delivery-info">
-                            <img src="image/meal-price.svg">
-                            <span class="fs-14 dejavu-sans fc-bluish-grey">კერძის ღირებულება: 15 ლარი</span>
-                        </div>
-                    </div>
-
-                    <div class="secondary-deal-statistics">
-                        <div class="secondary-info-icons">
-                            <div class="secondary-icon-interested">
-                                <img src="image/sales.png">
-                                <div class="sold-amount dejavu-sans fs-14 fc-light-grey">112</div>
-                            </div>
-
-                            <div class="secondary-icon-time">
-                                <img src="image/calendar.png">
-                                <div class="sold-amount dejavu-sans fs-14 fc-light-grey">12:21:16</div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-
-            </div>
-
-            <div class="main-popular-deal responsive-main-popular-deal-change">
-                <div class="main-popular-deal-img" style="background-image: url('image/churchxelebi.jpg')">
-                    <div class="main-popular-deal-voucher dejavu-sans fc-white bg-red">
-                        <div class="voucher-text dejavu-sans fs-12">ვაუჩერი</div>
-                        <div class="voucher-price fs-18">3 <i class="lari lari-comic"></i></div>
-                    </div>
-                    <div class="main-popular-deal-percentage fs-14 dejavu-sans fc-white bg-red">
-                        -45%
-                    </div>
-                </div>
-                <div class="main-popular-deal-info">
-                    <div class="main-info-left">
-                        <div class="main-info-logo" style="background-image: url('image/marani.png')"></div>
-                        <div class="main-info-texts">
-                            <div class="main-info-title fs-18 nino-mtavruli-bold fc-blue">
-                                ღვინის სახლი "მარანი"
-                            </div>
-                            <div class="main-info-icons">
-                                <div class="main-icon-amount">
-                                    <img src="image/user.png">
-                                    <div class="sold-amount dejavu-sans fs-14 fc-light-grey">X12</div>
-                                </div>
-
-                                <div class="main-icon-interested">
-                                    <img src="image/sales.png">
-                                    <div class="sold-amount dejavu-sans fs-14 fc-light-grey">112</div>
-                                </div>
-
-                                <div class="main-icon-time">
-                                    <img src="image/calendar.png">
-                                    <div class="sold-amount dejavu-sans fs-14 fc-light-grey">12:21:16</div>
-                                </div>
-                            </div>
-                            <div class="main-info-text fs-16 fc-grey dejavu-sans">
-                                მიირთვით უგემრიელესი კანჭის მენიუ + 4 კოკა-კოლა პაბ-რესტორანში Galleria Italiana, შეხვდი
-                                მეგობრებს სასიამოვნო და მყუდრო გარემოში
-                            </div>
-                        </div>
-                    </div>
-                    <div class="main-info-right">
-                        <div class="main-info-right-price">
-                            <span class="fc-light-grey dejavu-sans fs-12">ღირებულება</span>
-                            <div class="current-price fs-18 fc-blue dejavu-sans"> 140
-                                <div class="lari lari-comic"></div>
-                            </div>
-                            <div class="real-price fs-14 fc-red line-through dejavu-sans"> 320
-                                <div class="lari lari-comic"></div>
-                            </div>
-                        </div>
-
-                        <div class="main-info-right-sale">
-                            <span class="fc-light-grey dejavu-sans fs-12">დანაზოგი</span>
-                            <div class="fs-18 fc-blue dejavu-sans"> 140
-                                <div class="lari lari-comic"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="secondary-popular-deal responsive-secondary-popular-deal-change food-delivery-page middle">
-
-                <div class="secondary-popular-deal-img" style="background-image: url('image/camping.jpg')">
-
-                    <div class="secondary-voucher-price nino-mtavruli-bold fc-white bg-green fs-14">
-                        ღიაა 09:00დან 23:00
-                    </div>
-
-                </div>
-
-                <div class="secondary-popular-deal-info">
-
-                    <div class="secondary-deal-img-text-title">
-                        <div class="secondary-info-logo">
-                            <span class="fs-30 nino-mtavruli-bold fc-blue">D</span>
-                        </div>
-                        <div class="secondary-deal-title fs-18 bpg-nino-beqa fc-blue">Seaside</div>
-
-                        <div class="secondary-info-text fs-16 fc-grey dejavu-sans"> საფირმო ლაფშა საქონლის. </div>
-
-                        <div class="secondary-info-food-type fs-12 dejavu-sans fc-bluish-grey">აზიური სამზარეულო</div>
-
-                    </div>
-
-                    <div class="secondary-deal-delivery-info">
-                        <div class="delivery-info">
-                            <img src="image/delivery-time.svg">
-                            <span class="fs-14 dejavu-sans fc-bluish-grey">მიტანის დრო: 20 - 40 წუთი</span>
-                        </div>
-
-                        <div class="delivery-info">
-                            <img src="image/delivery-price.svg">
-                            <span class="fs-14 dejavu-sans fc-bluish-grey">მიტანის ფასი: 3 ლარი</span>
-                        </div>
-
-                        <div class="delivery-info">
-                            <img src="image/meal-price.svg">
-                            <span class="fs-14 dejavu-sans fc-bluish-grey">კერძის ღირებულება: 15 ლარი</span>
-                        </div>
-                    </div>
-
-                    <div class="secondary-deal-statistics">
-                        <div class="secondary-info-icons">
-                            <div class="secondary-icon-interested">
-                                <img src="image/sales.png">
-                                <div class="sold-amount dejavu-sans fs-14 fc-light-grey">112</div>
-                            </div>
-
-                            <div class="secondary-icon-time">
-                                <img src="image/calendar.png">
-                                <div class="sold-amount dejavu-sans fs-14 fc-light-grey">12:21:16</div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-
-            </div>
-
-            <div class="main-popular-deal responsive-main-popular-deal-change">
-                <div class="main-popular-deal-img" style="background-image: url('image/churchxelebi.jpg')">
-                    <div class="main-popular-deal-voucher dejavu-sans fc-white bg-red">
-                        <div class="voucher-text dejavu-sans fs-12">ვაუჩერი</div>
-                        <div class="voucher-price fs-18">3 <i class="lari lari-comic"></i></div>
-                    </div>
-                    <div class="main-popular-deal-percentage fs-14 dejavu-sans fc-white bg-red">
-                        -45%
-                    </div>
-                </div>
-                <div class="main-popular-deal-info">
-                    <div class="main-info-left">
-                        <div class="main-info-logo" style="background-image: url('image/marani.png')"></div>
-                        <div class="main-info-texts">
-                            <div class="main-info-title fs-18 nino-mtavruli-bold fc-blue">
-                                ღვინის სახლი "მარანი"
-                            </div>
-                            <div class="main-info-icons">
-                                <div class="main-icon-amount">
-                                    <img src="image/user.png">
-                                    <div class="sold-amount dejavu-sans fs-14 fc-light-grey">X12</div>
-                                </div>
-
-                                <div class="main-icon-interested">
-                                    <img src="image/sales.png">
-                                    <div class="sold-amount dejavu-sans fs-14 fc-light-grey">112</div>
-                                </div>
-
-                                <div class="main-icon-time">
-                                    <img src="image/calendar.png">
-                                    <div class="sold-amount dejavu-sans fs-14 fc-light-grey">12:21:16</div>
-                                </div>
-                            </div>
-                            <div class="main-info-text fs-16 fc-grey dejavu-sans">
-                                მიირთვით უგემრიელესი კანჭის მენიუ + 4 კოკა-კოლა პაბ-რესტორანში Galleria Italiana, შეხვდი
-                                მეგობრებს სასიამოვნო და მყუდრო გარემოში
-                            </div>
-                        </div>
-                    </div>
-                    <div class="main-info-right">
-                        <div class="main-info-right-price">
-                            <span class="fc-light-grey dejavu-sans fs-12">ღირებულება</span>
-                            <div class="current-price fs-18 fc-blue dejavu-sans"> 140
-                                <div class="lari lari-comic"></div>
-                            </div>
-                            <div class="real-price fs-14 fc-red line-through dejavu-sans"> 320
-                                <div class="lari lari-comic"></div>
-                            </div>
-                        </div>
-
-                        <div class="main-info-right-sale">
-                            <span class="fc-light-grey dejavu-sans fs-12">დანაზოგი</span>
-                            <div class="fs-18 fc-blue dejavu-sans"> 140
-                                <div class="lari lari-comic"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="secondary-popular-deal responsive-secondary-popular-deal-change food-delivery-page middle">
-
-                <div class="secondary-popular-deal-img" style="background-image: url('image/breakfast.jpg')">
-
-                    <div class="secondary-voucher-price nino-mtavruli-bold fc-white bg-red fs-14">
-                        ღიაა 09:00დან 23:00
-                    </div>
-
-                </div>
-
-                <div class="secondary-popular-deal-info">
-
-                    <div class="secondary-deal-img-text-title">
-                        <div class="secondary-info-logo">
-                            <span class="fs-30 nino-mtavruli-bold fc-blue">D</span>
-                        </div>
-                        <div class="secondary-deal-title fs-18 bpg-nino-beqa fc-blue">Seaside</div>
-
-                        <div class="secondary-info-text fs-16 fc-grey dejavu-sans"> საფირმო ლაფშა საქონლის. </div>
-
-                        <div class="secondary-info-food-type fs-12 dejavu-sans fc-bluish-grey">აზიური სამზარეულო</div>
-
-                    </div>
-
-                    <div class="secondary-deal-delivery-info">
-                        <div class="delivery-info">
-                            <img src="image/delivery-time.svg">
-                            <span class="fs-14 dejavu-sans fc-bluish-grey">მიტანის დრო: 20 - 40 წუთი</span>
-                        </div>
-
-                        <div class="delivery-info">
-                            <img src="image/delivery-price.svg">
-                            <span class="fs-14 dejavu-sans fc-bluish-grey">მიტანის ფასი: 3 ლარი</span>
-                        </div>
-
-                        <div class="delivery-info">
-                            <img src="image/meal-price.svg">
-                            <span class="fs-14 dejavu-sans fc-bluish-grey">კერძის ღირებულება: 15 ლარი</span>
-                        </div>
-                    </div>
-
-                    <div class="secondary-deal-statistics">
-                        <div class="secondary-info-icons">
-                            <div class="secondary-icon-interested">
-                                <img src="image/sales.png">
-                                <div class="sold-amount dejavu-sans fs-14 fc-light-grey">112</div>
-                            </div>
-
-                            <div class="secondary-icon-time">
-                                <img src="image/calendar.png">
-                                <div class="sold-amount dejavu-sans fs-14 fc-light-grey">12:21:16</div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-
-            </div>
-
-            <div class="main-popular-deal responsive-main-popular-deal-change">
-                <div class="main-popular-deal-img" style="background-image: url('image/churchxelebi.jpg')">
-                    <div class="main-popular-deal-voucher dejavu-sans fc-white bg-red">
-                        <div class="voucher-text dejavu-sans fs-12">ვაუჩერი</div>
-                        <div class="voucher-price fs-18">3 <i class="lari lari-comic"></i></div>
-                    </div>
-                    <div class="main-popular-deal-percentage fs-14 dejavu-sans fc-white bg-red">
-                        -45%
-                    </div>
-                </div>
-                <div class="main-popular-deal-info">
-                    <div class="main-info-left">
-                        <div class="main-info-logo" style="background-image: url('image/marani.png')"></div>
-                        <div class="main-info-texts">
-                            <div class="main-info-title fs-18 nino-mtavruli-bold fc-blue">
-                                ღვინის სახლი "მარანი"
-                            </div>
-                            <div class="main-info-icons">
-                                <div class="main-icon-amount">
-                                    <img src="image/user.png">
-                                    <div class="sold-amount dejavu-sans fs-14 fc-light-grey">X12</div>
-                                </div>
-
-                                <div class="main-icon-interested">
-                                    <img src="image/sales.png">
-                                    <div class="sold-amount dejavu-sans fs-14 fc-light-grey">112</div>
-                                </div>
-
-                                <div class="main-icon-time">
-                                    <img src="image/calendar.png">
-                                    <div class="sold-amount dejavu-sans fs-14 fc-light-grey">12:21:16</div>
-                                </div>
-                            </div>
-                            <div class="main-info-text fs-16 fc-grey dejavu-sans">
-                                მიირთვით უგემრიელესი კანჭის მენიუ + 4 კოკა-კოლა პაბ-რესტორანში Galleria Italiana, შეხვდი
-                                მეგობრებს სასიამოვნო და მყუდრო გარემოში
-                            </div>
-                        </div>
-                    </div>
-                    <div class="main-info-right">
-                        <div class="main-info-right-price">
-                            <span class="fc-light-grey dejavu-sans fs-12">ღირებულება</span>
-                            <div class="current-price fs-18 fc-blue dejavu-sans"> 140
-                                <div class="lari lari-comic"></div>
-                            </div>
-                            <div class="real-price fs-14 fc-red line-through dejavu-sans"> 320
-                                <div class="lari lari-comic"></div>
-                            </div>
-                        </div>
-
-                        <div class="main-info-right-sale">
-                            <span class="fc-light-grey dejavu-sans fs-12">დანაზოგი</span>
-                            <div class="fs-18 fc-blue dejavu-sans"> 140
-                                <div class="lari lari-comic"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="secondary-popular-deal responsive-secondary-popular-deal-change food-delivery-page middle">
-
-                <div class="secondary-popular-deal-img" style="background-image: url('image/pizza-time.jpg')">
-
-                    <div class="secondary-voucher-price nino-mtavruli-bold fc-white bg-green fs-14">
-                        ღიაა 09:00დან 23:00
-                    </div>
-
-                </div>
-
-                <div class="secondary-popular-deal-info">
-
-                    <div class="secondary-deal-img-text-title">
-                        <div class="secondary-info-logo">
-                            <span class="fs-30 nino-mtavruli-bold fc-blue">D</span>
-                        </div>
-                        <div class="secondary-deal-title fs-18 bpg-nino-beqa fc-blue">Seaside</div>
-
-                        <div class="secondary-info-text fs-16 fc-grey dejavu-sans"> საფირმო ლაფშა საქონლის. </div>
-
-                        <div class="secondary-info-food-type fs-12 dejavu-sans fc-bluish-grey">აზიური სამზარეულო</div>
-
-                    </div>
-
-                    <div class="secondary-deal-delivery-info">
-                        <div class="delivery-info">
-                            <img src="image/delivery-time.svg">
-                            <span class="fs-14 dejavu-sans fc-bluish-grey">მიტანის დრო: 20 - 40 წუთი</span>
-                        </div>
-
-                        <div class="delivery-info">
-                            <img src="image/delivery-price.svg">
-                            <span class="fs-14 dejavu-sans fc-bluish-grey">მიტანის ფასი: 3 ლარი</span>
-                        </div>
-
-                        <div class="delivery-info">
-                            <img src="image/meal-price.svg">
-                            <span class="fs-14 dejavu-sans fc-bluish-grey">კერძის ღირებულება: 15 ლარი</span>
-                        </div>
-                    </div>
-
-                    <div class="secondary-deal-statistics">
-                        <div class="secondary-info-icons">
-                            <div class="secondary-icon-interested">
-                                <img src="image/sales.png">
-                                <div class="sold-amount dejavu-sans fs-14 fc-light-grey">112</div>
-                            </div>
-
-                            <div class="secondary-icon-time">
-                                <img src="image/calendar.png">
-                                <div class="sold-amount dejavu-sans fs-14 fc-light-grey">12:21:16</div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-
-            </div>
-
-            <div class="main-popular-deal responsive-main-popular-deal-change">
-                <div class="main-popular-deal-img" style="background-image: url('image/churchxelebi.jpg')">
-                    <div class="main-popular-deal-voucher dejavu-sans fc-white bg-red">
-                        <div class="voucher-text dejavu-sans fs-12">ვაუჩერი</div>
-                        <div class="voucher-price fs-18">3 <i class="lari lari-comic"></i></div>
-                    </div>
-                    <div class="main-popular-deal-percentage fs-14 dejavu-sans fc-white bg-red">
-                        -45%
-                    </div>
-                </div>
-                <div class="main-popular-deal-info">
-                    <div class="main-info-left">
-                        <div class="main-info-logo" style="background-image: url('image/marani.png')"></div>
-                        <div class="main-info-texts">
-                            <div class="main-info-title fs-18 nino-mtavruli-bold fc-blue">
-                                ღვინის სახლი "მარანი"
-                            </div>
-                            <div class="main-info-icons">
-                                <div class="main-icon-amount">
-                                    <img src="image/user.png">
-                                    <div class="sold-amount dejavu-sans fs-14 fc-light-grey">X12</div>
-                                </div>
-
-                                <div class="main-icon-interested">
-                                    <img src="image/sales.png">
-                                    <div class="sold-amount dejavu-sans fs-14 fc-light-grey">112</div>
-                                </div>
-
-                                <div class="main-icon-time">
-                                    <img src="image/calendar.png">
-                                    <div class="sold-amount dejavu-sans fs-14 fc-light-grey">12:21:16</div>
-                                </div>
-                            </div>
-                            <div class="main-info-text fs-16 fc-grey dejavu-sans">
-                                მიირთვით უგემრიელესი კანჭის მენიუ + 4 კოკა-კოლა პაბ-რესტორანში Galleria Italiana, შეხვდი
-                                მეგობრებს სასიამოვნო და მყუდრო გარემოში
-                            </div>
-                        </div>
-                    </div>
-                    <div class="main-info-right">
-                        <div class="main-info-right-price">
-                            <span class="fc-light-grey dejavu-sans fs-12">ღირებულება</span>
-                            <div class="current-price fs-18 fc-blue dejavu-sans"> 140
-                                <div class="lari lari-comic"></div>
-                            </div>
-                            <div class="real-price fs-14 fc-red line-through dejavu-sans"> 320
-                                <div class="lari lari-comic"></div>
-                            </div>
-                        </div>
-
-                        <div class="main-info-right-sale">
-                            <span class="fc-light-grey dejavu-sans fs-12">დანაზოგი</span>
-                            <div class="fs-18 fc-blue dejavu-sans"> 140
-                                <div class="lari lari-comic"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
 
         </div>
 

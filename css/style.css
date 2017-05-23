@@ -2590,7 +2590,7 @@ input:focus{
 }
 
 #cityDropdownWrapperHeader {
-    flex: 1;
+    flex: 1.2;
     position: relative;
 }
 
@@ -2657,12 +2657,14 @@ input:focus{
 }
 
 .search-categories {
-    display: inline-block;
+    /*display: inline-block;*/
     /* width: 22%; */
     /* left: 50px; */
     position: relative;
     cursor: pointer;
     flex: 1;
+    /*display: flex;*/
+    /*align-items: center;*/
 }
 
 

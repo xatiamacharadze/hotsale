@@ -512,7 +512,8 @@ $(document).ready(function () {
     });
 
 
-    $('#contactPopup').click(function () {
+    $('#contactPopup').click(function (e) {
+        e.preventDefault();
         $('#responsive-overlay').addClass("active-overlay");
         $('#contactUs').addClass('contact-us-active');
         $('.hotsale-body').addClass('pos-fixed');

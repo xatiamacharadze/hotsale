@@ -383,6 +383,52 @@
     }
 
 
+    .order-address-phone {
+        width: 50%;
+    }
+
+    .order-address-phone:last-child {
+        width: 45%;
+    }
+
+    .order-address-phone:last-child input {
+        width: 100% !important;
+    }
+
+
+    .food-deals-price span {
+        padding: 10px 18px;
+    }
+
+    .food-deals-price img {
+        padding: 12px 13px;
+    }
+
+    .company-food-deals ul li .right img {
+        height: 50px;
+        margin-right: 15px;
+        width: 50px;
+    }
+
+
+    .cart-middle-part.food {
+        margin-top: 110px;
+    }
+
+
+    .food .cart-left-upper {
+        padding: 20px;
+    }
+
+    .company-food-deals ul li {
+        padding: 10px;
+    }
+
+
+    .food .cart-shopping-list-bottom {
+        padding: 20px;
+    }
+
 
 
 
@@ -795,6 +841,32 @@
     .hotsale-connecting-brands-text.fs-16 {
         font-size: 14px;
     }
+
+
+    .food .food-deals-price-wrap > span{
+        display: none;
+    }
+
+    .cart-middle-part.food {
+        margin-top: 80px;
+        width: 95%;
+    }
+
+    .food .cart-left-upper {
+        padding: 10px;
+    }
+
+    .company-food-deals ul li {
+        padding: 5px;
+    }
+
+    .company-food-deals ul li .right img {
+        height: 35px;
+        margin-right: 10px;
+        width: 35px;
+    }
+
+
 
 }
 

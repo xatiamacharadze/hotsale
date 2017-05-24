@@ -848,7 +848,7 @@
     }
 
     .cart-middle-part.food {
-        margin-top: 80px;
+        margin-top: 100px;
         width: 95%;
     }
 
@@ -866,6 +866,24 @@
         width: 35px;
     }
 
+    .food-deals-price span {
+        padding: 2px 10px;
+    }
+
+
+    .food .cart-shopping-list-bottom {
+        flex-wrap: wrap;
+    }
+
+    .order-address-phone {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+    .order-address-phone:last-child {
+        width: 100%;
+    }
 
 
 }
@@ -988,6 +1006,10 @@
 
     .burger-responsive-header-lang {
         padding-bottom: 50px;
+    }
+
+    .cart-middle-part.food {
+        margin-top: 80px;
     }
 
 

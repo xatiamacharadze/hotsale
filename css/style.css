@@ -4210,6 +4210,130 @@ input:focus{
     cursor: pointer;
 }
 
+
+
+
+
+.food .cart-left-upper {
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.cart-left-upper .cart-shopping-list-title {
+    left: 0;
+    padding: 0;
+}
+
+.food .cart-buy-voucher-wrap {
+    top: 0;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.food .cart-buy-voucher {
+    height: auto;
+    position: relative;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.food .cart-right-part {
+    height: auto;
+    border-radius: 10px;
+}
+
+.food .cart-buy-voucher-coupons-amount-price:after {
+    display: none;
+}
+
+.order-food {
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+
+.food .cart-buy-voucher-coupons-amount-price {
+    padding-bottom: 15px;
+}
+
+
+.food .cart-shopping-list-bottom {
+    width: 100%;
+    left: 0;
+    border-radius: 10px;
+    height: auto;
+    line-height: normal;
+    margin-top: 30px;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.order-address-phone {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.order-address-phone button {
+    height: 56px;
+    width: 57px;
+    padding: 0;
+    background-color: white;
+    border: 1px solid #dee1ed;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.order-address-phone input {
+    width: 80% !important;
+    box-sizing: border-box;
+}
+
+.order-address-phone span {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.order-address-phone:last-child {
+    width: 45%;
+}
+
+.order-address-phone:last-child input {
+    width: 100%;
+}
+
+.food .food-deals-price img {
+    width: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Shopping cart End*/
 
 

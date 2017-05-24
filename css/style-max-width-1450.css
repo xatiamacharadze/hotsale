@@ -1213,6 +1213,41 @@
         margin: 19px 0;
     }
 
+
+    .food .cart-buy-voucher {
+        padding: 25px;
+    }
+
+    .food .cart-left-upper {
+        padding: 30px;
+    }
+
+    .food .cart-shopping-list-bottom {
+        padding: 30px;
+    }
+
+    .order-address-phone button {
+        height: 45px;
+        width: 45px;
+    }
+
+    .order-address-phone input {
+        height: 45px;
+        padding-left: 20px;
+    }
+
+    .company-food-deals ul li {
+        padding: 16px;
+    }
+
+
+
+
+
+    .food.cart-middle-part {
+        margin-top: 155px;
+    }
+
 }
 
 

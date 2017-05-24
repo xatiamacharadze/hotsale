@@ -1732,6 +1732,15 @@
     }
 
 
+    .cart-middle-part.food {
+        width: 90%;
+    }
+
+    .food .cart-left-part {
+        top: 0;
+    }
+
+
 }
 
 

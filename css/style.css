@@ -4329,6 +4329,15 @@ input:focus{
 }
 
 
+.cart-delivery-service {
+    padding: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 
 

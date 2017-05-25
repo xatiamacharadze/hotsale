@@ -206,6 +206,7 @@ img.profile-icon {
     left: 0;
     top: 0;
     cursor: pointer;
+    z-index: 5;
 }
 
 .profile-picture-change > input {

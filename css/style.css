@@ -1490,6 +1490,9 @@ div#cityDropdownWrapper {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-info-left {
@@ -1618,13 +1621,14 @@ div#cityDropdownWrapper {
     background-size: 72px;
 }
 
+
+
 .secondary-info-logo span,
-.main-info-logo span{
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.main-info-logo span {
+    margin-top: 10px;
 }
+
+
 
 .secondary-info-left {
     top: -20px;

@@ -35,7 +35,7 @@
     box-sizing: border-box;
     z-index: 10;
     position: relative;
-    top: 60px;
+    top: -40px;
     margin-bottom: 240px;
     border-radius: 10px;
 }
@@ -86,7 +86,7 @@
         padding: 60px 100px;
     }
 
-    .about-hotSale-bg {
+    .hotSale-gives-you-middle {
         top: 125px;
     }
 

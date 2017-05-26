@@ -512,7 +512,7 @@ $(document).ready(function () {
     });
 
 
-    $('#contactPopup').click(function (e) {
+    $('.contactPopup').click(function (e) {
         e.preventDefault();
         $('#responsive-overlay').addClass("active-overlay");
         $('#contactUs').addClass('contact-us-active');

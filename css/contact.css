@@ -371,6 +371,89 @@ input[type='checkbox']{
 
 
 
+
+
+/*just popup*/
+.action-success-popup {
+    position: absolute;
+    max-width: 450px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 5px;
+    visibility: hidden;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+}
+
+.action-success-popup.show-popup{
+    visibility: visible;
+}
+
+
+
+.action-success-popup svg {
+    width: 15px;
+    margin-left: 15px;
+}
+
+
+
+.action-success-popup.error{
+    background-color: #f4cfd7;
+    border: 2px solid #f78494;
+    color: #f86c7f;
+}
+
+.action-success-popup.info{
+    /*background-color: rgba(213, 221, 232, 0.2);*/
+    background-color: #c3e5fa;
+    border: 2px solid #63c5fd;
+    color: #1991fe;
+}
+
+
+.action-success-popup.success{
+    /*background-color: rgba(213, 221, 232, 0.2);*/
+    background-color: #dfefdd;
+    border: 2px solid #b6e3a5;
+    color: #84bf69;
+}
+
+
+.action-success-popup.warning{
+    /*background-color: rgba(213, 221, 232, 0.2);*/
+    background-color: #f5e9cb;
+    border: 2px solid #f9d06e;
+    color: #e3b953;
+}
+
+
+.action-success-popup.error svg path {
+    fill: #f86c7f;
+}
+
+.action-success-popup.info svg path {
+    fill: #1991fe;
+}
+
+.action-success-popup.success svg path {
+    fill: #84bf69;
+}
+
+.action-success-popup.warning svg path {
+    fill: #e3b953;
+}
+
+
+/*just popup*/
+
+
+
+
+
 @media screen and (max-width: 1700px){
 
     .contact-popup {

@@ -40,6 +40,11 @@ $(document).ready(function () {
     // });
 
 
+    $('.action-success-popup svg').click(function () {
+        closeActionResponsePopup();
+    });
+
+
     $('.cinema-time').click(function () {
         $('.cinema-date-choose').slideUp();
 
@@ -864,6 +869,19 @@ function openPayPopUp() {
 
 function closePayPopUp() {
     $('.pay-cash-or-card-popup').removeClass('show-pay-popup');
+    $('#responsive-overlay').removeClass("active-overlay");
+}
+
+
+function openActionResponsePopup($actionColor) {
+    var classToAdd = 'show-popup ' + $actionColor;
+    $('.action-success-popup').addClass(classToAdd);
+    $('#responsive-overlay').addClass("active-overlay");
+}
+
+
+function closeActionResponsePopup() {
+    $('.action-success-popup').removeClass().addClass('action-success-popup');
     $('#responsive-overlay').removeClass("active-overlay");
 }
 

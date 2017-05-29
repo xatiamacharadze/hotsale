@@ -35,9 +35,14 @@
         width: 100%;
     }
 
-    .responsive-header-main-white{
+    .responsive-header-main-white {
         height: 77px;
         width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 4.65%;
+        box-sizing: border-box;
     }
 
     .white-header-wrap {
@@ -959,9 +964,9 @@
     #burgerBtn {
         display: inline-block;
         z-index: 30;
-        position: absolute;
-        height: 50px;
-        left: 4.4%;
+        /*position: absolute;*/
+        /*height: 50px;*/
+        /*left: 4.4%;*/
         outline: none;
     }
 
@@ -975,19 +980,19 @@
     }
 
     .hotsale-logo-main-responsive {
-        position: absolute;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        left: 50%;
+        /*position: absolute;*/
+        /*top: 50%;*/
+        /*transform: translate(-50%, -50%);*/
+        /*left: 50%;*/
         width: 150px;
     }
 
-    .hotsale-shopping-cart-main-responsive {
-        position: absolute;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        right: 4%;
-    }
+    /*.hotsale-shopping-cart-main-responsive {*/
+        /*position: absolute;*/
+        /*top: 50%;*/
+        /*transform: translate(-50%, -50%);*/
+        /*right: 4%;*/
+    /*}*/
 
     .responsive-header-menu-burger {
         width: 53%;
@@ -1738,6 +1743,10 @@
 
     .food .cart-left-part {
         top: 0;
+    }
+
+    .popular-deals {
+        margin-top: 110px;
     }
 
 

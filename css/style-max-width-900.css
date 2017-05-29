@@ -1028,7 +1028,8 @@
 
     .deal-responsive-footer {
         padding: 0 3%;
-        width: 94%;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .map-header-categories-cities {
@@ -1157,6 +1158,7 @@
 
     .responsive-main-popular-deal-change {
         height: 320px;
+        width: 100%;
     }
 
     .main-popular-deal-img {
@@ -1180,8 +1182,31 @@
     .main-info-texts {
         width: 83%;
         left: 5%;
-        top: 50%;
+        top: 20px;
     }
+
+
+    .main-info-text {
+        max-height: calc(1.6em * 3);
+    }
+
+    .secondary-popular-deal {
+        width: 82.6%;
+    }
+
+
+    .secondary-voucher-price {
+        right: 10px;
+    }
+
+    .deal-delivery-service {
+        margin-left: 15px;
+    }
+
+    .hotsale-deals-companies {
+        width: 94.7%;
+    }
+
 
     .main-info-logo {
         display: none;

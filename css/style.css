@@ -514,7 +514,7 @@ a {
 
 
 .header-sub-sub-menu div:hover:before {
-    content: "â€¢";
+    content: "Ã¢â‚¬Â¢";
     padding-right: 10px;
     color: #4373ff;
 }
@@ -1614,13 +1614,16 @@ div#cityDropdownWrapper {
     height: 80px;
     border-radius: 5px;
     border: 1px solid #e5e8f1;
-    display: inline-block;
+    /*display: inline-block;*/
     vertical-align: middle;
     position: relative;
     background-repeat: no-repeat;
     background-position: center center;
     background-color: white;
     background-size: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -3195,9 +3198,9 @@ input:focus{
 }
 
 /*.deal-minimal-info-description {*/
-    /*width: 80%;*/
-    /*top: 86px;*/
-    /*position: absolute;*/
+/*width: 80%;*/
+/*top: 86px;*/
+/*position: absolute;*/
 /*}*/
 
 .deal-minimal-info-description {
@@ -4508,6 +4511,7 @@ input:focus{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #7d89ae;
     border-radius: 5px 5px 0 0;
 }
 
@@ -5131,11 +5135,11 @@ input.extended-search-focus:focus {
 
 
 /*.add-remove-voucher-amount .cart-shopping-list-item-voucher-amount {*/
-    /*padding: 0 16px 0 18px;*/
-    /*height: 50px;*/
-    /*line-height: 50px;*/
-    /*border: none;*/
-    /*width: 14%;*/
+/*padding: 0 16px 0 18px;*/
+/*height: 50px;*/
+/*line-height: 50px;*/
+/*border: none;*/
+/*width: 14%;*/
 /*}*/
 
 
@@ -5310,8 +5314,8 @@ input.extended-search-focus:focus {
 }
 
 /*.recommended-deal:hover .recommended-deal-company-description{*/
-    /*display: inline-block;*/
-    /*display: -webkit-box;*/
+/*display: inline-block;*/
+/*display: -webkit-box;*/
 /*}*/
 
 #prevArrowRecommended img {
@@ -6048,5 +6052,4 @@ input#voucher {
     left: -20px;
     bottom: 0;
 }
-
 

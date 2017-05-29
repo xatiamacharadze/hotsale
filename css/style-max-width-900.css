@@ -1233,6 +1233,20 @@
         width: 85%;
     }
 
+
+    .action-terms {
+        box-sizing: border-box;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .action-terms .open-more-arrow {
+        position: static;
+    }
+
+
 }
 
 

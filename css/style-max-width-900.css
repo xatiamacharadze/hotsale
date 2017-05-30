@@ -238,7 +238,25 @@
 
     .detail-middle {
         width: 100%;
+        margin-top: 30px;
     }
+
+
+    .deal-gallery-info {
+        height: 165px;
+    }
+
+    .deal-gallery-info-img img {
+        width: 115px;
+    }
+
+    a.fancybox-thumb {
+        /* width: 287px; */
+        width: 20%;
+        padding-left: 22px;
+        display: inline-block;
+    }
+
 
     .deal-buy-voucher-bottom {
         width: 100%;
@@ -430,6 +448,10 @@
     }
 
 
+    .details-main-vertical-img {
+        border-radius: 0;
+        height: 380px;
+    }
 
 
 }
@@ -812,19 +834,9 @@
         padding: 20px 3%;
     }
 
-    .middle-deal-minimal-info {
-        width: 86%;
-        left: 7%;
-    }
 
-    .deal-seller-img {
-        left: 7%;
-    }
 
-    .deal-sale-info {
-        width: 86%;
-        left: 7%;
-    }
+
 
     .details-right-img {
         height: 220px;
@@ -882,6 +894,12 @@
 
 
     .order-address-phone:last-child {
+        width: 100%;
+    }
+
+
+    .left-side-info,
+    .responsive-right-side-info{
         width: 100%;
     }
 
@@ -1020,6 +1038,10 @@
 
 @media screen and (max-width: 420px) {
 
+    .fs-24 {
+        font-size: 20px;
+        line-height: 32px;
+    }
 
     .deal-seller-img {
         top: -30%;
@@ -1237,15 +1259,94 @@
     .action-terms {
         box-sizing: border-box;
         left: 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
 
     .action-terms .open-more-arrow {
         position: static;
     }
 
+
+    .details-main-vertical-img {
+        height: auto;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        max-height: 220px;
+    }
+
+    .details-right-img {
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        transform: translateY(0);
+    }
+
+    .deal-minimal-info-description {
+        padding-top: 90px;
+    }
+
+
+    /*.details-right-img img {*/
+        /*max-height: 200px;*/
+    /*}*/
+
+
+    .detail-middle {
+        top: 32px;
+    }
+
+
+    .detail-middle-wrap .main-info-logo {
+        display: flex;
+        top: 15px;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        height: 90px;
+        width: 90px;
+        left: 0;
+    }
+
+    .deal-full-info-details {
+        padding: 0 10%;
+        box-sizing: border-box;
+    }
+
+    a.fancybox-thumb {
+        width: 27%;
+    }
+
+    .middle-deal-minimal-info {
+        width: 100%;
+        left: 0;
+    }
+
+    .deal-minimal-info-title {
+        left: calc(3% + 100px);
+    }
+
+    .deal-gallery-info {
+        left: 0;
+        width: 100%;
+    }
+
+    .deal-gallery-info-img img {
+        width: 110px;
+    }
+
+    .deal-responsive-details {
+        /* display: block; */
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
 }
 
@@ -1390,29 +1491,15 @@
         left: 5%;
     }
 
-    .middle-deal-minimal-info {
-        width: 85.7%;
-        left: 5%;
-    }
 
-    .deal-gallery-info {
-        left: 5%;
-        width: 85.7%;
-    }
 
     .deal-sale-info {
-        width: 85.7%;
-        left: 5%;
         margin-top: 3vh;
     }
 
-    .action-terms {
-        left: 5%;
-    }
 
 
     .deal-company-info-title {
-        left: 5%;
     }
 
     .responsive-detail-price {
@@ -1423,6 +1510,40 @@
         padding-right: 0;
     }
 
+
+    .deal-full-info-details {
+        padding: 0 6%;
+    }
+
+    .deal-gallery-info {
+        height: 150px;
+    }
+
+    .deal-gallery-info-img img {
+        width: 90px;
+    }
+
+    a.fancybox-thumb {
+        width: 25%;
+    }
+
+    .deal-company-info {
+        padding: 0 6%;
+    }
+
+
+    .deal-company-info:before {
+        content: '';
+        height: 1px;
+        border-top: 1px solid #dbdbdb;
+        width: 88.7%;
+        position: absolute;
+        /* background-color: #f1f1f1; */
+        left: 6%;
+        z-index: 1;
+        top: 0;
+        transform: translateY(-50%);
+    }
 
 }
 

@@ -991,6 +991,11 @@
         padding: 20px 30px;
     }
 
+
+    .action-terms {
+        padding: 20px 0;
+    }
+
     .voucher-amount {
         height: 110px;
         line-height: 110px;

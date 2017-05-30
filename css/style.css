@@ -1380,6 +1380,9 @@ div#cityDropdownWrapper {
     transform: translate(-50%, -50%);
     left: 50%;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .secondary-deal-statistics {
@@ -1492,6 +1495,7 @@ div#cityDropdownWrapper {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1664,6 +1668,7 @@ div#cityDropdownWrapper {
     width: 100%;
     background-color: #dbdbdb;
     height: 1px;
+    top: 0;
 }
 
 .secondary-info-title {
@@ -1674,29 +1679,29 @@ div#cityDropdownWrapper {
     vertical-align: middle;
 }
 
-.secondary-info-right-price {
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+/*.secondary-info-right-price {*/
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+/*}*/
 
-.secondary-info-right-sale {
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
+/*.secondary-info-right-sale {*/
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*right: 0;*/
+/*}*/
 
-.secondary-info-right-savings {
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    right: 50%;
-    -webkit-transform: translateX(50%);
-    -ms-transform: translateX(50%);
-    transform: translateX(50%);
-}
+/*.secondary-info-right-savings {*/
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*right: 50%;*/
+    /*-webkit-transform: translateX(50%);*/
+    /*-ms-transform: translateX(50%);*/
+    /*transform: translateX(50%);*/
+/*}*/
 
 
 .secondary-info-middle {
@@ -3070,7 +3075,10 @@ input:focus{
     background-size: cover;
     border-radius: 10px;
     height: 530px;
+    overflow: hidden;
 }
+
+
 
 .details-right-img {
     position: relative;

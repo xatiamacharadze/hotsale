@@ -1823,6 +1823,10 @@
         transform: rotate(90deg);
     }
 
+    .company-page-js-wrapper {
+        margin-top: 0;
+    }
+
 
 }
 

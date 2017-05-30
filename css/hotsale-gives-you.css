@@ -4,7 +4,13 @@
     height: 300px;
     /* top: 140px; */
     text-align: center;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+
     justify-content: center;
     align-items: center;
 }
@@ -16,8 +22,12 @@
     width: 30px;
     height: 3px;
     background-color: #4373ff;
-    transform: translateX(-50%);
+
     box-shadow: 0px 4px 15px 0px rgba(67, 115, 255, 0.004);
+
+    margin: 0 auto;
+    left: 0;
+    right: 0;
 
 }
 

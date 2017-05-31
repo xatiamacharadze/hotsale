@@ -380,6 +380,7 @@
 
     input[type="text"] {
         width: 90%;
+        padding: 0 22px;
     }
 
 
@@ -605,6 +606,11 @@
     .search-word {
         line-height: 45px;
         height: 45px;
+    }
+
+    input[type="text"] {
+        height: 45px;
+        line-height: 45px !important;
     }
 
     .extended-search-deals {
@@ -903,6 +909,10 @@
         width: 100%;
     }
 
+
+    .main-info-text {
+        max-height: calc(1.6em * 3);
+    }
 
 }
 
@@ -1208,9 +1218,7 @@
     }
 
 
-    .main-info-text {
-        max-height: calc(1.6em * 3);
-    }
+
 
     .secondary-popular-deal {
         width: 82.6%;
@@ -1347,6 +1355,8 @@
         justify-content: space-between;
         align-items: center;
     }
+
+
 
 }
 

@@ -405,7 +405,7 @@
     .deal-seller-img {
         top: -50%;
         transform: translateY(60%);
-        left: 10%;
+        left: 0;
         width: 150px;
     }
 

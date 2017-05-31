@@ -107,6 +107,9 @@
 
 @media screen and (max-width: 1200px) {
 
+    .hotSale-gives-you-middle {
+        top: 0;
+    }
 
     .about-hotSale-bg {
         top: 80px;

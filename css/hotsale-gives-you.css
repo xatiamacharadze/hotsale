@@ -23,7 +23,7 @@
     height: 3px;
     background-color: #4373ff;
 
-    box-shadow: 0px 4px 15px 0px rgba(67, 115, 255, 0.004);
+    box-shadow: 0 4px 15px 0 rgba(67, 115, 255, 0.004);
 
     margin: 0 auto;
     left: 0;

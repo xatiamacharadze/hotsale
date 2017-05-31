@@ -458,6 +458,10 @@ input#id::-webkit-outer-spin-button{
     width: 100%;
 }
 
+.register-responsive {
+    display: none;
+}
+
 
 
 
@@ -475,7 +479,6 @@ input#id::-webkit-outer-spin-button{
 }
 
 
-
 @media screen and (max-width: 1200px){
 
     .sign-page.sign-popup {
@@ -483,5 +486,210 @@ input#id::-webkit-outer-spin-button{
         margin-top: 140px;
     }
 
+    .sign-in-title,
+    .user-types,
+    .user-name-surname,
+    .sign-up-form .authentication,
+    .sign-in-popup .authentication,
+    .sign-up-form input[type="text"],
+    .sign-in-popup input[type="text"],
+    .sign-up-form .control-group,
+    .sign-in-popup .control-group,
+    .sign-up-form .accept-terms,
+    .sign-in-popup .accept-terms,
+    .sign-up-form .submit-info,
+    .sign-in-popup .submit-info,
+    .sign-up-form .sign-in-error-message,
+    .sign-in-popup .sign-in-error-message {
+        width: 85%;
+    }
+
+
+    .user-types {
+        width: 85%;
+    }
+
+
+    .user-name-surname {
+        width: 85%;
+    }
+
+    .sign-up-form .authentication,
+    .sign-in-popup .authentication {
+        width: 85%;
+    }
+
+    .sign-up-form input[type="text"],
+    .sign-in-popup input[type="text"] {
+        width: 85%;
+    }
+
+    .sign-up-form .control-group,
+    .sign-in-popup .control-group {
+        width: 85%;
+    }
+
+    .sign-up-form .accept-terms,
+    .sign-in-popup .accept-terms {
+        width: 85%;
+    }
+
+    .sign-up-form .submit-info,
+    .sign-in-popup .submit-info {
+        width: 85%;
+    }
+
+    .sign-up-form .sign-in-error-message,
+    .sign-in-popup .sign-in-error-message{
+        width: 85%;
+    }
+
 }
+
+
+@media screen and (max-width: 900px){
+
+
+    .sign-page.sign-popup {
+        margin-top: 100px;
+        flex-direction: column;
+        padding: 0 5%;
+        box-sizing: border-box;
+        width: 90.37% !important;
+    }
+
+
+    .sign-in-popup,
+    .sign-up-popup {
+        width: 100%;
+    }
+
+    .sign-up-popup:after {
+        display: none;
+    }
+
+
+    .sign-in-popup {
+        margin-bottom: 30px;
+    }
+
+    .sign-up-popup{
+        display: none;
+    }
+
+    .sign-page.register .sign-up-popup{
+        display: block;
+    }
+
+
+    .register-responsive {
+        display: block;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+
+
+    .register .username-or-social {
+        top: -15px;
+        bottom: auto;
+    }
+
+    .register .sign-in-bottom:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        border-top: 1px solid #e1e1e1;
+        width: 100%;
+    }
+
+    .sign-in-socials {
+        margin-top: 3%;
+    }
+
+    .register .sign-in-socials {
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 600px){
+    .sign-page.sign-popup {
+        padding: 0;
+    }
+
+
+    .sign-in-socials {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .register .sign-in-socials {
+        width: 85%;
+        margin: 10% auto 5%;
+    }
+
+    .sign-in-socials img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .sign-in-title,
+    .user-types,
+    .user-name-surname,
+    .sign-up-form .authentication,
+    .sign-in-popup .authentication,
+    .sign-up-form input[type="text"],
+    .sign-in-popup input[type="text"],
+    .sign-up-form .control-group,
+    .sign-in-popup .control-group,
+    .sign-up-form .accept-terms,
+    .sign-in-popup .accept-terms,
+    .sign-up-form .submit-info,
+    .sign-in-popup .submit-info,
+    .sign-up-form .sign-in-error-message,
+    .sign-in-popup .sign-in-error-message {
+        width: 91%;
+    }
+
+    .user-types .type{
+        margin-right: 0;
+        padding: 7px 15px;
+    }
+
+    .sign-in-title {
+        padding-top: 25px;
+    }
+
+    .submit-info {
+        height: 45px;
+        line-height: 45px;
+    }
+
+
+    .forgot-password {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+
+    select#dob-year,
+    select#dob-month,
+    select#dob-day{
+        padding-left: 10px;
+    }
+
+    .controls select {
+        background: url(../image/bottom-arrow.png) no-repeat 90% 48%;
+    }
+}
+
+
+
+
+
 

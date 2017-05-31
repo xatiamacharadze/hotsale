@@ -299,11 +299,6 @@ input[type="text"] {
     margin-right: 15px;
 }
 
-.save-cancel-btn .cancel-btn {
-    border: 1px solid #e1e1e1;
-}
-
-
 .change-password{
     width: 100%;
     display: flex;

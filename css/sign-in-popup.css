@@ -656,8 +656,10 @@ input#id::-webkit-outer-spin-button{
 
 
 @media screen and (max-width: 600px){
+
+
     .sign-page.sign-popup {
-        padding: 0;
+        padding: 17% 0 0;
     }
 
 

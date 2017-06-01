@@ -463,6 +463,20 @@ input#id::-webkit-outer-spin-button{
 }
 
 
+.sign-up-popup > form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.register-display{
+    display: block;
+}
+
+.register-sign-in-tabs {
+    display: none;
+}
+
 
 
 @media screen and (max-width: 1450px){
@@ -553,11 +567,26 @@ input#id::-webkit-outer-spin-button{
     .sign-page.sign-popup {
         margin-top: 100px;
         flex-direction: column;
-        padding: 0 5%;
+        padding: 6% 5% 0;
         box-sizing: border-box;
         width: 90.37% !important;
     }
 
+
+    .register-sign-in-tabs {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 50%;
+        top: 2%;
+        display: block;
+    }
+
+
+    .register-sign-in-tabs .user-types {
+        justify-content: space-around;
+    }
 
     .sign-in-popup,
     .sign-up-popup {
@@ -573,9 +602,13 @@ input#id::-webkit-outer-spin-button{
         margin-bottom: 30px;
     }
 
-    .sign-up-popup{
+    .register-display{
         display: none;
     }
+
+    /*.sign-up-popup{*/
+        /*display: none;*/
+    /*}*/
 
     .sign-page.register .sign-up-popup{
         display: block;
@@ -587,6 +620,12 @@ input#id::-webkit-outer-spin-button{
         text-align: center;
         padding-bottom: 10px;
         padding-top: 20px;
+    }
+
+
+    .sign-up-popup > form {
+        width: 100%;
+        margin: 0 auto;
     }
 
 

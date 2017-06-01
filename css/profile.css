@@ -356,6 +356,9 @@ input[type="text"] {
 
     .profile-personal-upper {
         padding: 15px;
+        margin-right: 20px;
+        margin-bottom: 0;
+        width: 40%;
     }
 
     .person-balance {
@@ -377,12 +380,22 @@ input[type="text"] {
 
     .profile-personal-bottom {
         padding: 15px;
+        margin-bottom: 0;
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 
     .personal-info-edit {
-        padding: 13px 0;
+        padding: 0;
+        height: 50px;
+        line-height: 50px;
     }
 
+    .profile-right {
+        margin-left: 0;
+    }
 
     .profile-page-body {
         top: 75px;
@@ -414,6 +427,25 @@ input[type="text"] {
         height: 50px;
         line-height: 50px;
     }
+
+
+    /*NEW responsive*/
+
+    .profile-middle {
+        flex-direction: column;
+    }
+
+    .profile-left {
+        width: auto;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+
+
+
 
 }
 
@@ -472,5 +504,10 @@ input[type="text"] {
 }
 
 @media screen and (max-width: 600px) {
+
+    .person-deal {
+        width: 47%;
+    }
+
 
 }

@@ -16,7 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .contact-popup-wrap {

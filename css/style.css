@@ -3186,19 +3186,6 @@ input:focus{
 }
 
 
-.deal-seller-img {
-    /* border: 1px solid #e1e4ef; */
-    border-radius: 5px;
-    position: absolute;
-    background-color: white;
-    top: 55px;
-    /* transform: translateY(-50%); */
-    left: 4%;
-    max-height: 90px;
-    max-width: 90px;
-    padding: 30px 30px;
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
-}
 
 .circle{
     width: 8px;

@@ -631,7 +631,9 @@ function detailPageChangeHeader() {
     var marginHeight = $('.detail-middle').outerHeight(true) - $('.detail-middle').height() - $('#burger').height();
 
     $(window).scroll(function () {
-        var scrollTopHeight = buyVoucherHeight + $('.action-terms.action-terms-jquery').height() + marginHeight;
+        var actionTermsHeight = $('.action-terms.action-terms-jquery').height();
+        console.log();
+        var scrollTopHeight = buyVoucherHeight + actionTermsHeight + marginHeight;
 
         if ($(window).scrollTop() > scrollTopHeight) {
 

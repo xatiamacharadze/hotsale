@@ -480,7 +480,9 @@
         padding: 25px 25px 5px 25px;
     }
 
-
+    .buy-voucher {
+        padding: 30px;
+    }
 
     /*.deal-gallery-info {*/
         /*height: 255px;*/
@@ -987,7 +989,6 @@
     /*}*/
 
     .buy-voucher {
-        width: calc(100% - 60px);
         padding: 20px 30px;
     }
 
@@ -996,20 +997,20 @@
         padding: 20px 0;
     }
 
-    .voucher-amount {
-        height: 110px;
-        line-height: 110px;
-    }
+    /*.voucher-amount {*/
+        /*height: 110px;*/
+        /*line-height: 110px;*/
+    /*}*/
 
-    .voucher-price-saving {
-        height: 80px;
-        /*line-height: 80px;*/
-        width: 100%;
-    }
+    /*.voucher-price-saving {*/
+        /*height: 80px;*/
+        /*!*line-height: 80px;*!*/
+        /*width: 100%;*/
+    /*}*/
 
-    .buy-voucher-time-left {
-        right: 30px;
-    }
+    /*.buy-voucher-time-left {*/
+        /*right: 30px;*/
+    /*}*/
 
     .deal-sale-info {
         width: 90%;

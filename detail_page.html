@@ -334,7 +334,7 @@
                     <!-- vertical-details-right-img კლასი უნდა მიედგას თუ სურათი ვერტიკალურია-->
                     <div class="details-right-img">
                         <img src="image/sairme.jpg">
-                        <div class="details-deal-sale bg-red fc-white fs-18 nino-mtavruli-bold">-45%</div>
+                        <div class="details-deal-sale bg-red fc-white fs-14 nino-mtavruli-bold">-45%</div>
                     </div>
                 </div>
 
@@ -782,8 +782,8 @@
                     </div>
 
                     <form class="buy-voucher-form">
-                        <label for="voucher"></label>
-                        <input id="voucher" class="form-control" name="voucher">
+                        <label for="voucher" style="display: none"></label>
+                        <input id="voucher" class="form-control" name="voucher" style="display: none">
 
                         <div id="voucherChoosePrice" class="voucher-choose-price wrapper-dropdown-5" tabindex="1">
                             <span class="choose-voucher nino-mtavruli-bold fs-14 fc-bluish-grey">ვაუჩერი</span>
@@ -802,33 +802,44 @@
                         </div>
 
                         <div class="voucher-amount">
-                            <div class="voucher-amount-title fc-grey fs-16 nino-mtavruli-bold">რაოდენობა</div>
-                            <div class="add-remove-voucher-amount">
-                                <!--<div class="cart-shopping-list-item-minus fs-14 fc-grey"> -</div>-->
-                                <input class="cart-shopping-list-item-voucher-amount dejavu-sans fs-14 fc-grey"
-                                       title="amount" value="1" type="number">
-                                <!--<div class="cart-shopping-list-item-plus fs-14 fc-grey"> +</div>-->
-                            </div>
-                            <div class="summary-price bg-red nino-mtavruli-bold fc-white">
-                                9
-                                <div class="lari lari-comic"></div>
+                            <div class="voucher-info-wrap">
+
+                                <div class="voucher-amount-title fc-grey fs-16 nino-mtavruli-bold">რაოდენობა</div>
+
+                                <div class="voucher-price-amount-wrap">
+
+                                    <div class="add-remove-voucher-amount">
+                                        <!--<div class="cart-shopping-list-item-minus fs-14 fc-grey"> -</div>-->
+                                        <input class="cart-shopping-list-item-voucher-amount dejavu-sans fs-14 fc-grey"
+                                               title="amount" value="1" type="number">
+                                        <!--<div class="cart-shopping-list-item-plus fs-14 fc-grey"> +</div>-->
+                                    </div>
+                                    <div class="summary-price bg-red nino-mtavruli-bold fc-white">
+                                        9
+                                        <div class="lari lari-comic"></div>
+                                    </div>
+
+                                </div>
+
                             </div>
 
                             <button class="buy-voucher-button bg-blue fc-white fs-14 nino-mtavruli-bold">იყიდე</button>
                         </div>
                     </form>
 
-                    <div class="buy-voucher-time-left">
-                        <img src="image/time.png">
-                        <div class="time-left fc-red fs-16 dejavu-sans">53:20:15</div>
-                    </div>
+                    <div class="voucher-time-sold-wrap">
 
-                    <div class="deal-voucher-sold-amount dejavu-sans">
+                        <div class="buy-voucher-time-left">
+                            <img src="image/time.png">
+                            <div class="time-left fc-red fs-16 dejavu-sans">53:20:15</div>
+                        </div>
+
+                        <div class="deal-voucher-sold-amount dejavu-sans">
                         <span class="fc-grey fs-12">გაყიდულია</span>
                         <div class="deal-voucher-sold-amount-span fc-blue fs-18">124<span class="fc-bluish-grey fs-12"> - ჯერ</span>
                         </div>
                     </div>
-
+                    </div>
                 </div>
 
                 <div class="action-terms action-terms-jquery bg-white">

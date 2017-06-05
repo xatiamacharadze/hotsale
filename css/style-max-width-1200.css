@@ -1013,10 +1013,12 @@
     #burgerBtn {
         display: inline-block;
         z-index: 30;
-        /*position: absolute;*/
-        /*height: 50px;*/
-        /*left: 4.4%;*/
+        /* position: absolute; */
+        /* height: 50px; */
+        /* left: 4.4%; */
         outline: none;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     #burgerBtnSecond {

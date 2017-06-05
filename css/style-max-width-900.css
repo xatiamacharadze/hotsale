@@ -1259,7 +1259,8 @@
         font-size: 13px;
     }
 
-    .responsive-header-menu-burger {
+    .responsive-header-menu-burger,
+    .responsive-header-burger-categories{
         width: 85%;
     }
 
@@ -1461,7 +1462,8 @@
         font-size: 19px;
     }
 
-    .responsive-header-menu-burger {
+    .responsive-header-menu-burger,
+    .responsive-header-burger-categories{
         width: 90%;
     }
 

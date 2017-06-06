@@ -340,13 +340,12 @@ a {
 }
 
 .header-menu {
-    /* width: 930px; */
-    /* margin-left: auto; */
-    /* vertical-align: middle; */
+    width: 90%;
     position: absolute;
     right: calc(4% + 10px);
     text-align: right;
     display: flex;
+    justify-content: space-between;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
@@ -4716,7 +4715,7 @@ input:focus{
     /* background-color: #f1f1f1; */
     right: 0;
     z-index: 1;
-    /*bottom: 0;*/
+    bottom: 10%;
 }
 
 

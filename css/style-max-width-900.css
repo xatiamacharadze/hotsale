@@ -466,15 +466,15 @@
     /*left: 35%;*/
     /*}*/
 
-    .deal-minimal-info-title {
-        top: 15px;
-        /*left: 35%;*/
-    }
+    /*.deal-minimal-info-title {*/
+        /*top: 15px;*/
+        /*!*left: 35%;*!*/
+    /*}*/
 
-    .deal-seller-img {
-        top: -50%;
-        transform: translateY(75%);
-    }
+    /*.deal-seller-img {*/
+        /*top: -50%;*/
+        /*transform: translateY(75%);*/
+    /*}*/
 
     /*.deal-minimal-info-statistics {*/
     /*left: 55%;*/
@@ -574,10 +574,10 @@
         height: 280px;
     }
 
-    .deal-seller-img {
-        top: -40%;
-        width: 130px;
-    }
+    /*.deal-seller-img {*/
+        /*top: -40%;*/
+        /*width: 130px;*/
+    /*}*/
 
 
     /*burger menu*/
@@ -1053,9 +1053,9 @@
         line-height: 32px;
     }
 
-    .deal-seller-img {
-        top: -30%;
-    }
+    /*.deal-seller-img {*/
+        /*top: -30%;*/
+    /*}*/
 
 
     .deal-responsive-footer {
@@ -1291,9 +1291,9 @@
         transform: translateY(0);
     }
 
-    .deal-minimal-info-description {
-        padding-top: 90px;
-    }
+    /*.deal-minimal-info-description {*/
+        /*padding-top: 90px;*/
+    /*}*/
 
 
     /*.details-right-img img {*/
@@ -1309,20 +1309,31 @@
     .detail-middle-wrap .main-info-logo {
         display: flex;
         top: 15px;
-        -webkit-transform: translateY(-50%);
-        -moz-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        -o-transform: translateY(-50%);
-        transform: translateY(-50%);
-        height: 90px;
-        width: 90px;
-        left: 0;
+        /*-webkit-transform: translateY(-50%);*/
+        /*-moz-transform: translateY(-50%);*/
+        /*-ms-transform: translateY(-50%);*/
+        /*-o-transform: translateY(-50%);*/
+        /*transform: translateY(-50%);*/
+        height: 120px;
+        width: 120px;
+        /*left: 0;*/
     }
 
     .deal-full-info-details {
-        padding: 0 10%;
+        padding: 0 4.65%;
         box-sizing: border-box;
     }
+
+    .deal-company-info {
+        padding: 0 4.65%;
+    }
+
+
+    .deal-company-info:before {
+        width: 90.7%;
+        left: 4.65%;
+    }
+
 
     a.fancybox-thumb {
         width: 27%;
@@ -1333,9 +1344,11 @@
         left: 0;
     }
 
+
     .deal-minimal-info-title {
-        left: calc(3% + 100px);
+        left: calc(5% + 120px);
     }
+
 
     .deal-gallery-info {
         left: 0;
@@ -1497,11 +1510,11 @@
     }
 
 
-    .deal-seller-img {
-        top: -30%;
-        width: 130px;
-        left: 5%;
-    }
+    /*.deal-seller-img {*/
+        /*top: -30%;*/
+        /*width: 130px;*/
+        /*left: 5%;*/
+    /*}*/
 
 
 

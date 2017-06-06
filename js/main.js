@@ -15,6 +15,8 @@ $(document).ready(function () {
 
     technologyFilter();
 
+    hideArrows();
+
     //
     // $('.pay-popup-title img').click(function () {
     //     closePayPopUp();
@@ -933,6 +935,17 @@ function extendSearch(headerPosition) {
         $('#bodyOverlay').addClass('body-overlay');
     }
 
+}
+
+
+function hideArrows() {
+    if($('.hotsale-recommended-deals-all .slick-track').children().length <= 4){
+        $('.hotsale-recommended-arrows').addClass('display-none');
+    }
+
+    if($('.gallery-body .lightbox-gallery').children().length <= 3){
+        $('.deal-gallery-info-arrows').hide();
+    }
 }
 
 

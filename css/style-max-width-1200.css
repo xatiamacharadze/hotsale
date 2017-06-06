@@ -403,15 +403,13 @@
     }
 
     .deal-seller-img {
-        top: -50%;
-        transform: translateY(60%);
-        left: 0;
-        width: 150px;
+        max-height: 150px;
+        max-width: 150px;
     }
 
     .deal-minimal-info-title {
-        top: 20px;
-        left: calc(3% + 150px);
+        left: calc(4% + 150px);
+        width: calc(95% - 150px);
     }
 
     .deal-type-minimal {
@@ -1829,6 +1827,10 @@
         margin-top: 0;
     }
 
+
+    .middle-deal-minimal-info {
+        padding-top: 25px;
+    }
 
 
 

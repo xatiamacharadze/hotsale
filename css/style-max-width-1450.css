@@ -583,9 +583,9 @@
     /*}*/
 
 
-    .hotsale-company img:first-child {
-        width: 100px;
-    }
+    /*.hotsale-company img:first-child {*/
+        /*width: 100px;*/
+    /*}*/
 
     .header-menu-item {
         /*margin: 0 0 0 13px;*/
@@ -659,8 +659,8 @@
 
 
     .deal-seller-img {
-        max-height: 70px;
-        max-width: 70px;
+        max-height: 88px;
+        max-width: 88px;
     }
 
 
@@ -978,7 +978,7 @@
 
     .middle-deal-minimal-info {
         width: 75%;
-        left: 25%;
+        left: calc(8% + 88px);
     }
 
     .deal-hotsale-companies {

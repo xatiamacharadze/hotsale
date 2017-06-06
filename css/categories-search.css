@@ -19,7 +19,7 @@
 }
 
 .categories-search-body {
-     z-index: -1 !important;
+    z-index: -1 !important;
 }
 
 
@@ -226,17 +226,20 @@ img {
     top: 0;
     height: 100%;
     overflow: hidden;
+    padding: 20px 4%;
+    box-sizing: border-box;
 }
 
 .categories-search-right-title {
-    width: calc(85.5% + 20px);
+    width: 100%;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     display: inline-block;
-    height: 40px;
-    padding: 20px 20px 0 20px;
+    /* height: 40px; */
+    /* padding: 20px 20px 0 20px; */
     line-height: 40px;
+    box-sizing: border-box;
 }
 
 
@@ -258,13 +261,14 @@ img {
 
 
 .categories-search-popular-deals {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
     height: 450px;
     padding-bottom: 50px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 
@@ -321,6 +325,9 @@ img {
 }
 .categories-search-deals.slick-initialized .popular-deals-paper {
     display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
@@ -367,4 +374,102 @@ img {
 .categories-search-left-category.subcategory-hide-show  svg circle,
 .categories-search-left-category.subcategory-hide-show  svg rect {
     stroke: #4373ff !important;
+}
+
+
+.popular-deals-paper .recommended-deal {
+    height: 180px;
+    width: 25%;
+}
+
+.popular-deals-paper .recommended-deal-company-info > span,
+.popular-deals-paper .recommended-deal-company-info > img{
+    display: none;
+}
+
+.popular-deals-paper .recommended-deal-company-description {
+    display: none;
+}
+
+.popular-deals-paper .recommended-deal:hover .recommended-deal-img {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+
+}
+
+.popular-deals-paper .recommended-voucher-price {
+    left: 15px;
+    right: auto;
+    top: 15px;
+    opacity: 1;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .1s linear;
+}
+
+.recommended-deal-hover {
+    position: absolute;
+    margin: 0 auto;
+    left: 47%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    padding: 7px 10px 3px;
+    display: inline-block;
+    border-radius: 3px;
+    visibility: hidden;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -ms-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    transition: all .1s linear;
+    opacity: 0;
+}
+
+
+.popular-deals-paper .recommended-deal:hover .recommended-deal-hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popular-deals-paper .recommended-deal:hover .recommended-voucher-price {
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.popular-deals-paper .recommended-deal-company-title {
+    position: absolute;
+    top: auto;
+    transform: translateY(100%);
+    color: #454545;
+    font-size: 14px;
+    bottom: 5px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -ms-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+
+.popular-deals-paper .recommended-deal:hover .recommended-deal-company-title{
+    color: #4373ff;
+}
+
+.popular-deals-paper .recommended-deal-company-info {
+    position: relative;
+    height: 88%;
+    z-index: -1;
+}
+
+.popular-deals-paper .recommended-deal-wrap {
+    position: absolute;
+    top: 0;
+    width: 100%;
 }

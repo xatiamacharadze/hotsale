@@ -500,6 +500,13 @@
 }
 
 
+@media screen and (max-width: 1500px){
+
+}
+
+
+
+
 @media screen and (max-width: 1450px) {
     .offers-order-newest {
         width: 135px;
@@ -1273,7 +1280,7 @@
 }
 
 
-@media screen and (max-width: 1350px){
+@media screen and (max-width: 1365px){
 
     .white-header-before-wrap.passive-header {
          top: 85px;
@@ -1299,5 +1306,6 @@
     .company-food-deals-right {
         flex: 3;
     }
+
 
 }

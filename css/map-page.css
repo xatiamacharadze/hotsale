@@ -393,6 +393,7 @@ img {
     /* background-repeat: no-repeat; */
     /* background-position: top; */
     border-radius: 3px;
+    z-index: 50;
 }
 
 

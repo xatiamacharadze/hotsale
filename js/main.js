@@ -686,7 +686,6 @@ function detailPageChangeHeader() {
 
 function fixedSideBarScroll() {
 
-    scrollHeight = document.documentElement.scrollHeight;
     clientHeight = document.documentElement.clientHeight;
     footerHeight = $('.hotsale-footer').height();
     companies = $('.hotsale-companies');
@@ -718,6 +717,7 @@ function fixedSideBarScroll() {
                 companies.addClass("hotsale-companies-fixed");
 
                 // console.log($(window).scrollTop(), scrollHeight, footerHeight, clientHeight);
+                scrollHeight = document.documentElement.scrollHeight;
 
                 if ($(window).scrollTop() > scrollHeight - footerHeight - clientHeight - 25) {
                     $(".hotsale-companies").addClass("hotsale-companies-fixed-bottom");

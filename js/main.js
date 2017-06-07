@@ -634,7 +634,7 @@ function detailPageChangeHeader() {
 
     $(window).scroll(function () {
         var actionTermsHeight = $('.action-terms.action-terms-jquery').height();
-        console.log();
+        // console.log();
         var scrollTopHeight = buyVoucherHeight + actionTermsHeight + marginHeight;
 
         if ($(window).scrollTop() > scrollTopHeight) {
@@ -896,9 +896,9 @@ function headerSize() {
         sum_width += $(this).width();
     });
 
-    console.log(sum_width, "sum width", header.width(), "header width");
+    // console.log(sum_width, "sum width", header.width(), "header width");
 
-    console.log(sum_width <= header.width(), sum_width !== 0);
+    // console.log(sum_width <= header.width(), sum_width !== 0);
 
     if(sum_width - 20 <= header.width() && sum_width !== 0){
 

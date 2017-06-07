@@ -17,6 +17,8 @@ $(document).ready(function () {
 
     hideArrows();
 
+    offerGallery();
+
     //
     // $('.pay-popup-title img').click(function () {
     //     closePayPopUp();
@@ -127,7 +129,7 @@ $(document).ready(function () {
         $('.how-it-works-title').slideUp('active-answer');
         $('.faq-responsive-how-it-works').slideUp('active-answer');
         $('.how-it-works-text').slideUp('active-answer');
-        $('.hotsale-body').removeClass('pos-fixed');
+        $('.hotsale-body').removeClass('pos-fixed, overflow-hidden');
 
 
         $(".hamburger").removeClass("is-active");
@@ -142,6 +144,7 @@ $(document).ready(function () {
         $('#contactUs').removeClass('contact-us-active');
         $('.hotSale-gives-you-body').removeClass('pos-fixed');
 
+        $('.gallery-pop-up').removeClass('show');
         closePayPopUp();
     });
 
@@ -377,15 +380,14 @@ $(document).ready(function () {
 
     $('#galleryPrev').click(function (e) {
 
-        $.fancybox.prev();
+        $('.slick-prev').click();
         // e.preventDefault();
     });
 
 
     $('#galleryNext').click(function (e) {
 
-        $.fancybox.next();
-
+        $('.slick-next').click();
         // e.preventDefault();
     });
 
@@ -943,9 +945,22 @@ function hideArrows() {
         $('.hotsale-recommended-arrows').addClass('display-none');
     }
 
-    if($('.gallery-body .lightbox-gallery').children().length <= 3){
+    if($('.gallery-body').children().length <= 3){
         $('.deal-gallery-info-arrows').hide();
     }
+}
+
+
+function offerGallery(){
+
+    $('.gallery-body img').click(function () {
+        $('#responsive-overlay').addClass("active-overlay");
+        $('.hotsale-body').addClass('overflow-hidden');
+
+        $('.gallery-pop-up').addClass('show');
+
+    });
+
 }
 
 

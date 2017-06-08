@@ -38,6 +38,15 @@
 }
 
 
+@font-face {
+    font-family: 'myriad_pro';
+    src: url('../fonts/MyriadPro/MyriadPro-Regular.ttf'); /* IE9 Compat Modes */
+    src: url('../fonts/MyriadPro/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/MyriadPro/MyriadPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/MyriadPro/MyriadPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/MyriadPro/MyriadPro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 
 .nino-mtavruli-bold{
     font-family: nino_mtavruli_bold, serif;
@@ -62,6 +71,13 @@
 
 .bpg-nino-beqa{
     font-family: bpg_nino_beqa, serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+}
+
+.myriad-pro{
+    font-family: myriad_pro, serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-smoothing: antialiased;

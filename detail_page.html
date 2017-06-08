@@ -88,28 +88,36 @@
 
         </div>
 
-        <div class="vertical-gallery gallery-slider">
 
-            <div class="vertical-gallery-img-wrap">
-                <img src="http://www.istockphoto.com/resources/images/PhotoFTLP/img_63351521.jpg" alt="" />
+        <div class="vertical-gallery-wrap">
+
+            <div class="vertical-gallery gallery-slider">
+
+                <div class="vertical-gallery-img-wrap">
+                    <img src="http://www.istockphoto.com/resources/images/PhotoFTLP/img_63351521.jpg" alt="" />
+                </div>
+
+                <div class="vertical-gallery-img-wrap">
+                    <img src="http://www.istockphoto.com/resources/images/PhotoFTLP/img_82250973.jpg" alt="" />
+                </div>
+
+                <div class="vertical-gallery-img-wrap">
+                    <img src="http://www.worldatlas.com/photos/praguecastleone.jpg" alt="" />
+                </div>
+
+                <div class="vertical-gallery-img-wrap">
+                    <img src="http://static.boredpanda.com/blog/wp-content/uploads/2016/10/best-action-photos-2016-red-bull-illume-48-57f6150f74455__880.jpg" alt="" />
+                </div>
+
+                <div class="vertical-gallery-img-wrap">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoLnQuWOLgJf5z5yZpD-oc58swGON_mVMF4JOhOIo5zq-Kxs1TTA" alt="" />
+                </div>
+
             </div>
 
-            <div class="vertical-gallery-img-wrap">
-                <img src="http://www.istockphoto.com/resources/images/PhotoFTLP/img_82250973.jpg" alt="" />
+            <div class="vertical-gallery-scroll-down">
+                <img src="image/gallery-arrow-down.svg">
             </div>
-
-            <div class="vertical-gallery-img-wrap">
-                <img src="http://www.worldatlas.com/photos/praguecastleone.jpg" alt="" />
-            </div>
-
-            <div class="vertical-gallery-img-wrap">
-                <img src="http://static.boredpanda.com/blog/wp-content/uploads/2016/10/best-action-photos-2016-red-bull-illume-48-57f6150f74455__880.jpg" alt="" />
-            </div>
-
-            <div class="vertical-gallery-img-wrap">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoLnQuWOLgJf5z5yZpD-oc58swGON_mVMF4JOhOIo5zq-Kxs1TTA" alt="" />
-            </div>
-
 
         </div>
     </div>
@@ -1428,7 +1436,32 @@
             infinite: true,
             asNavFor: '.gallery-slider',
             variableWidth: true,
-            focusOnSelect: true
+            focusOnSelect: true,
+
+            responsive: [
+                {
+                    breakpoint: 1450,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        variableWidth: false
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
 
         });
 
@@ -1439,7 +1472,32 @@
             verticalSwiping: true,
             infinite: true,
             asNavFor: '.gallery-slider',
-            focusOnSelect: true
+            focusOnSelect: true,
+
+            responsive: [
+                {
+                    breakpoint: 1430,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        variableWidth: false
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
 
         });
 
@@ -1463,6 +1521,14 @@
         $('.gallery-arrows img:last-child').click(function(){
             $('.slick-next').click();
         });
+
+
+        $('.vertical-gallery-scroll-down').click(function(){
+            $('.slick-next').click();
+        });
+
+
+
 
 
     });

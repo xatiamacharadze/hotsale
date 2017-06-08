@@ -500,13 +500,6 @@
 }
 
 
-@media screen and (max-width: 1500px){
-
-}
-
-
-
-
 @media screen and (max-width: 1450px) {
     .offers-order-newest {
         width: 135px;
@@ -1277,6 +1270,13 @@
         margin-top: 155px;
     }
 
+
+
+    .gallery-pop-up {
+        height: 800px;
+        width: 970px;
+    }
+
 }
 
 
@@ -1305,6 +1305,51 @@
 
     .company-food-deals-right {
         flex: 3;
+    }
+
+
+}
+
+
+
+
+
+
+@media screen and (max-height: 900px){
+
+    .gallery-pop-up {
+        height: 750px;
+        width: 1170px;
+    }
+
+}
+
+
+@media screen and (max-height: 800px){
+
+
+    .gallery-pop-up {
+        height: 500px;
+        width: 970px;
+    }
+
+
+    .gallery-company-icon img {
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    .gallery-company-icon {
+        height: 60px;
+        width: 60px;
+    }
+
+    .gallery-popup-middle {
+        margin-top: 20px;
+    }
+
+    .vertical-gallery-img-wrap {
+        height: 95px !important;
     }
 
 

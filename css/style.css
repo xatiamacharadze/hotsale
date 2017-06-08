@@ -1842,15 +1842,15 @@ div#cityDropdownWrapper {
     transform: translateY(-60%);
 }
 
-.offers-order-newest img {
-    /* vertical-align: middle; */
-    position: absolute;
-    left: 15px;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
+/*.offers-order-newest img {*/
+    /*!* vertical-align: middle; *!*/
+    /*position: absolute;*/
+    /*left: 15px;*/
+    /*top: 50%;*/
+    /*-webkit-transform: translateY(-50%);*/
+    /*-ms-transform: translateY(-50%);*/
+    /*transform: translateY(-50%);*/
+/*}*/
 
 
 
@@ -1865,16 +1865,17 @@ div#cityDropdownWrapper {
 
 
 .newest-offers-text {
-    vertical-align: middle;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: 20px;
-    line-height: 14px;
-    height: 10px;
+    /*vertical-align: middle;*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*-webkit-transform: translateY(-50%);*/
+    /*-ms-transform: translateY(-50%);*/
+    /*transform: translateY(-50%);*/
+    /*left: 35px;*/
+    /*line-height: 14px;*/
+    /*height: 10px;*/
     transition: all 0.2s ease;
+    padding: 0 10px;
 }
 
 .all-offers-amount {
@@ -1915,6 +1916,9 @@ div#cityDropdownWrapper {
     border-radius: 5px;
     position: absolute;
     left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 
@@ -1943,39 +1947,25 @@ div#cityDropdownWrapper {
 }
 
 
-.offers-order-newest {
-    display: inline-block;
-    position: relative;
-    line-height: 80px;
-    /* top: 50%; */
-    /* transform: translateY(-50%); */
-    /*left: 23%;*/
-    /* width: 20%; */
-    /* display: inline; */
-}
-
-
 .newest-offers-text {
     display: inline-block;
 
 }
 
 .offers-order-newest{
-    display: inline-block;
-    height: 40px;
-    line-height: 80px;
-    width: 170px;
-    /*border:none ;*/
     text-align: center;
     position: relative;
     left: 12%;
-    top: 55%;
     border: 1px solid white;
     border-radius:50px;
-    -webkit-transform: translateY(-60%);
-    -ms-transform: translateY(-60%);
-    transform: translateY(-60%);
     transition: border 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 9px 10px 5px;
+    margin: 0 5px;
 }
 
 .offers-order-newest:hover .newest-offers-text{
@@ -1991,25 +1981,25 @@ div#cityDropdownWrapper {
 
 .offers-order-icon{
     display: none;
-    position: absolute;
-    left: 15px;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    /*position: absolute;*/
+    /*left: 15px;*/
+    /*top: 50%;*/
+    /*-webkit-transform: translateY(-50%);*/
+    /*-ms-transform: translateY(-50%);*/
+    /*transform: translateY(-50%);*/
 }
 
 
 .newest-offers-amount{
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    right: 40px;
-    height: 10px;
-    line-height: 14px;
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*-webkit-transform: translateY(-50%);*/
+    /*-ms-transform: translateY(-50%);*/
+    /*transform: translateY(-50%);*/
+    /*right: 40px;*/
+    /*height: 10px;*/
+    /*line-height: 14px;*/
     transition: all 0.3s ease;
     opacity: 0;
 }
@@ -2043,7 +2033,7 @@ div#cityDropdownWrapper {
 
 .active .newest-offers-text{
     color: #4373ff;
-    left: 35px;
+    /*left: 35px;*/
 }
 
 .active .offers-order-icon{

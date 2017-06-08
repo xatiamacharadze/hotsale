@@ -95,12 +95,15 @@
 
 .categories-search-left-category {
     position: relative;
-    padding: 10px 20px;
+    padding: 16px 20px;
     height: auto;
     line-height: 29px;
     cursor: pointer;
     z-index: 30;
     border-bottom: 1px solid #dee1ed;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 

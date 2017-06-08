@@ -455,6 +455,39 @@
     }
 
 
+    .technology-filter {
+        width: 50%;
+    }
+
+    .food-deals.hotsale-deals .middle {
+        width: 100%;
+    }
+
+
+    .food-deals .secondary-popular-deal .secondary-popular-deal-img {
+        height: 57%;
+    }
+
+
+    .food-deals .secondary-popular-deal .secondary-popular-deal-info {
+        height: 43%;
+    }
+
+    .delivery-info {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100%;
+    }
+
+
+    .secondary-info-food-type {
+        margin: 20px 0;
+    }
+
+
+
+
 }
 
 
@@ -556,6 +589,34 @@
 
     .brands-page {
         height: 75px;
+    }
+
+
+    .hotsale-deals-companies {
+        flex-direction: column;
+    }
+
+    .technology-filter {
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .technology-filter-form {
+        width: 100%;
+    }
+
+    .food-deals.hotsale-deals {
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    .food-deals.hotsale-deals .middle,
+    .food-deals.hotsale-deals .secondary-popular-deal:nth-child(3n+1),
+    .food-deals.hotsale-deals .secondary-popular-deal:nth-child(4n+3){
+        width: 48%;
+        margin-left: 0;
     }
 }
 
@@ -915,7 +976,25 @@
         max-height: calc(1.6em * 3);
     }
 
+
+
+
+
 }
+
+
+
+@media screen and (max-width: 570px){
+
+
+    .food-deals.hotsale-deals .middle,
+    .food-deals.hotsale-deals .secondary-popular-deal:nth-child(3n+1),
+    .food-deals.hotsale-deals .secondary-popular-deal:nth-child(4n+3){
+        width: 100%;
+    }
+
+}
+
 
 
 
@@ -1040,6 +1119,8 @@
     .cart-middle-part.food {
         margin-top: 80px;
     }
+
+
 
 
 

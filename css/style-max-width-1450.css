@@ -185,9 +185,9 @@
     }
 
 
-    .offers-order-newest {
-        width: 150px;
-    }
+    /*.offers-order-newest {*/
+        /*width: 150px;*/
+    /*}*/
 
     .offers-order-newest:hover .newest-offers-amount {
         /*display: inline-block;*/
@@ -497,13 +497,17 @@
         /*width: 249px;*/
     /*}*/
 
+    .offers-order-newest {
+        padding: 8px 10px 8px;
+    }
+
 }
 
 
 @media screen and (max-width: 1450px) {
-    .offers-order-newest {
-        width: 135px;
-    }
+    /*.offers-order-newest {*/
+        /*width: 135px;*/
+    /*}*/
 
     .offers-order-newest img {
         left: 15px;
@@ -513,9 +517,9 @@
         left: 15%;
     }
 
-    .newest-offers-text {
-        left: 10px;
-    }
+    /*.newest-offers-text {*/
+        /*left: 10px;*/
+    /*}*/
 
 
     .offers-order-newest:hover .newest-offers-amount {
@@ -901,9 +905,9 @@
         left: 15px;
     }
 
-    .offers-order-newest {
-        width: 140px;
-    }
+    /*.offers-order-newest {*/
+        /*width: 140px;*/
+    /*}*/
 
     .hotsale-offers-right {
         width: 23.4%;

@@ -436,10 +436,14 @@ $(document).ready(function () {
             categories.removeClass('passive-header');
             $('#bodyHide').addClass('overflow-hidden');
             $('#bodyOverlay').addClass('body-overlay');
+            $('.white-header-before-wrap').addClass('border-bottom-blue');
+
         } else {
             categories.addClass('passive-header');
             $('#bodyHide').removeClass('overflow-hidden');
             $('#bodyOverlay').removeClass('body-overlay');
+            $('.white-header-before-wrap').removeClass('border-bottom-blue');
+
         }
     });
 
@@ -448,6 +452,7 @@ $(document).ready(function () {
         $('.categories-search-body').addClass('passive-header');
         $('#bodyHide').removeClass('overflow-hidden');
         $('#bodyOverlay').removeClass('body-overlay');
+        $('.white-header-before-wrap').removeClass('border-bottom-blue');
     });
 
 
@@ -949,6 +954,10 @@ function hideArrows() {
 
     if($('.gallery-body').children().length <= 3){
         $('.deal-gallery-info-arrows').hide();
+    }
+
+    if($('.hotsale-recommended-deals-all').children().length <= 1){
+        $('.categories-search-left-next-prev').hide();
     }
 }
 

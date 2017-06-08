@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
     <title>KFC</title>
     <link rel="stylesheet" href="css/hamburgers.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
     <link rel="stylesheet" href="js/fancybox-2.1.7/source/jquery.fancybox.css">
     <link rel="stylesheet" href="js/fancybox-2.1.7/source/helpers/jquery.fancybox-thumbs.css">
     <link rel="stylesheet" href="fonts/font-larisome-master/css/font-larisome.min.css">
@@ -23,6 +25,91 @@
 <a href=""> <div class="header-logo-second">
     <img src="image/logo.png">
 </div></a>
+
+<div id="responsive-overlay" class="responsive-overlay"></div>
+
+<div class="gallery-pop-up">
+    <div class="gallery-popup-top">
+        <div class="popup-top-left">
+            <div class="gallery-company-icon bg-white">
+                <img src="image/seaside-logo.png">
+            </div>
+            <span class="fc-white nino-mtavruli-bold fs-16">სუფთა სახლი</span>
+        </div>
+
+        <div class="popup-top-right">
+            <div class="recommended-voucher-price bg-red fs-14 fc-white nino-mtavruli-bold"> 3
+                <div class="lari lari-comic"></div>
+            </div>
+            <div class="nino-mtavruli-bold fs-14 fc-white bg-blue">ვაუჩერის ყიდვა</div>
+        </div>
+    </div>
+
+    <div class="gallery-popup-middle">
+        <div class="big-img">
+            <div class="active-img gallery-slider">
+
+                <img src="http://www.istockphoto.com/resources/images/PhotoFTLP/img_63351521.jpg" alt="" />
+                <img src="http://www.istockphoto.com/resources/images/PhotoFTLP/img_82250973.jpg" alt="" />
+                <img src="http://www.worldatlas.com/photos/praguecastleone.jpg" alt="" />
+                <img src="http://static.boredpanda.com/blog/wp-content/uploads/2016/10/best-action-photos-2016-red-bull-illume-48-57f6150f74455__880.jpg" alt="" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoLnQuWOLgJf5z5yZpD-oc58swGON_mVMF4JOhOIo5zq-Kxs1TTA" alt="" />
+
+            </div>
+
+
+
+            <div class="middle-bottom">
+                <div class="gallery-time-left">
+                    <img src="image/cinema-time-white.png">
+                    <span class="fc-red fs-14 nino-mtavruli-bold">01:02:17</span>
+                </div>
+
+                <div class="gallery-arrows">
+                    <img src="image/gallery-arrow.png">
+                    <img src="image/gallery-arrow.png">
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="vertical-gallery-wrap">
+
+            <div class="vertical-gallery gallery-slider">
+
+                <div class="vertical-gallery-img-wrap">
+                    <img src="http://www.istockphoto.com/resources/images/PhotoFTLP/img_63351521.jpg" alt="" />
+                </div>
+
+                <div class="vertical-gallery-img-wrap">
+                    <img src="http://www.istockphoto.com/resources/images/PhotoFTLP/img_82250973.jpg" alt="" />
+                </div>
+
+                <div class="vertical-gallery-img-wrap">
+                    <img src="http://www.worldatlas.com/photos/praguecastleone.jpg" alt="" />
+                </div>
+
+                <div class="vertical-gallery-img-wrap">
+                    <img src="http://static.boredpanda.com/blog/wp-content/uploads/2016/10/best-action-photos-2016-red-bull-illume-48-57f6150f74455__880.jpg" alt="" />
+                </div>
+
+                <div class="vertical-gallery-img-wrap">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoLnQuWOLgJf5z5yZpD-oc58swGON_mVMF4JOhOIo5zq-Kxs1TTA" alt="" />
+                </div>
+
+            </div>
+
+            <div class="vertical-gallery-scroll-down">
+                <img src="image/gallery-arrow-down.svg">
+            </div>
+
+        </div>
+    </div>
+
+</div>
 
 <div id="burger" class="header bg-white">
 
@@ -2004,32 +2091,73 @@
         fixCompanyInfo();
 
         $("#companyGalleryBtn").click(function() {
-            $.fancybox([
-                'http://farm8.staticflickr.com/7308/15783866983_27160395b9_b.jpg',
-                'http://farm3.staticflickr.com/2880/10346743894_0cfda8ff7a_b.jpg',
-                'http://farm8.staticflickr.com/7308/15783866983_27160395b9_b.jpg',
-                'http://farm3.staticflickr.com/2880/10346743894_0cfda8ff7a_b.jpg',
-                'http://farm2.staticflickr.com/1669/23976340262_a5ca3859f6_b.jpg',
-                'http://farm2.staticflickr.com/1459/23610702803_83655c7c56_b.jpg',
-                {
-                    'href'	: 'http://farm6.staticflickr.com/5612/15344856989_449794889d_b.jpg',
-                    'title'	: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
-                }
-            ], {prevEffect	: 'none',
-                nextEffect	: 'none',
-                helpers	: {
-                    title: {
-                        type: 'outside',
-                        position: 'top'
-                    },
+            $('#responsive-overlay').addClass("active-overlay");
+            $('.hotsale-body').addClass('overflow-hidden');
 
-                    thumbs: {
-                        width: 230,
-                        height: 130
-                    },
-                    media: {}
+            $('.gallery-pop-up').addClass('show');
+        });
+
+
+        $('.vertical-gallery').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            vertical: true,
+            verticalSwiping: true,
+            infinite: true,
+            asNavFor: '.gallery-slider',
+            focusOnSelect: true,
+
+            responsive: [
+                {
+                    breakpoint: 1430,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        variableWidth: false
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
                 }
-            });
+            ]
+
+        });
+
+        $('.active-img').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+//            variableWidth: true,
+//            centerMode: true,
+            fade: true,
+            asNavFor: '.gallery-slider'
+        });
+
+
+
+
+        $('.gallery-arrows img:first-child').click(function(){
+            $('.slick-prev').click();
+        });
+
+        $('.gallery-arrows img:last-child').click(function(){
+            $('.slick-next').click();
+        });
+
+
+        $('.vertical-gallery-scroll-down').click(function(){
+            $('.slick-next').click();
         });
 
     });

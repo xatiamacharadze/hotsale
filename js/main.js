@@ -497,7 +497,7 @@ $(document).ready(function () {
     });
 
 
-    $(".hamburger").click(function (e) {
+    $("#burgerBtn, #burgerBtnSecond").click(function (e) {
         $(".hamburger").toggleClass("is-active");
 
         // console.log("rame");

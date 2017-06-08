@@ -1070,6 +1070,7 @@ a {
     display: inline-block;
     margin-left: 20px;
     margin-right: 25px;
+    margin-top: 3px;
 }
 
 .search-word {
@@ -1084,13 +1085,15 @@ a {
 }
 
 .search-city {
-    display: inline-block;
+    /*display: inline-block;*/
     width: calc(21% - 30px);
     height: 100%;
     line-height: 60px;
     position: relative;
     padding-left: 25px;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
 }
 
 .search-anything {
@@ -1156,6 +1159,7 @@ div#cityDropdownWrapper {
     position: relative;
     width: calc(30% - 15px);
     display: inline-block;
+    height: 100%;
 }
 
 

@@ -327,7 +327,9 @@ $(document).ready(function () {
 
 
     $('#voucherChoosePrice').click(function () {
-        $('#voucherChoosePrice').toggleClass('active-city');
+        if( $(this).find('ul').length !== 0 ) {
+            $('#voucherChoosePrice').toggleClass('active-city');
+        }
     });
 
 

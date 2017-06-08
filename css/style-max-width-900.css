@@ -502,6 +502,7 @@
 
     .company-middle-content {
         width: 100%;
+        overflow-x: hidden;
     }
 
     /*.company-page-company-deals {*/

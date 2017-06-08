@@ -4765,7 +4765,10 @@ input:focus{
     /*margin-top: 35px;*/
     border-radius: 5px;
     position: relative;
-    display: inline-block;
+    /*display: inline-block;*/
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 
 }
 

@@ -2147,7 +2147,7 @@ div#cityDropdownWrapper {
     height: 80px;
     width:100%;
     border-radius: 5px;
-    margin-top:15px;
+    margin-top: 20px;
     position: relative;
     display: block;
 }
@@ -2869,7 +2869,7 @@ input:focus{
     display: inline-block;
     width: 100%;
     padding: 45px 50px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     border-radius: 10px;
     position: relative;
     -webkit-box-sizing: border-box;
@@ -3341,6 +3341,7 @@ input:focus{
     border-radius: 10px;
     padding-bottom: 0;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .deal-minimal-info:after {
@@ -3609,20 +3610,20 @@ input:focus{
 
 
 .hotsale-recommended-title{
-    position: relative;
-    display: inline-block;
-    vertical-align: middle;
+    /*position: relative;*/
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
 }
 
 .hotsale-recommended-arrows{
-    display: inline-block;
-    position: relative;
-    vertical-align: middle;
-    padding-left: 60px;
-    left: 80.4%;
-    -webkit-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    transform: translateX(-100%);
+    /*display: inline-block;*/
+    /*position: relative;*/
+    /*vertical-align: middle;*/
+    /*padding-left: 60px;*/
+    /*left: 80.4%;*/
+    /*-webkit-transform: translateX(-100%);*/
+    /*-ms-transform: translateX(-100%);*/
+    /*transform: translateX(-100%);*/
 }
 
 .hotsale-recommended-deal-title{
@@ -3630,9 +3631,12 @@ input:focus{
     left: 0;
     padding-top: 30px;
     /* width: 20%; */
-    display: inline-block;
+    /*display: inline-block;*/
     z-index: 111;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 

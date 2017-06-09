@@ -676,7 +676,7 @@
 
 
     .recommended-deal-company-description {
-        height: calc(1.65em * 5);
+        max-height: calc(1.65em * 5);
     }
 
 
@@ -724,6 +724,14 @@
         top: 15px;
     }
 
+
+    .hotsale-recommended-deals-all {
+        height: 260px;
+    }
+
+    .hotsale-recommended-deals {
+        height: 350px;
+    }
 
 }
 

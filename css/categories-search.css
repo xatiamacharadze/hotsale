@@ -119,12 +119,12 @@ img {
 }
 
 
-.hotsale-recommended-deals-all {
-    width: calc(100% - 30px);
-    padding-top: 20px;
-    padding-bottom: 80px;
-    height: 510px;
-}
+/*.hotsale-recommended-deals-all {*/
+    /*width: calc(100% - 30px);*/
+    /*padding-top: 20px;*/
+    /*padding-bottom: 80px;*/
+    /*height: 510px;*/
+/*}*/
 
 
 .category-search-subcategory li{

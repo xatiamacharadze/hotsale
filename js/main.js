@@ -546,7 +546,7 @@ function createSlick() {
 
     $(".slick-slider").not('.slick-initialized').slick({
         // autoplay: true,
-        dots: true,
+        // dots: true,
         arrows: true,
         slidesToShow: 4,
         slidesToScroll: 4,
@@ -848,7 +848,7 @@ function companyDealsHide() {
     var item_count = 0;
 
     if ($('.hotsale-company').length) {
-        margin = 15;
+        margin = 20;
         itemHeight = $('.hotsale-company').outerHeight(true) + margin;
         item_count = $('.hotsale-company').length;
     } else {

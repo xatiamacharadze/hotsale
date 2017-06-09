@@ -24,7 +24,9 @@ DropDown.prototype = {
             obj.id = opt.children().first().attr('id');
             obj.index = opt.index();
             obj.placeholder.html(obj.val);
-            $('#voucher').val($('.price-value', opt).text());
+            var price = $('.price-value', opt).text();
+            $('#voucher').val(price);
+            $('#gallery-voucher-price').text(price);
         });
     },
     getValue : function() {
